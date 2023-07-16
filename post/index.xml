@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://matriz23.github.io/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Jul 2023 03:33:31 +0800</lastBuildDate><atom:link href="https://matriz23.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Filename</title>
+      <link>https://matriz23.github.io/post/filename/</link>
+      <pubDate>Mon, 17 Jul 2023 03:33:31 +0800</pubDate>
+      
+      <guid>https://matriz23.github.io/post/filename/</guid>
+      <description>课程设计第二组：组内评分及个人报告 # Nighttime flare removal based on deep learning # 项目介绍 # 项目框架 # 项目初期，我经过调研之后选择了一套现在较为成熟的Web开发框架：Node.js + Vue。更加具体的技术细节和在这方面的收获会在后面更加详细地介绍。
+项目成果 # 在7月16日的会议上已展示。
+小组分工 # 小组分工与打分 # 名义分工 # 数据组：张世卿、韦昱岐；
+后端组：吴思源、周若愚、刘思嘉（组长，负责项目的全程跟进及前后端搭建）、王佳希；
+算法模型搭建：洪亦歆；
+前端页面实现：张艺茗、张安琪、钟毅清、黄蓉惠、郝家祺、孙舒航。
+分工演变与实际分工 # 项目初期的开发中，由于大家都不够了解技术，所以提出框架选用的本人找了一个教程，并动手实现了一个Demo。Demo的基本功能如下：
+包含完整的后端、前端、数据库框架； 编写了最基本的路由（页面跳转、页面访问等），实现了完整的登录注册功能（包括密码加密、登录Token等），并提供了完整的数据增删改查的接口。 附带一份基本的文档，讲解了Demo中所用技术。 我的计划是前后端的同学们经过教程和Demo的学习，可以了解一些基本的概念，比如：
+前端的.vue文件包括三部分，第一部分&amp;lt;template&amp;gt; ，第二部分&amp;lt;script&amp;gt;，第三部分style，其中第一部分类似于HTML，编写页面结构，第二部分负责前端业务逻辑的处理，第三部分类似CSS，用于编写网页组件的样式； 前端通过$axios调用后端的路由，获取数据进行展示； 前端页面为了适应性，最好使用weight:80% 这样的按比例缩放的样式，而非绝对的数值。 …… 然而，我高估了部分同学对于任务的重视程度和他们的自学能力，结果在项目开发最为关键的后两周中，我们后端组收到的前端页面文件基本具备如下特点中的一点或多点：
+只有静态页面开发思维： 样式使用绝对数值调整，只在开发者自己的电脑上显示正常。如果换成尺寸不一样的屏幕，就会有各式各样的页面组件bug； 不理解后端和数据库的作用。典型表现为使用ElementUI的级联选择器，配置可选选项时，选择手动在文件中写下所有的选项，而不是从数据库中调用现成数据。 接口混乱或根本无法使用。前端的不少同学只在本机上测试 没有版本管理意识： 隔一段时间 参考文献:
+［1］ A. Sharma and R. T. Tan, “Nighttime Visibility Enhancement by Increasing the Dynamic Range and Suppression of Light Effects,” in 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Nashville, TN, USA: IEEE, Jun.</description>
+    </item>
+    
+  </channel>
+</rss>

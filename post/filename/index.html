@@ -1,0 +1,376 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html
+  lang="en-us"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head>
+  <meta charset="utf-8" />
+  
+    <meta http-equiv="content-language" content="en-us" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="rgb(255,255,255)" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>Filename &middot; My New Hugo Site</title>
+    <meta name="title" content="Filename &middot; My New Hugo Site" />
+  
+  <meta name="description" content="课程设计第二组：组内评分及个人报告 # Nighttime flare removal based on deep learning # 项目介绍 # 项目框架 # 项目初期，我经过调研之后选择了一套现在较为成熟的Web开发框架：Node.js &#43; Vue。更加具体的技术细节和在这方面的收获会在后面更加详细地介绍。
+项目成果 # 在7月16日的会议上已展示。
+小组分工 # 小组分工与打分 # 名义分工 # 数据组：张世卿、韦昱岐；
+后端组：吴思源、周若愚、刘思嘉（组长，负责项目的全程跟进及前后端搭建）、王佳希；
+算法模型搭建：洪亦歆；
+前端页面实现：张艺茗、张安琪、钟毅清、黄蓉惠、郝家祺、孙舒航。
+分工演变与实际分工 # 项目初期的开发中，由于大家都不够了解技术，所以提出框架选用的本人找了一个教程，并动手实现了一个Demo。Demo的基本功能如下：
+包含完整的后端、前端、数据库框架； 编写了最基本的路由（页面跳转、页面访问等），实现了完整的登录注册功能（包括密码加密、登录Token等），并提供了完整的数据增删改查的接口。 附带一份基本的文档，讲解了Demo中所用技术。 我的计划是前后端的同学们经过教程和Demo的学习，可以了解一些基本的概念，比如：
+前端的.vue文件包括三部分，第一部分&lt;template&gt; ，第二部分&lt;script&gt;，第三部分style，其中第一部分类似于HTML，编写页面结构，第二部分负责前端业务逻辑的处理，第三部分类似CSS，用于编写网页组件的样式； 前端通过$axios调用后端的路由，获取数据进行展示； 前端页面为了适应性，最好使用weight:80% 这样的按比例缩放的样式，而非绝对的数值。 …… 然而，我高估了部分同学对于任务的重视程度和他们的自学能力，结果在项目开发最为关键的后两周中，我们后端组收到的前端页面文件基本具备如下特点中的一点或多点：
+只有静态页面开发思维： 样式使用绝对数值调整，只在开发者自己的电脑上显示正常。如果换成尺寸不一样的屏幕，就会有各式各样的页面组件bug； 不理解后端和数据库的作用。典型表现为使用ElementUI的级联选择器，配置可选选项时，选择手动在文件中写下所有的选项，而不是从数据库中调用现成数据。 接口混乱或根本无法使用。前端的不少同学只在本机上测试 没有版本管理意识： 隔一段时间 参考文献:
+［1］ A. Sharma and R. T. Tan, “Nighttime Visibility Enhancement by Increasing the Dynamic Range and Suppression of Light Effects,” in 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Nashville, TN, USA: IEEE, Jun." />
+  
+  
+  
+  <link rel="canonical" href="https://matriz23.github.io/post/filename/" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.a6debbb9c2752cfaaf987cbf5014fd1df44fb95b3494591ae67b7f8b99579a03.css"
+    integrity="sha256-pt67ucJ1LPqvmHy/UBT9HfRPuVs0lFka5nt/i5lXmgM="
+  />
+  
+  
+  <script type="text/javascript" src="/js/appearance.min.022d0ebc3b46a335eb1c7ef79b7f2de143d7cd5156d433638592ef1ce5f8554e.js" integrity="sha256-Ai0OvDtGozXrHH73m38t4UPXzVFW1DNjhZLvHOX4VU4="></script>
+  
+  
+  
+  
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="Filename" />
+<meta property="og:description" content="课程设计第二组：组内评分及个人报告 # Nighttime flare removal based on deep learning # 项目介绍 # 项目框架 # 项目初期，我经过调研之后选择了一套现在较为成熟的Web开发框架：Node.js &#43; Vue。更加具体的技术细节和在这方面的收获会在后面更加详细地介绍。
+项目成果 # 在7月16日的会议上已展示。
+小组分工 # 小组分工与打分 # 名义分工 # 数据组：张世卿、韦昱岐；
+后端组：吴思源、周若愚、刘思嘉（组长，负责项目的全程跟进及前后端搭建）、王佳希；
+算法模型搭建：洪亦歆；
+前端页面实现：张艺茗、张安琪、钟毅清、黄蓉惠、郝家祺、孙舒航。
+分工演变与实际分工 # 项目初期的开发中，由于大家都不够了解技术，所以提出框架选用的本人找了一个教程，并动手实现了一个Demo。Demo的基本功能如下：
+包含完整的后端、前端、数据库框架； 编写了最基本的路由（页面跳转、页面访问等），实现了完整的登录注册功能（包括密码加密、登录Token等），并提供了完整的数据增删改查的接口。 附带一份基本的文档，讲解了Demo中所用技术。 我的计划是前后端的同学们经过教程和Demo的学习，可以了解一些基本的概念，比如：
+前端的.vue文件包括三部分，第一部分&lt;template&gt; ，第二部分&lt;script&gt;，第三部分style，其中第一部分类似于HTML，编写页面结构，第二部分负责前端业务逻辑的处理，第三部分类似CSS，用于编写网页组件的样式； 前端通过$axios调用后端的路由，获取数据进行展示； 前端页面为了适应性，最好使用weight:80% 这样的按比例缩放的样式，而非绝对的数值。 …… 然而，我高估了部分同学对于任务的重视程度和他们的自学能力，结果在项目开发最为关键的后两周中，我们后端组收到的前端页面文件基本具备如下特点中的一点或多点：
+只有静态页面开发思维： 样式使用绝对数值调整，只在开发者自己的电脑上显示正常。如果换成尺寸不一样的屏幕，就会有各式各样的页面组件bug； 不理解后端和数据库的作用。典型表现为使用ElementUI的级联选择器，配置可选选项时，选择手动在文件中写下所有的选项，而不是从数据库中调用现成数据。 接口混乱或根本无法使用。前端的不少同学只在本机上测试 没有版本管理意识： 隔一段时间 参考文献:
+［1］ A. Sharma and R. T. Tan, “Nighttime Visibility Enhancement by Increasing the Dynamic Range and Suppression of Light Effects,” in 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Nashville, TN, USA: IEEE, Jun." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://matriz23.github.io/post/filename/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-07-17T03:33:31+08:00" />
+<meta property="article:modified_time" content="2023-07-17T03:33:31+08:00" />
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Filename"/>
+<meta name="twitter:description" content="课程设计第二组：组内评分及个人报告 # Nighttime flare removal based on deep learning # 项目介绍 # 项目框架 # 项目初期，我经过调研之后选择了一套现在较为成熟的Web开发框架：Node.js &#43; Vue。更加具体的技术细节和在这方面的收获会在后面更加详细地介绍。
+项目成果 # 在7月16日的会议上已展示。
+小组分工 # 小组分工与打分 # 名义分工 # 数据组：张世卿、韦昱岐；
+后端组：吴思源、周若愚、刘思嘉（组长，负责项目的全程跟进及前后端搭建）、王佳希；
+算法模型搭建：洪亦歆；
+前端页面实现：张艺茗、张安琪、钟毅清、黄蓉惠、郝家祺、孙舒航。
+分工演变与实际分工 # 项目初期的开发中，由于大家都不够了解技术，所以提出框架选用的本人找了一个教程，并动手实现了一个Demo。Demo的基本功能如下：
+包含完整的后端、前端、数据库框架； 编写了最基本的路由（页面跳转、页面访问等），实现了完整的登录注册功能（包括密码加密、登录Token等），并提供了完整的数据增删改查的接口。 附带一份基本的文档，讲解了Demo中所用技术。 我的计划是前后端的同学们经过教程和Demo的学习，可以了解一些基本的概念，比如：
+前端的.vue文件包括三部分，第一部分&lt;template&gt; ，第二部分&lt;script&gt;，第三部分style，其中第一部分类似于HTML，编写页面结构，第二部分负责前端业务逻辑的处理，第三部分类似CSS，用于编写网页组件的样式； 前端通过$axios调用后端的路由，获取数据进行展示； 前端页面为了适应性，最好使用weight:80% 这样的按比例缩放的样式，而非绝对的数值。 …… 然而，我高估了部分同学对于任务的重视程度和他们的自学能力，结果在项目开发最为关键的后两周中，我们后端组收到的前端页面文件基本具备如下特点中的一点或多点：
+只有静态页面开发思维： 样式使用绝对数值调整，只在开发者自己的电脑上显示正常。如果换成尺寸不一样的屏幕，就会有各式各样的页面组件bug； 不理解后端和数据库的作用。典型表现为使用ElementUI的级联选择器，配置可选选项时，选择手动在文件中写下所有的选项，而不是从数据库中调用现成数据。 接口混乱或根本无法使用。前端的不少同学只在本机上测试 没有版本管理意识： 隔一段时间 参考文献:
+［1］ A. Sharma and R. T. Tan, “Nighttime Visibility Enhancement by Increasing the Dynamic Range and Suppression of Light Effects,” in 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Nashville, TN, USA: IEEE, Jun."/>
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "Filename",
+    "headline": "Filename",
+    
+    "abstract": "课程设计第二组：组内评分及个人报告 # Nighttime flare removal based on deep learning # 项目介绍 # 项目框架 # 项目初期，我经过调研之后选择了一套现在较为成熟的Web开发框架：Node.js \u002b Vue。更加具体的技术细节和在这方面的收获会在后面更加详细地介绍。\n项目成果 # 在7月16日的会议上已展示。\n小组分工 # 小组分工与打分 # 名义分工 # 数据组：张世卿、韦昱岐；\n后端组：吴思源、周若愚、刘思嘉（组长，负责项目的全程跟进及前后端搭建）、王佳希；\n算法模型搭建：洪亦歆；\n前端页面实现：张艺茗、张安琪、钟毅清、黄蓉惠、郝家祺、孙舒航。\n分工演变与实际分工 # 项目初期的开发中，由于大家都不够了解技术，所以提出框架选用的本人找了一个教程，并动手实现了一个Demo。Demo的基本功能如下：\n包含完整的后端、前端、数据库框架； 编写了最基本的路由（页面跳转、页面访问等），实现了完整的登录注册功能（包括密码加密、登录Token等），并提供了完整的数据增删改查的接口。 附带一份基本的文档，讲解了Demo中所用技术。 我的计划是前后端的同学们经过教程和Demo的学习，可以了解一些基本的概念，比如：\n前端的.vue文件包括三部分，第一部分\u0026lt;template\u0026gt; ，第二部分\u0026lt;script\u0026gt;，第三部分style，其中第一部分类似于HTML，编写页面结构，第二部分负责前端业务逻辑的处理，第三部分类似CSS，用于编写网页组件的样式； 前端通过$axios调用后端的路由，获取数据进行展示； 前端页面为了适应性，最好使用weight:80% 这样的按比例缩放的样式，而非绝对的数值。 …… 然而，我高估了部分同学对于任务的重视程度和他们的自学能力，结果在项目开发最为关键的后两周中，我们后端组收到的前端页面文件基本具备如下特点中的一点或多点：\n只有静态页面开发思维： 样式使用绝对数值调整，只在开发者自己的电脑上显示正常。如果换成尺寸不一样的屏幕，就会有各式各样的页面组件bug； 不理解后端和数据库的作用。典型表现为使用ElementUI的级联选择器，配置可选选项时，选择手动在文件中写下所有的选项，而不是从数据库中调用现成数据。 接口混乱或根本无法使用。前端的不少同学只在本机上测试 没有版本管理意识： 隔一段时间 参考文献:\n［1］ A. Sharma and R. T. Tan, “Nighttime Visibility Enhancement by Increasing the Dynamic Range and Suppression of Light Effects,” in 2021 IEEE\/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Nashville, TN, USA: IEEE, Jun.",
+    "inLanguage": "en-us",
+    "url" : "https:\/\/matriz23.github.io\/post\/filename\/",
+    "author" : {
+      "@type": "Person",
+      "name": ""
+    },
+    "copyrightYear": "2023",
+    "dateCreated": "2023-07-17T03:33:31\u002b08:00",
+    "datePublished": "2023-07-17T03:33:31\u002b08:00",
+    
+    "dateModified": "2023-07-17T03:33:31\u002b08:00",
+    
+    
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "167"
+  }]
+  </script>
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+  
+  
+</head>
+<body
+    class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="font-bold pe-2 text-primary-600 dark:text-primary-400">&darr;</span
+        >Skip to main content</a
+      >
+    </div>
+    
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral print:hidden sm:py-10">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="flex flex-row items-center">
+      
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/"
+    >My New Hugo Site</a
+  >
+
+      
+
+    </div>
+    
+    
+  </nav>
+</header>
+
+    
+    <div class="relative flex flex-col grow">
+      <main id="main-content" class="grow">
+        
+  <article>
+    <header class="max-w-prose">
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Filename
+      </h1>
+      <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2023-07-17 03:33:31 &#43;0800 CST">July 17, 2023</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+      </div>
+      
+    </header>
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+      <div class="min-w-0 min-h-0 max-w-prose grow">
+        <h1 id="课程设计第二组组内评分及个人报告" class="relative group">课程设计第二组：组内评分及个人报告 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e8%af%be%e7%a8%8b%e8%ae%be%e8%ae%a1%e7%ac%ac%e4%ba%8c%e7%bb%84%e7%bb%84%e5%86%85%e8%af%84%e5%88%86%e5%8f%8a%e4%b8%aa%e4%ba%ba%e6%8a%a5%e5%91%8a" aria-label="Anchor">#</a></span></h1>
+<!-- raw HTML omitted -->
+<h1 id="nighttime-flare-removal-based-on-deep-learning" class="relative group">Nighttime flare removal based on deep learning <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#nighttime-flare-removal-based-on-deep-learning" aria-label="Anchor">#</a></span></h1>
+<!-- raw HTML omitted -->
+<h2 id="项目介绍" class="relative group">项目介绍 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e9%a1%b9%e7%9b%ae%e4%bb%8b%e7%bb%8d" aria-label="Anchor">#</a></span></h2>
+<h3 id="项目框架" class="relative group">项目框架 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e9%a1%b9%e7%9b%ae%e6%a1%86%e6%9e%b6" aria-label="Anchor">#</a></span></h3>
+<p>项目初期，我经过调研之后选择了一套现在较为成熟的Web开发框架：Node.js + Vue。更加具体的技术细节和在这方面的收获会在后面更加详细地介绍。</p>
+<h3 id="项目成果" class="relative group">项目成果 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e9%a1%b9%e7%9b%ae%e6%88%90%e6%9e%9c" aria-label="Anchor">#</a></span></h3>
+<p>在7月16日的会议上已展示。</p>
+<h2 id="小组分工" class="relative group">小组分工 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%b0%8f%e7%bb%84%e5%88%86%e5%b7%a5" aria-label="Anchor">#</a></span></h2>
+<h3 id="小组分工与打分" class="relative group">小组分工与打分 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%b0%8f%e7%bb%84%e5%88%86%e5%b7%a5%e4%b8%8e%e6%89%93%e5%88%86" aria-label="Anchor">#</a></span></h3>
+<h4 id="名义分工" class="relative group">名义分工 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%90%8d%e4%b9%89%e5%88%86%e5%b7%a5" aria-label="Anchor">#</a></span></h4>
+<p>数据组：张世卿、韦昱岐；</p>
+<p>后端组：吴思源、周若愚、刘思嘉（组长，负责项目的全程跟进及前后端搭建）、王佳希；</p>
+<p>算法模型搭建：洪亦歆；</p>
+<p>前端页面实现：张艺茗、张安琪、钟毅清、黄蓉惠、郝家祺、孙舒航。</p>
+<h4 id="分工演变与实际分工" class="relative group">分工演变与实际分工 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%88%86%e5%b7%a5%e6%bc%94%e5%8f%98%e4%b8%8e%e5%ae%9e%e9%99%85%e5%88%86%e5%b7%a5" aria-label="Anchor">#</a></span></h4>
+<p>项目初期的开发中，由于大家都不够了解技术，所以提出框架选用的本人找了一个教程，并动手实现了一个Demo。Demo的基本功能如下：</p>
+<ul>
+<li>包含完整的后端、前端、数据库框架；</li>
+<li>编写了最基本的路由（页面跳转、页面访问等），实现了完整的登录注册功能（包括密码加密、登录Token等），并提供了完整的数据增删改查的接口。</li>
+<li>附带一份基本的文档，讲解了Demo中所用技术。</li>
+</ul>
+<p>我的计划是前后端的同学们经过教程和Demo的学习，可以了解一些基本的概念，比如：</p>
+<ul>
+<li>前端的<code>.vue</code>文件包括三部分，第一部分<code>&lt;template&gt; </code> ，第二部分<code>&lt;script&gt;</code>，第三部分<code>style</code>，其中第一部分类似于HTML，编写页面结构，第二部分负责前端业务逻辑的处理，第三部分类似CSS，用于编写网页组件的样式；</li>
+<li>前端通过<code>$axios</code>调用后端的路由，获取数据进行展示；</li>
+<li>前端页面为了适应性，最好使用<code>weight:80%</code> 这样的按比例缩放的样式，而非绝对的数值。</li>
+<li>……</li>
+</ul>
+<p>然而，我高估了部分同学对于任务的重视程度和他们的自学能力，结果在项目开发最为关键的后两周中，我们后端组收到的前端页面文件基本具备如下特点中的一点或多点：</p>
+<ul>
+<li>只有静态页面开发思维：
+<ul>
+<li>样式使用绝对数值调整，只在开发者自己的电脑上显示正常。如果换成尺寸不一样的屏幕，就会有各式各样的页面组件bug；</li>
+<li>不理解后端和数据库的作用。典型表现为使用ElementUI的级联选择器，配置可选选项时，选择手动在文件中写下所有的选项，而不是从数据库中调用现成数据。</li>
+<li>接口混乱或根本无法使用。前端的不少同学只在本机上测试</li>
+</ul>
+</li>
+<li>没有版本管理意识：
+<ul>
+<li>隔一段时间</li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li></li>
+</ul>
+<p><strong>参考文献:</strong></p>
+<p>［1］  A. Sharma and R. T. Tan, “Nighttime Visibility Enhancement by Increasing the Dynamic Range and Suppression of Light Effects,” in 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Nashville, TN, USA: IEEE, Jun.2021, pp. 11972–11981. doi: 10.1109/CVPR46437.2021.01180.</p>
+<p>［2］  Y. Dai, C. Li, S. Zhou, R. Feng, Y. Luo, and C. C. Loy, “Flare7K++: Mixing Synthetic and Real Datasets for Nighttime Flare Removal and Beyond”. Available: <a
+  href="https://arxiv.org/abs/2306.04236"
+  
+  target="_blank" rel="noreferrer noopener"
+>https://arxiv.org/abs/2306.04236</a></p>
+<p>［3］  Y. Jin, W. Yang, and R. T. Tan, “Unsupervised Night Image Enhancement: When Layer Decomposition Meets Light-Effects Suppression.” arXiv, Sep. 17, 2022. Accessed: Apr. 17, 2023. [Online]. Available: <a
+  href="http://arxiv.org/abs/2207.10564"
+  
+  target="_blank" rel="noreferrer noopener"
+>http://arxiv.org/abs/2207.10564</a></p>
+<p>［4］  Y. Dai et al., “MIPI 2023 Challenge on Nighttime Flare Removal: Methods and Results”. Available: <a
+  href="https://arxiv.org/abs/2305.13770"
+  
+  target="_blank" rel="noreferrer noopener"
+>https://arxiv.org/abs/2305.13770</a></p>
+
+      </div>
+    </section>
+    <footer class="pt-8 max-w-prose print:hidden">
+      
+  <div class="flex">
+    
+    <div class="place-self-center">
+      
+      
+      <div class="text-2xl sm:text-lg">
+</div>
+    </div>
+  </div>
+
+
+      
+
+      
+  
+
+
+      
+    </footer>
+  </article>
+
+        
+      </main><footer class="py-10 print:hidden">
+  
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            &copy;
+            2023
+            
+        </p>
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://git.io/hugo-congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
+      
+    </div>
+    
+    
+  </div>
+  
+  
+</footer>
+
+    </div>
+  </body>
+</html>
