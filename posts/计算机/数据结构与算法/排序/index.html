@@ -1,0 +1,964 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html
+  lang="en-AU"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head>
+  <meta charset="utf-8" />
+  
+    <meta http-equiv="content-language" content="en-au" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="rgb(255,255,255)" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>排序 &middot; Matriz23</title>
+    <meta name="title" content="排序 &middot; Matriz23" />
+  
+  <meta name="description" content="排序是算法设计中最重要的问题之一." />
+  
+  
+  
+  <link rel="canonical" href="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F/" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.a6debbb9c2752cfaaf987cbf5014fd1df44fb95b3494591ae67b7f8b99579a03.css"
+    integrity="sha256-pt67ucJ1LPqvmHy/UBT9HfRPuVs0lFka5nt/i5lXmgM="
+  />
+  
+  
+  <script type="text/javascript" src="/js/appearance.min.022d0ebc3b46a335eb1c7ef79b7f2de143d7cd5156d433638592ef1ce5f8554e.js" integrity="sha256-Ai0OvDtGozXrHH73m38t4UPXzVFW1DNjhZLvHOX4VU4="></script>
+  
+    
+    
+    
+  
+  
+    
+    
+  
+  
+  
+    
+    <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.75206d23ef83f4908b2bdd2317bf6ddff399e9173a16fff5451c40b8e857cfa8.js" integrity="sha256-dSBtI&#43;&#43;D9JCLK90jF79t3/OZ6Rc6Fv/1RRxAuOhXz6g=" data-copy="Copy" data-copied="Copied"></script>
+  
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="排序" />
+<meta property="og:description" content="排序是算法设计中最重要的问题之一." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-12-05T06:33:00+00:00" />
+<meta property="article:modified_time" content="2022-12-05T06:33:00+00:00" />
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="排序"/>
+<meta name="twitter:description" content="排序是算法设计中最重要的问题之一."/>
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "排序",
+    "headline": "排序",
+    "description": "排序是算法设计中最重要的问题之一.",
+    "abstract": "排序 # 前置知识 # 在计算机科学与数学中, 一个排序算法 (Sorting Algorithm) 是一种能将一串资料依照特定排序方式进行排列的一种算法.",
+    "inLanguage": "en-au",
+    "url" : "http:\/\/example.org\/posts\/%E8%AE%A1%E7%AE%97%E6%9C%BA\/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95\/%E6%8E%92%E5%BA%8F\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Matriz23"
+    },
+    "copyrightYear": "2022",
+    "dateCreated": "2022-12-05T06:33:00\u002b00:00",
+    "datePublished": "2022-12-05T06:33:00\u002b00:00",
+    
+    "dateModified": "2022-12-05T06:33:00\u002b00:00",
+    
+    "keywords": ["计算机","数学","排序","算法"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "1187"
+  }]
+  </script>
+
+
+  
+  <meta name="author" content="Matriz23" />
+  
+    
+      <link href="https://twitter.com/" rel="me" />
+    
+      <link href="https://facebook.com/" rel="me" />
+    
+      <link href="https://linkedin.com/" rel="me" />
+    
+      <link href="https://youtube.com/" rel="me" />
+    
+  
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+  
+  
+</head>
+<body
+    class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="font-bold pe-2 text-primary-600 dark:text-primary-400">&darr;</span
+        >Skip to main content</a
+      >
+    </div>
+    
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral print:hidden sm:py-10">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="flex flex-row items-center">
+      
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/"
+    >Matriz23</a
+  >
+
+      
+
+    </div>
+    
+    
+      <ul class="flex list-none flex-col ltr:text-right rtl:text-left sm:flex-row">
+        
+          
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/posts/"
+                  title="Posts"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Posts</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/about/"
+                  title="about"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >About</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="https://github.com/matriz23"
+                  title=""
+                  target="_blank"
+                  >
+                    <span
+                      class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                    ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+</span></span></a
+                >
+              
+            </li>
+          
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                
+                
+                  <button
+                    id="search-button-1"
+                    title="Search (/)"
+                  >
+                    
+                      <span
+                        class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                      ><span class="relative inline-block align-text-bottom px-1 icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span></span><span
+                        class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                        ></span
+                      >
+                    
+                  </button>
+                
+              
+            </li>
+          
+          
+        
+      </ul>
+    
+  </nav>
+</header>
+
+    
+    <div class="relative flex flex-col grow">
+      <main id="main-content" class="grow">
+        
+  <article>
+    <header class="max-w-prose">
+      
+        <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/"
+      >一边吐血一边奔跑着的马拉松</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline ">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/posts/"
+      >Posts</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F/"
+      >排序</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        排序
+      </h1>
+      <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2022-12-05 06:33:00 &#43;0000 UTC">5 December 2022</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span><span class="px-2 text-primary-500">&middot;</span>
+
+
+  
+  
+
+<span class="mb-[2px]">
+  <a
+    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e8%ae%a1%e7%ae%97%e6%9c%ba/%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84%e4%b8%8e%e7%ae%97%e6%b3%95/%e6%8e%92%e5%ba%8f.md"
+    class="text-lg hover:text-primary-500"
+    rel="noopener noreferrer"
+    target="_blank"
+    title="Edit content"
+    ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M490.3 40.4C512.2 62.27 512.2 97.73 490.3 119.6L460.3 149.7L362.3 51.72L392.4 21.66C414.3-.2135 449.7-.2135 471.6 21.66L490.3 40.4zM172.4 241.7L339.7 74.34L437.7 172.3L270.3 339.6C264.2 345.8 256.7 350.4 248.4 353.2L159.6 382.8C150.1 385.6 141.5 383.4 135 376.1C128.6 370.5 126.4 361 129.2 352.4L158.8 263.6C161.6 255.3 166.2 247.8 172.4 241.7V241.7zM192 63.1C209.7 63.1 224 78.33 224 95.1C224 113.7 209.7 127.1 192 127.1H96C78.33 127.1 64 142.3 64 159.1V416C64 433.7 78.33 448 96 448H352C369.7 448 384 433.7 384 416V319.1C384 302.3 398.3 287.1 416 287.1C433.7 287.1 448 302.3 448 319.1V416C448 469 405 512 352 512H96C42.98 512 0 469 0 416V159.1C0 106.1 42.98 63.1 96 63.1H192z"/></svg>
+</span></a
+  >
+</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+      </div>
+      
+    </header>
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+        <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
+          <div class="toc pe-5 print:hidden lg:sticky lg:top-10">
+            <details open class="-ms-5 mt-0 overflow-hidden rounded-lg ps-5">
+  <summary
+    class="-ms-5 block cursor-pointer bg-neutral-100 py-1 ps-5 text-lg font-semibold text-neutral-800 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden"
+  >
+    Table of Contents
+  </summary>
+  <div class="-ms-5 border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#前置知识">前置知识</a></li>
+    <li><a href="#选择排序">选择排序</a></li>
+    <li><a href="#插入排序">插入排序</a></li>
+    <li><a href="#折半插入排序">折半插入排序</a></li>
+    <li><a href="#冒泡排序">冒泡排序</a></li>
+    <li><a href="#简单排序算法的复杂度下界">简单排序算法的复杂度下界</a>
+      <ul>
+        <li><a href="#逆序对">逆序对</a></li>
+        <li><a href="#复杂度下界">复杂度下界</a></li>
+      </ul>
+    </li>
+    <li><a href="#希尔排序">希尔排序</a>
+      <ul>
+        <li><a href="#增量序列与时间复杂度">增量序列与时间复杂度</a></li>
+      </ul>
+    </li>
+    <li><a href="#归并排序">归并排序</a></li>
+    <li><a href="#快速排序">快速排序</a>
+      <ul>
+        <li><a href="#基准点的选取">基准点的选取</a></li>
+        <li><a href="#元素移动">元素移动</a></li>
+        <li><a href="#代码实现">代码实现</a></li>
+        <li><a href="#复杂度分析">复杂度分析</a></li>
+      </ul>
+    </li>
+    <li><a href="#排序算法的复杂度下界">排序算法的复杂度下界</a></li>
+    <li><a href="#表排序">表排序</a></li>
+    <li><a href="#桶排序">桶排序</a></li>
+    <li><a href="#基数排序">基数排序</a></li>
+    <li><a href="#外部排序">外部排序</a>
+      <ul>
+        <li><a href="#简单归并排序">简单归并排序</a></li>
+        <li><a href="#多路归并排序">多路归并排序</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+          </div>
+        </div>
+      
+      <div class="min-w-0 min-h-0 max-w-prose grow">
+        <h1 id="排序" class="relative group">排序 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%8e%92%e5%ba%8f" aria-label="Anchor">#</a></span></h1>
+<h2 id="前置知识" class="relative group">前置知识 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%89%8d%e7%bd%ae%e7%9f%a5%e8%af%86" aria-label="Anchor">#</a></span></h2>
+<p>在计算机科学与数学中, 一个<strong>排序算法</strong> (Sorting Algorithm) 是一种能将一串资料依照特定排序方式进行排列的一种算法.</p>
+<p>根据数据量大小和存储容量的不同, 排序可以分为<strong>内部排序</strong> (Internal Sorting)和<strong>外部排序</strong> (External Sorting) . 内部排序中, 数据量通常较小, 内存可以加载所有数据并完成排序; 而在外部排序中, 数据量较大, 内存不足以一次性完全加载数据, 因此需要分块处理.</p>
+<p>本文主要讨论对数组元素的内部排序, 这些元素本身存储在了物理线性结构 (Physically Linear Structure) 上. 排序问题的约定如下:</p>
+<ul>
+<li>假定有 $N$ 个元素需要排序</li>
+<li>以 C 语言的习惯为例, 数据下标从 $0$ 开始, 即待排序数组为 $A[0], A[1], &hellip;, A[N - 1]$</li>
+<li>使用 $&lt;$ 和 $&gt;$ 作为比较运算符, 因此我们讨论的排序称为<strong>基于比较的排序</strong> (Comparison-based Sorting)</li>
+</ul>
+<h2 id="选择排序" class="relative group">选择排序 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e9%80%89%e6%8b%a9%e6%8e%92%e5%ba%8f" aria-label="Anchor">#</a></span></h2>
+<p><strong>选择排序</strong> (Straight Selection Sort) 是一种朴素的排序算法, 算法流程如下:</p>
+<ul>
+<li>找到当前列表中最小的元素</li>
+<li>把最小元素与列表第一个元素交换</li>
+<li>对剩下的列表 (不含第一个元素的列表) 重复上面的操作, 直到列表为空</li>
+</ul>
+<p>选择排序把列表分成了两个部分:</p>
+<ul>
+<li>左列表, 由已经从小到大排序的元素构成 (前 $k$ 步后排好序的部分由原列表<strong>最小的 $k$ 个元素构成</strong>)</li>
+<li>右列表, 由仍需排序的元素构成</li>
+</ul>
+<p>计算复杂度为 $O(N^2)$ .</p>
+<h2 id="插入排序" class="relative group">插入排序 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%8f%92%e5%85%a5%e6%8e%92%e5%ba%8f" aria-label="Anchor">#</a></span></h2>
+<p><strong>插入排序</strong> (Insertion Sort) 的算法流程如下:</p>
+<ul>
+<li>遍历 $A[1], &hellip; A[N - 1]$ , 每次将 $A[k]$ 插入到前面的某个位置, 来保证前 $k + 1$ 个元素保持有序.</li>
+</ul>
+<p>插入排序同样把列表分成了两个部分:</p>
+<ul>
+<li>左列表, 由已经从小到大排序的元素构成 (前 $k$ 步后排好序的部分由原列表<strong>前 $k$ 个元素构成</strong>)</li>
+<li>右列表, 由仍需排序的元素构成</li>
+</ul>
+<p>注意选择排序与插入排序的区别.</p>
+<p>计算复杂度: $O(N^2)$ . 与选择排序比较次数固定不同, 插入排序的比较次数不固定. 最坏情况为原数组完全逆序, 此时计算复杂度为 $O(N^2)$ ; 最好情况为原数组已排好序, 此时计算复杂度为 $O(N)$ .</p>
+<h2 id="折半插入排序" class="relative group">折半插入排序 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%8a%98%e5%8d%8a%e6%8f%92%e5%85%a5%e6%8e%92%e5%ba%8f" aria-label="Anchor">#</a></span></h2>
+<p><strong>折半插入排序</strong> (Binary Insertion Sort) 在插入排序的基础上优化了寻找插入位置的过程. 用二分查找替代原本的线性查找.</p>
+<p>计算复杂度仍然是 $O(N^2)$ .</p>
+<h2 id="冒泡排序" class="relative group">冒泡排序 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%86%92%e6%b3%a1%e6%8e%92%e5%ba%8f" aria-label="Anchor">#</a></span></h2>
+<p><strong>冒泡排序</strong> (Bubble Sort) 的算法流程如下:</p>
+<ul>
+<li>有 $N - 1$ 步</li>
+<li>每一步从左到右遍历未排序的数组, 如果 $A[j] &gt; A[j + 1]$ , 交换两者.</li>
+</ul>
+<p>冒泡排序每次将剩余数组中最大的元素转移到最右侧.</p>
+<p>计算复杂度: $O(N^2)$</p>
+<h2 id="简单排序算法的复杂度下界" class="relative group">简单排序算法的复杂度下界 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e7%ae%80%e5%8d%95%e6%8e%92%e5%ba%8f%e7%ae%97%e6%b3%95%e7%9a%84%e5%a4%8d%e6%9d%82%e5%ba%a6%e4%b8%8b%e7%95%8c" aria-label="Anchor">#</a></span></h2>
+<p>我们前面引入的几种排序算法, 都是依靠交换相邻元素完成排序的 (插入排序的插入过程在代码实现时也是由一系列相邻元素的交换构成) , 而这些排序算法的复杂度都是 $O(N^2)$ . 这是否意味着依赖相邻元素的交换算法复杂度下界是 $O(N^2)$ 呢? 下面来讨论这个问题.</p>
+<h3 id="逆序对" class="relative group">逆序对 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e9%80%86%e5%ba%8f%e5%af%b9" aria-label="Anchor">#</a></span></h3>
+<p>在一个数组中, 下标数对 $(i, j)$ 被称作一个逆序对, 如果:</p>
+<ul>
+<li>$i &lt; j$</li>
+<li>$A[i] &gt; A[j]$</li>
+</ul>
+<p>对一个数组进行从小到大排序的过程, 本质上就是在不断消除数组中的逆序对. 交换相邻元素的操作等价于消除一个逆序对, 因此排序总共需要的交换次数等价于初始数组中逆序对的个数, 记为 $I$ .</p>
+<h3 id="复杂度下界" class="relative group">复杂度下界 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%a4%8d%e6%9d%82%e5%ba%a6%e4%b8%8b%e7%95%8c" aria-label="Anchor">#</a></span></h3>
+<p>考虑一个数组平均有多少个逆序对. 长度为 $N$ 的数组共有 $\frac{N(N - 1)}{2}$ 个数对, 由对称性可以知道正序对和逆序对的平均数量一样, 因此长度为 $N$ 的数组平均有 $\frac{N(N - 1)}{4}$ 个逆序对, 这意味着依靠交换相邻逆序对进行排序的算法, 其计算复杂度至少是 $O(N^2)$ .</p>
+<p>想要突破 $O(N^2)$ , 理论推导告诉我们不能局限于交换相邻元素, 有时候交换距离远一些的元素能够大大减少所需交换次数.</p>
+<h2 id="希尔排序" class="relative group">希尔排序 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%b8%8c%e5%b0%94%e6%8e%92%e5%ba%8f" aria-label="Anchor">#</a></span></h2>
+<p><strong>希尔排序</strong> (Shell Sort) 是最早突破 $O(N^2)$ 的排序算法之一, 它可以看作是插入排序的改进算法. 希尔排序的算法流程如下:</p>
+<ul>
+<li>根据固定的距离间隔 $h_k$ 将数组划分为几个子序列, 在各个子序列中分别进行比较和排序 (这一步通常由在 $h_k$ 个子序列分别使用插入排序完成, 因为插入排序在数据量较小时表现良好)</li>
+<li>不断减少距离间隔并重复上述步骤</li>
+<li>当距离间隔减少到 $1$ 时, 对整个数组进行基于相邻元素交换的排序</li>
+</ul>
+<p>希尔排序的距离间隔序列 $h_t &gt; h_{t - 1} &gt; &hellip; &gt; h_1$ 称为<strong>增量序列</strong> (Increment Sequence).
+在阶段 $k$ (增量为 $h_k$) 完成后, 对于每个 $i$ , 有 $A[i] \leq A[i + h_k]$ , 即所有的元素被分成了 $h_k$ 组分别排好了序, 此时我们称数组为 $h_k$ 排序好的.
+希尔排序拥有一个重要的性质, 即一个 $h_k$ 排序好的数组在经过 $h_{k - 1}$ 排序操作后, 仍然是一个 $h_k$ 排序好的数组.</p>
+<h3 id="增量序列与时间复杂度" class="relative group">增量序列与时间复杂度 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%a2%9e%e9%87%8f%e5%ba%8f%e5%88%97%e4%b8%8e%e6%97%b6%e9%97%b4%e5%a4%8d%e6%9d%82%e5%ba%a6" aria-label="Anchor">#</a></span></h3>
+<p>如何选取增量序列? 一个常见的方法是取 $h_t = \lfloor\frac{N}{2}\rfloor, h_k = \lfloor\frac{h_{k + 1}}{2}\rfloor$ , 不过这种取法效果一般.</p>
+<p>如何选择最好的增量序列仍然没有得到理论上的解, 因此希尔排序的平均复杂度是一个悬而未决的开放问题.
+使用一些特殊增量序列的希尔排序, 可以计算出最坏情况的复杂度:</p>
+<ul>
+<li>选取 $1, 2, 4, &hellip;, 2^k$ 为增量序列, 最坏复杂度为 $O(N^2)$</li>
+<li>选取 $1, 3, 7, &hellip;, 2^k - 1$ 为增量序列, 最坏复杂度为 $O(N^{\frac{3}{2}})$</li>
+</ul>
+<h2 id="归并排序" class="relative group">归并排序 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%bd%92%e5%b9%b6%e6%8e%92%e5%ba%8f" aria-label="Anchor">#</a></span></h2>
+<p><strong>归并排序</strong> (Merge Sort) 通过递归地合并两个排好序的数组来完成对原数组的排序, 它的算法流程如下:</p>
+<ul>
+<li>把数组分为左右两个子数组</li>
+<li>分别把两个子数组排序 (这一步也可以调用归并排序) , 合并两个排好序的数组</li>
+<li>数组长度是 $1$ 则直接返回</li>
+</ul>
+<p>&ldquo;并&rdquo; 的计算复杂度是 $O(N)$ , 空间复杂度也是 $O(N)$ . 递归至多有 $logN$ 次, 因此时间复杂度为 $O(NlogN)$ . 由于存储合并结果的数组 $TempArray$ 可以复用, 所以空间复杂度是 $O(N)$ .</p>
+<p>归并排序是 &ldquo;后序遍历&rdquo; .</p>
+<h2 id="快速排序" class="relative group">快速排序 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%bf%ab%e9%80%9f%e6%8e%92%e5%ba%8f" aria-label="Anchor">#</a></span></h2>
+<p><strong>快速排序</strong> (Quick Sort) 是现有效率最高的排序算法之一, 它有如下优点:</p>
+<ul>
+<li>平均时间复杂度为 $O(NlogN)$ . 最坏情况为 $O(N^2)$ , 但几乎遇不到这些情况.</li>
+<li>空间复杂度为 $O(1)$</li>
+<li>由递归分治的思想设计, 易于理解</li>
+</ul>
+<p>快速排序的流程如下:</p>
+<ul>
+<li>数组元素个数为 $0$ 或 $1$ 时, 直接返回</li>
+<li>选择数组里的一个元素, 称作<strong>基准点</strong> (pivot)</li>
+<li>把去掉基准点的数组分为两部分, 一部分比基准点小, 一部分比基准点大</li>
+<li>递归使用快速排序对两部分进行排序, 排好序的部分加上基准点构成排好序的原数组</li>
+</ul>
+<p>快速排序的递归性质让算法过程看上去是在构建一棵二叉树. 不同于归并排序构造平衡二叉树, 快速排序本身不一定会构造出平衡二叉树, 对基准点的选择至关重要.</p>
+<h3 id="基准点的选取" class="relative group">基准点的选取 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%9f%ba%e5%87%86%e7%82%b9%e7%9a%84%e9%80%89%e5%8f%96" aria-label="Anchor">#</a></span></h3>
+<p>选择第一个元素作为基准点是一个自然的想法, 但效果很不好. 在原数据近似有序或逆序的情况下, 选第一个元素作为基准点很可能把数组分成了大小差异巨大的两个集合, 最坏情况为 $O(N^2)$ ; 而现实世界的许多输入都是近似有序的.</p>
+<p>随机选择基准点是个稳妥的方法, 但算法效率和随机数生成器的质量有关, 并且每次选择基准点也会有生成随机数带来的额外消耗.</p>
+<p>最为理想的基准点是整个数组的中位数, 因为这样可以均匀地分割剩余的集合, 但得到整个数组的中位数很麻烦. 退一步, 我们随机抽三个元素, 取它们的中位数作为整个数组的中位数, 这是可行的, 但生成随机数带来的消耗同样不能忽视. 最终普遍采用的做法是<strong>三数中值分割法</strong> (Median-of-Three Partitioning), 我们取数组最左侧、最中间和最右侧的元素的中位数作为基准点. '</p>
+<h3 id="元素移动" class="relative group">元素移动 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%85%83%e7%b4%a0%e7%a7%bb%e5%8a%a8" aria-label="Anchor">#</a></span></h3>
+<p>选取基准点的下一步是移动元素, 把数组分成两部分. 一个简单的办法是直接开额外的数组空间, 遍历一遍原数组把元素按相对基准点的大小存进去. 这种做法的空间开销太大, 因此通常使用双边循环的方法进行原地交换.</p>
+<h3 id="代码实现" class="relative group">代码实现 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e4%bb%a3%e7%a0%81%e5%ae%9e%e7%8e%b0" aria-label="Anchor">#</a></span></h3>
+<p>首先是处理三数中值的函数 <code>Median3()</code> .</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">Median3</span><span class="p">(</span><span class="kt">int</span> <span class="n">A</span><span class="p">[],</span> <span class="kt">int</span> <span class="n">Left</span><span class="p">,</span> <span class="kt">int</span> <span class="n">Right</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// 注意对 A[] 的修改对原数组有效
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kt">int</span> <span class="n">Tmp</span><span class="p">;</span> <span class="c1">// 用于交换的临时变量
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kt">int</span> <span class="n">Center</span> <span class="o">=</span> <span class="p">(</span><span class="n">Left</span> <span class="o">+</span> <span class="n">Right</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span> <span class="c1">// 中间元素坐标
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">if</span> <span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="n">Left</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">A</span><span class="p">[</span><span class="n">Center</span><span class="p">])</span> <span class="p">{</span> <span class="c1">// 保证 A[Left] &lt; A[Center]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">Tmp</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">Left</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="n">A</span><span class="p">[</span><span class="n">Left</span><span class="p">]</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">Center</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="n">A</span><span class="p">[</span><span class="n">Center</span><span class="p">]</span> <span class="o">=</span> <span class="n">Tmp</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="n">Left</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">A</span><span class="p">[</span><span class="n">Right</span><span class="p">])</span> <span class="p">{</span> <span class="c1">// 保证 A[Left] &lt; A[Right]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">Tmp</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">Left</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="n">A</span><span class="p">[</span><span class="n">Left</span><span class="p">]</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">Right</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="n">A</span><span class="p">[</span><span class="n">Right</span><span class="p">]</span> <span class="o">=</span> <span class="n">Tmp</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="n">Center</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">A</span><span class="p">[</span><span class="n">Right</span><span class="p">])</span> <span class="p">{</span> <span class="c1">// 保证 A[Center] &lt; A[Right]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">Tmp</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">Center</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="n">A</span><span class="p">[</span><span class="n">Center</span><span class="p">]</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">Right</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="n">A</span><span class="p">[</span><span class="n">Right</span><span class="p">]</span> <span class="o">=</span> <span class="n">Tmp</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// A[Center] 为基准点, 交换基准点与 A[Right - 1]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="n">Tmp</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">Center</span><span class="p">];</span> 
+</span></span><span class="line"><span class="cl">    <span class="n">A</span><span class="p">[</span><span class="n">Center</span><span class="p">]</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">Right</span> <span class="o">-</span> <span class="mi">1</span><span class="p">];</span> 
+</span></span><span class="line"><span class="cl">    <span class="n">A</span><span class="p">[</span><span class="n">Right</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">Tmp</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">A</span><span class="p">[</span><span class="n">Right</span> <span class="o">-</span> <span class="mi">1</span><span class="p">];</span> <span class="c1">// 返回基准点的值
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span>
+</span></span></code></pre></div><p><code>Median3()</code> 函数在返回基准点值的同时, 保证了 $A[Left] &lt; pivot &lt; A[Right]$ , 而 $A[Right - 1]$ 用来存储基准点了, 我们的目的是将元素与 $pivot$ 比较并排序, 因此后续交换从 $i = Left + 1$ 与 $j = Right - 2$ 开始.</p>
+<p>接下来看看整个快速排序的代码.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="cp">#define Cutoff (3) </span><span class="c1">// 数据量较小时使用插入排序效率更高
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">QSort</span><span class="p">(</span><span class="kt">int</span> <span class="n">A</span><span class="p">[],</span> <span class="kt">int</span> <span class="n">Left</span><span class="p">,</span> <span class="kt">int</span> <span class="n">Right</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="n">Pivot</span><span class="p">,</span> <span class="n">Tmp</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">Left</span> <span class="o">+</span> <span class="n">Cutoff</span> <span class="o">&lt;=</span> <span class="n">Right</span><span class="p">)</span> <span class="p">{</span><span class="c1">// 数据量较大时应用快速排序
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">Pivot</span> <span class="o">=</span> <span class="n">Median3</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">Left</span><span class="p">,</span> <span class="n">Right</span><span class="p">);</span> <span class="c1">// 得到基准点值
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">i</span> <span class="o">=</span> <span class="n">Left</span><span class="p">;</span> <span class="c1">// 初始化 i 为 Left, 实际上为 Left + 1 也不影响结果
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">j</span> <span class="o">=</span> <span class="n">Right</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span> <span class="c1">// 初始化 j 为 Right - 1, 实际上为 Right - 2 也不影响结果
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="k">for</span> <span class="p">(;;)</span> <span class="p">{</span> <span class="c1">// 循环交换元素
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="k">while</span> <span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="o">++</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">Pivot</span><span class="p">)</span> <span class="p">{};</span> <span class="c1">// 向右找到第一个 A[i] &gt; Pivot
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="k">while</span> <span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="o">--</span><span class="n">j</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">Pivot</span><span class="p">)</span> <span class="p">{};</span> <span class="c1">// 向左找到第一个 A[j] &lt; Pivot
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="n">j</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// 如果 i &lt; j, 那么交换消除逆序对
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="n">Tmp</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">                <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">j</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">                <span class="n">A</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">Tmp</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span> <span class="k">else</span> <span class="k">break</span><span class="p">;</span> <span class="c1">// 如果 i &gt; j, 退出循环
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// 交换 A[i] 与 A[Right - 1], 因为 A[Right - 1] 在前面存储了 Pivot, 这里把基准点放回去
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">Tmp</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">Right</span> <span class="o">-</span> <span class="mi">1</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="n">A</span><span class="p">[</span><span class="n">Right</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">Tmp</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">QSort</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">Left</span><span class="p">,</span> <span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span> <span class="c1">// 递归处理左侧
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">QSort</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">Right</span><span class="p">);</span> <span class="c1">// 递归处理右侧
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// 数据量较小时应用插入排序
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="n">InsertionSort</span><span class="p">(</span><span class="n">A</span> <span class="o">+</span> <span class="n">Left</span><span class="p">,</span> <span class="n">Right</span> <span class="o">-</span> <span class="n">Left</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>可以看出 <code>Qsort()</code> 的递归是先序遍历.</p>
+<h3 id="复杂度分析" class="relative group">复杂度分析 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%a4%8d%e6%9d%82%e5%ba%a6%e5%88%86%e6%9e%90" aria-label="Anchor">#</a></span></h3>
+<p>记 $T(N)$ 为对长度为 $N$ 的数组进行快速排序所需的时间. $T(0) = T(1) = 1$ .
+因为 <code>Median3()</code> 时间复杂度为 $O(1)$ , 遍历交换过程为 $O(N)$ , 所以有
+$$
+T(N) = T(i) + T(N - i - 1) + cN
+$$</p>
+<p>最坏情况是每次选出的基准点都是最小或最大的元素, 有 $T(N) = T(N - 1) + cN$ , 可以得到 $T(N) = O(N^2)$ .</p>
+<p>最好情况是每次都均匀分割, 有 $T(N) = 2T(\frac{N}{2}) + cN$ , 即 $\frac{T(N)}{N} = \frac{\frac{T(N)}{2}}{\frac{N}{2}} + c$ , 可以得到 $T(N) = O(NlogN)$ .</p>
+<p>考虑平均复杂度, 假定 $T(i)$ 均匀分布, 有
+$$
+T(i) = \frac{2}{N}\sum_{j = 0}^{N - 1}T(j) + cN
+$$</p>
+<p>变形有
+$$
+NT(i) = 2\sum_{j = 0}^{N - 1}T(j) + cN^2
+$$</p>
+<p>用 $N - 1$ 代替 $N$ , 有
+$$
+(N - 1)T(i) = 2\sum_{j = 0}^{N - 2}T(j) + c(N - 1)^2
+$$</p>
+<p>两式相减, 有
+$$
+NT(N) - (N - 1)T(N - 1) = 2T(N - 1) + 2cN - c
+$$</p>
+<p>渐进情况下我们认为 $2cN - c  \approx 2cN$
+有
+$$
+NT(N) = (N + 1)T(N - 1) + 2cN
+$$</p>
+<p>左右同时除以 $N(N + 1)$ , 有
+$$
+\frac{T(N)}{N + 1} = \frac{T(N - 1)}{N} + \frac{2c}{N + 1}
+$$</p>
+<p>累加, 有
+$$
+\frac{T(N)}{N + 1} = \frac{T(1)}{2} + 2c\sum_{i = 3}^{N + 1}\frac{1}{i}
+$$</p>
+<p>由于 $\sum_{i = 1}^{N}\frac{1}{i} = ln(N + 1) + γ$ , 故
+$$
+T(N) = O(NlogN)
+$$</p>
+<h2 id="排序算法的复杂度下界" class="relative group">排序算法的复杂度下界 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%8e%92%e5%ba%8f%e7%ae%97%e6%b3%95%e7%9a%84%e5%a4%8d%e6%9d%82%e5%ba%a6%e4%b8%8b%e7%95%8c" aria-label="Anchor">#</a></span></h2>
+<p>在前面的算法中, 排序算法的时间复杂度最低是 $O(NlogN)$ . 而在理论上, 依靠<strong>成对比较</strong> (Pairwise Comparison) 的排序算法在最坏情况下的最优复杂度正是 $O(NlogN)$ .</p>
+<p>不管是什么排序算法, 其比较的逻辑都是一棵<strong>决策树</strong> (Decision Tree) . 假定有 $N$ 个数需要排序, 那么总共可能有 $N!$ 种结果, 每次比较可以折半减少结果可能, 最终比较所需的次数等价于决策树的深度. 因为这颗二叉树有 $N!$ 个叶子节点, 因此深度至少为 $\lceil logN!\rceil$, 因此至少需要 $O(log(N!)) = O(NlogN)$ 次比较.</p>
+<p>这是冰冷的理论告诉我们的下界. 不过, 如果有额外的信息, 人类的智慧可以突破 $O(NlogN)$ .</p>
+<h2 id="表排序" class="relative group">表排序 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e8%a1%a8%e6%8e%92%e5%ba%8f" aria-label="Anchor">#</a></span></h2>
+<p>现实中, 我们经常需要依照某个键对大型结构体进行排序, 例如依照学号对学生信息进行排序.
+与前面的排序不同的是, 对大型结构体进行数据交换的操作开销非常大, 因此对数据操作是一件不太可行的事. 一个更好的方法是创建一个指向这些结构体的指针数组, 依照键对指针数组进行排序. 例如结构体数组 $A[0], &hellip;, A[N - 1]$ , 创建 $T[0], &hellip;, T[N - 1]$ , 对 $T$ 排序, 使得 $A[T[0]].key &lt; &hellip; &lt; A[T[N - 1]].key$ .</p>
+<p>在表排序完成的情况下, 如果需要改动结构体数据进行物理排序, 即需要把 $A[T[i]]$ 移动到 $A[i]$ 的位置上, 可以在 $O(N)$ 时间内完成. 注意到下标重排后可以分解成若干个不相交的环. 对于每个环, 把第一个元素对应的结构体存储到 $Temp$ 中, 再依次把后续的元素存到前一个元素的位置, 最后把 $Temp$ 填到空缺的位置上, 就完成了对这个环对应的结构体的物理排序. 时间复杂度 $O(N)$ , 空间复杂度 $O(1)$ .</p>
+<h2 id="桶排序" class="relative group">桶排序 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%a1%b6%e6%8e%92%e5%ba%8f" aria-label="Anchor">#</a></span></h2>
+<p><strong>桶排序</strong>(Bucket Sort) 是一种针对整数 (或可以离散化) 的数据的排序方法, 要求知道数据的范围. 这里我们假定待排序数组 $A$ 的元素都是不重复的整数, 且范围为 $[1, M]$ .桶排序的算法流程如下:</p>
+<ul>
+<li>创建一个数组 $Count$ , 最大下标至少为 $M$</li>
+<li>遍历 $A$ 数组, 对于 $A[i]$ , 让 $Count[A[i]] = 1$</li>
+<li>遍历完 $A$ 之后, 遍历 $Count$ 数组, 如果有 $Count[k] &gt; 0$ , 输出 $k$ . 最终输出结果就是排好序的 $A$</li>
+</ul>
+<p>桶排序的时间复杂度为 $O(M + N)$ , 需要额外 $O(M)$ 的空间. 这个排序的性能相当依赖数据的分布.</p>
+<h2 id="基数排序" class="relative group">基数排序 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%9f%ba%e6%95%b0%e6%8e%92%e5%ba%8f" aria-label="Anchor">#</a></span></h2>
+<p><strong>基数排序</strong> (Radix Sort) 可以看作桶排序的一个推广, 它也被称作扑克排序 (Poker Sort) 或分布排序 (Distribution Sort) .</p>
+<p>基数排序相较于桶排序在空间消耗上减小了很多. 它的算法流程如下:</p>
+<ul>
+<li>创建一个长度为 $1$ 的桶数组</li>
+<li>在第 $k$ 轮排序中, 将从左到右将第 $k$ 位为 $i$ 个元素放入桶 $i$ 中</li>
+<li>最高位排序完成后, 按顺序输出桶中元素就得到原数组的排序结果</li>
+</ul>
+<p>基数排序的时间复杂度为 $O(P(N + B))$ , 其中 $P$ 是数据的最高位数, $N$ 是元素个数, $B$ 则则是桶的数量.</p>
+<h2 id="外部排序" class="relative group">外部排序 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%a4%96%e9%83%a8%e6%8e%92%e5%ba%8f" aria-label="Anchor">#</a></span></h2>
+<p>前面讨论的主要是内部排序, 在内存中进行比较与交换操作速度非常快. 但是, 当数据量过大以至于内存不能一次加载所有数据时, I/O 操作耗费的时间会远远高于内存中操作耗费的时间.</p>
+<h3 id="简单归并排序" class="relative group">简单归并排序 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e7%ae%80%e5%8d%95%e5%bd%92%e5%b9%b6%e6%8e%92%e5%ba%8f" aria-label="Anchor">#</a></span></h3>
+<p>把数据拆分成许多份, 分别在内存中排好序, 再进行合并操作. 合并时不可避免地会在 I/O 上耗费大量时间.</p>
+<h3 id="多路归并排序" class="relative group">多路归并排序 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%a4%9a%e8%b7%af%e5%bd%92%e5%b9%b6%e6%8e%92%e5%ba%8f" aria-label="Anchor">#</a></span></h3>
+
+      </div>
+    </section>
+    <footer class="pt-8 max-w-prose print:hidden">
+      
+  <div class="flex">
+    
+      
+      
+    
+    <div class="place-self-center">
+      
+        <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+          Author
+        </div>
+        <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+          Matriz23
+        </div>
+      
+      
+        <div class="text-sm text-neutral-700 dark:text-neutral-400">This is an example author bio, and although there&rsquo;s a stock photo of a dog here, this article was actually created by a human. 🐶</div>
+      
+      <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://twitter.com/"
+          target="_blank"
+          aria-label="Twitter"
+          rel="me noopener noreferrer"
+          ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://facebook.com/"
+          target="_blank"
+          aria-label="Facebook"
+          rel="me noopener noreferrer"
+          ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://linkedin.com/"
+          target="_blank"
+          aria-label="Linkedin"
+          rel="me noopener noreferrer"
+          ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://youtube.com/"
+          target="_blank"
+          aria-label="Youtube"
+          rel="me noopener noreferrer"
+          ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+</span></a
+        >
+      
+    
+  </div>
+
+</div>
+    </div>
+  </div>
+
+
+      
+
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%BD%91%E7%BB%9C%E8%A1%A8%E7%A4%BA%E6%B3%95/">
+              <span
+                class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&larr;</span
+                ><span class="ltr:hidden rtl:inline">&rarr;</span></span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >网络表示法</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2022-12-03 16:21:00 &#43;0000 UTC">3 December 2022</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="group flex text-right" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84%E5%88%86%E6%9E%90/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >关键路径分析</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2022-12-09 09:01:00 &#43;0000 UTC">9 December 2022</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&rarr;</span
+                ><span class="ltr:hidden rtl:inline">&larr;</span></span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+
+        
+          <div class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12">
+            <a
+              href="#the-top"
+              class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+              aria-label="Scroll to top"
+              title="Scroll to top"
+            >
+              &uarr;
+            </a>
+          </div>
+        
+      </main><footer class="py-10 print:hidden">
+  
+  
+    <nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <ul class="flex list-none flex-col sm:flex-row">
+        
+          <li class="group mb-1 ltr:text-right rtl:text-left sm:mb-0 sm:me-7 sm:last:me-0">
+            
+              <a
+                href="/tags/"
+                title="Tags"
+                
+                ><span
+                    class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                    >Tags</span
+                  >
+                </a
+              >
+            
+          </li>
+        
+      </ul>
+    </nav>
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            © 2023 Matriz23
+        </p>
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://git.io/hugo-congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
+      
+    </div>
+    
+    
+      <div
+        class="me-14 cursor-pointer text-sm text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+      >
+        <button id="appearance-switcher-0" type="button" aria-label="appearance switcher">
+          <div
+            class="flex h-12 w-12 items-center justify-center dark:hidden"
+            title="Switch to dark appearance"
+          >
+            <span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+          </div>
+          <div
+            class="hidden h-12 w-12 items-center justify-center dark:flex"
+            title="Switch to light appearance"
+          >
+            <span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+          </div>
+        </button>
+      </div>
+    
+  </div>
+  
+  
+</footer>
+
+
+
+<script type="text/javascript"
+        async
+        src="https://cdn.bootcss.com/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[\[','\]\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+
+MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+
+<style>
+code.has-jax {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+    color: #515151;
+}
+</style><div
+  id="search-wrapper"
+  class="invisible fixed inset-0 z-50 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://example.org/"
+>
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          <span class="relative inline-block align-text-bottom px-1 icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)"
+      >
+        <span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>图 on Matriz23</title>
+    <link>http://example.org/tags/%E5%9B%BE/</link>
+    <description>Recent content in 图 on Matriz23</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>&amp;copy; 2023 Matriz23</copyright>
+    <lastBuildDate>Sat, 03 Dec 2022 16:21:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>网络表示法</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%BD%91%E7%BB%9C%E8%A1%A8%E7%A4%BA%E6%B3%95/</link>
+      <pubDate>Sat, 03 Dec 2022 16:21:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%BD%91%E7%BB%9C%E8%A1%A8%E7%A4%BA%E6%B3%95/</guid>
+      <description>网络表示法 # 网络的概念 # 网络是一个图 $G = (N, A)$ , $N$ 是节点集, $A$ 是边集.</description>
+    </item>
+    
+  </channel>
+</rss>

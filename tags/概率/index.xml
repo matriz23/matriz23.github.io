@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>概率 on Matriz23</title>
+    <link>http://example.org/tags/%E6%A6%82%E7%8E%87/</link>
+    <description>Recent content in 概率 on Matriz23</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>&amp;copy; 2023 Matriz23</copyright>
+    <lastBuildDate>Tue, 23 Aug 2022 10:45:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E6%A6%82%E7%8E%87/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode 九坤投资专场竞赛</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-%E4%B9%9D%E5%9D%A4%E6%8A%95%E8%B5%84%E4%B8%93%E5%9C%BA%E7%AB%9E%E8%B5%9B/</link>
+      <pubDate>Tue, 23 Aug 2022 10:45:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-%E4%B9%9D%E5%9D%A4%E6%8A%95%E8%B5%84%E4%B8%93%E5%9C%BA%E7%AB%9E%E8%B5%9B/</guid>
+      <description>LeetCode 九坤投资专场竞赛 # Problem 1 可以读通讯稿的组数 # 题目链接 # 九坤-01.</description>
+    </item>
+    
+  </channel>
+</rss>

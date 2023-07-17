@@ -1,0 +1,753 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html
+  lang="en-AU"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head>
+  <meta charset="utf-8" />
+  
+    <meta http-equiv="content-language" content="en-au" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="rgb(255,255,255)" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>Puzzle Toad-3 Take the last chip &middot; Matriz23</title>
+    <meta name="title" content="Puzzle Toad-3 Take the last chip &middot; Matriz23" />
+  
+  <meta name="description" content="Puzzle Toad-3「Take the last chip」的思考与解答" />
+  
+  
+  
+  <link rel="canonical" href="http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad%E9%A2%98%E8%A7%A3/puzzle-toad-3-take-the-last-chip/" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.a6debbb9c2752cfaaf987cbf5014fd1df44fb95b3494591ae67b7f8b99579a03.css"
+    integrity="sha256-pt67ucJ1LPqvmHy/UBT9HfRPuVs0lFka5nt/i5lXmgM="
+  />
+  
+  
+  <script type="text/javascript" src="/js/appearance.min.022d0ebc3b46a335eb1c7ef79b7f2de143d7cd5156d433638592ef1ce5f8554e.js" integrity="sha256-Ai0OvDtGozXrHH73m38t4UPXzVFW1DNjhZLvHOX4VU4="></script>
+  
+    
+    
+    
+  
+  
+    
+    
+  
+  
+  
+    
+    <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.75206d23ef83f4908b2bdd2317bf6ddff399e9173a16fff5451c40b8e857cfa8.js" integrity="sha256-dSBtI&#43;&#43;D9JCLK90jF79t3/OZ6Rc6Fv/1RRxAuOhXz6g=" data-copy="Copy" data-copied="Copied"></script>
+  
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="Puzzle Toad-3 Take the last chip" />
+<meta property="og:description" content="Puzzle Toad-3「Take the last chip」的思考与解答" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad%E9%A2%98%E8%A7%A3/puzzle-toad-3-take-the-last-chip/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-08-16T10:05:00+00:00" />
+<meta property="article:modified_time" content="2022-08-16T10:05:00+00:00" />
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Puzzle Toad-3 Take the last chip"/>
+<meta name="twitter:description" content="Puzzle Toad-3「Take the last chip」的思考与解答"/>
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "Puzzle Toad-3 Take the last chip",
+    "headline": "Puzzle Toad-3 Take the last chip",
+    "description": "Puzzle Toad-3「Take the last chip」的思考与解答",
+    "abstract": "Puzzle Toad-3 Take the last chip # 题目翻译 # Turkey Sandwich 很担心即将到来的离散数学考试, 难以入睡.",
+    "inLanguage": "en-au",
+    "url" : "http:\/\/example.org\/posts\/%E6%95%B0%E5%AD%A6\/puzzle-toad%E9%A2%98%E8%A7%A3\/puzzle-toad-3-take-the-last-chip\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Matriz23"
+    },
+    "copyrightYear": "2022",
+    "dateCreated": "2022-08-16T10:05:00\u002b00:00",
+    "datePublished": "2022-08-16T10:05:00\u002b00:00",
+    
+    "dateModified": "2022-08-16T10:05:00\u002b00:00",
+    
+    "keywords": ["数学","思维","博弈"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "720"
+  }]
+  </script>
+
+
+  
+  <meta name="author" content="Matriz23" />
+  
+    
+      <link href="https://twitter.com/" rel="me" />
+    
+      <link href="https://facebook.com/" rel="me" />
+    
+      <link href="https://linkedin.com/" rel="me" />
+    
+      <link href="https://youtube.com/" rel="me" />
+    
+  
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+  
+  
+</head>
+<body
+    class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="font-bold pe-2 text-primary-600 dark:text-primary-400">&darr;</span
+        >Skip to main content</a
+      >
+    </div>
+    
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral print:hidden sm:py-10">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="flex flex-row items-center">
+      
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/"
+    >Matriz23</a
+  >
+
+      
+
+    </div>
+    
+    
+      <ul class="flex list-none flex-col ltr:text-right rtl:text-left sm:flex-row">
+        
+          
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/posts/"
+                  title="Posts"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Posts</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/about/"
+                  title="about"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >About</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="https://github.com/matriz23"
+                  title=""
+                  target="_blank"
+                  >
+                    <span
+                      class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                    ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+</span></span></a
+                >
+              
+            </li>
+          
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                
+                
+                  <button
+                    id="search-button-1"
+                    title="Search (/)"
+                  >
+                    
+                      <span
+                        class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                      ><span class="relative inline-block align-text-bottom px-1 icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span></span><span
+                        class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                        ></span
+                      >
+                    
+                  </button>
+                
+              
+            </li>
+          
+          
+        
+      </ul>
+    
+  </nav>
+</header>
+
+    
+    <div class="relative flex flex-col grow">
+      <main id="main-content" class="grow">
+        
+  <article>
+    <header class="max-w-prose">
+      
+        <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/"
+      >一边吐血一边奔跑着的马拉松</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline ">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/posts/"
+      >Posts</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/posts/%E6%95%B0%E5%AD%A6/puzzle-toad%E9%A2%98%E8%A7%A3/puzzle-toad-3-take-the-last-chip/"
+      >Puzzle Toad-3 Take the last chip</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Puzzle Toad-3 Take the last chip
+      </h1>
+      <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2022-08-16 10:05:00 &#43;0000 UTC">16 August 2022</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span><span class="px-2 text-primary-500">&middot;</span>
+
+
+  
+  
+
+<span class="mb-[2px]">
+  <a
+    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e6%95%b0%e5%ad%a6/Puzzle%20Toad%e9%a2%98%e8%a7%a3/Puzzle%20Toad-3%20Take%20the%20last%20chip.md"
+    class="text-lg hover:text-primary-500"
+    rel="noopener noreferrer"
+    target="_blank"
+    title="Edit content"
+    ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M490.3 40.4C512.2 62.27 512.2 97.73 490.3 119.6L460.3 149.7L362.3 51.72L392.4 21.66C414.3-.2135 449.7-.2135 471.6 21.66L490.3 40.4zM172.4 241.7L339.7 74.34L437.7 172.3L270.3 339.6C264.2 345.8 256.7 350.4 248.4 353.2L159.6 382.8C150.1 385.6 141.5 383.4 135 376.1C128.6 370.5 126.4 361 129.2 352.4L158.8 263.6C161.6 255.3 166.2 247.8 172.4 241.7V241.7zM192 63.1C209.7 63.1 224 78.33 224 95.1C224 113.7 209.7 127.1 192 127.1H96C78.33 127.1 64 142.3 64 159.1V416C64 433.7 78.33 448 96 448H352C369.7 448 384 433.7 384 416V319.1C384 302.3 398.3 287.1 416 287.1C433.7 287.1 448 302.3 448 319.1V416C448 469 405 512 352 512H96C42.98 512 0 469 0 416V159.1C0 106.1 42.98 63.1 96 63.1H192z"/></svg>
+</span></a
+  >
+</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+      </div>
+      
+    </header>
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+        <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
+          <div class="toc pe-5 print:hidden lg:sticky lg:top-10">
+            <details open class="-ms-5 mt-0 overflow-hidden rounded-lg ps-5">
+  <summary
+    class="-ms-5 block cursor-pointer bg-neutral-100 py-1 ps-5 text-lg font-semibold text-neutral-800 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden"
+  >
+    Table of Contents
+  </summary>
+  <div class="-ms-5 border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#puzzle-toad-3-take-the-last-chiphttpwwwcscmuedupuzzlepuzzle3html"><a href="http://www.cs.cmu.edu/puzzle/puzzle3.html">Puzzle Toad-3 Take the last chip</a></a></li>
+    <li><a href="#题目翻译">题目翻译</a></li>
+    <li><a href="#解答">解答</a>
+      <ul>
+        <li><a href="#q1">Q1</a></li>
+        <li><a href="#q2">Q2</a></li>
+        <li><a href="#puzzle-toad-给出的解答">Puzzle Toad 给出的解答</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+          </div>
+        </div>
+      
+      <div class="min-w-0 min-h-0 max-w-prose grow">
+        <h2 id="puzzle-toad-3-take-the-last-chiphttpwwwcscmuedupuzzlepuzzle3html" class="relative group"><a
+  href="http://www.cs.cmu.edu/puzzle/puzzle3.html"
+  
+  target="_blank" rel="noreferrer noopener"
+>Puzzle Toad-3 Take the last chip</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#puzzle-toad-3-take-the-last-chiphttpwwwcscmuedupuzzlepuzzle3html" aria-label="Anchor">#</a></span></h2>
+<h2 id="题目翻译" class="relative group">题目翻译 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e9%a2%98%e7%9b%ae%e7%bf%bb%e8%af%91" aria-label="Anchor">#</a></span></h2>
+<p>Turkey Sandwich 很担心即将到来的离散数学考试, 难以入睡. Turkey 一大早就被恶魔般的笑声唤醒了, 他看到一个顽皮的小矮人坐在床的尽头, 旁边是一堆看上去有无限多的薯条. 小矮人说: &quot; Turkey 你好, 你愿意玩一个小游戏吗? 这堆薯条一共有 43546758343209876 个, 并且底部的薯条代表你永恒的灵魂. 游戏规则很简单, 第一个玩家拿走一些薯条, 但不能拿走全部的薯条. 之后我们轮流拿走一些薯条. 唯一的限制就是一个玩家拿走的薯条不能超过前一轮玩家拿走的薯条数. 拿走最后一个薯条的人获得胜利. 如果我赢了, 我就取走你的灵魂; 而如果你赢了, 你就会在考试中拿到 A . 你是要先手还是后手? &quot; 对于 Turkey 来讲, 这似乎是一个合理的赌局. 你能够给 Turkey 一个策略, 让他能够应对任意薯条数的赌局吗?
+如果上面这个问题对你来说太简单, 那么把规则修改成 &ldquo;一个玩家拿走的薯条不能超过前一轮玩家拿走的薯条数的两倍&rdquo; , 此时最优的策略是什么?</p>
+<h2 id="解答" class="relative group">解答 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e8%a7%a3%e7%ad%94" aria-label="Anchor">#</a></span></h2>
+<p>这里先分别给出两个问题的解答, 再来看看原站给出的解答.</p>
+<h3 id="q1" class="relative group">Q1 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#q1" aria-label="Anchor">#</a></span></h3>
+<p>$n = 1$ 时, 游戏无法进行, 不作讨论.
+$n = 2$ 时, 先手只能拿走 $1$ 个, 后手必胜.
+$n$ 为奇数时, 先手只要拿走 $1$ 个就可以, 之后每轮玩家都只能拿走 $1$ 个, 最后一个由先手玩家拿走, 先手必胜.
+$n$ 为偶数时, 如果当前局面下剩余薯条数为偶数, 那么拿走奇数个一定是必败的, 因为这会使得对面进入到必胜局面. 所以双方每次不得不拿偶数个, 这等价于 $\frac{n}{2}$ 的情形. 如果 $n = 2^k$ , 那么等价于 $n = 2$ 的情形, 后手必胜; 否则等价于 $n$ 为奇数的情形, 先手必胜.
+综上, $n = 2^k$ 时, 后手必胜; 其余情况先手必胜</p>
+<h3 id="q2" class="relative group">Q2 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#q2" aria-label="Anchor">#</a></span></h3>
+<p>Q2 是一个经典的博弈问题 &quot; 斐波那契博弈 &quot; . 我们来证明, 先手必胜当且仅当 $n$ 不是斐波那契数.
+记斐波那契数列为 $f_1 = 1, f_2 = 2, f_3 = 5, &hellip;$ .
+$n = 1, 2$ 时同 Q1 .</p>
+<h4 id="后手必胜-n-为斐波那契数" class="relative group">后手必胜: n 为斐波那契数 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%90%8e%e6%89%8b%e5%bf%85%e8%83%9c-n-%e4%b8%ba%e6%96%90%e6%b3%a2%e9%82%a3%e5%a5%91%e6%95%b0" aria-label="Anchor">#</a></span></h4>
+<p>假设 $\forall\ i\leq k$ , $n = f_i$ 均满足后手必胜. 考虑 $i = k + 1, n = f_{k + 1}$ 的情形. 此时, $n = f_{k - 1} + f_k$ . 假设先手取走的数量 $\geq f_{k - 1}$ , 则由于 $f_k &lt; 2\times f_{k - 1}$ , 后手一次可以取走剩余所有薯条, 故先手第一次取走的数量应该 $&lt; f_{k - 1}$ . 在这种情况下, 我们把 $n$ 个薯条看成两堆薯条 $f_{k - 1}$ 和 $f_{k}$ . 对于 $f_{k - 1}$ , 由归纳假设可知, 无论先手怎么取, 后手都能取到这一堆的最后一根. 记后手取最后一根时取走的薯条数为 $x$ , 则先手在 $f_{k}$ 堆第一次取至多取走 $2x$ 个, 由归纳假设可知, 如果 $2x &lt; f_k$ , 即先手不能一次性取完 $f_k$ 堆时, 后手必胜. 所以我们下面来寻找 $x$ 的最大值. 由于 $x + \frac{x}{2} \leq f_{k - 1}$ , 有 $x\leq \frac{2}{3} f_{k - 1}$ . 由归纳法不难得到 $\frac{2}{3} f_{k - 1} &lt; \frac{1}{2}f_k$ , 故 $2x &lt; f_k$ 成立, 该情况下先手必败.</p>
+<h4 id="先手必胜-n-不为斐波那契数" class="relative group">先手必胜: n 不为斐波那契数 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%85%88%e6%89%8b%e5%bf%85%e8%83%9c-n-%e4%b8%8d%e4%b8%ba%e6%96%90%e6%b3%a2%e9%82%a3%e5%a5%91%e6%95%b0" aria-label="Anchor">#</a></span></h4>
+<p>先介绍一下齐肯多夫 (Zeckendorf) 定理: 任何正整数都可以表示成若干个不连续的斐波那契数之和, 这种表示方法可以由贪心算法 (每次选出最大可能的斐波那契数得到) .
+对于 $n$ 不为斐波那契数的情况, 根据齐肯多夫定理, $n$ 可以写成 $f_{a_1}+ f_{a_2} + &hellip; + f_{a_p}$ , 其中 $a_i + 1 &lt; a_{i + 1}$ . 先手先取完 $f_{a_1}$ 这一堆, 由于 $a_i + 1 &lt; a_{i + 1}$ , 故后手至多取 $2\times f_{a_1} &lt; f_{a_2}$ 个薯条. 前面已经证明了对于数量为斐波那契数的堆的博弈, 后手可以取到最后一根薯条, 因此本情形中 $a_2$ 堆的最后一根薯条由先手取到. 同理, 对于之后的每一个斐波那契堆, 整局的先手都是这一堆博弈中的后手, 可以取到最后一根薯条, 也可以取到整局游戏的最后一根薯条, 故先手必胜.</p>
+<h3 id="puzzle-toad-给出的解答" class="relative group">Puzzle Toad 给出的解答 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#puzzle-toad-%e7%bb%99%e5%87%ba%e7%9a%84%e8%a7%a3%e7%ad%94" aria-label="Anchor">#</a></span></h3>
+<h4 id="一个通用的模型" class="relative group">一个通用的模型 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e4%b8%80%e4%b8%aa%e9%80%9a%e7%94%a8%e7%9a%84%e6%a8%a1%e5%9e%8b" aria-label="Anchor">#</a></span></h4>
+<p>让我们用下面这个形式来概括这个博弈问题: 有两个玩家 $A$ 和 $B$ , 并且 $A$ 先手. 给出一个单调不减的函数 $f: N\rightarrow N$ , 其中 $N$ 是正整数集合 ${1, 2, &hellip;}$ . 第一次行动中, $A$ 可以取走小于薯条总数的任意数量的薯条. 在之后一系列的行动中, 如果一个玩家取走了 $n$ 个薯条, 那么下一步中的玩家只能取走至多 $f(n)$ 个薯条. 因此, 本题实质上是 $f(n) = n$ 和 $f(n) = 2n$ 的特殊情况.</p>
+<h4 id="引理" class="relative group">引理 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%bc%95%e7%90%86" aria-label="Anchor">#</a></span></h4>
+<p>定义一个集合 $\mathcal H = {H_1 = 1 &lt; H_2 &lt; &hellip;}$ 来表示先手必败的初始局势. 当然, 对于初始局势 $h\not \in \mathcal H$ , 先手必胜.
+下面给出一个定理:</p>
+<ul>
+<li>如果 $f(H_j)\geq H_j$ , 那么 $H_{j + 1} = H_j + H_l$ , 其中 $H_l = \underset{i\leq j}{min}{H_i\vert f(H_i) \geq H_j}$ .</li>
+<li>如果 $f(H_j) &lt; H_j$ , 则先手必败的局势有限, 并且终止于 $H_j$ .</li>
+</ul>
+<h4 id="本题的解答" class="relative group">本题的解答 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%9c%ac%e9%a2%98%e7%9a%84%e8%a7%a3%e7%ad%94" aria-label="Anchor">#</a></span></h4>
+<p>根据这个定理, 我们可以得到:</p>
+<ul>
+<li>对于 $f(n) = n$ 的博弈, $\mathcal H = {1, 2, 4, &hellip;, 2^k, &hellip;}$ .</li>
+<li>对于 $f(n) = 2n$ 的博弈, $\mathcal H = {1, 2, 3, 5, &hellip;, f_k, &hellip;}$ , 其中 $f_k$ 为斐波那契数.</li>
+</ul>
+<h4 id="引理证明" class="relative group">引理证明 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%bc%95%e7%90%86%e8%af%81%e6%98%8e" aria-label="Anchor">#</a></span></h4>
+<p>接下来我们来证明这个定理.
+假设 $f(H_j) \geq H_j$ , 那么 $H_l = \underset{i\leq j}{min}{H_i\vert f(H_i) \geq H_j}$ 一定存在. 对于任何先手必败态 $H_i &lt; H_l$ , 都有 $f(H_i) &lt; H_j$ . 所以对于 $H_j + H_i$ 的初始局面, 玩家 $A$ 可以先取走 $H_i$ 个薯条, 这样留给 $B$ 的就是 $H_j$ 的先手必败态, 所以 $H_j + H_i$ 就是一个先手必胜态.
+考虑一个先手必胜态 $x &lt; H_l$ . 对于 $H_j + x$ 的初始局势, 玩家 $A$ 总能找到一个策略取走前 $x$ 个石子的最后一个薯条, 并且最后一次取走的薯条数为 $y$ , 且满足 $f(y) &lt; H_j$ . 这样操作后, 留给 $B$ 的局面就是初始为 $H_j$ 且无法一次性取走所有薯条的先手必败局面, 这对于 $A$ 来说就是一个先手必胜态. (玩家 $A$ 总是拥有这样的策略来保证 $f(y) &lt; H_j$ . 因为假设对于某一个操作方案, $A$ 移走 $x$ 堆最后一根薯条时的一共取走 $y$ 个薯条, 有 $f(y) \geq H_j$ , 则 $y &lt; H_l$ 必然是一个先手必胜态 (否则与 $H_l$ 的定义矛盾) . 此时 $A$ 只需要考虑在一堆数量 $y$ 的薯条中取走最后一根薯条时所取走的薯条个数 $y&rsquo;$ . 通过这种迭代, $A$ 合法操作方案中取走 $x$ 堆最后一根薯条时取走的薯条个数 $y$ 是严格单调减的, 总能找到一种方案使得 $f(y) &lt; H_j$) .
+最后, 对于 $H_j + H_l$ 的初始局势, 如果 $A$ 第一次取走了至少 $H_l$ 根薯条, 因为 $f(H_l) \geq H_j$ , 此时 $B$ 可以一次性取走剩下的所有薯条从而获胜; 如果玩家 $A$ 取走的薯条数 $&lt; H_l$ , 问题就转化成了我们前面探讨过的两种情况( $H_j + H_i$ 或 $H_j + x$ )之一 , 只不过先后手交换了, 这时 $B$ 作为新局势的先手, 自然是必胜的.
+至此我们把引理的第一部分证明了, 接下来证明第二部分.
+假设 $f(H_j) &lt; H_j$ , 如果存在必败态 $H_{j + 1} = H_j + x, x &gt; 0$ . 类似前文可知, $x$ 不能为某个必败态 $H_i$, 否则玩家 $A$ 先取走 $H_i$ 个薯条, 必然有 $f(H_i) \leq f(H_j) &lt; H_j$ , 留给 $B$ 的是一个必败态 $H_j$ , 这与 $H_{j + 1}$ 为 $A$ 的必败态矛盾. 故 $x$ 只能是一个必胜态. 同样类似前文可知, 对于 $H_{j + 1}$ 的初始局势, $A$ 可以取走 $x$ 堆的最后一根薯条, 并且最后一次取走的个数 $y$ 满足 $f(y) &lt; H_j$ , 留给 $B$ 一个必败态 $H_j$ , 这与 $H_{j + 1}$ 为 $A$ 的必败态矛盾. 故不存在 $H_{j + 1}$ .</p>
+
+      </div>
+    </section>
+    <footer class="pt-8 max-w-prose print:hidden">
+      
+  <div class="flex">
+    
+      
+      
+    
+    <div class="place-self-center">
+      
+        <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+          Author
+        </div>
+        <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+          Matriz23
+        </div>
+      
+      
+        <div class="text-sm text-neutral-700 dark:text-neutral-400">This is an example author bio, and although there&rsquo;s a stock photo of a dog here, this article was actually created by a human. 🐶</div>
+      
+      <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://twitter.com/"
+          target="_blank"
+          aria-label="Twitter"
+          rel="me noopener noreferrer"
+          ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://facebook.com/"
+          target="_blank"
+          aria-label="Facebook"
+          rel="me noopener noreferrer"
+          ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://linkedin.com/"
+          target="_blank"
+          aria-label="Linkedin"
+          rel="me noopener noreferrer"
+          ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://youtube.com/"
+          target="_blank"
+          aria-label="Youtube"
+          rel="me noopener noreferrer"
+          ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+</span></a
+        >
+      
+    
+  </div>
+
+</div>
+    </div>
+  </div>
+
+
+      
+
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-66d-petya-and-his-friends/">
+              <span
+                class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&larr;</span
+                ><span class="ltr:hidden rtl:inline">&rarr;</span></span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >CodeForces-66D Petya and His Friends</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2022-08-15 17:57:00 &#43;0000 UTC">15 August 2022</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="group flex text-right" href="/posts/%E6%95%B0%E5%AD%A6/puzzle-toad%E9%A2%98%E8%A7%A3/puzzle-toad-4-vacancy-puzzle/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Puzzle Toad-4 Vacancy Puzzle</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2022-08-17 13:49:00 &#43;0000 UTC">17 August 2022</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&rarr;</span
+                ><span class="ltr:hidden rtl:inline">&larr;</span></span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+
+        
+          <div class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12">
+            <a
+              href="#the-top"
+              class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+              aria-label="Scroll to top"
+              title="Scroll to top"
+            >
+              &uarr;
+            </a>
+          </div>
+        
+      </main><footer class="py-10 print:hidden">
+  
+  
+    <nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <ul class="flex list-none flex-col sm:flex-row">
+        
+          <li class="group mb-1 ltr:text-right rtl:text-left sm:mb-0 sm:me-7 sm:last:me-0">
+            
+              <a
+                href="/tags/"
+                title="Tags"
+                
+                ><span
+                    class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                    >Tags</span
+                  >
+                </a
+              >
+            
+          </li>
+        
+      </ul>
+    </nav>
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            © 2023 Matriz23
+        </p>
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://git.io/hugo-congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
+      
+    </div>
+    
+    
+      <div
+        class="me-14 cursor-pointer text-sm text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+      >
+        <button id="appearance-switcher-0" type="button" aria-label="appearance switcher">
+          <div
+            class="flex h-12 w-12 items-center justify-center dark:hidden"
+            title="Switch to dark appearance"
+          >
+            <span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+          </div>
+          <div
+            class="hidden h-12 w-12 items-center justify-center dark:flex"
+            title="Switch to light appearance"
+          >
+            <span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+          </div>
+        </button>
+      </div>
+    
+  </div>
+  
+  
+</footer>
+
+
+
+<script type="text/javascript"
+        async
+        src="https://cdn.bootcss.com/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[\[','\]\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+
+MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+
+<style>
+code.has-jax {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+    color: #515151;
+}
+</style><div
+  id="search-wrapper"
+  class="invisible fixed inset-0 z-50 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://example.org/"
+>
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          <span class="relative inline-block align-text-bottom px-1 icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)"
+      >
+        <span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+    </div>
+  </body>
+</html>

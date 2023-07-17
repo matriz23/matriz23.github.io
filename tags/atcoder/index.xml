@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Atcoder on Matriz23</title>
+    <link>http://example.org/tags/atcoder/</link>
+    <description>Recent content in Atcoder on Matriz23</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>&amp;copy; 2023 Matriz23</copyright>
+    <lastBuildDate>Fri, 10 Feb 2023 20:55:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/atcoder/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atcoder-ARC119C ARC Wrecker 2</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder%E9%A2%98%E8%A7%A3/atcoder-arc119c-arc-wrecker-2/</link>
+      <pubDate>Fri, 10 Feb 2023 20:55:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder%E9%A2%98%E8%A7%A3/atcoder-arc119c-arc-wrecker-2/</guid>
+      <description>Atcoder-ARC119C ARC Wrecker 2 # 题目大意 # 给定长度为 $n$ 的数组 $a$ .</description>
+    </item>
+    
+    <item>
+      <title>Atcoder-ABC275F Erase Subarrays</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder%E9%A2%98%E8%A7%A3/atcoder-abc275f-erase-subarrays/</link>
+      <pubDate>Thu, 22 Dec 2022 17:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder%E9%A2%98%E8%A7%A3/atcoder-abc275f-erase-subarrays/</guid>
+      <description>Atcoder-ABC275F Erase Subarrays # 题目大意 # 给定 $n, m$ 和长度为 $n$ 的整数数组 $a$ .</description>
+    </item>
+    
+    <item>
+      <title>Atcoder-ABC272E Add and Mex</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder%E9%A2%98%E8%A7%A3/atcoder-abc272e-add-and-mex/</link>
+      <pubDate>Wed, 21 Dec 2022 10:45:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder%E9%A2%98%E8%A7%A3/atcoder-abc272e-add-and-mex/</guid>
+      <description>Atcoder-ABC272E Add and Mex # 题目大意 # 给定数组 $a_1, &amp;hellip;, a_n$ , 进行如下操作 $m$ 次:</description>
+    </item>
+    
+    <item>
+      <title>Atcoder-Keyence2020D Swap and Flip</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder%E9%A2%98%E8%A7%A3/atcoder-keyence2020d-swap-and-flip/</link>
+      <pubDate>Sat, 17 Dec 2022 12:08:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder%E9%A2%98%E8%A7%A3/atcoder-keyence2020d-swap-and-flip/</guid>
+      <description>Atcoder-Keyence2020D Swap and Flip # 题目大意 # 有 $n$ 张纸牌, 第 $i$ 张纸牌正面的数字是 $a_i$ , 反面的数字是 $b_i$ .</description>
+    </item>
+    
+    <item>
+      <title>Atcoder-ABC162F Select Half</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder%E9%A2%98%E8%A7%A3/atcoder-abc162f-select-half/</link>
+      <pubDate>Wed, 09 Nov 2022 16:15:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder%E9%A2%98%E8%A7%A3/atcoder-abc162f-select-half/</guid>
+      <description>Atcoder-ABC162F Select Half # 题目大意 # 给定长度为 $n$ 的数组 $A$ , 从中选择 $\lfloor \frac{n}{2}\rfloor$ 个不相邻的元素, 求元素和的最大值.</description>
+    </item>
+    
+  </channel>
+</rss>

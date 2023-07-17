@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>差分数组 on Matriz23</title>
+    <link>http://example.org/tags/%E5%B7%AE%E5%88%86%E6%95%B0%E7%BB%84/</link>
+    <description>Recent content in 差分数组 on Matriz23</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>&amp;copy; 2023 Matriz23</copyright>
+    <lastBuildDate>Wed, 04 May 2022 14:34:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E5%B7%AE%E5%88%86%E6%95%B0%E7%BB%84/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-2251 花期内花的数目</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2251-%E8%8A%B1%E6%9C%9F%E5%86%85%E8%8A%B1%E7%9A%84%E6%95%B0%E7%9B%AE/</link>
+      <pubDate>Wed, 04 May 2022 14:34:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2251-%E8%8A%B1%E6%9C%9F%E5%86%85%E8%8A%B1%E7%9A%84%E6%95%B0%E7%9B%AE/</guid>
+      <description>LeetCode-2251 花期内花的数目 # Solution 1 # 本题本质上是求一个点被多少区间覆盖的问题, 或者理解成维护一个数组, 这个数组需要频繁地把某个区间的元素进行增减.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>前缀和 on Matriz23</title>
+    <link>http://example.org/tags/%E5%89%8D%E7%BC%80%E5%92%8C/</link>
+    <description>Recent content in 前缀和 on Matriz23</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>&amp;copy; 2023 Matriz23</copyright>
+    <lastBuildDate>Thu, 21 Jul 2022 15:13:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E5%89%8D%E7%BC%80%E5%92%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CodeForces-1196D2 RGB Substring (hard version)</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1196d2-rgb-substring-hard-version/</link>
+      <pubDate>Thu, 21 Jul 2022 15:13:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1196d2-rgb-substring-hard-version/</guid>
+      <description>CodeForces-1196D2 RGB Substring (hard version) # 题目大意 # 给定 $n, k$ 和一个由 $R, G, B$ 组成的字符串 $s$ , 现在需要修改字符串 $s$ 使得存在一个长度 $\geq k$ 的子串是字符串 $RGBRGBRGB&amp;hellip;$ 的子串.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-2321 拼接数组的最大分数</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2321-%E6%8B%BC%E6%8E%A5%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%86%E6%95%B0/</link>
+      <pubDate>Tue, 28 Jun 2022 14:29:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2321-%E6%8B%BC%E6%8E%A5%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%86%E6%95%B0/</guid>
+      <description>LeetCode-2321 拼接数组的最大分数 # Solution 1 # 如果我们选择交换 $[left, right]$ 区间, 则对于 $nums1$ 而言, 新的数组和为 $$ \sum_{i = 0}^{left - 1}nums1[i] + \sum_{i=left}^{right}nums2[i] + \sum_{i=right + 1}^{n - 1}nums1[i] $$ 变形为: $$ \sum_{i = 0}^{n - 1}nums[1] + \sum_{i = left}^{right}(nums2[i] - nums1[i]) $$ 记 $diff[i] = nums2[i] - nums1[i]$ , 我们求出 $diff$ 的连续子数组最大和即可.</description>
+    </item>
+    
+    <item>
+      <title>CodeForces-1398C Good Subarrays</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1398c-good-subarrays/</link>
+      <pubDate>Mon, 27 Jun 2022 18:21:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1398c-good-subarrays/</guid>
+      <description>CodeForces-1398C Good Subarrays # 题目大意 # 如果一个数组满足元素之和等于数组长度, 则称这个数组为&amp;quot;好数组&amp;quot;.</description>
+    </item>
+    
+  </channel>
+</rss>

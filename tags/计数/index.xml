@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>计数 on Matriz23</title>
+    <link>http://example.org/tags/%E8%AE%A1%E6%95%B0/</link>
+    <description>Recent content in 计数 on Matriz23</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>&amp;copy; 2023 Matriz23</copyright>
+    <lastBuildDate>Thu, 14 Jul 2022 10:24:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E8%AE%A1%E6%95%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CodeForces-1084C The Fair Nut and String</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1084c-the-fair-nut-and-string/</link>
+      <pubDate>Thu, 14 Jul 2022 10:24:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1084c-the-fair-nut-and-string/</guid>
+      <description>CodeForces-1084C The Fair Nut and String # 题目大意 # 给出一个只包含小写字母的字符串 $s$ , 求满足以下条件的子序列(不要求连续)的个数：</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-2183 统计可以被 K 整除的下标对数目</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2183-%E7%BB%9F%E8%AE%A1%E5%8F%AF%E4%BB%A5%E8%A2%AB-k-%E6%95%B4%E9%99%A4%E7%9A%84%E4%B8%8B%E6%A0%87%E5%AF%B9%E6%95%B0%E7%9B%AE/</link>
+      <pubDate>Mon, 09 May 2022 15:29:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2183-%E7%BB%9F%E8%AE%A1%E5%8F%AF%E4%BB%A5%E8%A2%AB-k-%E6%95%B4%E9%99%A4%E7%9A%84%E4%B8%8B%E6%A0%87%E5%AF%B9%E6%95%B0%E7%9B%AE/</guid>
+      <description>LeetCode-2183 统计可以被 K 整除的下标对数目 # Solution 1 # 计数问题, 思路要清晰.</description>
+    </item>
+    
+  </channel>
+</rss>

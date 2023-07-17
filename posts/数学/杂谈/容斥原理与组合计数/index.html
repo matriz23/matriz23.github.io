@@ -1,0 +1,922 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html
+  lang="en-AU"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head>
+  <meta charset="utf-8" />
+  
+    <meta http-equiv="content-language" content="en-au" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="rgb(255,255,255)" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>容斥原理与组合计数 &middot; Matriz23</title>
+    <meta name="title" content="容斥原理与组合计数 &middot; Matriz23" />
+  
+  <meta name="description" content="容斥原理与组合计数的学习笔记." />
+  
+  
+  
+  <link rel="canonical" href="http://example.org/posts/%E6%95%B0%E5%AD%A6/%E6%9D%82%E8%B0%88/%E5%AE%B9%E6%96%A5%E5%8E%9F%E7%90%86%E4%B8%8E%E7%BB%84%E5%90%88%E8%AE%A1%E6%95%B0/" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.a6debbb9c2752cfaaf987cbf5014fd1df44fb95b3494591ae67b7f8b99579a03.css"
+    integrity="sha256-pt67ucJ1LPqvmHy/UBT9HfRPuVs0lFka5nt/i5lXmgM="
+  />
+  
+  
+  <script type="text/javascript" src="/js/appearance.min.022d0ebc3b46a335eb1c7ef79b7f2de143d7cd5156d433638592ef1ce5f8554e.js" integrity="sha256-Ai0OvDtGozXrHH73m38t4UPXzVFW1DNjhZLvHOX4VU4="></script>
+  
+    
+    
+    
+  
+  
+    
+    
+  
+  
+  
+    
+    <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.75206d23ef83f4908b2bdd2317bf6ddff399e9173a16fff5451c40b8e857cfa8.js" integrity="sha256-dSBtI&#43;&#43;D9JCLK90jF79t3/OZ6Rc6Fv/1RRxAuOhXz6g=" data-copy="Copy" data-copied="Copied"></script>
+  
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="容斥原理与组合计数" />
+<meta property="og:description" content="容斥原理与组合计数的学习笔记." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/%E6%95%B0%E5%AD%A6/%E6%9D%82%E8%B0%88/%E5%AE%B9%E6%96%A5%E5%8E%9F%E7%90%86%E4%B8%8E%E7%BB%84%E5%90%88%E8%AE%A1%E6%95%B0/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-11-14T00:21:00+00:00" />
+<meta property="article:modified_time" content="2022-11-14T00:21:00+00:00" />
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="容斥原理与组合计数"/>
+<meta name="twitter:description" content="容斥原理与组合计数的学习笔记."/>
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "容斥原理与组合计数",
+    "headline": "容斥原理与组合计数",
+    "description": "容斥原理与组合计数的学习笔记.",
+    "abstract": "本文是[算法竞赛入门] 容斥原理与组合计数 (蒋炎岩)的学习笔记.",
+    "inLanguage": "en-au",
+    "url" : "http:\/\/example.org\/posts\/%E6%95%B0%E5%AD%A6\/%E6%9D%82%E8%B0%88\/%E5%AE%B9%E6%96%A5%E5%8E%9F%E7%90%86%E4%B8%8E%E7%BB%84%E5%90%88%E8%AE%A1%E6%95%B0\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Matriz23"
+    },
+    "copyrightYear": "2022",
+    "dateCreated": "2022-11-14T00:21:00\u002b00:00",
+    "datePublished": "2022-11-14T00:21:00\u002b00:00",
+    
+    "dateModified": "2022-11-14T00:21:00\u002b00:00",
+    
+    "keywords": ["数学","组合"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "964"
+  }]
+  </script>
+
+
+  
+  <meta name="author" content="Matriz23" />
+  
+    
+      <link href="https://twitter.com/" rel="me" />
+    
+      <link href="https://facebook.com/" rel="me" />
+    
+      <link href="https://linkedin.com/" rel="me" />
+    
+      <link href="https://youtube.com/" rel="me" />
+    
+  
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+  
+  
+</head>
+<body
+    class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="font-bold pe-2 text-primary-600 dark:text-primary-400">&darr;</span
+        >Skip to main content</a
+      >
+    </div>
+    
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral print:hidden sm:py-10">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="flex flex-row items-center">
+      
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/"
+    >Matriz23</a
+  >
+
+      
+
+    </div>
+    
+    
+      <ul class="flex list-none flex-col ltr:text-right rtl:text-left sm:flex-row">
+        
+          
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/posts/"
+                  title="Posts"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Posts</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/about/"
+                  title="about"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >About</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="https://github.com/matriz23"
+                  title=""
+                  target="_blank"
+                  >
+                    <span
+                      class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                    ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+</span></span></a
+                >
+              
+            </li>
+          
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                
+                
+                  <button
+                    id="search-button-1"
+                    title="Search (/)"
+                  >
+                    
+                      <span
+                        class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                      ><span class="relative inline-block align-text-bottom px-1 icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span></span><span
+                        class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                        ></span
+                      >
+                    
+                  </button>
+                
+              
+            </li>
+          
+          
+        
+      </ul>
+    
+  </nav>
+</header>
+
+    
+    <div class="relative flex flex-col grow">
+      <main id="main-content" class="grow">
+        
+  <article>
+    <header class="max-w-prose">
+      
+        <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/"
+      >一边吐血一边奔跑着的马拉松</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline ">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/posts/"
+      >Posts</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/posts/%E6%95%B0%E5%AD%A6/%E6%9D%82%E8%B0%88/%E5%AE%B9%E6%96%A5%E5%8E%9F%E7%90%86%E4%B8%8E%E7%BB%84%E5%90%88%E8%AE%A1%E6%95%B0/"
+      >容斥原理与组合计数</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        容斥原理与组合计数
+      </h1>
+      <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2022-11-14 00:21:00 &#43;0000 UTC">14 November 2022</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span><span class="px-2 text-primary-500">&middot;</span>
+
+
+  
+  
+
+<span class="mb-[2px]">
+  <a
+    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e6%95%b0%e5%ad%a6/%e6%9d%82%e8%b0%88/%e5%ae%b9%e6%96%a5%e5%8e%9f%e7%90%86%e4%b8%8e%e7%bb%84%e5%90%88%e8%ae%a1%e6%95%b0.md"
+    class="text-lg hover:text-primary-500"
+    rel="noopener noreferrer"
+    target="_blank"
+    title="Edit content"
+    ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M490.3 40.4C512.2 62.27 512.2 97.73 490.3 119.6L460.3 149.7L362.3 51.72L392.4 21.66C414.3-.2135 449.7-.2135 471.6 21.66L490.3 40.4zM172.4 241.7L339.7 74.34L437.7 172.3L270.3 339.6C264.2 345.8 256.7 350.4 248.4 353.2L159.6 382.8C150.1 385.6 141.5 383.4 135 376.1C128.6 370.5 126.4 361 129.2 352.4L158.8 263.6C161.6 255.3 166.2 247.8 172.4 241.7V241.7zM192 63.1C209.7 63.1 224 78.33 224 95.1C224 113.7 209.7 127.1 192 127.1H96C78.33 127.1 64 142.3 64 159.1V416C64 433.7 78.33 448 96 448H352C369.7 448 384 433.7 384 416V319.1C384 302.3 398.3 287.1 416 287.1C433.7 287.1 448 302.3 448 319.1V416C448 469 405 512 352 512H96C42.98 512 0 469 0 416V159.1C0 106.1 42.98 63.1 96 63.1H192z"/></svg>
+</span></a
+  >
+</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+      </div>
+      
+    </header>
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+        <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
+          <div class="toc pe-5 print:hidden lg:sticky lg:top-10">
+            <details open class="-ms-5 mt-0 overflow-hidden rounded-lg ps-5">
+  <summary
+    class="-ms-5 block cursor-pointer bg-neutral-100 py-1 ps-5 text-lg font-semibold text-neutral-800 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden"
+  >
+    Table of Contents
+  </summary>
+  <div class="-ms-5 border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#枚举基本定理">枚举基本定理</a></li>
+    <li><a href="#计数的本质">计数的本质</a></li>
+    <li><a href="#二进制串计数">二进制串计数</a>
+      <ul>
+        <li><a href="#case-0">Case 0</a></li>
+        <li><a href="#case-1">Case 1</a></li>
+        <li><a href="#case-2">Case 2</a></li>
+      </ul>
+    </li>
+    <li><a href="#排列计数">排列计数</a>
+      <ul>
+        <li><a href="#case-0-1">Case 0</a></li>
+        <li><a href="#case-2-1">Case 2</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#集合视角的计数">集合视角的计数</a></li>
+    <li><a href="#求交容易-求并难">求交容易, 求并难</a></li>
+    <li><a href="#容斥原理-principle-of-inclusion-and-exclusion">容斥原理 (Principle of Inclusion and Exclusion)</a></li>
+    <li><a href="#什么问题求交容易-求并难">什么问题求交容易, 求并难?</a></li>
+    <li><a href="#容斥原理为什么是原理">容斥原理为什么是原理?</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+          </div>
+        </div>
+      
+      <div class="min-w-0 min-h-0 max-w-prose grow">
+        <blockquote>
+<p>本文是<a
+  href="https://www.bilibili.com/video/BV1G3411h7f5"
+  
+  target="_blank" rel="noreferrer noopener"
+>[算法竞赛入门] 容斥原理与组合计数 (蒋炎岩)</a>的学习笔记.</p>
+</blockquote>
+<h1 id="大家都会的计数问题" class="relative group">大家都会的计数问题 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%a4%a7%e5%ae%b6%e9%83%bd%e4%bc%9a%e7%9a%84%e8%ae%a1%e6%95%b0%e9%97%ae%e9%a2%98" aria-label="Anchor">#</a></span></h1>
+<h2 id="枚举基本定理" class="relative group">枚举基本定理 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%9e%9a%e4%b8%be%e5%9f%ba%e6%9c%ac%e5%ae%9a%e7%90%86" aria-label="Anchor">#</a></span></h2>
+<p>$$
+\vert A\vert =\sum_{a\in A}1
+$$</p>
+<ul>
+<li>解释了加法和乘法的本质, 枚举基本定理可以推导出加法/乘法原理</li>
+<li>$\sum$ 是 &ldquo;求和程序&rdquo;</li>
+<li>提示我们寻找 $A\mapsto B$ 的一一映射, 如果有这个映射, 那么有 $\vert A\vert = \vert B\vert$</li>
+</ul>
+<h2 id="计数的本质" class="relative group">计数的本质 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e8%ae%a1%e6%95%b0%e7%9a%84%e6%9c%ac%e8%b4%a8" aria-label="Anchor">#</a></span></h2>
+<p>计数的本质是<strong>集合</strong>的生成(枚举).
+$$
+\vert A\vert =\sum_{a\in A}1
+$$</p>
+<p>扩展到两个集合:</p>
+<ul>
+<li>加法原理: $\vert A\cup B\vert = \vert A\vert +\vert B\vert$ , 当 $A\cap B=\emptyset$ 时成立</li>
+<li>乘法原理: $\vert A\times B\vert = \vert A\vert \cdot\vert B\vert$</li>
+</ul>
+<h2 id="二进制串计数" class="relative group">二进制串计数 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e4%ba%8c%e8%bf%9b%e5%88%b6%e4%b8%b2%e8%ae%a1%e6%95%b0" aria-label="Anchor">#</a></span></h2>
+<h3 id="case-0" class="relative group">Case 0 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#case-0" aria-label="Anchor">#</a></span></h3>
+<p><strong>$n-bit$ 二进制串一共有多少个?</strong></p>
+<ul>
+<li>$2^n$ (乘法原理)</li>
+</ul>
+<p>实际上, 我们的大脑帮忙处理了一些过程:</p>
+<ul>
+<li>集合划分, 考虑第一位可以分成 $0$ 和 $1$ , 之后的 $n - 1$ 位可以两两对应, 这两个子集是大小是一样的, 因此有 $f(n) = 2f(n - 1)$ , 边界情况 $f(0) = 1$ .</li>
+</ul>
+<h3 id="case-1" class="relative group">Case 1 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#case-1" aria-label="Anchor">#</a></span></h3>
+<p><strong>$n-bit$ 二进制串中 $0$ 比 $1$ 多的一共有多少个?</strong></p>
+<p>从集合的角度思考, 同样考虑第一位是 $0$ 还是 $1$ , 先把集合划分成两个子集 $A_0, A_1$. 可以发现, $A_0$ 中每个 $0$ 比 $1$ 多的二进制串, 都对应着 $A_1$ 中的一个 $1$ 比 $0$ 多的二进制串 (按位取反即可) . 记$0$ 比 $1$ 多的二进制串数量为 $f(n)$ , $0$ 和 $1$ 数量相同的二进制串为 $g(n)$ , 可以得到这样的恒等式:
+$$
+2f(n) + g(n) = 2^n
+$$</p>
+<p>如果直接枚举 $0$ 的数量, 由加法原理, 我们可以得到:
+$$
+f(n) = \sum_{k = \lfloor\frac{n}{2}+1\rfloor}^{n}C_{n}^{k}
+$$</p>
+<p>这样我们在解决问题之外, 还可以得到一个关于组合数的恒等式.</p>
+<h3 id="case-2" class="relative group">Case 2 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#case-2" aria-label="Anchor">#</a></span></h3>
+<p><strong>如果把 $0$ 看作 $($ , $1$ 看作 $)$ ,配对的括号序列有多少个?</strong></p>
+<p>首先 $n$ 为奇数时不存在配对的括号序列, 我们下面讨论基于 $n$ 为偶数的假设.
+同样地, 先写出集合. 这里我们考虑长度为 $n$ 的配对序列集合, 记集合大小为 $f(n)$ . 接下来, 寻找一种划分集合的方式. 每个配对序列的最左侧一定是一个 $($ , 它会与某个 $)$ 配对, 我们考虑 $)$ 的位置. 显然, $)$ 可以在左起任意偶数位置上. 考虑这个配对部分的长度, 设为 $k$ , 则 $k$ 内部长度为 $k - 2$ 的部分是一个配对序列, 有 $f(k - 2)$ 种, 而右侧剩余的长度为 $n - k$ 的序列同样是一个配对序列, 有 $f(n - k)$ 种. 基于加法与乘法原理, 我们有
+$$
+f(n) = \sum_{k = 2}^{n}f(k - 2)\cdot f(n - k)
+$$</p>
+<p>考虑另外一种映射处理: 有一个二维坐标系中的计数器, 遇到 $0$ 则 $+1$ , 遇到 $1$ 则 $-1$ , 则这个计数器应当是从 $(0, 0)$ 出发, 最后落在 $(n, 0)$ , 且从未到达过第四象限. $f(n)$ 就是满足该条件的折线段数量.
+因为不能到达第四象限, 也就是折线段与 $y = -1$ 没有交点. 现在考虑不满足条件的折线段, 这些折线段与 $y = -1$ 有交点, 将交点右侧折线段沿 $y = -1$ 翻折, 则终点变为 $(n, -2)$ , $(0, 0)$ 到 $(n, 0)$ 的每一条不合法的折线段都与 $(0, 0)$ 到 $(n, -2)$ 的某条折线段对应. 故合法折线段数量 $f(n) = C_{n}^{\frac{n}{2}} - C_{n}^{\frac{n}{2} - 1}$ .</p>
+<p>$f(n)$ 有一个名称, 叫做卡特兰数 (Catalan number) .</p>
+<h2 id="排列计数" class="relative group">排列计数 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%8e%92%e5%88%97%e8%ae%a1%e6%95%b0" aria-label="Anchor">#</a></span></h2>
+<h3 id="case-0-1" class="relative group">Case 0 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#case-0-1" aria-label="Anchor">#</a></span></h3>
+<p><strong>求 $1, 2, &hellip;, n$ 的所有排列的数量.</strong></p>
+<ul>
+<li>$n!$</li>
+</ul>
+<p>从集合的角度, 考虑所有的排列, 按照第一个元素划分子集为 $A_1, A_2, &hellip;, A_n$ , 除了第一个元素, 各个子集后面的排列一一对应, 故有 $f(n) = n\cdot f(n - 1)$ , 边界情况 $f(0) = 1$ .</p>
+<p>考虑一个另外一种划分方式, 先把 $n$ 个数划分成 $k$ 和 $n - k$ 两组数. 两组数可以分别排列, 再组合成一个新的排列. 对于 $k$ 个数的一个排列, 和 $n - k$ 的一个排列, 考虑这两个排列怎么组合, 由于顺序两个子排列顺序已经固定, 我们可以抽象地把看成 $k$ 个红球和 $n - k$ 的蓝球的组合, 记这个组合数为 $C_{n}^{k}$ , 则有 $n! = k!\cdot (n - k)!\cdot C_{n}^{k}$ , 这样我们推导出了组合数:
+$$
+C_{n}^{k} = \frac{n!}{k!\cdot (n - k)!}
+$$
+需要注意的是这里集合的划分对于每个 $k$ 都成立, 但不能应用加法公式, 因为这些划分交集非空.</p>
+<h3 id="case-2-1" class="relative group">Case 2 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#case-2-1" aria-label="Anchor">#</a></span></h3>
+<p><strong>错位排列:  $1, 2, &hellip;, n$ 的所有排列中, 每个数字都不在原位的排列的数量.</strong></p>
+<p>从集合的角度, 考虑所有的排列, 按照第一个元素划分子集为 $A_1, A_2, &hellip;, A_n$ . 第一个元素有 $n - 1$ 种可能, $A_i$ 中排列的后 $n - 1$ 个数构成的排列集合可以建立一一对应 (都是 $n - 2$ 个有对应位置的数与 $1$ 个没有对应位置的数构成的错排) . 因此我们可以得到 $f(n) = (n - 1)\cdot g(n - 1)$ .
+与上一个问题不同的是, $g(n - 1)$ 并不是一个更小情况的 $f(n)$ , 没有简单的递归关系, 但我们直觉上可以感觉到 $g(n)$ 是一个近似的错排问题. 同样对 $g(n - 1)$ 的集合分类, 我们取没有对应位置的元素 (即 $1$ ) 是否在缺乏对应元素的位置 (不妨设为 $2$ ) 为划分标准. 假如 $1$ 填补了这个空缺, 那么剩余 $n - 2$ 个元素构成了一个错排, 恰好是 $f(n - 2)$ ; 假如 $1$ 没有填补这个空缺, 那么把这个位置替换成 $1$ 对问题不构成影响, 此时恰好是 $n - 1$ 个元素构成的错排. 因此 $g(n - 1) = f(n - 1) + f(n - 2)$ , 最终我们有
+$$
+f(n) = (n - 1)\cdot (f(n - 1) + f(n - 2))
+$$</p>
+<p>边界情况是 $f(0) = 1$ .</p>
+<h1 id="容斥原理" class="relative group">容斥原理 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%ae%b9%e6%96%a5%e5%8e%9f%e7%90%86" aria-label="Anchor">#</a></span></h1>
+<h2 id="集合视角的计数" class="relative group">集合视角的计数 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e9%9b%86%e5%90%88%e8%a7%86%e8%a7%92%e7%9a%84%e8%ae%a1%e6%95%b0" aria-label="Anchor">#</a></span></h2>
+<p>加法原理:
+$$
+\vert A\cup B\vert = \vert A\vert + \vert B\vert
+$$</p>
+<p>成立条件: <strong>$A\cap B = \emptyset$</strong>
+加法原理允许我们把集合拆成不相交的子集来计数.</p>
+<p>如果 $A, B$ 存在关联, 能不能求解?</p>
+<ul>
+<li>求 $1, 2, &hellip;, 100$ 中有多少数能被 $2$ 或 $3$ 整除?
+<ul>
+<li>$A$ 是能被 $2$ 整除的数构成的集合, $B$ 是能被 $3$ 整除的数构成的集合, $A\cap B$ 是能被 $6$ 整除的数构成的集合, 那么 $|A\cup B| = |A| + |B| - |A\cap B|$ .</li>
+</ul>
+</li>
+</ul>
+<h2 id="求交容易-求并难" class="relative group">求交容易, 求并难 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%b1%82%e4%ba%a4%e5%ae%b9%e6%98%93-%e6%b1%82%e5%b9%b6%e9%9a%be" aria-label="Anchor">#</a></span></h2>
+<p>$$
+|A\cup B| = |A| + |B| - |A\cap B|
+$$</p>
+<p>许多问题都有 &ldquo;交比并简单&rdquo; 的性质.</p>
+<ul>
+<li>凸多边形的交 v.s. 并
+<ul>
+<li>任意两个凸多边形的交还是一个凸多边形</li>
+</ul>
+</li>
+</ul>
+<p>忘掉容斥原理, 考虑如下的方程组:
+$$
+\begin{pmatrix}
+x_0\ x_1\ x_2\ x_3\ x_4\ x_5\ x_6\ x_7
+\end{pmatrix}
+\begin{pmatrix}
+\vert\emptyset\vert\
+\vert A\vert\
+\vert B\vert\
+\vert C\vert\
+\vert A\cap B\vert\
+\vert A\cap C\vert\
+\vert B\cap C\vert\
+\vert A\cap B\cap C\vert\
+\end{pmatrix}
+=\vert A\cup B\cup C\vert\
+$$</p>
+<p>从单个元素的集合角度思考, 例如对于 $e\in A, e\not \in B, e\not \in C$ , 可以得到
+$$
+\begin{pmatrix}
+x_0\ x_1\ x_2\ x_3\ x_4\ x_5\ x_6\ x_7
+\end{pmatrix}
+\begin{pmatrix}
+0\
+1\
+0\
+0\
+0\
+0\
+0\
+0\
+\end{pmatrix}
+=1\
+$$</p>
+<p>类似地, 选取不同的 $e$ , 我们可以 &ldquo;解出&rdquo; 容斥原理.
+知道这一点对的好处在于, 容斥原理的具体形式完全可以交给计算机来求解.</p>
+<h2 id="容斥原理-principle-of-inclusion-and-exclusion" class="relative group">容斥原理 (Principle of Inclusion and Exclusion) <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%ae%b9%e6%96%a5%e5%8e%9f%e7%90%86-principle-of-inclusion-and-exclusion" aria-label="Anchor">#</a></span></h2>
+<p>用若干个集合 &ldquo;覆盖&rdquo; 一个不规则的集合, 即可化并为交.
+$$
+\vert \bigcup_{i = 1}^{n}A_i\vert = \sum_{\emptyset \not ={I\subseteq[n]}}(-1)^{\vert I\vert + 1}\vert \bigcap_{i\in I}A_i\vert
+$$</p>
+<p>容 (Inclusion)</p>
+<ul>
+<li>$(-1)^{\vert I\vert + 1} = 1\Rightarrow \vert I\vert \in 1, 3, 5, 7, &hellip;$</li>
+</ul>
+<p>斥 (Exclusion)</p>
+<ul>
+<li>$(-1)^{\vert I\vert + 1} = -1\Rightarrow \vert I\vert \in 2, 4, 6, 8, &hellip;$</li>
+</ul>
+<h2 id="什么问题求交容易-求并难" class="relative group">什么问题求交容易, 求并难? <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e4%bb%80%e4%b9%88%e9%97%ae%e9%a2%98%e6%b1%82%e4%ba%a4%e5%ae%b9%e6%98%93-%e6%b1%82%e5%b9%b6%e9%9a%be" aria-label="Anchor">#</a></span></h2>
+<p><strong>求错位排列:  $1, 2, &hellip;, n$ 的所有排列中, 每个数字都不在原位的排列的数量.</strong></p>
+<p>例子: $n = 4$</p>
+<ul>
+<li>$A, B, C, D$ 表示 $1, 2, 3, 4$ 恰好在第 $1, 2, 3, 4$ 个位置的排列;</li>
+<li>$n! - \vert A\cup B\cup C\cup D\vert$ 就是答案.
+<ul>
+<li>$\vert A\vert = (n - 1)!$</li>
+<li>$\vert A\cap B\vert = (n - 2)!$</li>
+<li>$\vert A\cap C\cap D\vert = (n - 3)!$</li>
+<li>&hellip;</li>
+</ul>
+</li>
+</ul>
+<p>通过容斥原理, 我们能够直接得到错排数公式:
+$$
+D_n = n!C_{n}^{0} - (n - 1)!C_{n}^{1} + (n - 2)!C_{n}^{2} - (n - 3)!C_{n}^{3} + &hellip;
+$$</p>
+<h2 id="容斥原理为什么是原理" class="relative group">容斥原理为什么是原理? <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%ae%b9%e6%96%a5%e5%8e%9f%e7%90%86%e4%b8%ba%e4%bb%80%e4%b9%88%e6%98%af%e5%8e%9f%e7%90%86" aria-label="Anchor">#</a></span></h2>
+<p>&ldquo;集合&rdquo; 和 &ldquo;并&rdquo; 是非常具有一般性的结构.</p>
+<p>例子: $\phi(n)$ 是 $1, 2, &hellip;, n$ 中与 $n$ 互质的数的数量</p>
+<ul>
+<li>如何求 $\phi(n)$ ?</li>
+<li>$\phi$ 和 $\mu$ 的关系?
+<ul>
+<li>$\mu(n) = (-1)^k$ (如果 $n$ 是 $k$ 个素数的乘积)</li>
+<li>$\mu(n) = 0$ (如果 $p^2$ 整除 $n$)</li>
+<li>例子: $n = 5\times 7\times 13$
+<ul>
+<li>把 &ldquo;互质&rdquo; 这一关系取反, &ldquo;不互质&rdquo; $\Rightarrow$ &ldquo;公因数&rdquo;</li>
+<li>$A = {5, 10, 15, &hellip;, n}$</li>
+<li>$B = {7, 14, 21, &hellip;, n}$</li>
+<li>$C = {13, 26, 39, &hellip;, n}$</li>
+<li>$\vert A\cup B\cup C\vert = \frac{n}{5} + \frac{n}{7} + \frac{n}{13} - \frac{n}{5\cdot 7} - \frac{n}{5\cdot 13} - \frac{n}{7\cdot 13} + \frac{n}{5\cdot 7\cdot 13}$</li>
+<li>在利用容斥原理写出的求和式的形式里, 所有分母都是 $n$ 的约数, 同时每个质因子在分母里只出现一次; 那些拥有重复质因子的约数则没有出现在求和式中, 也就是系数为 $0$ .</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>利用容斥原理写出的求和式, 恰好就是莫比乌斯反演的形式:
+$$
+\phi(n) = \sum_{d\mid n}\mu(d)\frac{n}{d}
+$$</p>
+<p>更一般地, 有
+$$
+g(A) = \sum_{S\subseteq A}f(S)\Rightarrow f(A) = \sum_{S\subseteq A}\mu(A - S)g(S)
+$$</p>
+
+      </div>
+    </section>
+    <footer class="pt-8 max-w-prose print:hidden">
+      
+  <div class="flex">
+    
+      
+      
+    
+    <div class="place-self-center">
+      
+        <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+          Author
+        </div>
+        <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+          Matriz23
+        </div>
+      
+      
+        <div class="text-sm text-neutral-700 dark:text-neutral-400">This is an example author bio, and although there&rsquo;s a stock photo of a dog here, this article was actually created by a human. 🐶</div>
+      
+      <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://twitter.com/"
+          target="_blank"
+          aria-label="Twitter"
+          rel="me noopener noreferrer"
+          ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://facebook.com/"
+          target="_blank"
+          aria-label="Facebook"
+          rel="me noopener noreferrer"
+          ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://linkedin.com/"
+          target="_blank"
+          aria-label="Linkedin"
+          rel="me noopener noreferrer"
+          ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://youtube.com/"
+          target="_blank"
+          aria-label="Youtube"
+          rel="me noopener noreferrer"
+          ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+</span></a
+        >
+      
+    
+  </div>
+
+</div>
+    </div>
+  </div>
+
+
+      
+
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-1377-t-%E7%A7%92%E5%90%8E%E9%9D%92%E8%9B%99%E7%9A%84%E4%BD%8D%E7%BD%AE/">
+              <span
+                class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&larr;</span
+                ><span class="ltr:hidden rtl:inline">&rarr;</span></span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >LeetCode-1377 T 秒后青蛙的位置</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2022-11-13 22:12:00 &#43;0000 UTC">13 November 2022</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="group flex text-right" href="/posts/%E6%95%B0%E5%AD%A6/%E4%BF%A1%E5%8F%B7%E4%B8%8E%E7%B3%BB%E7%BB%9F/ee120-signals-and-systems-lecture-1/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >EE120 Signals and Systems Lecture 1</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2022-11-14 00:21:00 &#43;0000 UTC">14 November 2022</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&rarr;</span
+                ><span class="ltr:hidden rtl:inline">&larr;</span></span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+
+        
+          <div class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12">
+            <a
+              href="#the-top"
+              class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+              aria-label="Scroll to top"
+              title="Scroll to top"
+            >
+              &uarr;
+            </a>
+          </div>
+        
+      </main><footer class="py-10 print:hidden">
+  
+  
+    <nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <ul class="flex list-none flex-col sm:flex-row">
+        
+          <li class="group mb-1 ltr:text-right rtl:text-left sm:mb-0 sm:me-7 sm:last:me-0">
+            
+              <a
+                href="/tags/"
+                title="Tags"
+                
+                ><span
+                    class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                    >Tags</span
+                  >
+                </a
+              >
+            
+          </li>
+        
+      </ul>
+    </nav>
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            © 2023 Matriz23
+        </p>
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://git.io/hugo-congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
+      
+    </div>
+    
+    
+      <div
+        class="me-14 cursor-pointer text-sm text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+      >
+        <button id="appearance-switcher-0" type="button" aria-label="appearance switcher">
+          <div
+            class="flex h-12 w-12 items-center justify-center dark:hidden"
+            title="Switch to dark appearance"
+          >
+            <span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+          </div>
+          <div
+            class="hidden h-12 w-12 items-center justify-center dark:flex"
+            title="Switch to light appearance"
+          >
+            <span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+          </div>
+        </button>
+      </div>
+    
+  </div>
+  
+  
+</footer>
+
+
+
+<script type="text/javascript"
+        async
+        src="https://cdn.bootcss.com/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[\[','\]\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+
+MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+
+<style>
+code.has-jax {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+    color: #515151;
+}
+</style><div
+  id="search-wrapper"
+  class="invisible fixed inset-0 z-50 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://example.org/"
+>
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          <span class="relative inline-block align-text-bottom px-1 icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)"
+      >
+        <span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+    </div>
+  </body>
+</html>

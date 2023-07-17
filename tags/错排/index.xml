@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>错排 on Matriz23</title>
+    <link>http://example.org/tags/%E9%94%99%E6%8E%92/</link>
+    <description>Recent content in 错排 on Matriz23</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>&amp;copy; 2023 Matriz23</copyright>
+    <lastBuildDate>Wed, 13 Jul 2022 21:30:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E9%94%99%E6%8E%92/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CodeForces-1583C Omkar and Baseball</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1583c-omkar-and-baseball/</link>
+      <pubDate>Wed, 13 Jul 2022 21:30:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1583c-omkar-and-baseball/</guid>
+      <description>CodeForces-1583C Omkar and Baseball # 题目大意 # 给你一个 $1, 2,&amp;hellip;, n$ 的排列, 每次操作可以选择一段区间进行排列, 要求排列后不能有元素留在自己的原位上, 求把排列变为升序的最少操作次数.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>状态压缩 on Matriz23</title>
+    <link>http://example.org/tags/%E7%8A%B6%E6%80%81%E5%8E%8B%E7%BC%A9/</link>
+    <description>Recent content in 状态压缩 on Matriz23</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>&amp;copy; 2023 Matriz23</copyright>
+    <lastBuildDate>Sat, 14 May 2022 16:08:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E7%8A%B6%E6%80%81%E5%8E%8B%E7%BC%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-691 贴纸拼词</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-691-%E8%B4%B4%E7%BA%B8%E6%8B%BC%E8%AF%8D/</link>
+      <pubDate>Sat, 14 May 2022 16:08:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-691-%E8%B4%B4%E7%BA%B8%E6%8B%BC%E8%AF%8D/</guid>
+      <description>LeetCode-691 贴纸拼词 # Solution 1 # 这道题要用给定的字符串中的字符来拼出目标字符串, 其中给定字符串中每一个都可以使用无数次.</description>
+    </item>
+    
+  </channel>
+</rss>
