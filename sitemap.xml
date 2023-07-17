@@ -1975,13 +1975,13 @@
   
     
       <url>
-            <loc>http://example.org/about/</loc>
+            <loc>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E9%9A%8F%E6%9C%BA%E8%BF%90%E7%AD%B9%E5%AD%A6/%E6%8E%92%E9%98%9F%E8%AE%BA/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E9%9A%8F%E6%9C%BA%E8%BF%90%E7%AD%B9%E5%AD%A6/%E6%8E%92%E9%98%9F%E8%AE%BA/</loc>
+            <loc>http://example.org/about/</loc>
           </url>
     
   

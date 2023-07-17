@@ -2341,20 +2341,20 @@
     
     <item>
       <title>about</title>
-      <link>http://example.org/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/about/</guid>
-      <description>我是 Matriz23, 目前就读于清华大学经济管理学院.</description>
-    </item>
-    
-    <item>
-      <title>about</title>
       <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E9%9A%8F%E6%9C%BA%E8%BF%90%E7%AD%B9%E5%AD%A6/%E6%8E%92%E9%98%9F%E8%AE%BA/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E9%9A%8F%E6%9C%BA%E8%BF%90%E7%AD%B9%E5%AD%A6/%E6%8E%92%E9%98%9F%E8%AE%BA/</guid>
       <description>Queueing Part1 # Vocabulary # $\lambda$: 平均到达速率</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>我是 Matriz23, 目前就读于清华大学经济管理学院.</description>
     </item>
     
     <item>
