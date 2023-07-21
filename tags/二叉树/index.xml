@@ -10,10 +10,10 @@
     <lastBuildDate>Tue, 30 Aug 2022 09:55:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-654 最大二叉树</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-654-%E6%9C%80%E5%A4%A7%E4%BA%8C%E5%8F%89%E6%A0%91/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-654-%E6%9C%80%E5%A4%A7%E4%BA%8C%E5%8F%89%E6%A0%91/</link>
       <pubDate>Tue, 30 Aug 2022 09:55:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-654-%E6%9C%80%E5%A4%A7%E4%BA%8C%E5%8F%89%E6%A0%91/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-654-%E6%9C%80%E5%A4%A7%E4%BA%8C%E5%8F%89%E6%A0%91/</guid>
       <description>LeetCode-654 最大二叉树 # Solution 1 # 对于数组中的每个元素, 都有一个树节点, 左子树存放左侧最大的树节点, 右子树存放右侧最大的树节点.</description>
     </item>
     

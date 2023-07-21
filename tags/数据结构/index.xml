@@ -19,19 +19,19 @@
     
     <item>
       <title>LeetCode-735 行星碰撞</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-735-%E8%A1%8C%E6%98%9F%E7%A2%B0%E6%92%9E/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-735-%E8%A1%8C%E6%98%9F%E7%A2%B0%E6%92%9E/</link>
       <pubDate>Wed, 13 Jul 2022 10:55:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-735-%E8%A1%8C%E6%98%9F%E7%A2%B0%E6%92%9E/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-735-%E8%A1%8C%E6%98%9F%E7%A2%B0%E6%92%9E/</guid>
       <description>LeetCode-735 行星碰撞 # Solution 1 # 一颗向右的行星总是能摧毁比它小的向左的行星(如果目标星球在这之前被摧毁了, 也可以视作被该行星摧毁), 向左的同理.</description>
     </item>
     
     <item>
       <title>LeetCode-676 实现一个魔法字典</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-676-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E9%AD%94%E6%B3%95%E5%AD%97%E5%85%B8/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-676-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E9%AD%94%E6%B3%95%E5%AD%97%E5%85%B8/</link>
       <pubDate>Mon, 11 Jul 2022 16:54:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-676-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E9%AD%94%E6%B3%95%E5%AD%97%E5%85%B8/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-676-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E9%AD%94%E6%B3%95%E5%AD%97%E5%85%B8/</guid>
       <description>LeetCode-676 实现一个魔法字典 # Solution 1 # 本题可以暴力求解, 也可以通过字典树优化求解.</description>
     </item>
     
@@ -46,10 +46,10 @@
     
     <item>
       <title>CodeForces-1353D Constructing the Array</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1353d-constructing-the-array/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1353d-constructing-the-array/</link>
       <pubDate>Thu, 30 Jun 2022 05:16:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1353d-constructing-the-array/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1353d-constructing-the-array/</guid>
       <description>CodeForces-1353D Constructing the Array # 题目大意 # 输入一个 $n$ , 对一个长度为 $n$ 的全 $&amp;lsquo;0&amp;rsquo;$ 串进行 $n$ 次操作，第 $i$ 次操作选中当前长度最长的全 $&amp;lsquo;0&amp;rsquo;$ 子串中最靠左的, 记其左右端点坐标分别为 $left, right$.</description>
     </item>
     

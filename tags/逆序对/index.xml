@@ -10,10 +10,10 @@
     <lastBuildDate>Thu, 23 Jun 2022 13:24:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E9%80%86%E5%BA%8F%E5%AF%B9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CodeForces-1338A Powered Addition</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1338a-powered-addition/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1338a-powered-addition/</link>
       <pubDate>Thu, 23 Jun 2022 13:24:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1338a-powered-addition/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1338a-powered-addition/</guid>
       <description>CodeForces-1338A Powered Addition # 题目大意 # 输入正整数 $t$ , 一共有 $t$ 个测试点, 每个测试点输入 $n$ , 之后输入 $n$ 个整数代表 $a_0, a_1,&amp;hellip;,a_{n-1}$ .</description>
     </item>
     

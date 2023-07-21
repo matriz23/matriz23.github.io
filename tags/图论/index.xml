@@ -10,10 +10,10 @@
     <lastBuildDate>Tue, 17 Jan 2023 11:19:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E5%9B%BE%E8%AE%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-2358 最大价值和与最小价值和的差值</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2358-%E6%9C%80%E5%A4%A7%E4%BB%B7%E5%80%BC%E5%92%8C%E4%B8%8E%E6%9C%80%E5%B0%8F%E4%BB%B7%E5%80%BC%E5%92%8C%E7%9A%84%E5%B7%AE%E5%80%BC/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2358-%E6%9C%80%E5%A4%A7%E4%BB%B7%E5%80%BC%E5%92%8C%E4%B8%8E%E6%9C%80%E5%B0%8F%E4%BB%B7%E5%80%BC%E5%92%8C%E7%9A%84%E5%B7%AE%E5%80%BC/</link>
       <pubDate>Tue, 17 Jan 2023 11:19:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2358-%E6%9C%80%E5%A4%A7%E4%BB%B7%E5%80%BC%E5%92%8C%E4%B8%8E%E6%9C%80%E5%B0%8F%E4%BB%B7%E5%80%BC%E5%92%8C%E7%9A%84%E5%B7%AE%E5%80%BC/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2358-%E6%9C%80%E5%A4%A7%E4%BB%B7%E5%80%BC%E5%92%8C%E4%B8%8E%E6%9C%80%E5%B0%8F%E4%BB%B7%E5%80%BC%E5%92%8C%E7%9A%84%E5%B7%AE%E5%80%BC/</guid>
       <description>LeetCode-2358 最大价值和与最小价值和的差值 # Solution 1 # 以 $u$ 为根的子树中, 从根节点出发, 不去掉叶子节点的最长路径为 $f[u]$ ; 从根节点出发, 去掉叶子节点的最长路径为 $g[u]$ .</description>
     </item>
     
@@ -28,10 +28,10 @@
     
     <item>
       <title>CodeForces-510C Fox And Names</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-510c-fox-and-names/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-510c-fox-and-names/</link>
       <pubDate>Thu, 21 Jul 2022 14:36:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-510c-fox-and-names/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-510c-fox-and-names/</guid>
       <description>CodeForces-510C Fox And Names # 题目大意 # 给定 $n$ 个字符串, 如果存在一种新的字典序符合这些字符串的排列方式, 则输出一种字典序; 否则输出 $Impossible$ .</description>
     </item>
     

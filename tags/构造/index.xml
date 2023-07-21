@@ -10,109 +10,109 @@
     <lastBuildDate>Fri, 24 Feb 2023 10:24:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E6%9E%84%E9%80%A0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CodeForces-1179B Tolik and His Uncle</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1179b-tolik-and-his-uncle/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1179b-tolik-and-his-uncle/</link>
       <pubDate>Fri, 24 Feb 2023 10:24:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1179b-tolik-and-his-uncle/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1179b-tolik-and-his-uncle/</guid>
       <description>CodeForces-1179B Tolik and His Uncle # 题目大意 # 有一个 $n\times m$ 的矩阵 (下标从 $1$ 开始).</description>
     </item>
     
     <item>
       <title>CodeForces-584C Marina and Vasya</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-584c-marina-and-vasya/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-584c-marina-and-vasya/</link>
       <pubDate>Thu, 23 Feb 2023 10:22:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-584c-marina-and-vasya/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-584c-marina-and-vasya/</guid>
       <description>CodeForces-584C Marina and Vasya # 题目大意 # 给定长度均为 $n$ 的字符串 $s_1, s_2$ 和整数 $t$ .</description>
     </item>
     
     <item>
       <title>CodeForces-1325D Ehab the Xorcist</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1325d-ehab-the-xorcist/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1325d-ehab-the-xorcist/</link>
       <pubDate>Thu, 25 Aug 2022 09:51:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1325d-ehab-the-xorcist/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1325d-ehab-the-xorcist/</guid>
       <description>CodeForces-1325D Ehab the Xorcist # 题目大意 # 给定正整数 $u, v$ , 试构造长度最短的数组, 使得数组的元素的异或和为 $u$ , 加和为 $v$ ; 如果不存在合法构造, 输出 $-1$ .</description>
     </item>
     
     <item>
       <title>LeetCode-2375 根据模式串构造最小数字</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2375-%E6%A0%B9%E6%8D%AE%E6%A8%A1%E5%BC%8F%E4%B8%B2%E6%9E%84%E9%80%A0%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2375-%E6%A0%B9%E6%8D%AE%E6%A8%A1%E5%BC%8F%E4%B8%B2%E6%9E%84%E9%80%A0%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97/</link>
       <pubDate>Fri, 19 Aug 2022 08:15:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2375-%E6%A0%B9%E6%8D%AE%E6%A8%A1%E5%BC%8F%E4%B8%B2%E6%9E%84%E9%80%A0%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2375-%E6%A0%B9%E6%8D%AE%E6%A8%A1%E5%BC%8F%E4%B8%B2%E6%9E%84%E9%80%A0%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97/</guid>
       <description>LeetCode-2375 根据模式串构造最小数字 # Solution 1 # 根据长度为 $n$ 的 $pattern$ 字符串构造长度为 $n + 1$ 的 $ans$ , 由于每个数字字符只能用 $1$ 次, 而且要求 $ans$ 字典序尽可能小, 我们考虑贪心的构造模式.</description>
     </item>
     
     <item>
       <title>CodeForces-1186D Vus the Cossack and Numbers</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1186d-vus-the-cossack-and-numbers/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1186d-vus-the-cossack-and-numbers/</link>
       <pubDate>Wed, 03 Aug 2022 23:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1186d-vus-the-cossack-and-numbers/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1186d-vus-the-cossack-and-numbers/</guid>
       <description>CodeForces-1186D Vus the Cossack and Numbers # 题目大意 # 给定 $n$ 的和为 $0$ 的浮点数数组 $a_1, a_2, &amp;hellip;, a_n$ , 构造出一个和为 $0$ 的整数数组 $b_1, b_2, &amp;hellip;, b_n$ , 满足 $b_i = \lfloor a_i\rfloor$ 或 $\lceil a_i\rceil$ .</description>
     </item>
     
     <item>
       <title>CodeForces-1381A2 Prefix Flip (Hard Version)</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1381a2-prefix-flip-hard-version/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1381a2-prefix-flip-hard-version/</link>
       <pubDate>Mon, 01 Aug 2022 21:24:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1381a2-prefix-flip-hard-version/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1381a2-prefix-flip-hard-version/</guid>
       <description>CodeForces-1381A2 Prefix Flip (Hard Version) # 题目大意 # 给定两个长度为 $n$ 的 $01$ 字符串 $a, b$ , 每次操作可以选择 $a$ 的一个前缀, 先把 $0$ 变成 $1$ , $1$ 变成 $0$ , 再反转前缀.</description>
     </item>
     
     <item>
       <title>CodeForces-1503A Balance the Bits</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1503a-balance-the-bits/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1503a-balance-the-bits/</link>
       <pubDate>Fri, 29 Jul 2022 15:18:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1503a-balance-the-bits/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1503a-balance-the-bits/</guid>
       <description>CodeForces-1503A Balance the Bits # 题目大意 # 给定一个长度为 $n$ 的 $01$ 字符串 $s$ , 根据 $s$ 构造两个长度同样为 $n$ 的括号字符串 $a, b$ , 满足:</description>
     </item>
     
     <item>
       <title>CodeForces-1328D Carousel</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1328d-carousel/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1328d-carousel/</link>
       <pubDate>Fri, 29 Jul 2022 11:49:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1328d-carousel/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1328d-carousel/</guid>
       <description>CodeForces-1328D Carousel # 题目大意 # 一个环上有 $a_1, a_2, &amp;hellip;, a_n$ 这 $n$ 个数字, 要求对这些数字染色, 使得相邻的两个数字如果数字不同, 颜色也必须不同.</description>
     </item>
     
     <item>
       <title>CodeForces-1467C Three Bags</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1467c-three-bags/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1467c-three-bags/</link>
       <pubDate>Tue, 26 Jul 2022 16:54:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1467c-three-bags/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1467c-three-bags/</guid>
       <description>CodeForces-1467C Three Bags # 题目大意 # 输入三个长度分别为 $n_1, n_2, n_3$ 的数组 $a, b, c$ .</description>
     </item>
     
     <item>
       <title>CodeForces-1497C2 k-LCM (hard version)</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1497c2-k-lcm-hard-version/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1497c2-k-lcm-hard-version/</link>
       <pubDate>Tue, 26 Jul 2022 13:19:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1497c2-k-lcm-hard-version/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1497c2-k-lcm-hard-version/</guid>
       <description>CodeForces-1497C2 k-LCM (hard version) # 题目大意 # 给定正整数 $n, k$ , $3\leq k\leq n$ , 构造数组 $a_1, a_2, &amp;hellip;, a_k$ , 使得 $\sum_{1\leq i\leq k}a_i = n$ 且 $lcm({a_i|1\leq i\leq n}) \leq \lfloor \frac{n}{2}\rfloor$ .</description>
     </item>
     
     <item>
       <title>CodeForces-1371D Grid-00100</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1371d-grid-00100/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1371d-grid-00100/</link>
       <pubDate>Thu, 21 Jul 2022 11:09:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1371d-grid-00100/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1371d-grid-00100/</guid>
       <description>CodeForces-1371D Grid-00100 # 题目大意 # 记 $R_i$ 为矩阵行和, $C_j$ 为矩阵列和.</description>
     </item>
     
     <item>
       <title>CodeForces-1038D Slime</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1038d-slime/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1038d-slime/</link>
       <pubDate>Tue, 19 Jul 2022 18:22:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1038d-slime/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1038d-slime/</guid>
       <description>CodeForces-1038D Slime # 题目大意 # 有 $n$ 个史莱姆排成一列, 每个史莱姆的价值为 $a_i$ .</description>
     </item>
     
@@ -127,109 +127,109 @@
     
     <item>
       <title>CodeForces-739A Alyona and mex</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-739a-alyona-and-mex/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-739a-alyona-and-mex/</link>
       <pubDate>Mon, 18 Jul 2022 10:37:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-739a-alyona-and-mex/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-739a-alyona-and-mex/</guid>
       <description>CodeForces-739A Alyona and mex # 题目大意 # 定义 $mex(S)$ 为 $S$ 中未出现的最小非负整数.</description>
     </item>
     
     <item>
       <title>CodeForces-1081B Farewell Party</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1081b-farewell-party/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1081b-farewell-party/</link>
       <pubDate>Fri, 15 Jul 2022 14:29:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1081b-farewell-party/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1081b-farewell-party/</guid>
       <description>CodeForces-1081B Farewell Party # 题目大意 # 有 $n$ 个人参加了一个派对, 每个人带着一顶标有 $1, 2, &amp;hellip;, n$ 中一个数的帽子, $a_i$ 是 $i$ 号人口中和他自己帽子不一样的人数.</description>
     </item>
     
     <item>
       <title>CodeForces-1042C Array Product</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1042c-array-product/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1042c-array-product/</link>
       <pubDate>Fri, 15 Jul 2022 10:44:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1042c-array-product/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1042c-array-product/</guid>
       <description>CodeForces-1042C Array Product # 题目大意 # 给你一个长度为$n$的整数序列, 你可以执行以下两种操作:</description>
     </item>
     
     <item>
       <title>CodeForces-1025C Plasticine zebra</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1025c-plasticine-zebra/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1025c-plasticine-zebra/</link>
       <pubDate>Thu, 14 Jul 2022 15:19:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1025c-plasticine-zebra/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1025c-plasticine-zebra/</guid>
       <description>CodeForces-1025C Plasticine zebra # 题目大意 # 有一个由 $b$ 和 $w$ 构成的字符串 $s$ , 每次操作可以把 $s$ 分为两部分分别翻转, 求任意次操作能得到的最长的 $b$ , $w$ 交错的子字符串的长度.</description>
     </item>
     
     <item>
       <title>CodeForces-468A 24 Game</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-468a-24-game/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-468a-24-game/</link>
       <pubDate>Thu, 14 Jul 2022 13:44:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-468a-24-game/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-468a-24-game/</guid>
       <description>CodeForces-468A 24 Game # 题目大意 # 有一个长度为 $n$ 的序列 $1, 2, &amp;hellip;, n$ , 每次可以选择两个数 $a, b$ 删掉, 再从 $a + b$ , $a - b$, $a × b$ 中选择一个加入序列.</description>
     </item>
     
     <item>
       <title>CodeForces-1583C Omkar and Baseball</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1583c-omkar-and-baseball/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1583c-omkar-and-baseball/</link>
       <pubDate>Wed, 13 Jul 2022 21:30:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1583c-omkar-and-baseball/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1583c-omkar-and-baseball/</guid>
       <description>CodeForces-1583C Omkar and Baseball # 题目大意 # 给你一个 $1, 2,&amp;hellip;, n$ 的排列, 每次操作可以选择一段区间进行排列, 要求排列后不能有元素留在自己的原位上, 求把排列变为升序的最少操作次数.</description>
     </item>
     
     <item>
       <title>CodeForces-1015D Walking Between Houses</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1015d-walking-between-houses/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1015d-walking-between-houses/</link>
       <pubDate>Tue, 12 Jul 2022 15:57:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1015d-walking-between-houses/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1015d-walking-between-houses/</guid>
       <description>CodeForces-1015D Walking Between Houses # 题目大意 # 在一条路上, $n$ 个房子被排成一排, 从左到右编号为 $1-n$ .</description>
     </item>
     
     <item>
       <title>CodeForces-1396A Multiples of Length</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1396a-multiples-of-length/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1396a-multiples-of-length/</link>
       <pubDate>Sat, 09 Jul 2022 14:43:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1396a-multiples-of-length/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1396a-multiples-of-length/</guid>
       <description>CodeForces-1396A Multiples of Length # 题目大意 # 给你一个长度为 $n$ 的序列, 进行恰好三次操作，使得操作结束后序列所有数为 $0$ .</description>
     </item>
     
     <item>
       <title>CodeForces-1348C Phoenix and Distribution</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1348c-phoenix-and-distribution/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1348c-phoenix-and-distribution/</link>
       <pubDate>Sat, 02 Jul 2022 16:33:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1348c-phoenix-and-distribution/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1348c-phoenix-and-distribution/</guid>
       <description>CodeForces-1348C Phoenix and Distribution # 题目大意 # 给定长度为 $n$ 的字符串 $s$ , 将其不重不漏重组成 $k$ 个字符串, 输出使得字典序最大的字符串字典序最小的分法所得到的字典序最大的字符串.</description>
     </item>
     
     <item>
       <title>CodeForces-1352G Special Permutation</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1352g-special-permutation/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1352g-special-permutation/</link>
       <pubDate>Mon, 27 Jun 2022 23:42:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1352g-special-permutation/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1352g-special-permutation/</guid>
       <description>CodeForces-1352G Special Permutation # 题目大意 # 对于$1, 2, &amp;hellip;, n$ 的排列 $p$ , 如果 $\forall 1\leq i\leq n -1, 2\leq \vert p_i - p_{i + 1}\vert \leq 4$ , 则称其为特殊排列.</description>
     </item>
     
     <item>
       <title>CodeForces-1542B Plus and Multiply</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1542b-plus-and-multiply/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1542b-plus-and-multiply/</link>
       <pubDate>Mon, 27 Jun 2022 04:43:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1542b-plus-and-multiply/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1542b-plus-and-multiply/</guid>
       <description>CodeForces-1542B Plus and Multiply # 题目大意 # 给定正整数 $a, b$ , 考虑无限集 $S$ , $S$ 由如下规则构造:</description>
     </item>
     
     <item>
       <title>LeetCode-2178 拆分成最多数目的正偶数之和</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2178-%E6%8B%86%E5%88%86%E6%88%90%E6%9C%80%E5%A4%9A%E6%95%B0%E7%9B%AE%E7%9A%84%E6%AD%A3%E5%81%B6%E6%95%B0%E4%B9%8B%E5%92%8C/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2178-%E6%8B%86%E5%88%86%E6%88%90%E6%9C%80%E5%A4%9A%E6%95%B0%E7%9B%AE%E7%9A%84%E6%AD%A3%E5%81%B6%E6%95%B0%E4%B9%8B%E5%92%8C/</link>
       <pubDate>Mon, 09 May 2022 19:18:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2178-%E6%8B%86%E5%88%86%E6%88%90%E6%9C%80%E5%A4%9A%E6%95%B0%E7%9B%AE%E7%9A%84%E6%AD%A3%E5%81%B6%E6%95%B0%E4%B9%8B%E5%92%8C/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2178-%E6%8B%86%E5%88%86%E6%88%90%E6%9C%80%E5%A4%9A%E6%95%B0%E7%9B%AE%E7%9A%84%E6%AD%A3%E5%81%B6%E6%95%B0%E4%B9%8B%E5%92%8C/</guid>
       <description>LeetCode-2178 拆分成最多数目的正偶数之和 # Solution 1 # 题目要求把一个数拆分成互不相等的偶数之和, 并且要求给出一个元素个数最多的构造.</description>
     </item>
     

@@ -10,10 +10,10 @@
     <lastBuildDate>Wed, 04 May 2022 17:13:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E5%AF%B9%E7%A7%B0%E6%80%A7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-390 消除游戏</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-390-%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-390-%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F/</link>
       <pubDate>Wed, 04 May 2022 17:13:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-390-%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-390-%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F/</guid>
       <description>LeetCode-390 消除游戏 # Solution 1 # 这一题的形式很容易让人想到约瑟夫环问题, 事实上, 这道题也有巧妙的数学解法.</description>
     </item>
     

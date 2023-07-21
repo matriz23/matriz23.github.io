@@ -10,10 +10,10 @@
     <lastBuildDate>Wed, 03 Aug 2022 23:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E6%B5%AE%E7%82%B9%E6%95%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CodeForces-1186D Vus the Cossack and Numbers</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1186d-vus-the-cossack-and-numbers/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1186d-vus-the-cossack-and-numbers/</link>
       <pubDate>Wed, 03 Aug 2022 23:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1186d-vus-the-cossack-and-numbers/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1186d-vus-the-cossack-and-numbers/</guid>
       <description>CodeForces-1186D Vus the Cossack and Numbers # 题目大意 # 给定 $n$ 的和为 $0$ 的浮点数数组 $a_1, a_2, &amp;hellip;, a_n$ , 构造出一个和为 $0$ 的整数数组 $b_1, b_2, &amp;hellip;, b_n$ , 满足 $b_i = \lfloor a_i\rfloor$ 或 $\lceil a_i\rceil$ .</description>
     </item>
     

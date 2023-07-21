@@ -226,10 +226,10 @@
     
     <item>
       <title>LeetCode-775 全局倒置与局部倒置</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-775-%E5%85%A8%E5%B1%80%E5%80%92%E7%BD%AE%E4%B8%8E%E5%B1%80%E9%83%A8%E5%80%92%E7%BD%AE/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-775-%E5%85%A8%E5%B1%80%E5%80%92%E7%BD%AE%E4%B8%8E%E5%B1%80%E9%83%A8%E5%80%92%E7%BD%AE/</link>
       <pubDate>Wed, 16 Nov 2022 13:29:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-775-%E5%85%A8%E5%B1%80%E5%80%92%E7%BD%AE%E4%B8%8E%E5%B1%80%E9%83%A8%E5%80%92%E7%BD%AE/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-775-%E5%85%A8%E5%B1%80%E5%80%92%E7%BD%AE%E4%B8%8E%E5%B1%80%E9%83%A8%E5%80%92%E7%BD%AE/</guid>
       <description>LeetCode-775 全局倒置与局部倒置 # Solution 1 # 全局倒置一定包含局部倒置, 所以要求排列只包含局部倒置.</description>
     </item>
     
@@ -253,82 +253,82 @@
     
     <item>
       <title>LeetCode-330 按要求补齐数组</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-330-%E6%8C%89%E8%A6%81%E6%B1%82%E8%A1%A5%E9%BD%90%E6%95%B0%E7%BB%84/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-330-%E6%8C%89%E8%A6%81%E6%B1%82%E8%A1%A5%E9%BD%90%E6%95%B0%E7%BB%84/</link>
       <pubDate>Tue, 06 Sep 2022 11:40:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-330-%E6%8C%89%E8%A6%81%E6%B1%82%E8%A1%A5%E9%BD%90%E6%95%B0%E7%BB%84/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-330-%E6%8C%89%E8%A6%81%E6%B1%82%E8%A1%A5%E9%BD%90%E6%95%B0%E7%BB%84/</guid>
       <description>LeetCode-330 按要求补齐数组 # Solution 1 # 如果能覆盖 $[1, x - 1]$ 中的数, 而不能覆盖 $x$ , 那么加上 $x$ 之后一定能够覆盖 $[1, 2x - 1]$ 中的数, 并且这是最优的.</description>
     </item>
     
     <item>
       <title>LeetCode-793 阶乘函数后 K 个零</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-793-%E9%98%B6%E4%B9%98%E5%87%BD%E6%95%B0%E5%90%8E-k-%E4%B8%AA%E9%9B%B6/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-793-%E9%98%B6%E4%B9%98%E5%87%BD%E6%95%B0%E5%90%8E-k-%E4%B8%AA%E9%9B%B6/</link>
       <pubDate>Sun, 28 Aug 2022 08:40:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-793-%E9%98%B6%E4%B9%98%E5%87%BD%E6%95%B0%E5%90%8E-k-%E4%B8%AA%E9%9B%B6/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-793-%E9%98%B6%E4%B9%98%E5%87%BD%E6%95%B0%E5%90%8E-k-%E4%B8%AA%E9%9B%B6/</guid>
       <description>LeetCode-793 阶乘函数后 K 个零 # Solution 1 # 对于 $x!</description>
     </item>
     
     <item>
       <title>Puzzle Toad-5 Empty the bucket</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad%E9%A2%98%E8%A7%A3/puzzle-toad-5-empty-the-bucket/</link>
+      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-5-empty-the-bucket/</link>
       <pubDate>Fri, 19 Aug 2022 09:50:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad%E9%A2%98%E8%A7%A3/puzzle-toad-5-empty-the-bucket/</guid>
+      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-5-empty-the-bucket/</guid>
       <description>Puzzle Toad-5 Empty the bucket # 题目翻译 # 你现在身处沙漠, 并且拥有 $3$ 个桶 (桶的容量无限) , 里面分别有 $a, b, c$ 盎司的水.</description>
     </item>
     
     <item>
       <title>Puzzle Toad-4 Vacancy Puzzle</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad%E9%A2%98%E8%A7%A3/puzzle-toad-4-vacancy-puzzle/</link>
+      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-4-vacancy-puzzle/</link>
       <pubDate>Wed, 17 Aug 2022 13:49:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad%E9%A2%98%E8%A7%A3/puzzle-toad-4-vacancy-puzzle/</guid>
+      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-4-vacancy-puzzle/</guid>
       <description>Puzzle Toad-4 Vacancy Puzzle # 题目翻译 # 敬爱的领袖 Aldan 的提前退休给 Zocor 的 Malthusian 市的执政三巨头留下了一个空缺.</description>
     </item>
     
     <item>
       <title>Puzzle Toad-3 Take the last chip</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad%E9%A2%98%E8%A7%A3/puzzle-toad-3-take-the-last-chip/</link>
+      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-3-take-the-last-chip/</link>
       <pubDate>Tue, 16 Aug 2022 10:05:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad%E9%A2%98%E8%A7%A3/puzzle-toad-3-take-the-last-chip/</guid>
+      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-3-take-the-last-chip/</guid>
       <description>Puzzle Toad-3 Take the last chip # 题目翻译 # Turkey Sandwich 很担心即将到来的离散数学考试, 难以入睡.</description>
     </item>
     
     <item>
       <title>CodeForces-66D Petya and His Friends</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-66d-petya-and-his-friends/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-66d-petya-and-his-friends/</link>
       <pubDate>Mon, 15 Aug 2022 17:57:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-66d-petya-and-his-friends/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-66d-petya-and-his-friends/</guid>
       <description>CodeForces-66D Petya and His Friends # 题目大意 # 给定 $n$ $(2\leq n\leq 50)$, 构造 $a_1, a_2,&amp;hellip;, a_n$ 使得:</description>
     </item>
     
     <item>
       <title>Puzzle Toad-2 Lights of the Round Table</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad%E9%A2%98%E8%A7%A3/puzzle-toad-2-lights-of-the-round-table-and-solution/</link>
+      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-2-lights-of-the-round-table-and-solution/</link>
       <pubDate>Mon, 15 Aug 2022 10:58:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad%E9%A2%98%E8%A7%A3/puzzle-toad-2-lights-of-the-round-table-and-solution/</guid>
+      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-2-lights-of-the-round-table-and-solution/</guid>
       <description>Puzzle Toad-2 Lights of the Round Table and Solution # 题目翻译 # King Arthur 正在准备圆桌会议, 圆桌的座位编号为 $1, 2, &amp;hellip;, n$ , 每个座位前面都有一盏台灯.</description>
     </item>
     
     <item>
       <title>Puzzle Toad-1 Managers and Engineers</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad%E9%A2%98%E8%A7%A3/puzzle-toad-1-managers-and-engineers/</link>
+      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-1-managers-and-engineers/</link>
       <pubDate>Mon, 15 Aug 2022 10:39:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad%E9%A2%98%E8%A7%A3/puzzle-toad-1-managers-and-engineers/</guid>
+      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-1-managers-and-engineers/</guid>
       <description>Puzzle Toad-1 Managers and Engineers # 题目翻译 # FBI 已经包围了 Norne 公司的总部.</description>
     </item>
     
     <item>
       <title>Puzzle Toad-0 Introduction</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad%E9%A2%98%E8%A7%A3/puzzle-toad-0-introduction/</link>
+      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-0-introduction/</link>
       <pubDate>Sun, 14 Aug 2022 21:05:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad%E9%A2%98%E8%A7%A3/puzzle-toad-0-introduction/</guid>
+      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-0-introduction/</guid>
       <description>Puzzle Toad # 介绍 # Puzzle Prime 对于 Puzzle Toad 的描述如下:</description>
     </item>
     
@@ -343,28 +343,28 @@
     
     <item>
       <title>CodeForces-1305C Kuroni and Impossible Calculation</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1305c-kuroni-and-impossible-calculation/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1305c-kuroni-and-impossible-calculation/</link>
       <pubDate>Tue, 26 Jul 2022 15:55:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1305c-kuroni-and-impossible-calculation/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1305c-kuroni-and-impossible-calculation/</guid>
       <description>CodeForces-1305C Kuroni and Impossible Calculation # 题目大意 # 给定正整数 $m$ 和一个长度为 $n$ 的数组 $a_1, a_2, &amp;hellip;, a_n$ , 求 $\prod_{1\leq i &amp;lt; j\leq n}\vert a_i - a_j\vert\ mod\ m$ .</description>
     </item>
     
     <item>
       <title>CodeForces-1349A Orac and LCM</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1349a-orac-and-lcm/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1349a-orac-and-lcm/</link>
       <pubDate>Mon, 25 Jul 2022 18:01:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1349a-orac-and-lcm/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1349a-orac-and-lcm/</guid>
       <description>CodeForces-1349A Orac and LCM # 题目大意 # 给定 $n$ 个正整数 $a_1, &amp;hellip;, a_n$ , 求 $gcd({lcm(a_i, a_j)|1\leq i&amp;lt; j\leq n})$ .</description>
     </item>
     
     <item>
       <title>CodeForces-1358C Celex Update</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1358c-celex-update/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1358c-celex-update/</link>
       <pubDate>Mon, 25 Jul 2022 14:08:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1358c-celex-update/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1358c-celex-update/</guid>
       <description>CodeForces-1358C Celex Update # 题目大意 # 有一个如下图所示的矩阵.</description>
     </item>
     
@@ -379,10 +379,10 @@
     
     <item>
       <title>CodeForces-1342C Yet Another Counting Problem</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1342c-yet-another-counting-problem/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1342c-yet-another-counting-problem/</link>
       <pubDate>Wed, 20 Jul 2022 14:20:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1342c-yet-another-counting-problem/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1342c-yet-another-counting-problem/</guid>
       <description>CodeForces-1342C Yet Another Counting Problem # 题目大意 # 给定正整数 $a, b, l, r$ , 查询满足 $x\in [l, r]$ 且 $(x\ mod\ a)\ mod\ b\not = (x\ mod\ b)\ mod\ a$ 的 $x$ 的个数.</description>
     </item>
     
@@ -397,64 +397,64 @@
     
     <item>
       <title>LeetCode-2338 统计理想数组的数目</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2338-%E7%BB%9F%E8%AE%A1%E7%90%86%E6%83%B3%E6%95%B0%E7%BB%84%E7%9A%84%E6%95%B0%E7%9B%AE/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2338-%E7%BB%9F%E8%AE%A1%E7%90%86%E6%83%B3%E6%95%B0%E7%BB%84%E7%9A%84%E6%95%B0%E7%9B%AE/</link>
       <pubDate>Tue, 12 Jul 2022 13:30:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2338-%E7%BB%9F%E8%AE%A1%E7%90%86%E6%83%B3%E6%95%B0%E7%BB%84%E7%9A%84%E6%95%B0%E7%9B%AE/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2338-%E7%BB%9F%E8%AE%A1%E7%90%86%E6%83%B3%E6%95%B0%E7%BB%84%E7%9A%84%E6%95%B0%E7%9B%AE/</guid>
       <description>LeetCode-2338 统计理想数组的数目 # Solution 1 # 该解法来自0x3F大神的题解.</description>
     </item>
     
     <item>
       <title>CodeForces-1396A Multiples of Length</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1396a-multiples-of-length/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1396a-multiples-of-length/</link>
       <pubDate>Sat, 09 Jul 2022 14:43:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1396a-multiples-of-length/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1396a-multiples-of-length/</guid>
       <description>CodeForces-1396A Multiples of Length # 题目大意 # 给你一个长度为 $n$ 的序列, 进行恰好三次操作，使得操作结束后序列所有数为 $0$ .</description>
     </item>
     
     <item>
       <title>CodeForces-1344A Hilbert&#39;s Hotel</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1344a-hilberts-hotel/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1344a-hilberts-hotel/</link>
       <pubDate>Thu, 30 Jun 2022 22:48:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1344a-hilberts-hotel/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1344a-hilberts-hotel/</guid>
       <description>CodeForces-1344A Hilbert&amp;rsquo;s Hotel # 题目大意 # 给你一个无限长的数轴还有一个大小为 $n$ 的整数数组 $a_0,a_1&amp;hellip;a_{n-1}$.</description>
     </item>
     
     <item>
       <title>CodeForces-1542B Plus and Multiply</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1542b-plus-and-multiply/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1542b-plus-and-multiply/</link>
       <pubDate>Mon, 27 Jun 2022 04:43:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1542b-plus-and-multiply/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1542b-plus-and-multiply/</guid>
       <description>CodeForces-1542B Plus and Multiply # 题目大意 # 给定正整数 $a, b$ , 考虑无限集 $S$ , $S$ 由如下规则构造:</description>
     </item>
     
     <item>
       <title>LeetCode-2183 统计可以被 K 整除的下标对数目</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2183-%E7%BB%9F%E8%AE%A1%E5%8F%AF%E4%BB%A5%E8%A2%AB-k-%E6%95%B4%E9%99%A4%E7%9A%84%E4%B8%8B%E6%A0%87%E5%AF%B9%E6%95%B0%E7%9B%AE/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2183-%E7%BB%9F%E8%AE%A1%E5%8F%AF%E4%BB%A5%E8%A2%AB-k-%E6%95%B4%E9%99%A4%E7%9A%84%E4%B8%8B%E6%A0%87%E5%AF%B9%E6%95%B0%E7%9B%AE/</link>
       <pubDate>Mon, 09 May 2022 15:29:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2183-%E7%BB%9F%E8%AE%A1%E5%8F%AF%E4%BB%A5%E8%A2%AB-k-%E6%95%B4%E9%99%A4%E7%9A%84%E4%B8%8B%E6%A0%87%E5%AF%B9%E6%95%B0%E7%9B%AE/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2183-%E7%BB%9F%E8%AE%A1%E5%8F%AF%E4%BB%A5%E8%A2%AB-k-%E6%95%B4%E9%99%A4%E7%9A%84%E4%B8%8B%E6%A0%87%E5%AF%B9%E6%95%B0%E7%9B%AE/</guid>
       <description>LeetCode-2183 统计可以被 K 整除的下标对数目 # Solution 1 # 计数问题, 思路要清晰.</description>
     </item>
     
     <item>
       <title>LeetCode-390 消除游戏</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-390-%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-390-%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F/</link>
       <pubDate>Wed, 04 May 2022 17:13:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-390-%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-390-%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F/</guid>
       <description>LeetCode-390 消除游戏 # Solution 1 # 这一题的形式很容易让人想到约瑟夫环问题, 事实上, 这道题也有巧妙的数学解法.</description>
     </item>
     
     <item>
       <title>LeetCode-1823 找出游戏的获胜者</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-1823-%E6%89%BE%E5%87%BA%E6%B8%B8%E6%88%8F%E7%9A%84%E8%8E%B7%E8%83%9C%E8%80%85/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1823-%E6%89%BE%E5%87%BA%E6%B8%B8%E6%88%8F%E7%9A%84%E8%8E%B7%E8%83%9C%E8%80%85/</link>
       <pubDate>Wed, 04 May 2022 12:47:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-1823-%E6%89%BE%E5%87%BA%E6%B8%B8%E6%88%8F%E7%9A%84%E8%8E%B7%E8%83%9C%E8%80%85/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1823-%E6%89%BE%E5%87%BA%E6%B8%B8%E6%88%8F%E7%9A%84%E8%8E%B7%E8%83%9C%E8%80%85/</guid>
       <description>LeetCode-1823 找出游戏的获胜者 # 本题是一道非常经典的问题: &amp;ldquo;约瑟夫环问题&amp;rdquo;.</description>
     </item>
     

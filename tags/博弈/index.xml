@@ -28,19 +28,19 @@
     
     <item>
       <title>LeetCode-810 黑板异或游戏</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-810-%E9%BB%91%E6%9D%BF%E5%BC%82%E6%88%96%E6%B8%B8%E6%88%8F/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-810-%E9%BB%91%E6%9D%BF%E5%BC%82%E6%88%96%E6%B8%B8%E6%88%8F/</link>
       <pubDate>Mon, 19 Sep 2022 16:14:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-810-%E9%BB%91%E6%9D%BF%E5%BC%82%E6%88%96%E6%B8%B8%E6%88%8F/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-810-%E9%BB%91%E6%9D%BF%E5%BC%82%E6%88%96%E6%B8%B8%E6%88%8F/</guid>
       <description>LeetCode-810 黑板异或游戏 # Solution 1 # 考虑必胜态, 如果 $nums[i]$ 的异或和为 $0$ , 那么根据规则直接获胜; 否则应该存在一种操作 (移除某个 $nums[i]$ ) 使得下一个状态是必败态.</description>
     </item>
     
     <item>
       <title>Puzzle Toad-3 Take the last chip</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad%E9%A2%98%E8%A7%A3/puzzle-toad-3-take-the-last-chip/</link>
+      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-3-take-the-last-chip/</link>
       <pubDate>Tue, 16 Aug 2022 10:05:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad%E9%A2%98%E8%A7%A3/puzzle-toad-3-take-the-last-chip/</guid>
+      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-3-take-the-last-chip/</guid>
       <description>Puzzle Toad-3 Take the last chip # 题目翻译 # Turkey Sandwich 很担心即将到来的离散数学考试, 难以入睡.</description>
     </item>
     

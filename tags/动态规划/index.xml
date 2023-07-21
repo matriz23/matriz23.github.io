@@ -10,226 +10,226 @@
     <lastBuildDate>Mon, 13 Feb 2023 21:58:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CodeForces-1324E Sleeping Schedule</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1324e-sleeping-schedule/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1324e-sleeping-schedule/</link>
       <pubDate>Mon, 13 Feb 2023 21:58:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1324e-sleeping-schedule/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1324e-sleeping-schedule/</guid>
       <description>CodeForces-1324E Sleeping Schedule # 题目大意 # 给定 $h, l, r$ 和长度为 $n$ 的数组 $a$ .</description>
     </item>
     
     <item>
       <title>CodeForces-1286A Garland</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1286a-garland/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1286a-garland/</link>
       <pubDate>Sun, 12 Feb 2023 20:53:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1286a-garland/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1286a-garland/</guid>
       <description>CodeForces-1286A Garland # 题目大意 # 有一个由 $1, 2, &amp;hellip;, n$ 的排列, 其中一部分元素被删除了 (用 $0$ 表示) .</description>
     </item>
     
     <item>
       <title>CodeForces-1695C Zero Path</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1695c-zero-path/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1695c-zero-path/</link>
       <pubDate>Fri, 10 Feb 2023 20:33:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1695c-zero-path/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1695c-zero-path/</guid>
       <description>CodeForces-1695C Zero Path # 题目大意 # 给定一个 $n\times m$ 的矩阵, 矩阵元素由 $1$ 和 $-1$ 构成.</description>
     </item>
     
     <item>
       <title>Atcoder-ABC275F Erase Subarrays</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder%E9%A2%98%E8%A7%A3/atcoder-abc275f-erase-subarrays/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder/atcoder-abc275f-erase-subarrays/</link>
       <pubDate>Thu, 22 Dec 2022 17:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder%E9%A2%98%E8%A7%A3/atcoder-abc275f-erase-subarrays/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder/atcoder-abc275f-erase-subarrays/</guid>
       <description>Atcoder-ABC275F Erase Subarrays # 题目大意 # 给定 $n, m$ 和长度为 $n$ 的整数数组 $a$ .</description>
     </item>
     
     <item>
       <title>LeetCode-1799 N 次操作后的最大分数和</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-1799-n-%E6%AC%A1%E6%93%8D%E4%BD%9C%E5%90%8E%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%86%E6%95%B0%E5%92%8C/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1799-n-%E6%AC%A1%E6%93%8D%E4%BD%9C%E5%90%8E%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%86%E6%95%B0%E5%92%8C/</link>
       <pubDate>Thu, 22 Dec 2022 11:11:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-1799-n-%E6%AC%A1%E6%93%8D%E4%BD%9C%E5%90%8E%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%86%E6%95%B0%E5%92%8C/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1799-n-%E6%AC%A1%E6%93%8D%E4%BD%9C%E5%90%8E%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%86%E6%95%B0%E5%92%8C/</guid>
       <description>LeetCode-1799 N 次操作后的最大分数和 # Solution 1 # 状压 DP 即可.</description>
     </item>
     
     <item>
       <title>LeetCode-1444 切披萨的方案数</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-1444-%E5%88%87%E6%8A%AB%E8%90%A8%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1444-%E5%88%87%E6%8A%AB%E8%90%A8%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0/</link>
       <pubDate>Mon, 14 Nov 2022 16:04:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-1444-%E5%88%87%E6%8A%AB%E8%90%A8%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1444-%E5%88%87%E6%8A%AB%E8%90%A8%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0/</guid>
       <description>LeetCode-1444 切披萨的方案数 # Solution 1 # 注意切割性质: 水平切一刀留下下半部分, 竖直切一刀留下右半部分, 因此任何时候我们处理的披萨都是左上端点为 $(i, j)$ , 右下端点为 $(m - 1, n - 1)$ 的部分.</description>
     </item>
     
     <item>
       <title>LeetCode-790 多米诺和托米诺平铺</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-790-%E5%A4%9A%E7%B1%B3%E8%AF%BA%E5%92%8C%E6%89%98%E7%B1%B3%E8%AF%BA%E5%B9%B3%E9%93%BA/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-790-%E5%A4%9A%E7%B1%B3%E8%AF%BA%E5%92%8C%E6%89%98%E7%B1%B3%E8%AF%BA%E5%B9%B3%E9%93%BA/</link>
       <pubDate>Sun, 13 Nov 2022 16:52:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-790-%E5%A4%9A%E7%B1%B3%E8%AF%BA%E5%92%8C%E6%89%98%E7%B1%B3%E8%AF%BA%E5%B9%B3%E9%93%BA/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-790-%E5%A4%9A%E7%B1%B3%E8%AF%BA%E5%92%8C%E6%89%98%E7%B1%B3%E8%AF%BA%E5%B9%B3%E9%93%BA/</guid>
       <description>LeetCode-790 多米诺和托米诺平铺 # Solution 1 # 考虑平铺的状态转移, 由于一个末尾铺满的状态可能由末尾未铺满的状态转化而来, 我们用 $dp[i][s]$ 来记录长度为 $i$ , 前 $i - 1$ 列都已铺满, 末尾状态为 $s$ 的方案数量, 由 $n = 3$ 的样例不难发现转化关系.</description>
     </item>
     
     <item>
       <title>LeetCode-1388 3n 块披萨</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-1388-3n-%E5%9D%97%E6%8A%AB%E8%90%A8/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1388-3n-%E5%9D%97%E6%8A%AB%E8%90%A8/</link>
       <pubDate>Mon, 03 Oct 2022 22:30:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-1388-3n-%E5%9D%97%E6%8A%AB%E8%90%A8/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1388-3n-%E5%9D%97%E6%8A%AB%E8%90%A8/</guid>
       <description>LeetCode-1388 3n 块披萨 # Solution 1 # 取完某块披萨, 相邻的披萨一定不能再取了, 因此取的元素至少满足不能相邻这一点.</description>
     </item>
     
     <item>
       <title>LeetCode-1000 合并石头的最低成本</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-1000-%E5%90%88%E5%B9%B6%E7%9F%B3%E5%A4%B4%E7%9A%84%E6%9C%80%E4%BD%8E%E6%88%90%E6%9C%AC/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1000-%E5%90%88%E5%B9%B6%E7%9F%B3%E5%A4%B4%E7%9A%84%E6%9C%80%E4%BD%8E%E6%88%90%E6%9C%AC/</link>
       <pubDate>Tue, 20 Sep 2022 15:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-1000-%E5%90%88%E5%B9%B6%E7%9F%B3%E5%A4%B4%E7%9A%84%E6%9C%80%E4%BD%8E%E6%88%90%E6%9C%AC/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1000-%E5%90%88%E5%B9%B6%E7%9F%B3%E5%A4%B4%E7%9A%84%E6%9C%80%E4%BD%8E%E6%88%90%E6%9C%AC/</guid>
       <description>LeetCode-1000 合并石头的最低成本 # Solution 1 # 考虑合并为 $1$ 堆的最后一步, 一定是把 $k$ 堆石头合并为了一堆, 并且消耗了所有的石头数量之和的成本.</description>
     </item>
     
     <item>
       <title>LeetCode-87 扰乱字符串</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-87-%E6%89%B0%E4%B9%B1%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-87-%E6%89%B0%E4%B9%B1%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
       <pubDate>Mon, 19 Sep 2022 16:15:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-87-%E6%89%B0%E4%B9%B1%E5%AD%97%E7%AC%A6%E4%B8%B2/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-87-%E6%89%B0%E4%B9%B1%E5%AD%97%E7%AC%A6%E4%B8%B2/</guid>
       <description>LeetCode-87 扰乱字符串 # Solution 1 # &amp;ldquo;扰乱字符串&amp;rdquo; 的操作逻辑是, 分割区间, 再选择交换还是不交换.</description>
     </item>
     
     <item>
       <title>LeetCode-801 使序列递增的最小交换次数</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-801-%E4%BD%BF%E5%BA%8F%E5%88%97%E9%80%92%E5%A2%9E%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BA%A4%E6%8D%A2%E6%AC%A1%E6%95%B0/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-801-%E4%BD%BF%E5%BA%8F%E5%88%97%E9%80%92%E5%A2%9E%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BA%A4%E6%8D%A2%E6%AC%A1%E6%95%B0/</link>
       <pubDate>Fri, 16 Sep 2022 16:22:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-801-%E4%BD%BF%E5%BA%8F%E5%88%97%E9%80%92%E5%A2%9E%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BA%A4%E6%8D%A2%E6%AC%A1%E6%95%B0/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-801-%E4%BD%BF%E5%BA%8F%E5%88%97%E9%80%92%E5%A2%9E%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BA%A4%E6%8D%A2%E6%AC%A1%E6%95%B0/</guid>
       <description>LeetCode-801 使序列递增的最小交换次数 # Solution 1 # 可以先考虑二分 + 贪心, 不过容易验证贪心是错的.</description>
     </item>
     
     <item>
       <title>LeetCode-2407 最长递增子序列 II</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2407-%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97-ii/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2407-%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97-ii/</link>
       <pubDate>Fri, 16 Sep 2022 15:24:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2407-%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97-ii/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2407-%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97-ii/</guid>
       <description>LeetCode-2407 最长递增子序列 II # Solution 1 # 记 $dp[x]$ 为当前以 $x$ 值结尾的子序列的最长长度.</description>
     </item>
     
     <item>
       <title>LeetCode-1723 完成所有工作的最短时间</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-1723-%E5%AE%8C%E6%88%90%E6%89%80%E6%9C%89%E5%B7%A5%E4%BD%9C%E7%9A%84%E6%9C%80%E7%9F%AD%E6%97%B6%E9%97%B4/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1723-%E5%AE%8C%E6%88%90%E6%89%80%E6%9C%89%E5%B7%A5%E4%BD%9C%E7%9A%84%E6%9C%80%E7%9F%AD%E6%97%B6%E9%97%B4/</link>
       <pubDate>Fri, 16 Sep 2022 10:35:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-1723-%E5%AE%8C%E6%88%90%E6%89%80%E6%9C%89%E5%B7%A5%E4%BD%9C%E7%9A%84%E6%9C%80%E7%9F%AD%E6%97%B6%E9%97%B4/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1723-%E5%AE%8C%E6%88%90%E6%89%80%E6%9C%89%E5%B7%A5%E4%BD%9C%E7%9A%84%E6%9C%80%E7%9F%AD%E6%97%B6%E9%97%B4/</guid>
       <description>LeetCode-1723 完成所有工作的最短时间 # Solution 1 # 枚举的过程中, 第 $i$ 个工人面对的工作只与前 $i - 1$ 个工人的工作分配情况相关.</description>
     </item>
     
     <item>
       <title>LeetCode-975 奇偶跳</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-975-%E5%A5%87%E5%81%B6%E8%B7%B3/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-975-%E5%A5%87%E5%81%B6%E8%B7%B3/</link>
       <pubDate>Tue, 13 Sep 2022 22:56:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-975-%E5%A5%87%E5%81%B6%E8%B7%B3/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-975-%E5%A5%87%E5%81%B6%E8%B7%B3/</guid>
       <description>LeetCode-975 奇偶跳 # Solution 1 # 本题的关键在于怎么找到每个元素的后继.</description>
     </item>
     
     <item>
       <title>LeetCode-879 盈利计划</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-879-%E7%9B%88%E5%88%A9%E8%AE%A1%E5%88%92/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-879-%E7%9B%88%E5%88%A9%E8%AE%A1%E5%88%92/</link>
       <pubDate>Tue, 13 Sep 2022 18:28:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-879-%E7%9B%88%E5%88%A9%E8%AE%A1%E5%88%92/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-879-%E7%9B%88%E5%88%A9%E8%AE%A1%E5%88%92/</guid>
       <description>LeetCode-879 盈利计划 # Solution 1 # 枚举所有可能的情况.</description>
     </item>
     
     <item>
       <title>LeetCode-410 分割数组的最大值</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-410-%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-410-%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</link>
       <pubDate>Tue, 06 Sep 2022 20:14:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-410-%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-410-%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</guid>
       <description>LeetCode-410 分割数组的最大值 # Solution 1 # 记 $dp[i][j]$ 为 $0,&amp;hellip;,i$ 位元素分割成 $j$ 个非空连续子数组, 各子数组的元素和最大值的最小值.</description>
     </item>
     
     <item>
       <title>LeetCode-312 戳气球</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-312-%E6%88%B3%E6%B0%94%E7%90%83/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-312-%E6%88%B3%E6%B0%94%E7%90%83/</link>
       <pubDate>Mon, 05 Sep 2022 18:07:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-312-%E6%88%B3%E6%B0%94%E7%90%83/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-312-%E6%88%B3%E6%B0%94%E7%90%83/</guid>
       <description>LeetCode-312 戳气球 # Solution 1 # 把编号 $0, 1, &amp;hellip;, n - 1$ 的气球编号修改成 $1, 2, &amp;hellip;, n$ , 同时补上 $0$ 和 $n + 1$ 两个边界的虚拟气球 (值视为 $1$) .</description>
     </item>
     
     <item>
       <title>LeetCode-403 青蛙过河</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-403-%E9%9D%92%E8%9B%99%E8%BF%87%E6%B2%B3/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-403-%E9%9D%92%E8%9B%99%E8%BF%87%E6%B2%B3/</link>
       <pubDate>Mon, 05 Sep 2022 17:05:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-403-%E9%9D%92%E8%9B%99%E8%BF%87%E6%B2%B3/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-403-%E9%9D%92%E8%9B%99%E8%BF%87%E6%B2%B3/</guid>
       <description>LeetCode-403 青蛙过河 # Solution 1 # 青蛙的状态有两个, 在第 $i$ 个石头上, 最后一步跳了 $j$ 步.</description>
     </item>
     
     <item>
       <title>LeetCode-44 通配符匹配</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-44-%E9%80%9A%E9%85%8D%E7%AC%A6%E5%8C%B9%E9%85%8D/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-44-%E9%80%9A%E9%85%8D%E7%AC%A6%E5%8C%B9%E9%85%8D/</link>
       <pubDate>Tue, 30 Aug 2022 16:06:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-44-%E9%80%9A%E9%85%8D%E7%AC%A6%E5%8C%B9%E9%85%8D/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-44-%E9%80%9A%E9%85%8D%E7%AC%A6%E5%8C%B9%E9%85%8D/</guid>
       <description>LeetCode-44 通配符匹配 # Solution 1 # 本题类似 LeetCode-10 正则表达式匹配 , 不过更简单一点.</description>
     </item>
     
     <item>
       <title>LeetCode-42 接雨水</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-42-%E6%8E%A5%E9%9B%A8%E6%B0%B4/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-42-%E6%8E%A5%E9%9B%A8%E6%B0%B4/</link>
       <pubDate>Tue, 30 Aug 2022 15:46:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-42-%E6%8E%A5%E9%9B%A8%E6%B0%B4/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-42-%E6%8E%A5%E9%9B%A8%E6%B0%B4/</guid>
       <description>LeetCode-42 接雨水 # Solution 1 # 一块地方承载的雨水量由自身高度和左侧最大高度、右侧最大高度共同决定.</description>
     </item>
     
     <item>
       <title>CodeForces-1249E By Elevator or Stairs?</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1249e-by-elevator-or-stairs/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1249e-by-elevator-or-stairs/</link>
       <pubDate>Fri, 26 Aug 2022 10:07:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1249e-by-elevator-or-stairs/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1249e-by-elevator-or-stairs/</guid>
       <description>CodeForces-1249E By Elevator or Stairs?</description>
     </item>
     
     <item>
       <title>CodeForces-1582E Pchelyonok and Segments</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1582e-pchelyonok-and-segments/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1582e-pchelyonok-and-segments/</link>
       <pubDate>Wed, 24 Aug 2022 14:03:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1582e-pchelyonok-and-segments/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1582e-pchelyonok-and-segments/</guid>
       <description>CodeForces-1582E Pchelyonok and Segments # 题目大意 # 给定长度为 $n$ 的数组 $a$ , 要求从 $a$ 中选取尽可能多的、互不相交的子数组, 记这些子数组数量一共有 $k$ 个, 它们需要满足:</description>
     </item>
     
     <item>
       <title>CodeForces-467C George and Job</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-467c-george-and-job/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-467c-george-and-job/</link>
       <pubDate>Wed, 24 Aug 2022 10:46:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-467c-george-and-job/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-467c-george-and-job/</guid>
       <description>CodeForces-467C George and Job # 题目大意 # 给定 $n, m, k$ 和一个长度为 $n$ 的数组 $p$ .</description>
     </item>
     
     <item>
       <title>CodeForces-1469C Building a Fence</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1469c-building-a-fence/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1469c-building-a-fence/</link>
       <pubDate>Wed, 24 Aug 2022 09:48:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1469c-building-a-fence/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1469c-building-a-fence/</guid>
       <description>CodeForces-1469C Building a Fence # 题目大意 # 给定有 $n$ 个长为 $1$ , 高度为 $k$ 的篱笆, 你需要给一块长为 $n$ 的土地布设篱笆.</description>
     </item>
     
     <item>
       <title>LeetCode 九坤投资专场竞赛</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-%E4%B9%9D%E5%9D%A4%E6%8A%95%E8%B5%84%E4%B8%93%E5%9C%BA%E7%AB%9E%E8%B5%9B/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-%E4%B9%9D%E5%9D%A4%E6%8A%95%E8%B5%84%E4%B8%93%E5%9C%BA%E7%AB%9E%E8%B5%9B/</link>
       <pubDate>Tue, 23 Aug 2022 10:45:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-%E4%B9%9D%E5%9D%A4%E6%8A%95%E8%B5%84%E4%B8%93%E5%9C%BA%E7%AB%9E%E8%B5%9B/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-%E4%B9%9D%E5%9D%A4%E6%8A%95%E8%B5%84%E4%B8%93%E5%9C%BA%E7%AB%9E%E8%B5%9B/</guid>
       <description>LeetCode 九坤投资专场竞赛 # Problem 1 可以读通讯稿的组数 # 题目链接 # 九坤-01.</description>
     </item>
     
@@ -244,235 +244,235 @@
     
     <item>
       <title>LeetCode-2370 最长理想子序列</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2370-%E6%9C%80%E9%95%BF%E7%90%86%E6%83%B3%E5%AD%90%E5%BA%8F%E5%88%97/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2370-%E6%9C%80%E9%95%BF%E7%90%86%E6%83%B3%E5%AD%90%E5%BA%8F%E5%88%97/</link>
       <pubDate>Thu, 18 Aug 2022 22:45:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2370-%E6%9C%80%E9%95%BF%E7%90%86%E6%83%B3%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2370-%E6%9C%80%E9%95%BF%E7%90%86%E6%83%B3%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
       <description>LeetCode-2370 最长理想子序列 # Solution 1 # 对于子序列问题, 首先想到动态规划.</description>
     </item>
     
     <item>
       <title>LeetCode-2369 检查数组是否存在有效划分</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2369-%E6%A3%80%E6%9F%A5%E6%95%B0%E7%BB%84%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E6%9C%89%E6%95%88%E5%88%92%E5%88%86/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2369-%E6%A3%80%E6%9F%A5%E6%95%B0%E7%BB%84%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E6%9C%89%E6%95%88%E5%88%92%E5%88%86/</link>
       <pubDate>Thu, 18 Aug 2022 18:04:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2369-%E6%A3%80%E6%9F%A5%E6%95%B0%E7%BB%84%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E6%9C%89%E6%95%88%E5%88%92%E5%88%86/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2369-%E6%A3%80%E6%9F%A5%E6%95%B0%E7%BB%84%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E6%9C%89%E6%95%88%E5%88%92%E5%88%86/</guid>
       <description>LeetCode-2369 检查数组是否存在有效划分 # Solution 1 # 划分方式和 &amp;ldquo;爬楼梯&amp;rdquo; 问题很相似, 我们用 $dp[i]$ 记录前 $i + 1$ 个元素能否产生有效划分, 根据 $nums[i], nums[i - 1], nums[i - 2]$ 的关系进行递推即可.</description>
     </item>
     
     <item>
       <title>LeetCode-10 正则表达式匹配</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-10-%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8C%B9%E9%85%8D/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-10-%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8C%B9%E9%85%8D/</link>
       <pubDate>Fri, 05 Aug 2022 16:37:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-10-%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8C%B9%E9%85%8D/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-10-%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8C%B9%E9%85%8D/</guid>
       <description>LeetCode-10 正则表达式匹配 # Solution 1 # 用 $dp[i][j]$ 记录 $s$ 的前 $i$ 个字符和 $p$ 的前 $j$ 个字符是否匹配.</description>
     </item>
     
     <item>
       <title>CodeForces-1426F Number of Subsequences</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1426f-number-of-subsequences/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1426f-number-of-subsequences/</link>
       <pubDate>Thu, 04 Aug 2022 11:27:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1426f-number-of-subsequences/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1426f-number-of-subsequences/</guid>
       <description>CodeForces-1426F Number of Subsequences # 题目大意 # 给定一个长度为 $n$ 且由 $a,b,c,?</description>
     </item>
     
     <item>
       <title>CodeForces-706C Hard problem</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-706c-hard-problem/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-706c-hard-problem/</link>
       <pubDate>Mon, 01 Aug 2022 11:29:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-706c-hard-problem/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-706c-hard-problem/</guid>
       <description>CodeForces-706C Hard problem # 题目大意 # 给定 $n$ 个字符串 $s_1, s_2, &amp;hellip;, s_n$ 和反转它们需要的代价 $a_1, a_2, &amp;hellip;, a_n$ .</description>
     </item>
     
     <item>
       <title>CodeForces-1519D Maximum Sum of Products</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1519d-maximum-sum-of-products/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1519d-maximum-sum-of-products/</link>
       <pubDate>Tue, 26 Jul 2022 14:44:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1519d-maximum-sum-of-products/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1519d-maximum-sum-of-products/</guid>
       <description>CodeForces-1519D Maximum Sum of Products # 题目大意 # 给定长度为 $n$ 的正整数数组 $a_1, a_2,&amp;hellip;, a_n$ 和 $b_1, b_2, &amp;hellip;, b_n$ .</description>
     </item>
     
     <item>
       <title>CodeForces-474D Flowers</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-474d-flowers/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-474d-flowers/</link>
       <pubDate>Mon, 25 Jul 2022 11:53:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-474d-flowers/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-474d-flowers/</guid>
       <description>CodeForces-474D Flowers # 题目大意 # 给定正整数 $k$.</description>
     </item>
     
     <item>
       <title>CodeForces-1203D2 Remove the Substring (hard version)</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1203d2-remove-the-substring-hard-version/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1203d2-remove-the-substring-hard-version/</link>
       <pubDate>Mon, 25 Jul 2022 10:47:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1203d2-remove-the-substring-hard-version/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1203d2-remove-the-substring-hard-version/</guid>
       <description>CodeForces-1203D2 Remove the Substring (hard version) # 题目大意 # 给定两个字符串 $s$ 和 $t$ , 保证 $t$ 是 $s$ 的子序列(不要求连续) .</description>
     </item>
     
     <item>
       <title>CodeForces-431C k-Tree</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-431c-k-tree/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-431c-k-tree/</link>
       <pubDate>Thu, 21 Jul 2022 17:23:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-431c-k-tree/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-431c-k-tree/</guid>
       <description>CodeForces-431C k-Tree # 题目大意 # 有一颗无限大的 $k$ 叉树, 每个节点都有 $k$ 个子节点, 边权分别是 $1, 2, &amp;hellip;, k$ .</description>
     </item>
     
     <item>
       <title>CodeForces-44H Phone Number</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-44h-phone-number/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-44h-phone-number/</link>
       <pubDate>Wed, 20 Jul 2022 15:25:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-44h-phone-number/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-44h-phone-number/</guid>
       <description>CodeForces-44H Phone Number # 题目大意 # 给定一个长度为 $n$ 的数列 $s$ , $0\leq s[i]\leq 9$ , 按如下方式生成长度同样为 $n$ 的数列 $t$ :</description>
     </item>
     
     <item>
       <title>CodeForces-1373D Maximum Sum on Even Positions</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1373d-maximum-sum-on-even-positions/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1373d-maximum-sum-on-even-positions/</link>
       <pubDate>Wed, 20 Jul 2022 12:57:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1373d-maximum-sum-on-even-positions/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1373d-maximum-sum-on-even-positions/</guid>
       <description>CodeForces-1373D Maximum Sum on Even Positions # 题目大意 # 给定一个数列 $a_0, a_1, &amp;hellip;, a_{n - 1}$ , 你可以选择一段连续区间将其反转, 求能够得到的偶数位元素和的最大值.</description>
     </item>
     
     <item>
       <title>CodeForces-1051D Bicolorings</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1051d-bicolorings/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1051d-bicolorings/</link>
       <pubDate>Tue, 19 Jul 2022 15:57:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1051d-bicolorings/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1051d-bicolorings/</guid>
       <description>CodeForces-1051D Bicolorings # 题目大意 # 给定一个 $2\times n$ 的棋盘, 可以对上面的格子黑白染色.</description>
     </item>
     
     <item>
       <title>CodeForces-573B Bear and Blocks</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-573b-bear-and-blocks/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-573b-bear-and-blocks/</link>
       <pubDate>Mon, 18 Jul 2022 17:04:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-573b-bear-and-blocks/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-573b-bear-and-blocks/</guid>
       <description>CodeForces-573B Bear and Blocks # 题目大意 # 有连续 $n$ 列柱子, 第 $i$ 列由 $h_i$ 个小方块堆成.</description>
     </item>
     
     <item>
       <title>CodeForces-1105C Ayoub and Lost Array</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1105c-ayoub-and-lost-array/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1105c-ayoub-and-lost-array/</link>
       <pubDate>Thu, 14 Jul 2022 14:41:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1105c-ayoub-and-lost-array/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1105c-ayoub-and-lost-array/</guid>
       <description>CodeForces-1105C Ayoub and Lost Array # 题目大意 # 给定三个正整数 $n, l, r$ , 求满足如下条件的数组数目:</description>
     </item>
     
     <item>
       <title>CodeForces-788A Functions again</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-788a-functions-again/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-788a-functions-again/</link>
       <pubDate>Thu, 14 Jul 2022 11:39:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-788a-functions-again/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-788a-functions-again/</guid>
       <description>CodeForces-788A Functions again # 题目大意 # 输入一个数组 $a_1, a_2,&amp;hellip;, a_n$ , 定义一个函数, 函数如下: $$ f[l,r]=\sum^{r-1}{i=l}|a_i-a{i+1}| × (-1)^{i-l} $$ 其中 $1\leq l,r\leq n$ .</description>
     </item>
     
     <item>
       <title>CodeForces-1692H Gambling</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1692h-gambling/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1692h-gambling/</link>
       <pubDate>Tue, 12 Jul 2022 11:42:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1692h-gambling/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1692h-gambling/</guid>
       <description>CodeForces-1692H Gambling # 题目大意 # 给定一个长度为 $n$ 的数列 $x$, 寻找 $a, l, r$ 使得 $\sum_{i = l}^r(I(x_i=a)-I(x_i\not = a))$ 最大.</description>
     </item>
     
     <item>
       <title>LeetCode-139 单词拆分</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-139-%E5%8D%95%E8%AF%8D%E6%8B%86%E5%88%86/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-139-%E5%8D%95%E8%AF%8D%E6%8B%86%E5%88%86/</link>
       <pubDate>Mon, 11 Jul 2022 17:44:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-139-%E5%8D%95%E8%AF%8D%E6%8B%86%E5%88%86/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-139-%E5%8D%95%E8%AF%8D%E6%8B%86%E5%88%86/</guid>
       <description>LeetCode-139 单词拆分 # Solution 1 # 我们考虑题中拼接的特殊性质: 如果字符串 $s_1$ 和 $s_2$ 都合法, 那么 $s_1 + s_2$ 也是合法的, 也就是拼接一个字符串可以分解为相同的子问题.</description>
     </item>
     
     <item>
       <title>LeetCode-873 最长的斐波那契子序列的长度</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-873-%E6%9C%80%E9%95%BF%E7%9A%84%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E5%AD%90%E5%BA%8F%E5%88%97%E7%9A%84%E9%95%BF%E5%BA%A6/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-873-%E6%9C%80%E9%95%BF%E7%9A%84%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E5%AD%90%E5%BA%8F%E5%88%97%E7%9A%84%E9%95%BF%E5%BA%A6/</link>
       <pubDate>Sat, 09 Jul 2022 13:14:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-873-%E6%9C%80%E9%95%BF%E7%9A%84%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E5%AD%90%E5%BA%8F%E5%88%97%E7%9A%84%E9%95%BF%E5%BA%A6/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-873-%E6%9C%80%E9%95%BF%E7%9A%84%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E5%AD%90%E5%BA%8F%E5%88%97%E7%9A%84%E9%95%BF%E5%BA%A6/</guid>
       <description>LeetCode-873 最长的斐波那契子序列的长度 # Solution 1 # 对于这种最长子序列的问题, 我们一般以其末尾的元素定义状态.</description>
     </item>
     
     <item>
       <title>LeetCode-329 矩阵中的最长递增路径</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-329-%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E8%B7%AF%E5%BE%84/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-329-%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E8%B7%AF%E5%BE%84/</link>
       <pubDate>Sun, 03 Jul 2022 22:18:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-329-%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E8%B7%AF%E5%BE%84/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-329-%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E8%B7%AF%E5%BE%84/</guid>
       <description>LeetCode-329 矩阵中的最长递增路径 # Solution 1 # 这个经典问题还有一个别号叫做&amp;quot;滑雪问题&amp;quot;.</description>
     </item>
     
     <item>
       <title>CodeForces-1389B Array Walk</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1389b-array-walk/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1389b-array-walk/</link>
       <pubDate>Sat, 02 Jul 2022 14:05:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces%E9%A2%98%E8%A7%A3/codeforces-1389b-array-walk/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1389b-array-walk/</guid>
       <description>CodeForces-1389B Array Walk # 题目大意 # 题面翻译 # 一共有 $n$ 个格子, 每个格子都有它的分值 $a_x$.</description>
     </item>
     
     <item>
       <title>LeetCode-2321 拼接数组的最大分数</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2321-%E6%8B%BC%E6%8E%A5%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%86%E6%95%B0/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2321-%E6%8B%BC%E6%8E%A5%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%86%E6%95%B0/</link>
       <pubDate>Tue, 28 Jun 2022 14:29:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2321-%E6%8B%BC%E6%8E%A5%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%86%E6%95%B0/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2321-%E6%8B%BC%E6%8E%A5%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%86%E6%95%B0/</guid>
       <description>LeetCode-2321 拼接数组的最大分数 # Solution 1 # 如果我们选择交换 $[left, right]$ 区间, 则对于 $nums1$ 而言, 新的数组和为 $$ \sum_{i = 0}^{left - 1}nums1[i] + \sum_{i=left}^{right}nums2[i] + \sum_{i=right + 1}^{n - 1}nums1[i] $$ 变形为: $$ \sum_{i = 0}^{n - 1}nums[1] + \sum_{i = left}^{right}(nums2[i] - nums1[i]) $$ 记 $diff[i] = nums2[i] - nums1[i]$ , 我们求出 $diff$ 的连续子数组最大和即可.</description>
     </item>
     
     <item>
       <title>LeetCode-2304 网格中的最小路径代价</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2304-%E7%BD%91%E6%A0%BC%E4%B8%AD%E7%9A%84%E6%9C%80%E5%B0%8F%E8%B7%AF%E5%BE%84%E4%BB%A3%E4%BB%B7/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2304-%E7%BD%91%E6%A0%BC%E4%B8%AD%E7%9A%84%E6%9C%80%E5%B0%8F%E8%B7%AF%E5%BE%84%E4%BB%A3%E4%BB%B7/</link>
       <pubDate>Wed, 22 Jun 2022 13:19:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2304-%E7%BD%91%E6%A0%BC%E4%B8%AD%E7%9A%84%E6%9C%80%E5%B0%8F%E8%B7%AF%E5%BE%84%E4%BB%A3%E4%BB%B7/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2304-%E7%BD%91%E6%A0%BC%E4%B8%AD%E7%9A%84%E6%9C%80%E5%B0%8F%E8%B7%AF%E5%BE%84%E4%BB%A3%E4%BB%B7/</guid>
       <description>LeetCode-2304 网格中的最小路径代价 # Solution 1 # 本题和经典问题LeetCode-931 下降最小路径和很相似, 不同之处在于多出了节点路径的代价, 这一点不影响动态规划的思路.</description>
     </item>
     
     <item>
       <title>LeetCode-2312 卖木头块</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2312-%E5%8D%96%E6%9C%A8%E5%A4%B4%E5%9D%97/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2312-%E5%8D%96%E6%9C%A8%E5%A4%B4%E5%9D%97/</link>
       <pubDate>Wed, 22 Jun 2022 12:48:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2312-%E5%8D%96%E6%9C%A8%E5%A4%B4%E5%9D%97/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2312-%E5%8D%96%E6%9C%A8%E5%A4%B4%E5%9D%97/</guid>
       <description>LeetCode-2312 卖木头块 # Solution 1 # 对一个大木块, 我们可以选择纵向切割, 也可以选择横向切割, 其价值为小木块之和, 具有典型的动态规划的特点.</description>
     </item>
     
     <item>
       <title>LeetCode-691 贴纸拼词</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-691-%E8%B4%B4%E7%BA%B8%E6%8B%BC%E8%AF%8D/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-691-%E8%B4%B4%E7%BA%B8%E6%8B%BC%E8%AF%8D/</link>
       <pubDate>Sat, 14 May 2022 16:08:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-691-%E8%B4%B4%E7%BA%B8%E6%8B%BC%E8%AF%8D/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-691-%E8%B4%B4%E7%BA%B8%E6%8B%BC%E8%AF%8D/</guid>
       <description>LeetCode-691 贴纸拼词 # Solution 1 # 这道题要用给定的字符串中的字符来拼出目标字符串, 其中给定字符串中每一个都可以使用无数次.</description>
     </item>
     
     <item>
       <title>LeetCode-2167 移除所有载有违禁货物车厢所需的最少时间</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2167-%E7%A7%BB%E9%99%A4%E6%89%80%E6%9C%89%E8%BD%BD%E6%9C%89%E8%BF%9D%E7%A6%81%E8%B4%A7%E7%89%A9%E8%BD%A6%E5%8E%A2%E6%89%80%E9%9C%80%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2167-%E7%A7%BB%E9%99%A4%E6%89%80%E6%9C%89%E8%BD%BD%E6%9C%89%E8%BF%9D%E7%A6%81%E8%B4%A7%E7%89%A9%E8%BD%A6%E5%8E%A2%E6%89%80%E9%9C%80%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</link>
       <pubDate>Fri, 13 May 2022 16:40:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2167-%E7%A7%BB%E9%99%A4%E6%89%80%E6%9C%89%E8%BD%BD%E6%9C%89%E8%BF%9D%E7%A6%81%E8%B4%A7%E7%89%A9%E8%BD%A6%E5%8E%A2%E6%89%80%E9%9C%80%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2167-%E7%A7%BB%E9%99%A4%E6%89%80%E6%9C%89%E8%BD%BD%E6%9C%89%E8%BF%9D%E7%A6%81%E8%B4%A7%E7%89%A9%E8%BD%A6%E5%8E%A2%E6%89%80%E9%9C%80%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</guid>
       <description>LeetCode-2167 移除所有载有违禁货物车厢所需的最少时间 # Solution 1 # 很有趣的一道动态规划题.</description>
     </item>
     
     <item>
       <title>LeetCode-2267 检查是否有合法括号字符串路径</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2267-%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E6%9C%89%E5%90%88%E6%B3%95%E6%8B%AC%E5%8F%B7%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%B7%AF%E5%BE%84/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2267-%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E6%9C%89%E5%90%88%E6%B3%95%E6%8B%AC%E5%8F%B7%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%B7%AF%E5%BE%84/</link>
       <pubDate>Sun, 08 May 2022 20:50:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-2267-%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E6%9C%89%E5%90%88%E6%B3%95%E6%8B%AC%E5%8F%B7%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%B7%AF%E5%BE%84/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2267-%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E6%9C%89%E5%90%88%E6%B3%95%E6%8B%AC%E5%8F%B7%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%B7%AF%E5%BE%84/</guid>
       <description>LeetCode-2267 检查是否有合法括号字符串路径 # LeetCode周赛292T4, 考试时写了个深搜果然超时了&amp;hellip; 深搜最好配合记忆化搜索, 转化成动态规划更好处理一点.</description>
     </item>
     
@@ -487,37 +487,37 @@
     
     <item>
       <title>LeetCode-376 摆动序列</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-376-%E6%91%86%E5%8A%A8%E5%BA%8F%E5%88%97/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-376-%E6%91%86%E5%8A%A8%E5%BA%8F%E5%88%97/</link>
       <pubDate>Fri, 06 May 2022 16:49:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-376-%E6%91%86%E5%8A%A8%E5%BA%8F%E5%88%97/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-376-%E6%91%86%E5%8A%A8%E5%BA%8F%E5%88%97/</guid>
       <description>LeetCode-376 摆动序列 # 直入主题, 这道题可以用动态规划解决, 不过这次我们先看代码, 再来思考状态转移方程的意义.</description>
     </item>
     
     <item>
       <title>LeetCode-390 消除游戏</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-390-%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-390-%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F/</link>
       <pubDate>Wed, 04 May 2022 17:13:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-390-%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-390-%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F/</guid>
       <description>LeetCode-390 消除游戏 # Solution 1 # 这一题的形式很容易让人想到约瑟夫环问题, 事实上, 这道题也有巧妙的数学解法.</description>
     </item>
     
     <item>
       <title>LeetCode-1823 找出游戏的获胜者</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-1823-%E6%89%BE%E5%87%BA%E6%B8%B8%E6%88%8F%E7%9A%84%E8%8E%B7%E8%83%9C%E8%80%85/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1823-%E6%89%BE%E5%87%BA%E6%B8%B8%E6%88%8F%E7%9A%84%E8%8E%B7%E8%83%9C%E8%80%85/</link>
       <pubDate>Wed, 04 May 2022 12:47:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-1823-%E6%89%BE%E5%87%BA%E6%B8%B8%E6%88%8F%E7%9A%84%E8%8E%B7%E8%83%9C%E8%80%85/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1823-%E6%89%BE%E5%87%BA%E6%B8%B8%E6%88%8F%E7%9A%84%E8%8E%B7%E8%83%9C%E8%80%85/</guid>
       <description>LeetCode-1823 找出游戏的获胜者 # 本题是一道非常经典的问题: &amp;ldquo;约瑟夫环问题&amp;rdquo;.</description>
     </item>
     
     <item>
       <title>LeetCode-368 最大整除子集</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-368-%E6%9C%80%E5%A4%A7%E6%95%B4%E9%99%A4%E5%AD%90%E9%9B%86/</link>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-368-%E6%9C%80%E5%A4%A7%E6%95%B4%E9%99%A4%E5%AD%90%E9%9B%86/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode%E9%A2%98%E8%A7%A3/leetcode-368-%E6%9C%80%E5%A4%A7%E6%95%B4%E9%99%A4%E5%AD%90%E9%9B%86/</guid>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-368-%E6%9C%80%E5%A4%A7%E6%95%B4%E9%99%A4%E5%AD%90%E9%9B%86/</guid>
       <description>LeetCode-368 最大整除子集 # 论排序的重要性</description>
     </item>
     
