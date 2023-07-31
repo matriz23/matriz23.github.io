@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Mon, 31 Jul 2023 15:08:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Jul 2023 19:24:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>数学</title>
+      <link>http://example.org/tags/%E6%95%B0%E5%AD%A6/</link>
+      <pubDate>Mon, 31 Jul 2023 19:24:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E6%95%B0%E5%AD%A6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>数论</title>
+      <link>http://example.org/tags/%E6%95%B0%E8%AE%BA/</link>
+      <pubDate>Mon, 31 Jul 2023 19:24:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E6%95%B0%E8%AE%BA/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>C&#43;&#43;</title>
       <link>http://example.org/tags/c&#43;&#43;/</link>
@@ -72,15 +90,6 @@
     </item>
     
     <item>
-      <title>数学</title>
-      <link>http://example.org/tags/%E6%95%B0%E5%AD%A6/</link>
-      <pubDate>Sun, 26 Feb 2023 00:53:00 +0000</pubDate>
-      
-      <guid>http://example.org/tags/%E6%95%B0%E5%AD%A6/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>组合</title>
       <link>http://example.org/tags/%E7%BB%84%E5%90%88/</link>
       <pubDate>Sun, 26 Feb 2023 00:53:00 +0000</pubDate>
@@ -140,15 +149,6 @@
       <pubDate>Thu, 09 Feb 2023 23:16:00 +0000</pubDate>
       
       <guid>http://example.org/tags/%E4%BA%8C%E5%88%86/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>数论</title>
-      <link>http://example.org/tags/%E6%95%B0%E8%AE%BA/</link>
-      <pubDate>Sun, 29 Jan 2023 09:49:00 +0000</pubDate>
-      
-      <guid>http://example.org/tags/%E6%95%B0%E8%AE%BA/</guid>
       <description></description>
     </item>
     
