@@ -5,7 +5,7 @@
     
       <url>
             <loc>http://example.org/posts/</loc>
-            <lastmod>2023-07-31T19:24:00+00:00</lastmod>
+            <lastmod>2023-08-01T13:12:00+00:00</lastmod>
           </url>
     
   
@@ -14,10 +14,23 @@
     
       <url>
             <loc>http://example.org/</loc>
-            <lastmod>2023-07-31T19:24:00+00:00</lastmod>
+            <lastmod>2023-08-01T13:12:00+00:00</lastmod>
           </url>
     
   
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%98_%E8%AF%81%E6%98%8E%E5%AD%98%E5%9C%A8%E7%B3%BB%E6%95%B0%E4%BD%BF%E5%BE%97%E4%B8%8D%E7%AD%89%E5%BC%8F%E6%88%90%E7%AB%8B/</loc>
+            <lastmod>2023-08-01T13:12:00+00:00</lastmod>
+          </url>
     
   
     
@@ -119,8 +132,6 @@
             <loc>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1359d-yet-another-yet-another-task/</loc>
             <lastmod>2023-02-12T19:58:00+00:00</lastmod>
           </url>
-    
-  
     
   
     

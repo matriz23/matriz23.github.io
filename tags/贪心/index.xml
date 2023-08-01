@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Sun, 12 Feb 2023 19:58:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E8%B4%AA%E5%BF%83/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Aug 2023 13:12:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E8%B4%AA%E5%BF%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>趣题: 证明存在系数使得不等式成立</title>
+      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%98_%E8%AF%81%E6%98%8E%E5%AD%98%E5%9C%A8%E7%B3%BB%E6%95%B0%E4%BD%BF%E5%BE%97%E4%B8%8D%E7%AD%89%E5%BC%8F%E6%88%90%E7%AB%8B/</link>
+      <pubDate>Tue, 01 Aug 2023 13:12:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%98_%E8%AF%81%E6%98%8E%E5%AD%98%E5%9C%A8%E7%B3%BB%E6%95%B0%E4%BD%BF%E5%BE%97%E4%B8%8D%E7%AD%89%E5%BC%8F%E6%88%90%E7%AB%8B/</guid>
+      <description>趣题: 证明存在系数使得不等式成立 # 题目 # 设 $a_1, a_2, &amp;hellip; , a_n(n\geq 2)$ 为实数, 证明: 可以选取 $\epsilon_1, \epsilon_2, &amp;hellip;, \epsilon_n\in{-1, 1}$ , 使得 $$ (\sum_{i = 1}^{n}a_i)^2+(\sum_{i = 1}^{n}\epsilon_i a_i)^2\leq (n+1)\sum_{i=1}^{n}a_i^2 $$</description>
+    </item>
+    
     <item>
       <title>CodeForces-1359D Yet Another Yet Another Task</title>
       <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1359d-yet-another-yet-another-task/</link>

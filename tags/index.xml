@@ -7,13 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Mon, 31 Jul 2023 19:24:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Aug 2023 13:12:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>不等式</title>
+      <link>http://example.org/tags/%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
+      <pubDate>Tue, 01 Aug 2023 13:12:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>代数</title>
+      <link>http://example.org/tags/%E4%BB%A3%E6%95%B0/</link>
+      <pubDate>Tue, 01 Aug 2023 13:12:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E4%BB%A3%E6%95%B0/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>数学</title>
       <link>http://example.org/tags/%E6%95%B0%E5%AD%A6/</link>
-      <pubDate>Mon, 31 Jul 2023 19:24:00 +0000</pubDate>
+      <pubDate>Tue, 01 Aug 2023 13:12:00 +0000</pubDate>
       
       <guid>http://example.org/tags/%E6%95%B0%E5%AD%A6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>贪心</title>
+      <link>http://example.org/tags/%E8%B4%AA%E5%BF%83/</link>
+      <pubDate>Tue, 01 Aug 2023 13:12:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E8%B4%AA%E5%BF%83/</guid>
       <description></description>
     </item>
     
@@ -122,15 +149,6 @@
       <pubDate>Mon, 13 Feb 2023 15:59:00 +0000</pubDate>
       
       <guid>http://example.org/tags/c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>贪心</title>
-      <link>http://example.org/tags/%E8%B4%AA%E5%BF%83/</link>
-      <pubDate>Sun, 12 Feb 2023 19:58:00 +0000</pubDate>
-      
-      <guid>http://example.org/tags/%E8%B4%AA%E5%BF%83/</guid>
       <description></description>
     </item>
     
