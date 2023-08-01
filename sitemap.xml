@@ -5,7 +5,7 @@
     
       <url>
             <loc>http://example.org/posts/</loc>
-            <lastmod>2023-08-01T16:56:00+00:00</lastmod>
+            <lastmod>2023-08-01T19:20:00+00:00</lastmod>
           </url>
     
   
@@ -14,12 +14,19 @@
     
       <url>
             <loc>http://example.org/</loc>
-            <lastmod>2023-08-01T16:56:00+00:00</lastmod>
+            <lastmod>2023-08-01T19:20:00+00:00</lastmod>
           </url>
     
   
     
   
+    
+  
+    
+      <url>
+            <loc>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%988_%E5%8C%85%E5%90%AB1-0%E7%9A%84%E5%9C%86%E5%BC%A7/</loc>
+            <lastmod>2023-08-01T19:20:00+00:00</lastmod>
+          </url>
     
   
     
@@ -2025,12 +2032,6 @@
       <url>
             <loc>http://example.org/posts/%E9%9A%8F%E7%AC%94/hello-world/</loc>
             <lastmod>2022-05-02T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/ntmd/bjl/</loc>
           </url>
     
   
