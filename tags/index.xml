@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Tue, 01 Aug 2023 22:47:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Aug 2023 00:31:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>数学</title>
+      <link>http://example.org/tags/%E6%95%B0%E5%AD%A6/</link>
+      <pubDate>Wed, 02 Aug 2023 00:31:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E6%95%B0%E5%AD%A6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>数论</title>
+      <link>http://example.org/tags/%E6%95%B0%E8%AE%BA/</link>
+      <pubDate>Wed, 02 Aug 2023 00:31:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E6%95%B0%E8%AE%BA/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>C&#43;&#43;</title>
       <link>http://example.org/tags/c&#43;&#43;/</link>
@@ -45,15 +63,6 @@
     </item>
     
     <item>
-      <title>数学</title>
-      <link>http://example.org/tags/%E6%95%B0%E5%AD%A6/</link>
-      <pubDate>Tue, 01 Aug 2023 19:20:00 +0000</pubDate>
-      
-      <guid>http://example.org/tags/%E6%95%B0%E5%AD%A6/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>概率</title>
       <link>http://example.org/tags/%E6%A6%82%E7%8E%87/</link>
       <pubDate>Tue, 01 Aug 2023 19:20:00 +0000</pubDate>
@@ -86,15 +95,6 @@
       <pubDate>Tue, 01 Aug 2023 13:12:00 +0000</pubDate>
       
       <guid>http://example.org/tags/%E8%B4%AA%E5%BF%83/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>数论</title>
-      <link>http://example.org/tags/%E6%95%B0%E8%AE%BA/</link>
-      <pubDate>Mon, 31 Jul 2023 19:24:00 +0000</pubDate>
-      
-      <guid>http://example.org/tags/%E6%95%B0%E8%AE%BA/</guid>
       <description></description>
     </item>
     
