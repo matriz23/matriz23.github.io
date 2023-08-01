@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Mon, 31 Jul 2023 15:08:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Aug 2023 22:47:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-2681 英雄的力量</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2681-%E8%8B%B1%E9%9B%84%E7%9A%84%E5%8A%9B%E9%87%8F/</link>
+      <pubDate>Tue, 01 Aug 2023 22:47:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2681-%E8%8B%B1%E9%9B%84%E7%9A%84%E5%8A%9B%E9%87%8F/</guid>
+      <description>LeetCode-2681 英雄的力量 # Solution 1 # 不要求序列连续, 所以可以先将数组排序, 以下讨论均基于排序后的 $nums$ .</description>
+    </item>
+    
     <item>
       <title>LeetCode-2791 树中可以形成回文的路径数</title>
       <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2791-%E6%A0%91%E4%B8%AD%E5%8F%AF%E4%BB%A5%E5%BD%A2%E6%88%90%E5%9B%9E%E6%96%87%E7%9A%84%E8%B7%AF%E5%BE%84%E6%95%B0/</link>
