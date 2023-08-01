@@ -19,14 +19,14 @@
   <meta name="theme-color" content="rgb(255,255,255)" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>LeetCode-2791 树中可以形成回文的路径数 &middot; Matriz23</title>
-    <meta name="title" content="LeetCode-2791 树中可以形成回文的路径数 &middot; Matriz23" />
+  <title>趣题: 包含(1, 0)的圆弧长度的期望和方差 MathJax &middot; Matriz23</title>
+    <meta name="title" content="趣题: 包含(1, 0)的圆弧长度的期望和方差 MathJax &middot; Matriz23" />
   
-  <meta name="description" content="LeetCode-2791「树中可以形成回文的路径数」的思考与解答" />
+  <meta name="description" content="一道概率趣题." />
   
   
   
-  <link rel="canonical" href="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2791-%E6%A0%91%E4%B8%AD%E5%8F%AF%E4%BB%A5%E5%BD%A2%E6%88%90%E5%9B%9E%E6%96%87%E7%9A%84%E8%B7%AF%E5%BE%84%E6%95%B0/" />
+  <link rel="canonical" href="http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%988_%E5%8C%85%E5%90%AB1-0%E7%9A%84%E5%9C%86%E5%BC%A7-mathjax/" />
   
   
   
@@ -74,16 +74,16 @@
   
   
   
-  <meta property="og:title" content="LeetCode-2791 树中可以形成回文的路径数" />
-<meta property="og:description" content="LeetCode-2791「树中可以形成回文的路径数」的思考与解答" />
+  <meta property="og:title" content="趣题: 包含(1, 0)的圆弧长度的期望和方差 MathJax" />
+<meta property="og:description" content="一道概率趣题." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2791-%E6%A0%91%E4%B8%AD%E5%8F%AF%E4%BB%A5%E5%BD%A2%E6%88%90%E5%9B%9E%E6%96%87%E7%9A%84%E8%B7%AF%E5%BE%84%E6%95%B0/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-07-31T15:08:00+00:00" />
-<meta property="article:modified_time" content="2023-07-31T15:08:00+00:00" />
+<meta property="og:url" content="http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%988_%E5%8C%85%E5%90%AB1-0%E7%9A%84%E5%9C%86%E5%BC%A7-mathjax/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-08-01T19:20:00+00:00" />
+<meta property="article:modified_time" content="2023-08-01T19:20:00+00:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="LeetCode-2791 树中可以形成回文的路径数"/>
-<meta name="twitter:description" content="LeetCode-2791「树中可以形成回文的路径数」的思考与解答"/>
+<meta name="twitter:title" content="趣题: 包含(1, 0)的圆弧长度的期望和方差 MathJax"/>
+<meta name="twitter:description" content="一道概率趣题."/>
 
   
   <script type="application/ld+json">
@@ -91,26 +91,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "LeetCode-2791 树中可以形成回文的路径数",
-    "headline": "LeetCode-2791 树中可以形成回文的路径数",
-    "description": "LeetCode-2791「树中可以形成回文的路径数」的思考与解答",
-    "abstract": "LeetCode-2791 树中可以形成回文的路径数 # Solution1 # 允许路径上的字符重新排列后组成回文串, 因此我们只关心路径上字符的数量, 更准确地说是只关心字符数量的奇偶性, 通过状态压缩可以用一个数代表一条路径的字符状态 (不妨用 $xor$ 来表示, 可以发现路径的拼接和裁剪相当于作异或操作) .",
+    "name": "趣题: 包含(1, 0)的圆弧长度的期望和方差 MathJax",
+    "headline": "趣题: 包含(1, 0)的圆弧长度的期望和方差 MathJax",
+    "description": "一道概率趣题.",
+    "abstract": "趣题: 包含(1, 0)的圆弧 # 题目 # 在单位圆 $x^2 \u002by^2 =1$ 上按均匀分布随机取 $n$ 个点($n \\geq 2$), 这 $n$ 个点可以把单位圆分成 $n$ 段圆弧, 求包含点 $(1.",
     "inLanguage": "en-au",
-    "url" : "http:\/\/example.org\/posts\/%E8%AE%A1%E7%AE%97%E6%9C%BA\/leetcode\/leetcode-2791-%E6%A0%91%E4%B8%AD%E5%8F%AF%E4%BB%A5%E5%BD%A2%E6%88%90%E5%9B%9E%E6%96%87%E7%9A%84%E8%B7%AF%E5%BE%84%E6%95%B0\/",
+    "url" : "http:\/\/example.org\/posts\/%E6%95%B0%E5%AD%A6\/%E8%B6%A3%E9%A2%98\/%E8%B6%A3%E9%A2%988_%E5%8C%85%E5%90%AB1-0%E7%9A%84%E5%9C%86%E5%BC%A7-mathjax\/",
     "author" : {
       "@type": "Person",
       "name": "Matriz23"
     },
     "copyrightYear": "2023",
-    "dateCreated": "2023-07-31T15:08:00\u002b00:00",
-    "datePublished": "2023-07-31T15:08:00\u002b00:00",
+    "dateCreated": "2023-08-01T19:20:00\u002b00:00",
+    "datePublished": "2023-08-01T19:20:00\u002b00:00",
     
-    "dateModified": "2023-07-31T15:08:00\u002b00:00",
+    "dateModified": "2023-08-01T19:20:00\u002b00:00",
     
-    "keywords": ["计算机","算法","LeetCode","C++","状态压缩"],
+    "keywords": ["数学","概率"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "167"
+    "wordCount": "234"
   }]
   </script>
 
@@ -283,8 +283,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2791-%E6%A0%91%E4%B8%AD%E5%8F%AF%E4%BB%A5%E5%BD%A2%E6%88%90%E5%9B%9E%E6%96%87%E7%9A%84%E8%B7%AF%E5%BE%84%E6%95%B0/"
-      >LeetCode-2791 树中可以形成回文的路径数</a
+      href="/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%988_%E5%8C%85%E5%90%AB1-0%E7%9A%84%E5%9C%86%E5%BC%A7-mathjax/"
+      >趣题: 包含(1, 0)的圆弧长度的期望和方差 MathJax</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -293,7 +293,7 @@
 
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        LeetCode-2791 树中可以形成回文的路径数
+        趣题: 包含(1, 0)的圆弧长度的期望和方差 MathJax
       </h1>
       <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -330,7 +330,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2023-07-31 15:08:00 &#43;0000 UTC">31 July 2023</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
+      <time datetime="2023-08-01 19:20:00 &#43;0000 UTC">1 August 2023</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -338,7 +338,7 @@
 
 <span class="mb-[2px]">
   <a
-    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e8%ae%a1%e7%ae%97%e6%9c%ba/LeetCode/LeetCode-2791%20%e6%a0%91%e4%b8%ad%e5%8f%af%e4%bb%a5%e5%bd%a2%e6%88%90%e5%9b%9e%e6%96%87%e7%9a%84%e8%b7%af%e5%be%84%e6%95%b0.md"
+    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e6%95%b0%e5%ad%a6/%e8%b6%a3%e9%a2%98/%e8%b6%a3%e9%a2%988_%e5%8c%85%e5%90%ab%281,%200%29%e7%9a%84%e5%9c%86%e5%bc%a7%20MathJax.md"
     class="text-lg hover:text-primary-500"
     rel="noopener noreferrer"
     target="_blank"
@@ -373,10 +373,10 @@
   <div class="-ms-5 border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#趣题-包含1-0的圆弧">趣题: 包含(1, 0)的圆弧</a>
       <ul>
-        <li><a href="#leetcode-2791-树中可以形成回文的路径数httpsleetcodecnproblemscount-paths-that-can-form-a-palindrome-in-a-tree"><a href="https://leetcode.cn/problems/count-paths-that-can-form-a-palindrome-in-a-tree/">LeetCode-2791 树中可以形成回文的路径数</a></a></li>
-        <li><a href="#solution1">Solution1</a></li>
+        <li><a href="#题目">题目</a></li>
+        <li><a href="#solution-1">Solution 1</a></li>
       </ul>
     </li>
   </ul>
@@ -388,44 +388,35 @@
         </div>
       
       <div class="min-w-0 min-h-0 max-w-prose grow">
-        <h3 id="leetcode-2791-树中可以形成回文的路径数httpsleetcodecnproblemscount-paths-that-can-form-a-palindrome-in-a-tree" class="relative group"><a
-  href="https://leetcode.cn/problems/count-paths-that-can-form-a-palindrome-in-a-tree/"
-  
-  target="_blank" rel="noreferrer noopener"
->LeetCode-2791 树中可以形成回文的路径数</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#leetcode-2791-%e6%a0%91%e4%b8%ad%e5%8f%af%e4%bb%a5%e5%bd%a2%e6%88%90%e5%9b%9e%e6%96%87%e7%9a%84%e8%b7%af%e5%be%84%e6%95%b0httpsleetcodecnproblemscount-paths-that-can-form-a-palindrome-in-a-tree" aria-label="Anchor">#</a></span></h3>
-<h3 id="solution1" class="relative group">Solution1 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#solution1" aria-label="Anchor">#</a></span></h3>
-<p>允许路径上的字符重新排列后组成回文串, 因此我们只关心路径上字符的数量, 更准确地说是只关心字符数量的奇偶性, 通过状态压缩可以用一个数代表一条路径的字符状态 (不妨用 $xor$ 来表示, 可以发现路径的拼接和裁剪相当于作异或操作) . 考虑从 $A$ 到 $B$ 的路径值 $xor(A, B)$ 可以表示为两条路径的异或和 $xor(LCA(A, B), A) \oplus xor(LCA(A, B), B)$ ; 进一步地, 将 $xor(LCA(A,B), A)$ 表示成 $xor(0, LCA(A, B)) \oplus xor(0, A)$ , 同样处理 $xor(LCA(A,B), B)$ , 则有
-$$xor(A, B)
-\= xor(0, LCA(A, B)) \oplus xor(0, A) \oplus xor(0, LCA(A, B)) \oplus xor(0, B)
-\= xor(0, A) + xor(0, B)
+        <h2 id="趣题-包含1-0的圆弧" class="relative group">趣题: 包含(1, 0)的圆弧 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e8%b6%a3%e9%a2%98-%e5%8c%85%e5%90%ab1-0%e7%9a%84%e5%9c%86%e5%bc%a7" aria-label="Anchor">#</a></span></h2>
+<h3 id="题目" class="relative group">题目 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e9%a2%98%e7%9b%ae" aria-label="Anchor">#</a></span></h3>
+<p>在单位圆 $x^2 +y^2 =1$ 上按均匀分布随机取 $n$ 个点($n \geq 2$), 这 $n$ 个点可以把单位圆分成 $n$ 段圆弧, 求包含点 $(1.0)$ 的圆弧的长度的数学期望和方差.</p>
+<h3 id="solution-1" class="relative group">Solution 1 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#solution-1" aria-label="Anchor">#</a></span></h3>
+<p>不妨设 $n$ 个点的弧度分别为 $0\leq \xi_1, \xi_2, &hellip;\xi_n \leq 2\pi$ , 记 $\xi_1^*=min{\xi_1, &hellip;, \xi_n}$ , $\xi_n^*=max{\xi_1, &hellip;, \xi_n}$ , 那么包含 $(1, 0)$ 的圆弧的长度为 $\xi_1^* + 2\pi - \xi_n^*$ .
+$$P(\xi_1^* &gt; x) = \prod_{1\leq i\leq n}P(\xi_i &gt; x) = (1 - \frac{x}{2\pi})^n$$
+$$P(\xi_n^* &lt; x) = \prod_{1\leq i\leq n}P(\xi_i &lt; x) = (\frac{x}{2\pi})^n$$
+计算 $E[\xi_1^*]$ :
 $$
-故在深度优先搜索计算异或值时计数即可.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="k">using</span> <span class="n">ll</span> <span class="o">=</span> <span class="kt">long</span> <span class="kt">long</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl"><span class="k">public</span><span class="o">:</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">long</span> <span class="kt">long</span> <span class="n">countPalindromePaths</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&amp;</span> <span class="n">parent</span><span class="p">,</span> <span class="n">string</span> <span class="n">s</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">n</span> <span class="o">=</span> <span class="n">parent</span><span class="p">.</span><span class="n">size</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">        <span class="n">ll</span> <span class="n">ans</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">vector</span><span class="o">&lt;</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;&gt;</span> <span class="n">e</span><span class="p">[</span><span class="n">n</span><span class="p">];</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="n">e</span><span class="p">[</span><span class="n">parent</span><span class="p">[</span><span class="n">i</span><span class="p">]].</span><span class="n">emplace_back</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="sc">&#39;a&#39;</span><span class="p">));</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        <span class="n">unordered_map</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;</span> <span class="n">cnt</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">function</span><span class="o">&lt;</span><span class="kt">void</span><span class="p">(</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="p">)</span><span class="o">&gt;</span> <span class="n">dfs</span> <span class="o">=</span> <span class="p">[</span><span class="o">&amp;</span><span class="p">](</span><span class="kt">int</span> <span class="n">x</span><span class="p">,</span> <span class="kt">int</span> <span class="n">xor_x</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="n">ans</span> <span class="o">+=</span> <span class="n">cnt</span><span class="p">[</span><span class="n">xor_x</span><span class="p">];</span>
-</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">26</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">                <span class="n">ans</span> <span class="o">+=</span> <span class="n">cnt</span><span class="p">[</span><span class="n">xor_x</span> <span class="o">^</span> <span class="p">(</span><span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="n">i</span><span class="p">)];</span>
-</span></span><span class="line"><span class="cl">            <span class="p">}</span>
-</span></span><span class="line"><span class="cl">            <span class="n">cnt</span><span class="p">[</span><span class="n">xor_x</span><span class="p">]</span><span class="o">++</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="p">(</span><span class="k">auto</span> <span class="nl">y</span> <span class="p">:</span> <span class="n">e</span><span class="p">[</span><span class="n">x</span><span class="p">])</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">                <span class="n">dfs</span><span class="p">(</span><span class="n">y</span><span class="p">.</span><span class="n">first</span><span class="p">,</span> <span class="n">xor_x</span> <span class="o">^</span> <span class="n">y</span><span class="p">.</span><span class="n">second</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">            <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        <span class="p">};</span> 
-</span></span><span class="line"><span class="cl">        <span class="n">dfs</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">ans</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">};</span>
-</span></span></code></pre></div>
+E[\xi_1^*] = \int_{0}^{2\pi}xf(x)dx = \int_{0}^{2\pi}xdF(x) = \int_{0}^{2\pi}\int_{0}^{x}dydF(x) = \int_{0}^{2\pi}\int_{y}^{2\pi}df(x)dy = \int_{0}^{2\pi}P(\xi_1^* &gt; y)dy = \int_{0}^{2\pi}(1 - \frac{y}{2\pi})^ndy = \frac{2\pi}{n+1}
+$$
+类似地, $$E[\xi_n^*] = 2\pi - \frac{2\pi}{n+1}$$
+故
+$$E[\xi_1^* + 2\pi - \xi_n^*] = \frac{4\pi}{n + 1}$$</p>
+<p>对于方差, 有 $Var[X] = E[X^2] - E^2[X]$ . 考虑计算 $E[(\xi_1^* + 2\pi - \xi_n^*)^2] = 4\pi^2+4\pi E[xi_1^*] - 4\pi E[\xi_n^*] + E[{\xi_1^*}^2] + E[{\xi_n^*}^2] - 2E[\xi_1^* \xi_n^*]$ .
+重点计算 $E[\xi_1^* \xi_n^*]$ . 考虑
+$$F(x, y) = P(\xi_1^* \leq x, \xi_n^* \leq y)
+\= P(\xi_n^*\leq y) - P(x&lt; \xi_1^*, \xi_n^*\leq y)
+\= P(\xi_n^*\leq y) - \prod_{1\leq i\leq n}P(x&lt;\xi_i\leq y)
+\= (\frac{y}{2\pi})^n - (\frac{y - x}{2\pi})^n$$
+有
+$$
+f(x, y) = \frac{\partial^2 F(x, y)}{\partial x \partial y} =\frac{n(n - 1)}{(2\pi)^n}(y - x)^{n-2}$$
+计算
+$$E[\xi_1^* \xi_n^*] = \int_{0}^{2\pi}\int_{0}^{2\pi}xyf(x, y)dxdy =\frac{4\pi^2}{n+2}
+$$
+对于 $E[{\xi_1^*}^2]$ , 类似 $E[\xi_1^*]$ , 计算得 $E[{\xi_1^*}^2] = \frac{8\pi^2}{(n + 1)(n+ 2)}$ . 同理 $E[{\xi_n^*}^2] = 4\pi^2 - \frac{8\pi^2}{n+ 2}$ . 故
+$$Var(x) = \frac{8\pi^2(n -1)}{(n+1)^2(n+2)}$$</p>
+
       </div>
     </section>
     <footer class="pt-8 max-w-prose print:hidden">
@@ -494,7 +485,7 @@ $$
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2790-%E9%95%BF%E5%BA%A6%E9%80%92%E5%A2%9E%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E7%9B%AE/">
+            <a class="group flex" href="/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%987_%E5%A5%BD%E7%82%B9%E4%B8%AA%E6%95%B0%E7%9A%84%E6%9C%9F%E6%9C%9B%E5%80%BC/">
               <span
                 class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
                 ><span class="ltr:inline rtl:hidden">&larr;</span
@@ -503,11 +494,11 @@ $$
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >LeetCode-2790 长度递增组的最大数目</span
+                  >趣题: 好点个数的期望值</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2023-07-29 21:58:00 &#43;0000 UTC">29 July 2023</time>
+                    <time datetime="2023-08-01 16:56:00 &#43;0000 UTC">1 August 2023</time>
                   
                 </span>
               </span>
@@ -516,15 +507,15 @@ $$
         </span>
         <span>
           
-            <a class="group flex text-right" href="/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%984_%E8%AF%81%E6%98%8E%E4%B8%80%E4%B8%AA%E5%BC%8F%E5%AD%90%E4%B8%8D%E4%B8%BA%E6%95%B4%E6%95%B0/">
+            <a class="group flex text-right" href="/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%988_%E5%8C%85%E5%90%AB1-0%E7%9A%84%E5%9C%86%E5%BC%A7/">
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >趣题: 证明一个式子不为整数</span
+                  >趣题: 包含(1, 0)的圆弧长度的期望和方差</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2023-07-31 19:24:00 &#43;0000 UTC">31 July 2023</time>
+                    <time datetime="2023-08-01 19:20:00 &#43;0000 UTC">1 August 2023</time>
                   
                 </span>
               </span>
@@ -545,6 +536,17 @@ $$
     </footer>
   </article>
 
+        
+          <div class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12">
+            <a
+              href="#the-top"
+              class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+              aria-label="Scroll to top"
+              title="Scroll to top"
+            >
+              &uarr;
+            </a>
+          </div>
         
       </main><footer class="py-10 print:hidden">
   
@@ -621,41 +623,7 @@ $$
 
 
 
-<script type="text/javascript"
-        async
-        src="https://cdn.bootcss.com/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-MathJax.Hub.Config({
-  tex2jax: {
-    inlineMath: [['$','$'], ['\\(','\\)']],
-    displayMath: [['$$','$$'], ['\[\[','\]\]']],
-    processEscapes: true,
-    processEnvironments: true,
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-    TeX: { equationNumbers: { autoNumber: "AMS" },
-         extensions: ["AMSmath.js", "AMSsymbols.js"] }
-  }
-});
-
-MathJax.Hub.Queue(function() {
-    
-    
-    
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i = 0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';
-    }
-});
-</script>
-
-<style>
-code.has-jax {
-    font: inherit;
-    font-size: 100%;
-    background: inherit;
-    border: inherit;
-    color: #515151;
-}
-</style><div
+<div
   id="search-wrapper"
   class="invisible fixed inset-0 z-50 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
   data-url="http://example.org/"
