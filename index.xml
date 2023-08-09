@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Wed, 02 Aug 2023 00:31:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Aug 2023 16:51:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-2188 完成比赛的最少时间</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2188-%E5%AE%8C%E6%88%90%E6%AF%94%E8%B5%9B%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</link>
+      <pubDate>Wed, 09 Aug 2023 16:51:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2188-%E5%AE%8C%E6%88%90%E6%AF%94%E8%B5%9B%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</guid>
+      <description>LeetCode-2188 完成比赛的最少时间 # Solution 1 # 完成比赛相当于把圈数划分成连续的若干段, 其总时间等于各子段所需要的时间加上 &amp;ldquo;划分&amp;rdquo; (也就是题中的换胎操作) 所需要的时间.</description>
+    </item>
+    
+    <item>
+      <title>机器学习 Lec1</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-lec1/</link>
+      <pubDate>Thu, 03 Aug 2023 17:48:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-lec1/</guid>
+      <description>机器学习 Lec1 # 考虑一个二分类问题 (例如邮件分类), 已有数据 $(x_1, y_1) , &amp;hellip;, (x_N, y_N)$ , 寻找目标函数 $f: x\to y$ , 输入 $x\in\R^d$ , 输出 $y\in {0, 1}$ .</description>
+    </item>
+    
     <item>
       <title>趣题: 找出所有符合要求的 n</title>
       <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%989_%E6%89%BE%E5%87%BA%E6%89%80%E6%9C%89%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84-n/</link>

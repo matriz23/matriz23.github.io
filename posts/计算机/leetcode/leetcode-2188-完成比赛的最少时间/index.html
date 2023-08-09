@@ -19,14 +19,14 @@
   <meta name="theme-color" content="rgb(255,255,255)" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>趣题: 找出所有符合要求的 n &middot; Matriz23</title>
-    <meta name="title" content="趣题: 找出所有符合要求的 n &middot; Matriz23" />
+  <title>LeetCode-2188 完成比赛的最少时间 &middot; Matriz23</title>
+    <meta name="title" content="LeetCode-2188 完成比赛的最少时间 &middot; Matriz23" />
   
-  <meta name="description" content="一道数论趣题." />
+  <meta name="description" content="LeetCode-2188「完成比赛的最少时间」的思考与解答" />
   
   
   
-  <link rel="canonical" href="http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%989_%E6%89%BE%E5%87%BA%E6%89%80%E6%9C%89%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84-n/" />
+  <link rel="canonical" href="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2188-%E5%AE%8C%E6%88%90%E6%AF%94%E8%B5%9B%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/" />
   
   
   
@@ -74,16 +74,16 @@
   
   
   
-  <meta property="og:title" content="趣题: 找出所有符合要求的 n" />
-<meta property="og:description" content="一道数论趣题." />
+  <meta property="og:title" content="LeetCode-2188 完成比赛的最少时间" />
+<meta property="og:description" content="LeetCode-2188「完成比赛的最少时间」的思考与解答" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%989_%E6%89%BE%E5%87%BA%E6%89%80%E6%9C%89%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84-n/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-08-02T00:31:00+00:00" />
-<meta property="article:modified_time" content="2023-08-02T00:31:00+00:00" />
+<meta property="og:url" content="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2188-%E5%AE%8C%E6%88%90%E6%AF%94%E8%B5%9B%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-08-09T16:51:00+00:00" />
+<meta property="article:modified_time" content="2023-08-09T16:51:00+00:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="趣题: 找出所有符合要求的 n"/>
-<meta name="twitter:description" content="一道数论趣题."/>
+<meta name="twitter:title" content="LeetCode-2188 完成比赛的最少时间"/>
+<meta name="twitter:description" content="LeetCode-2188「完成比赛的最少时间」的思考与解答"/>
 
   
   <script type="application/ld+json">
@@ -91,26 +91,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "趣题: 找出所有符合要求的 n",
-    "headline": "趣题: 找出所有符合要求的 n",
-    "description": "一道数论趣题.",
-    "abstract": "趣题: 找出所有符合要求的 n # 题目 # 设 $1 = d_1 \u0026lt; d_2 \u0026lt; \u0026hellip; \u0026lt; d_k = n$ 是合数 $n$ 的全部正因数, 若对任意 $1\\leq i\\leq k-2$ , 均有 $d_i\\mid d_{i \u002b 1} \u002b d_{i \u002b 2}$ , 求 $n$ .",
+    "name": "LeetCode-2188 完成比赛的最少时间",
+    "headline": "LeetCode-2188 完成比赛的最少时间",
+    "description": "LeetCode-2188「完成比赛的最少时间」的思考与解答",
+    "abstract": "LeetCode-2188 完成比赛的最少时间 # Solution 1 # 完成比赛相当于把圈数划分成连续的若干段, 其总时间等于各子段所需要的时间加上 \u0026ldquo;划分\u0026rdquo; (也就是题中的换胎操作) 所需要的时间.",
     "inLanguage": "en-au",
-    "url" : "http:\/\/example.org\/posts\/%E6%95%B0%E5%AD%A6\/%E8%B6%A3%E9%A2%98\/%E8%B6%A3%E9%A2%989_%E6%89%BE%E5%87%BA%E6%89%80%E6%9C%89%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84-n\/",
+    "url" : "http:\/\/example.org\/posts\/%E8%AE%A1%E7%AE%97%E6%9C%BA\/leetcode\/leetcode-2188-%E5%AE%8C%E6%88%90%E6%AF%94%E8%B5%9B%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4\/",
     "author" : {
       "@type": "Person",
       "name": "Matriz23"
     },
     "copyrightYear": "2023",
-    "dateCreated": "2023-08-02T00:31:00\u002b00:00",
-    "datePublished": "2023-08-02T00:31:00\u002b00:00",
+    "dateCreated": "2023-08-09T16:51:00\u002b00:00",
+    "datePublished": "2023-08-09T16:51:00\u002b00:00",
     
-    "dateModified": "2023-08-02T00:31:00\u002b00:00",
+    "dateModified": "2023-08-09T16:51:00\u002b00:00",
     
-    "keywords": ["数学","数论"],
+    "keywords": ["计算机","算法","LeetCode","Python"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "175"
+    "wordCount": "138"
   }]
   </script>
 
@@ -283,8 +283,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%989_%E6%89%BE%E5%87%BA%E6%89%80%E6%9C%89%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84-n/"
-      >趣题: 找出所有符合要求的 n</a
+      href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2188-%E5%AE%8C%E6%88%90%E6%AF%94%E8%B5%9B%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/"
+      >LeetCode-2188 完成比赛的最少时间</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -293,7 +293,7 @@
 
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        趣题: 找出所有符合要求的 n
+        LeetCode-2188 完成比赛的最少时间
       </h1>
       <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -330,7 +330,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2023-08-02 00:31:00 &#43;0000 UTC">2 August 2023</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
+      <time datetime="2023-08-09 16:51:00 &#43;0000 UTC">9 August 2023</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -338,7 +338,7 @@
 
 <span class="mb-[2px]">
   <a
-    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e6%95%b0%e5%ad%a6/%e8%b6%a3%e9%a2%98/%e8%b6%a3%e9%a2%989_%e6%89%be%e5%87%ba%e6%89%80%e6%9c%89%e7%ac%a6%e5%90%88%e8%a6%81%e6%b1%82%e7%9a%84%20n.md"
+    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e8%ae%a1%e7%ae%97%e6%9c%ba/LeetCode/LeetCode-2188%20%e5%ae%8c%e6%88%90%e6%af%94%e8%b5%9b%e7%9a%84%e6%9c%80%e5%b0%91%e6%97%b6%e9%97%b4.md"
     class="text-lg hover:text-primary-500"
     rel="noopener noreferrer"
     target="_blank"
@@ -373,9 +373,9 @@
   <div class="-ms-5 border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#趣题-找出所有符合要求的-n">趣题: 找出所有符合要求的 n</a>
+    <li>
       <ul>
-        <li><a href="#题目">题目</a></li>
+        <li><a href="#leetcode-2188-完成比赛的最少时间httpsleetcodecnproblemsminimum-time-to-finish-the-racedescription"><a href="https://leetcode.cn/problems/minimum-time-to-finish-the-race/description/">LeetCode-2188 完成比赛的最少时间</a></a></li>
         <li><a href="#solution-1">Solution 1</a></li>
       </ul>
     </li>
@@ -388,13 +388,35 @@
         </div>
       
       <div class="min-w-0 min-h-0 max-w-prose grow">
-        <h2 id="趣题-找出所有符合要求的-n" class="relative group">趣题: 找出所有符合要求的 n <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e8%b6%a3%e9%a2%98-%e6%89%be%e5%87%ba%e6%89%80%e6%9c%89%e7%ac%a6%e5%90%88%e8%a6%81%e6%b1%82%e7%9a%84-n" aria-label="Anchor">#</a></span></h2>
-<h3 id="题目" class="relative group">题目 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e9%a2%98%e7%9b%ae" aria-label="Anchor">#</a></span></h3>
-<p>设 $1 = d_1 &lt; d_2 &lt; &hellip; &lt; d_k = n$ 是合数 $n$ 的全部正因数, 若对任意 $1\leq i\leq k-2$ , 均有 $d_i\mid d_{i + 1} + d_{i + 2}$ , 求 $n$ .</p>
+        <h3 id="leetcode-2188-完成比赛的最少时间httpsleetcodecnproblemsminimum-time-to-finish-the-racedescription" class="relative group"><a
+  href="https://leetcode.cn/problems/minimum-time-to-finish-the-race/description/"
+  
+  target="_blank" rel="noreferrer noopener"
+>LeetCode-2188 完成比赛的最少时间</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#leetcode-2188-%e5%ae%8c%e6%88%90%e6%af%94%e8%b5%9b%e7%9a%84%e6%9c%80%e5%b0%91%e6%97%b6%e9%97%b4httpsleetcodecnproblemsminimum-time-to-finish-the-racedescription" aria-label="Anchor">#</a></span></h3>
 <h3 id="solution-1" class="relative group">Solution 1 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#solution-1" aria-label="Anchor">#</a></span></h3>
-<p>首先, $d_2$ 为 $n$ 最小的素因子, 记作为 $p$ . $d_{k - 2}\mid d_{k-1} + d_k$ , 由于 $d_{k - 2}\mid d_k = n$ , $d_{k - 2}\mid d_{k - 1}$ , 即 $\frac{n}{d_3}\mid \frac{n}{d_2}$ , 有 $d_2\mid d_3$ , $p$ 也是 $d_3$ 的最小素因子. 假设 $d_3$ 有其它素因子 $q &gt; p$ , 那么 $d_2 = p &lt; q &lt; d_3$ , 这与 $d_2, d_3$ 之间没有其他 $n$ 的正因数矛盾. 故 $d_3$ 只有 $p$ 这一素因子, $d_3$ 只能为 $p^2$ . 又因为 $p\mid d_3 + d_4$ , 故 $p\mid d_4$ , 同样可证 $d_4$ 只有 $p$ 这一素因子, $d_4$ 只能为 $p^3$ . 以此类推, $d_i$ 只能为 $p^{i - 1}$ . 由于 $d_k = n$ , 有 $p^{k - 1} = n$ , 故 $n$ 为素数的 $t$ 次方 ($t\geq 2$) . 不难验证 $n = p^t(t\geq 2)$ 时满足题给性质.
-综上, $n$ 为素数的 $t$ 次方 ($t\geq 2$) .</p>
-
+<p>完成比赛相当于把圈数划分成连续的若干段, 其总时间等于各子段所需要的时间加上 &ldquo;划分&rdquo; (也就是题中的换胎操作) 所需要的时间.
+定义 $cost[i]$ 也就是连续跑 $i$ 圈所花费的最少时间. 需要注意的是, 由指数的特性, 如果 $cost[i] \geq cost[i - 1] + cost[1] + changeTime$ , 那么就没必要计算 $cost[i + 1], &hellip; cost[n]$ 了.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">minimumFinishTime</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tires</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]],</span> <span class="n">changeTime</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">numLaps</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">def</span> <span class="nf">geometric_series_sum</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="n">k</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="n">k</span> <span class="k">if</span> <span class="n">r</span> <span class="o">==</span> <span class="mi">1</span> <span class="k">else</span> <span class="nb">int</span><span class="p">((</span><span class="mi">1</span> <span class="o">-</span> <span class="n">r</span><span class="o">**</span><span class="n">k</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">r</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="n">cost</span> <span class="o">=</span> <span class="p">[</span><span class="n">inf</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="n">numLaps</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">numLaps</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="n">cost</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">                <span class="n">cost</span><span class="p">[</span><span class="n">i</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">min</span><span class="p">([</span><span class="n">f</span> <span class="o">*</span> <span class="n">geometric_series_sum</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">f</span><span class="p">,</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">tires</span><span class="p">]),</span>
+</span></span><span class="line"><span class="cl">            <span class="p">)</span> 
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="n">cost</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">cost</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">cost</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">changeTime</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">break</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">dp</span> <span class="o">=</span> <span class="p">[</span><span class="n">inf</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="n">numLaps</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">numLaps</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">cost</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">i</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">                <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">dp</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">+</span> <span class="n">cost</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="n">j</span><span class="p">]</span> <span class="o">+</span> <span class="n">changeTime</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">dp</span><span class="p">[</span><span class="n">numLaps</span><span class="p">]</span>
+</span></span></code></pre></div>
       </div>
     </section>
     <footer class="pt-8 max-w-prose print:hidden">
@@ -463,29 +485,12 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2681-%E8%8B%B1%E9%9B%84%E7%9A%84%E5%8A%9B%E9%87%8F/">
+            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-lec1/">
               <span
                 class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
                 ><span class="ltr:inline rtl:hidden">&larr;</span
                 ><span class="ltr:hidden rtl:inline">&rarr;</span></span
               >
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >LeetCode-2681 英雄的力量</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2023-08-01 22:47:00 &#43;0000 UTC">1 August 2023</time>
-                  
-                </span>
-              </span>
-            </a>
-          
-        </span>
-        <span>
-          
-            <a class="group flex text-right" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-lec1/">
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
@@ -497,12 +502,10 @@
                   
                 </span>
               </span>
-              <span
-                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
-                ><span class="ltr:inline rtl:hidden">&rarr;</span
-                ><span class="ltr:hidden rtl:inline">&larr;</span></span
-              >
             </a>
+          
+        </span>
+        <span>
           
         </span>
       </div>
