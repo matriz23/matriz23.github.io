@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Mon, 13 Feb 2023 21:58:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Aug 2023 22:50:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-2209 用地毯覆盖后的最少白色砖块</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2209-%E7%94%A8%E5%9C%B0%E6%AF%AF%E8%A6%86%E7%9B%96%E5%90%8E%E7%9A%84%E6%9C%80%E5%B0%91%E7%99%BD%E8%89%B2%E7%A0%96%E5%9D%97/</link>
+      <pubDate>Wed, 09 Aug 2023 22:50:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2209-%E7%94%A8%E5%9C%B0%E6%AF%AF%E8%A6%86%E7%9B%96%E5%90%8E%E7%9A%84%E6%9C%80%E5%B0%91%E7%99%BD%E8%89%B2%E7%A0%96%E5%9D%97/</guid>
+      <description>LeetCode-2209 用地毯覆盖后的最少白色砖块 # Solution 1 # 记 $dp[i][j]$ 代表在 $floor[0:i]$ 这一段使用 $j$ 条地毯覆盖后的最少白色砖块数.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-2188 完成比赛的最少时间</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2188-%E5%AE%8C%E6%88%90%E6%AF%94%E8%B5%9B%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</link>
+      <pubDate>Wed, 09 Aug 2023 16:51:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2188-%E5%AE%8C%E6%88%90%E6%AF%94%E8%B5%9B%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</guid>
+      <description>LeetCode-2188 完成比赛的最少时间 # Solution 1 # 完成比赛相当于把圈数划分成连续的若干段, 其总时间等于各子段所需要的时间加上 &amp;ldquo;划分&amp;rdquo; (也就是题中的换胎操作) 所需要的时间.</description>
+    </item>
+    
     <item>
       <title>CodeForces-1324E Sleeping Schedule</title>
       <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1324e-sleeping-schedule/</link>

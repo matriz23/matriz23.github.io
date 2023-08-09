@@ -19,14 +19,14 @@
   <meta name="theme-color" content="rgb(255,255,255)" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>LeetCode-2188 完成比赛的最少时间 &middot; Matriz23</title>
-    <meta name="title" content="LeetCode-2188 完成比赛的最少时间 &middot; Matriz23" />
+  <title>LeetCode-2209 用地毯覆盖后的最少白色砖块 &middot; Matriz23</title>
+    <meta name="title" content="LeetCode-2209 用地毯覆盖后的最少白色砖块 &middot; Matriz23" />
   
-  <meta name="description" content="LeetCode-2188「完成比赛的最少时间」的思考与解答" />
+  <meta name="description" content="LeetCode-2209「用地毯覆盖后的最少白色砖块」的思考与解答" />
   
   
   
-  <link rel="canonical" href="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2188-%E5%AE%8C%E6%88%90%E6%AF%94%E8%B5%9B%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/" />
+  <link rel="canonical" href="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2209-%E7%94%A8%E5%9C%B0%E6%AF%AF%E8%A6%86%E7%9B%96%E5%90%8E%E7%9A%84%E6%9C%80%E5%B0%91%E7%99%BD%E8%89%B2%E7%A0%96%E5%9D%97/" />
   
   
   
@@ -74,16 +74,16 @@
   
   
   
-  <meta property="og:title" content="LeetCode-2188 完成比赛的最少时间" />
-<meta property="og:description" content="LeetCode-2188「完成比赛的最少时间」的思考与解答" />
+  <meta property="og:title" content="LeetCode-2209 用地毯覆盖后的最少白色砖块" />
+<meta property="og:description" content="LeetCode-2209「用地毯覆盖后的最少白色砖块」的思考与解答" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2188-%E5%AE%8C%E6%88%90%E6%AF%94%E8%B5%9B%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-08-09T16:51:00+00:00" />
-<meta property="article:modified_time" content="2023-08-09T16:51:00+00:00" />
+<meta property="og:url" content="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2209-%E7%94%A8%E5%9C%B0%E6%AF%AF%E8%A6%86%E7%9B%96%E5%90%8E%E7%9A%84%E6%9C%80%E5%B0%91%E7%99%BD%E8%89%B2%E7%A0%96%E5%9D%97/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-08-09T22:50:00+00:00" />
+<meta property="article:modified_time" content="2023-08-09T22:50:00+00:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="LeetCode-2188 完成比赛的最少时间"/>
-<meta name="twitter:description" content="LeetCode-2188「完成比赛的最少时间」的思考与解答"/>
+<meta name="twitter:title" content="LeetCode-2209 用地毯覆盖后的最少白色砖块"/>
+<meta name="twitter:description" content="LeetCode-2209「用地毯覆盖后的最少白色砖块」的思考与解答"/>
 
   
   <script type="application/ld+json">
@@ -91,26 +91,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "LeetCode-2188 完成比赛的最少时间",
-    "headline": "LeetCode-2188 完成比赛的最少时间",
-    "description": "LeetCode-2188「完成比赛的最少时间」的思考与解答",
-    "abstract": "LeetCode-2188 完成比赛的最少时间 # Solution 1 # 完成比赛相当于把圈数划分成连续的若干段, 其总时间等于各子段所需要的时间加上 \u0026ldquo;划分\u0026rdquo; (也就是题中的换胎操作) 所需要的时间.",
+    "name": "LeetCode-2209 用地毯覆盖后的最少白色砖块",
+    "headline": "LeetCode-2209 用地毯覆盖后的最少白色砖块",
+    "description": "LeetCode-2209「用地毯覆盖后的最少白色砖块」的思考与解答",
+    "abstract": "LeetCode-2209 用地毯覆盖后的最少白色砖块 # Solution 1 # 记 $dp[i][j]$ 代表在 $floor[0:i]$ 这一段使用 $j$ 条地毯覆盖后的最少白色砖块数.",
     "inLanguage": "en-au",
-    "url" : "http:\/\/example.org\/posts\/%E8%AE%A1%E7%AE%97%E6%9C%BA\/leetcode\/leetcode-2188-%E5%AE%8C%E6%88%90%E6%AF%94%E8%B5%9B%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4\/",
+    "url" : "http:\/\/example.org\/posts\/%E8%AE%A1%E7%AE%97%E6%9C%BA\/leetcode\/leetcode-2209-%E7%94%A8%E5%9C%B0%E6%AF%AF%E8%A6%86%E7%9B%96%E5%90%8E%E7%9A%84%E6%9C%80%E5%B0%91%E7%99%BD%E8%89%B2%E7%A0%96%E5%9D%97\/",
     "author" : {
       "@type": "Person",
       "name": "Matriz23"
     },
     "copyrightYear": "2023",
-    "dateCreated": "2023-08-09T16:51:00\u002b00:00",
-    "datePublished": "2023-08-09T16:51:00\u002b00:00",
+    "dateCreated": "2023-08-09T22:50:00\u002b00:00",
+    "datePublished": "2023-08-09T22:50:00\u002b00:00",
     
-    "dateModified": "2023-08-09T16:51:00\u002b00:00",
+    "dateModified": "2023-08-09T22:50:00\u002b00:00",
     
     "keywords": ["计算机","算法","LeetCode","Python","动态规划"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "139"
+    "wordCount": "92"
   }]
   </script>
 
@@ -283,8 +283,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2188-%E5%AE%8C%E6%88%90%E6%AF%94%E8%B5%9B%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/"
-      >LeetCode-2188 完成比赛的最少时间</a
+      href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2209-%E7%94%A8%E5%9C%B0%E6%AF%AF%E8%A6%86%E7%9B%96%E5%90%8E%E7%9A%84%E6%9C%80%E5%B0%91%E7%99%BD%E8%89%B2%E7%A0%96%E5%9D%97/"
+      >LeetCode-2209 用地毯覆盖后的最少白色砖块</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -293,7 +293,7 @@
 
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        LeetCode-2188 完成比赛的最少时间
+        LeetCode-2209 用地毯覆盖后的最少白色砖块
       </h1>
       <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -330,7 +330,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2023-08-09 16:51:00 &#43;0000 UTC">9 August 2023</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
+      <time datetime="2023-08-09 22:50:00 &#43;0000 UTC">9 August 2023</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -338,7 +338,7 @@
 
 <span class="mb-[2px]">
   <a
-    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e8%ae%a1%e7%ae%97%e6%9c%ba/LeetCode/LeetCode-2188%20%e5%ae%8c%e6%88%90%e6%af%94%e8%b5%9b%e7%9a%84%e6%9c%80%e5%b0%91%e6%97%b6%e9%97%b4.md"
+    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e8%ae%a1%e7%ae%97%e6%9c%ba/LeetCode/LeetCode-2209%20%e7%94%a8%e5%9c%b0%e6%af%af%e8%a6%86%e7%9b%96%e5%90%8e%e7%9a%84%e6%9c%80%e5%b0%91%e7%99%bd%e8%89%b2%e7%a0%96%e5%9d%97.md"
     class="text-lg hover:text-primary-500"
     rel="noopener noreferrer"
     target="_blank"
@@ -375,7 +375,7 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#leetcode-2188-完成比赛的最少时间httpsleetcodecnproblemsminimum-time-to-finish-the-racedescription"><a href="https://leetcode.cn/problems/minimum-time-to-finish-the-race/description/">LeetCode-2188 完成比赛的最少时间</a></a></li>
+        <li><a href="#leetcode-2209-用地毯覆盖后的最少白色砖块httpsleetcodecnproblemsminimum-white-tiles-after-covering-with-carpets"><a href="https://leetcode.cn/problems/minimum-white-tiles-after-covering-with-carpets/">LeetCode-2209 用地毯覆盖后的最少白色砖块</a></a></li>
         <li><a href="#solution-1">Solution 1</a></li>
       </ul>
     </li>
@@ -388,35 +388,28 @@
         </div>
       
       <div class="min-w-0 min-h-0 max-w-prose grow">
-        <h3 id="leetcode-2188-完成比赛的最少时间httpsleetcodecnproblemsminimum-time-to-finish-the-racedescription" class="relative group"><a
-  href="https://leetcode.cn/problems/minimum-time-to-finish-the-race/description/"
+        <h3 id="leetcode-2209-用地毯覆盖后的最少白色砖块httpsleetcodecnproblemsminimum-white-tiles-after-covering-with-carpets" class="relative group"><a
+  href="https://leetcode.cn/problems/minimum-white-tiles-after-covering-with-carpets/"
   
   target="_blank" rel="noreferrer noopener"
->LeetCode-2188 完成比赛的最少时间</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#leetcode-2188-%e5%ae%8c%e6%88%90%e6%af%94%e8%b5%9b%e7%9a%84%e6%9c%80%e5%b0%91%e6%97%b6%e9%97%b4httpsleetcodecnproblemsminimum-time-to-finish-the-racedescription" aria-label="Anchor">#</a></span></h3>
+>LeetCode-2209 用地毯覆盖后的最少白色砖块</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#leetcode-2209-%e7%94%a8%e5%9c%b0%e6%af%af%e8%a6%86%e7%9b%96%e5%90%8e%e7%9a%84%e6%9c%80%e5%b0%91%e7%99%bd%e8%89%b2%e7%a0%96%e5%9d%97httpsleetcodecnproblemsminimum-white-tiles-after-covering-with-carpets" aria-label="Anchor">#</a></span></h3>
 <h3 id="solution-1" class="relative group">Solution 1 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#solution-1" aria-label="Anchor">#</a></span></h3>
-<p>完成比赛相当于把圈数划分成连续的若干段, 其总时间等于各子段所需要的时间加上 &ldquo;划分&rdquo; (也就是题中的换胎操作) 所需要的时间.
-定义 $cost[i]$ 也就是连续跑 $i$ 圈所花费的最少时间. 需要注意的是, 由指数的特性, 如果 $cost[i] \geq cost[i - 1] + cost[1] + changeTime$ , 那么就没必要计算 $cost[i + 1], &hellip; cost[n]$ 了.<br>
+<p>记 $dp[i][j]$ 代表在 $floor[0:i]$ 这一段使用 $j$ 条地毯覆盖后的最少白色砖块数. 状态转移考虑是否在最右侧放置地毯即可.
 代码如下:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">minimumFinishTime</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tires</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]],</span> <span class="n">changeTime</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">numLaps</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="k">def</span> <span class="nf">geometric_series_sum</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="n">k</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="n">k</span> <span class="k">if</span> <span class="n">r</span> <span class="o">==</span> <span class="mi">1</span> <span class="k">else</span> <span class="nb">int</span><span class="p">((</span><span class="mi">1</span> <span class="o">-</span> <span class="n">r</span><span class="o">**</span><span class="n">k</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">r</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">        
-</span></span><span class="line"><span class="cl">        <span class="n">cost</span> <span class="o">=</span> <span class="p">[</span><span class="n">inf</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="n">numLaps</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">numLaps</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">            <span class="n">cost</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span>
-</span></span><span class="line"><span class="cl">                <span class="n">cost</span><span class="p">[</span><span class="n">i</span><span class="p">],</span>
-</span></span><span class="line"><span class="cl">                <span class="nb">min</span><span class="p">([</span><span class="n">f</span> <span class="o">*</span> <span class="n">geometric_series_sum</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">f</span><span class="p">,</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">tires</span><span class="p">]),</span>
-</span></span><span class="line"><span class="cl">            <span class="p">)</span> 
-</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="n">cost</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">cost</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">cost</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">changeTime</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">                <span class="k">break</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="n">dp</span> <span class="o">=</span> <span class="p">[</span><span class="n">inf</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="n">numLaps</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">numLaps</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">            <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">cost</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">i</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">                <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">dp</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">+</span> <span class="n">cost</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="n">j</span><span class="p">]</span> <span class="o">+</span> <span class="n">changeTime</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">dp</span><span class="p">[</span><span class="n">numLaps</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">minimumWhiteTiles</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">floor</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">numCarpets</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">carpetLen</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">floor</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">dp</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="n">numCarpets</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">dp</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">floor</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;1&#39;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">numCarpets</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">                <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">dp</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">+</span> <span class="p">(</span><span class="n">floor</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;1&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="n">j</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="n">carpetLen</span><span class="p">:</span>    
+</span></span><span class="line"><span class="cl">                        <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">],</span> <span class="n">dp</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="n">carpetLen</span><span class="p">][</span><span class="n">j</span> <span class="o">-</span> <span class="mi">1</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                        <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">],</span> <span class="mi">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">dp</span><span class="p">[</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">][</span><span class="n">numCarpets</span><span class="p">]</span>
 </span></span></code></pre></div>
       </div>
     </section>
@@ -486,7 +479,7 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-lec1/">
+            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2188-%E5%AE%8C%E6%88%90%E6%AF%94%E8%B5%9B%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/">
               <span
                 class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
                 ><span class="ltr:inline rtl:hidden">&larr;</span
@@ -495,11 +488,11 @@
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >机器学习 Lec1</span
+                  >LeetCode-2188 完成比赛的最少时间</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2023-08-03 17:48:00 &#43;0000 UTC">3 August 2023</time>
+                    <time datetime="2023-08-09 16:51:00 &#43;0000 UTC">9 August 2023</time>
                   
                 </span>
               </span>
@@ -507,25 +500,6 @@
           
         </span>
         <span>
-          
-            <a class="group flex text-right" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2209-%E7%94%A8%E5%9C%B0%E6%AF%AF%E8%A6%86%E7%9B%96%E5%90%8E%E7%9A%84%E6%9C%80%E5%B0%91%E7%99%BD%E8%89%B2%E7%A0%96%E5%9D%97/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >LeetCode-2209 用地毯覆盖后的最少白色砖块</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2023-08-09 22:50:00 &#43;0000 UTC">9 August 2023</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
-                ><span class="ltr:inline rtl:hidden">&rarr;</span
-                ><span class="ltr:hidden rtl:inline">&larr;</span></span
-              >
-            </a>
           
         </span>
       </div>
