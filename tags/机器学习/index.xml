@@ -7,14 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Thu, 03 Aug 2023 17:48:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Aug 2023 09:18:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>机器学习 Lec1</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-lec1/</link>
-      <pubDate>Thu, 03 Aug 2023 17:48:00 +0000</pubDate>
+      <title>机器学习: NFL定理</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0_nfl%E5%AE%9A%E7%90%86/</link>
+      <pubDate>Thu, 10 Aug 2023 09:18:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-lec1/</guid>
-      <description>机器学习 Lec1 # 考虑一个二分类问题 (例如邮件分类), 已有数据 $(x_1, y_1) , &amp;hellip;, (x_N, y_N)$ , 寻找目标函数 $f: x\to y$ , 输入 $x\in\R^d$ , 输出 $y\in {0, 1}$ .</description>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0_nfl%E5%AE%9A%E7%90%86/</guid>
+      <description>机器学习: NFL定理 # &amp;ldquo;No Free Lunch Theorem&amp;rdquo;, 简称 NFL 定理, 是由 David Wolpert 和 William Macready 于 1997 年提出的, 它对机器学习的局限性提供了深刻的洞见.</description>
     </item>
     
     <item>
