@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Thu, 10 Aug 2023 10:03:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Aug 2023 20:59:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>趣题: 符合要求的最小的 n</title>
+      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9811_%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84%E6%9C%80%E5%B0%8F%E7%9A%84n/</link>
+      <pubDate>Thu, 10 Aug 2023 20:59:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9811_%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84%E6%9C%80%E5%B0%8F%E7%9A%84n/</guid>
+      <description>趣题: 符合要求的最小的 n # 题目 # 从 $1, 2, &amp;hellip;, n$ 中任意删去 $2023$ 个不同的数, 从剩下的数中仍然能找到 $2023$ 个数, 满足它们的和为 $n$ .</description>
+    </item>
+    
+    <item>
+      <title>趣题: 点在同一个半圆的概率</title>
+      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9810_%E7%82%B9%E5%9C%A8%E5%90%8C%E4%B8%80%E4%B8%AA%E5%8D%8A%E5%9C%86%E7%9A%84%E6%A6%82%E7%8E%87/</link>
+      <pubDate>Thu, 10 Aug 2023 19:20:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9810_%E7%82%B9%E5%9C%A8%E5%90%8C%E4%B8%80%E4%B8%AA%E5%8D%8A%E5%9C%86%E7%9A%84%E6%A6%82%E7%8E%87/</guid>
+      <description>趣题: 点在同一个半圆的概率 # 题目 # 随机在圆上生成 $n$ 个点, 这 $n$ 个点在同一个半圆的概率是多少?</description>
+    </item>
+    
     <item>
       <title>Notes on Information Retrieval</title>
       <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/notes-on-information-retrieval/</link>
@@ -63,30 +81,12 @@
     </item>
     
     <item>
-      <title>趣题: 符合要求的最小的 n</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9811_%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84%E6%9C%80%E5%B0%8F%E7%9A%84n/</link>
-      <pubDate>Tue, 01 Aug 2023 20:59:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9811_%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84%E6%9C%80%E5%B0%8F%E7%9A%84n/</guid>
-      <description>趣题: 符合要求的最小的 n # 题目 # 从 $1, 2, &amp;hellip;, n$ 中任意删去 $2023$ 个不同的数, 从剩下的数中仍然能找到 $2023$ 个数, 满足它们的和为 $n$ .</description>
-    </item>
-    
-    <item>
       <title>趣题: 包含(1, 0)的圆弧长度的期望和方差</title>
       <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%988_%E5%8C%85%E5%90%AB1-0%E7%9A%84%E5%9C%86%E5%BC%A7/</link>
       <pubDate>Tue, 01 Aug 2023 19:20:00 +0000</pubDate>
       
       <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%988_%E5%8C%85%E5%90%AB1-0%E7%9A%84%E5%9C%86%E5%BC%A7/</guid>
       <description>趣题: 包含(1, 0)的圆弧 # 题目 # 在单位圆 $x^2 +y^2 =1$ 上按均匀分布随机取 $n$ 个点($n \geq 2$), 这 $n$ 个点可以把单位圆分成 $n$ 段圆弧, 求包含点 $(1.</description>
-    </item>
-    
-    <item>
-      <title>趣题: 点在同一个半圆的概率</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9810_%E7%82%B9%E5%9C%A8%E5%90%8C%E4%B8%80%E4%B8%AA%E5%8D%8A%E5%9C%86%E7%9A%84%E6%A6%82%E7%8E%87/</link>
-      <pubDate>Tue, 01 Aug 2023 19:20:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9810_%E7%82%B9%E5%9C%A8%E5%90%8C%E4%B8%80%E4%B8%AA%E5%8D%8A%E5%9C%86%E7%9A%84%E6%A6%82%E7%8E%87/</guid>
-      <description>趣题: 点在同一个半圆的概率 # 题目 # 随机在圆上生成 $n$ 个点, 这 $n$ 个点在同一个半圆的概率是多少?</description>
     </item>
     
     <item>
