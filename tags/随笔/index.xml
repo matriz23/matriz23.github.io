@@ -26,14 +26,5 @@
       <description>&amp;lt;中外艺术史&amp;gt;课程以及自己看的一些资料的笔记, 没有条理是正常的.</description>
     </item>
     
-    <item>
-      <title>Hello World!</title>
-      <link>http://example.org/posts/%E9%9A%8F%E7%AC%94/hello-world/</link>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/%E9%9A%8F%E7%AC%94/hello-world/</guid>
-      <description>Hello, World!</description>
-    </item>
-    
   </channel>
 </rss>

@@ -53,14 +53,5 @@
       <description>LeetCode 九坤投资专场竞赛 # Problem 1 可以读通讯稿的组数 # 题目链接 # 九坤-01.</description>
     </item>
     
-    <item>
-      <title>数据挖掘与机器学习 学习笔记</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E4%B8%8E%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-section-1/</link>
-      <pubDate>Sun, 26 Jun 2022 23:32:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E4%B8%8E%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-section-1/</guid>
-      <description>数据挖掘与机器学习 Section 1 # 什么是机器学习 # 机器学习的核心目标是从经验数据中推导出规律, 并将这种规律应用于新的数据中, 其本质是使用统计技术给计算机系统提供&amp;quot;学习&amp;quot;(即逐步提高特定任务的性能)的能力, 而不是显式编程.</description>
-    </item>
-    
   </channel>
 </rss>
