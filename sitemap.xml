@@ -4,15 +4,22 @@
   
     
       <url>
-            <loc>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/counterfeit-coins-1/</loc>
-            <lastmod>2023-08-11T14:32:00+00:00</lastmod>
+            <loc>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/clock-pieces/</loc>
+            <lastmod>2023-08-15T19:18:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/glass-balls/</loc>
+            <lastmod>2023-08-15T19:18:00+00:00</lastmod>
           </url>
     
   
     
       <url>
             <loc>http://example.org/posts/</loc>
-            <lastmod>2023-08-11T14:32:00+00:00</lastmod>
+            <lastmod>2023-08-15T19:18:00+00:00</lastmod>
           </url>
     
   
@@ -21,12 +28,19 @@
     
       <url>
             <loc>http://example.org/</loc>
-            <lastmod>2023-08-11T14:32:00+00:00</lastmod>
+            <lastmod>2023-08-15T19:18:00+00:00</lastmod>
           </url>
     
   
     
   
+    
+  
+    
+      <url>
+            <loc>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/counterfeit-coins-1/</loc>
+            <lastmod>2023-08-11T14:32:00+00:00</lastmod>
+          </url>
     
   
     
