@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Thu, 10 Aug 2023 10:03:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Aug 2023 08:28:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-2242 节点序列的最大得分</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2242-%E8%8A%82%E7%82%B9%E5%BA%8F%E5%88%97%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86/</link>
+      <pubDate>Wed, 23 Aug 2023 08:28:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2242-%E8%8A%82%E7%82%B9%E5%BA%8F%E5%88%97%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86/</guid>
+      <description>LeetCode-2242 节点序列的最大得分 # Solution 1 # 要找出长度为 $4$ 的节点序列的最大的得分, 考虑枚举中间这条边, 再查看左右两个端点的可能性.</description>
+    </item>
+    
     <item>
       <title>Notes on Information Retrieval</title>
       <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/notes-on-information-retrieval/</link>
