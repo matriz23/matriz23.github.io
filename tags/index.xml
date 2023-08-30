@@ -7,7 +7,52 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Wed, 23 Aug 2023 08:28:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Aug 2023 20:31:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>数学</title>
+      <link>http://example.org/tags/%E6%95%B0%E5%AD%A6/</link>
+      <pubDate>Mon, 28 Aug 2023 20:31:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E6%95%B0%E5%AD%A6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>组合</title>
+      <link>http://example.org/tags/%E7%BB%84%E5%90%88/</link>
+      <pubDate>Mon, 28 Aug 2023 20:31:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E7%BB%84%E5%90%88/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>机器学习，最优化</title>
+      <link>http://example.org/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%9C%80%E4%BC%98%E5%8C%96/</link>
+      <pubDate>Sun, 27 Aug 2023 09:27:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%9C%80%E4%BC%98%E5%8C%96/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>算法</title>
+      <link>http://example.org/tags/%E7%AE%97%E6%B3%95/</link>
+      <pubDate>Sun, 27 Aug 2023 09:27:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E7%AE%97%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>计算机</title>
+      <link>http://example.org/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
+      <pubDate>Sun, 27 Aug 2023 09:27:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>LeetCode</title>
       <link>http://example.org/tags/leetcode/</link>
@@ -32,33 +77,6 @@
       <pubDate>Wed, 23 Aug 2023 08:28:00 +0000</pubDate>
       
       <guid>http://example.org/tags/%E5%9B%BE/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>算法</title>
-      <link>http://example.org/tags/%E7%AE%97%E6%B3%95/</link>
-      <pubDate>Wed, 23 Aug 2023 08:28:00 +0000</pubDate>
-      
-      <guid>http://example.org/tags/%E7%AE%97%E6%B3%95/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>计算机</title>
-      <link>http://example.org/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
-      <pubDate>Wed, 23 Aug 2023 08:28:00 +0000</pubDate>
-      
-      <guid>http://example.org/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>数学</title>
-      <link>http://example.org/tags/%E6%95%B0%E5%AD%A6/</link>
-      <pubDate>Tue, 15 Aug 2023 19:18:00 +0000</pubDate>
-      
-      <guid>http://example.org/tags/%E6%95%B0%E5%AD%A6/</guid>
       <description></description>
     </item>
     
@@ -176,15 +194,6 @@
       <pubDate>Mon, 24 Jul 2023 19:27:00 +0000</pubDate>
       
       <guid>http://example.org/tags/sql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>组合</title>
-      <link>http://example.org/tags/%E7%BB%84%E5%90%88/</link>
-      <pubDate>Sun, 26 Feb 2023 00:53:00 +0000</pubDate>
-      
-      <guid>http://example.org/tags/%E7%BB%84%E5%90%88/</guid>
       <description></description>
     </item>
     
