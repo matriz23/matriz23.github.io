@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Mon, 28 Aug 2023 20:31:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Sep 2023 11:21:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Novikoff 定理</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/novikoff-%E5%AE%9A%E7%90%86/</link>
+      <pubDate>Sat, 02 Sep 2023 11:21:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/novikoff-%E5%AE%9A%E7%90%86/</guid>
+      <description>Novikoff 定理 # Novikoff 定理告诉我们, 对于线性可分的训练数据集, 感知机的学习算法时收敛的.</description>
+    </item>
+    
     <item>
       <title>Ants on a Square</title>
       <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/ants-on-a-square/</link>
@@ -27,12 +36,12 @@
     </item>
     
     <item>
-      <title>机器学习: 梯度下降法</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0_%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95/</link>
+      <title>梯度下降法</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95/</link>
       <pubDate>Sun, 27 Aug 2023 09:27:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0_%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95/</guid>
-      <description>机器学习: 梯度下降法 # 梯度下降法 (Gradient Descent) 用于求解无约束优化问题.</description>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95/</guid>
+      <description>梯度下降法 # 梯度下降法 (Gradient Descent) 用于求解无约束优化问题.</description>
     </item>
     
     <item>
@@ -117,12 +126,12 @@
     </item>
     
     <item>
-      <title>机器学习: NFL定理</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0_nfl%E5%AE%9A%E7%90%86/</link>
+      <title>NFL定理</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/nfl%E5%AE%9A%E7%90%86/</link>
       <pubDate>Thu, 10 Aug 2023 09:18:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0_nfl%E5%AE%9A%E7%90%86/</guid>
-      <description>机器学习: NFL定理 # &amp;ldquo;No Free Lunch Theorem&amp;rdquo;, 简称 NFL 定理, 是由 David Wolpert 和 William Macready 于 1997 年提出的, 它对机器学习的局限性提供了深刻的洞见.</description>
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/nfl%E5%AE%9A%E7%90%86/</guid>
+      <description>NFL定理 # &amp;ldquo;No Free Lunch Theorem&amp;rdquo;, 简称 NFL 定理, 是由 David Wolpert 和 William Macready 于 1997 年提出的, 它对机器学习的局限性提供了深刻的洞见.</description>
     </item>
     
     <item>
