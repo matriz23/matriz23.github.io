@@ -391,9 +391,9 @@
 <p>Novikoff 定理告诉我们, 对于线性可分的训练数据集, 感知机的学习算法时收敛的.
 具体而言, 设训练数据集 $T={(x_1, y_1), (x_2, y_2) , (x_N, y_N)}$ 是线性可分的, 其中 $x_i \in \mathbb{R}^n$ , $y_i \in {-1, +1}$ , $i=1,2,\cdots,N$ , 则</p>
 <ul>
-<li>存在满足条件 $|\hat{w}^* | = 1$ 的超平面 $w^* \cdot x + b^* = 0$ , 将训练数据集完全正确地划分开; 且存在正数 $\gamma$ , 对所有 $i=1,2,\cdots,N$ , 满足
+<li>存在满足条件 $|\hat{w}<em>{opt} | = 1$ 的超平面 $w</em>{opt} \cdot x + b_{opt} = 0$ , 将训练数据集完全正确地划分开; 且存在正数 $\gamma$ , 对所有 $i=1,2,\cdots,N$ , 满足
 $$
-y_i(\hat{w}^<em>\cdot \hat{x}_i) =  y_i(w^</em> \cdot x_i + b^*) \geq \gamma
+y_i(\hat{w}<em>{opt}\cdot \hat{x}<em>i) =  y_i(w</em>{opt} \cdot x_i + b</em>{opt}) \geq \gamma
 $$</li>
 <li>令 $R = \max\limits_{1 \leq i \leq N} |\hat{x}_i|$ , 则感知机算法在训练数据集 $T$ 上的误分类次数 $k$ 满足不等式
 $$
@@ -401,27 +401,27 @@ k \leq \left(\frac{R}{\gamma}\right)^2
 $$</li>
 </ul>
 <h3 id="证明" class="relative group">证明 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e8%af%81%e6%98%8e" aria-label="Anchor">#</a></span></h3>
-<p>设 $w^<em>$ 是将训练数据集完全正确地划分开的超平面, 且 $|w^</em>| = 1$ , 令 $\gamma = \min\limits_{1 \leq i \leq N} y_i(w^* \cdot x_i + b^<em>)$ , 则对所有 $i=1,2,\cdots,N$ , 有
+<p>设 $w_{opt}$ 是将训练数据集完全正确地划分开的超平面, 且 $|w_{opt}| = 1$ , 令 $\gamma = \min\limits_{1 \leq i \leq N} y_i(w_{opt} \cdot x_i + b_{opt})$ , 则对所有 $i=1,2,\cdots,N$ , 有
 $$
-y_i(\hat{w}^</em>\cdot \hat{x}<em>i) = y_i(w^* \cdot x_i + b^*) &gt; 0
+y_i(\hat{w}<em>{opt}\cdot \hat{x}<em>i) = y_i(w</em>{opt} \cdot x_i + b</em>{opt}) &gt; 0
 $$
-所以存在正数 $\gamma = \min\limits</em>{1 \leq i \leq N} y_i(w^* \cdot x_i + b^<em>)$ , 对所有 $i=1,2,\cdots,N$ , 满足
+所以存在正数 $\gamma = \min\limits_{1 \leq i \leq N} y_i(w_{opt} \cdot x_i + b_{opt})$ , 对所有 $i=1,2,\cdots,N$ , 满足
 $$
-y_i(\hat{w}^</em>\cdot \hat{x}_i) =  y_i(w^* \cdot x_i + b^*) \geq \gamma
+y_i(\hat{w}<em>{opt}\cdot \hat{x}<em>i) =  y_i(w</em>{opt} \cdot x_i + b</em>{opt}) \geq \gamma
 $$</p>
 <p>接下来考虑感知机的学习过程. 从 $w_0 = 0$ 开始, 对每个被误分类的实例进行权重更新. 设 $\hat{w}<em>{k - 1}$ 是第 $k$ 个误分类实例 $(x_i, y_i)$ 之前的扩充权重向量, 则有 $$y_i(\hat{w}</em>{k - 1} \cdot \hat{x}_i) \leq 0$$
 进行更新后的权重向量为
 $$
 \hat{w}<em>k = \hat{w}</em>{k - 1} + \eta y_i \hat{x}_i
 $$</p>
-<p>考虑 $\hat{w}<em>k$ 与 $\hat{w}^<em>$ 的内积, 有
+<p>考虑 $\hat{w}<em>k$ 与 $\hat{w}</em>{opt}$ 的内积, 有
 $$
 \begin{aligned}
-\hat{w}_k \cdot \hat{w}^</em>
-&amp; = (\hat{w}</em>{k - 1} + \eta y_i \hat{x}<em>i) \cdot \hat{w}^* \\
-&amp; = \hat{w}</em>{k - 1} \cdot \hat{w}^* + \eta y_i \hat{x}<em>i \cdot \hat{w}^* \\
-&amp; \geq \hat{w}</em>{k - 1} \cdot \hat{w}^* + \eta \gamma \\
-&amp; \geq  \hat{w}_{k - 2} \cdot \hat{w}^* + 2\eta \gamma \\
+\hat{w}<em>k \cdot \hat{w}</em>{opt}
+&amp; = (\hat{w}<em>{k - 1} + \eta y_i \hat{x}<em>i) \cdot \hat{w}</em>{opt} \\
+&amp; = \hat{w}</em>{k - 1} \cdot \hat{w}<em>{opt} + \eta y_i \hat{x}<em>i \cdot \hat{w}</em>{opt} \\
+&amp; \geq \hat{w}</em>{k - 1} \cdot \hat{w}<em>{opt} + \eta \gamma \\
+&amp; \geq  \hat{w}</em>{k - 2} \cdot \hat{w}_{opt} + 2\eta \gamma \\
 &amp; \geq \cdots \\
 &amp; \geq k \eta \gamma \\
 \end{aligned}
@@ -440,7 +440,7 @@ $$
 $$
 故有
 $$
-1\geq \frac{\hat{w}_k \cdot \hat{w}^<em>}{|\hat{w}_k| |\hat{w}^</em>|}
+1\geq \frac{\hat{w}<em>k \cdot \hat{w}</em>{opt}}{|\hat{w}<em>k| |\hat{w}</em>{opt}|}
 \geq \frac{k \eta \gamma}{\sqrt{k} \eta R}
 = \sqrt{k} \frac{\gamma}{R}
 $$
