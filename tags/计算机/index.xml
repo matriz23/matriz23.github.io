@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Fri, 08 Sep 2023 14:23:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Sep 2023 13:45:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-2463 最小移动总距离</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2463-%E6%9C%80%E5%B0%8F%E7%A7%BB%E5%8A%A8%E6%80%BB%E8%B7%9D%E7%A6%BB/</link>
+      <pubDate>Fri, 15 Sep 2023 13:45:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2463-%E6%9C%80%E5%B0%8F%E7%A7%BB%E5%8A%A8%E6%80%BB%E8%B7%9D%E7%A6%BB/</guid>
+      <description>LeetCode-2463 最小移动总距离 # Solution 1 # 注意到如果出现两个机器人 &amp;ldquo;相遇&amp;rdquo; 的情况, 那么它们两两 &amp;ldquo;掉头&amp;rdquo; 显然是更优的.</description>
+    </item>
+    
     <item>
       <title>LeetCode-2846 边权重均等查询</title>
       <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2846-%E8%BE%B9%E6%9D%83%E9%87%8D%E5%9D%87%E7%AD%89%E6%9F%A5%E8%AF%A2/</link>
