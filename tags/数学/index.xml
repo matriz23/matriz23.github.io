@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Mon, 28 Aug 2023 20:31:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Sep 2023 11:13:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>趣题: 唱票过程出现至少一次平局的概率</title>
+      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9813_%E5%94%B1%E7%A5%A8%E8%BF%87%E7%A8%8B%E5%87%BA%E7%8E%B0%E8%87%B3%E5%B0%91%E4%B8%80%E6%AC%A1%E5%B9%B3%E5%B1%80%E7%9A%84%E6%A6%82%E7%8E%87/</link>
+      <pubDate>Thu, 21 Sep 2023 11:13:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9813_%E5%94%B1%E7%A5%A8%E8%BF%87%E7%A8%8B%E5%87%BA%E7%8E%B0%E8%87%B3%E5%B0%91%E4%B8%80%E6%AC%A1%E5%B9%B3%E5%B1%80%E7%9A%84%E6%A6%82%E7%8E%87/</guid>
+      <description>趣题: 唱票过程出现至少一次平局的概率 # 题目 # 选举箱中有两个候选人 $A, B$ 的选票, 数量分别为 $a$ 和 $b$ .</description>
+    </item>
+    
     <item>
       <title>Ants on a Square</title>
       <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/ants-on-a-square/</link>
