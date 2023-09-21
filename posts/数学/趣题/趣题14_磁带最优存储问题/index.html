@@ -19,14 +19,14 @@
   <meta name="theme-color" content="rgb(255,255,255)" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>动态规划 &middot; Matriz23</title>
-    <meta name="title" content="动态规划 &middot; Matriz23" />
+  <title>磁带最优存储问题 &middot; Matriz23</title>
+    <meta name="title" content="磁带最优存储问题 &middot; Matriz23" />
   
-  <meta name="description" content="动态规划是解决多阶段决策问题最优化的一种方法." />
+  <meta name="description" content="一道组合趣题." />
   
   
   
-  <link rel="canonical" href="http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%BF%90%E7%AD%B9%E5%AD%A6/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/" />
+  <link rel="canonical" href="http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9814_%E7%A3%81%E5%B8%A6%E6%9C%80%E4%BC%98%E5%AD%98%E5%82%A8%E9%97%AE%E9%A2%98/" />
   
   
   
@@ -74,16 +74,16 @@
   
   
   
-  <meta property="og:title" content="动态规划" />
-<meta property="og:description" content="动态规划是解决多阶段决策问题最优化的一种方法." />
+  <meta property="og:title" content="磁带最优存储问题" />
+<meta property="og:description" content="一道组合趣题." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%BF%90%E7%AD%B9%E5%AD%A6/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-12-13T09:42:00+00:00" />
-<meta property="article:modified_time" content="2022-12-13T09:42:00+00:00" />
+<meta property="og:url" content="http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9814_%E7%A3%81%E5%B8%A6%E6%9C%80%E4%BC%98%E5%AD%98%E5%82%A8%E9%97%AE%E9%A2%98/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-12-14T22:04:00+00:00" />
+<meta property="article:modified_time" content="2022-12-14T22:04:00+00:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="动态规划"/>
-<meta name="twitter:description" content="动态规划是解决多阶段决策问题最优化的一种方法."/>
+<meta name="twitter:title" content="磁带最优存储问题"/>
+<meta name="twitter:description" content="一道组合趣题."/>
 
   
   <script type="application/ld+json">
@@ -91,26 +91,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "动态规划",
-    "headline": "动态规划",
-    "description": "动态规划是解决多阶段决策问题最优化的一种方法.",
-    "abstract": "动态规划 # 动态规划(Dynamic programming, 简称DP) 是一种在数学、管理科学、计算机科学、经济学和生物信息学中使用的, 通过把原问题分解为相对简单的子问题的方式求解复杂问题的方法.",
+    "name": "磁带最优存储问题",
+    "headline": "磁带最优存储问题",
+    "description": "一道组合趣题.",
+    "abstract": "趣题磁带最优存储问题 # 题目 # 磁带需要存储 $n$ 个 程序 $P_1, P_2, \u0026hellip;, P_n$ , 程序 $P_i$ 占据 $s_i$ 的空间, 并且依据经验, 每次使用磁带有 $\\pi_i$ 的概率是使用这个程序.",
     "inLanguage": "en-au",
-    "url" : "http:\/\/example.org\/posts\/%E6%95%B0%E5%AD%A6\/%E8%BF%90%E7%AD%B9%E5%AD%A6\/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92\/",
+    "url" : "http:\/\/example.org\/posts\/%E6%95%B0%E5%AD%A6\/%E8%B6%A3%E9%A2%98\/%E8%B6%A3%E9%A2%9814_%E7%A3%81%E5%B8%A6%E6%9C%80%E4%BC%98%E5%AD%98%E5%82%A8%E9%97%AE%E9%A2%98\/",
     "author" : {
       "@type": "Person",
       "name": "Matriz23"
     },
     "copyrightYear": "2022",
-    "dateCreated": "2022-12-13T09:42:00\u002b00:00",
-    "datePublished": "2022-12-13T09:42:00\u002b00:00",
+    "dateCreated": "2022-12-14T22:04:00\u002b00:00",
+    "datePublished": "2022-12-14T22:04:00\u002b00:00",
     
-    "dateModified": "2022-12-13T09:42:00\u002b00:00",
+    "dateModified": "2022-12-14T22:04:00\u002b00:00",
     
-    "keywords": ["数学","运筹学"],
+    "keywords": ["数学","贪心"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "471"
+    "wordCount": "228"
   }]
   </script>
 
@@ -284,8 +284,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/posts/%E6%95%B0%E5%AD%A6/%E8%BF%90%E7%AD%B9%E5%AD%A6/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"
-      >动态规划</a
+      href="/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9814_%E7%A3%81%E5%B8%A6%E6%9C%80%E4%BC%98%E5%AD%98%E5%82%A8%E9%97%AE%E9%A2%98/"
+      >磁带最优存储问题</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -294,7 +294,7 @@
 
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        动态规划
+        磁带最优存储问题
       </h1>
       <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -331,7 +331,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2022-12-13 09:42:00 &#43;0000 UTC">13 December 2022</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span><span class="px-2 text-primary-500">&middot;</span>
+      <time datetime="2022-12-14 22:04:00 &#43;0000 UTC">14 December 2022</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -339,7 +339,7 @@
 
 <span class="mb-[2px]">
   <a
-    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e6%95%b0%e5%ad%a6/%e8%bf%90%e7%ad%b9%e5%ad%a6/%e5%8a%a8%e6%80%81%e8%a7%84%e5%88%92.md"
+    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e6%95%b0%e5%ad%a6/%e8%b6%a3%e9%a2%98/%e8%b6%a3%e9%a2%9814_%e7%a3%81%e5%b8%a6%e6%9c%80%e4%bc%98%e5%ad%98%e5%82%a8%e9%97%ae%e9%a2%98.md"
     class="text-lg hover:text-primary-500"
     rel="noopener noreferrer"
     target="_blank"
@@ -374,13 +374,12 @@
   <div class="-ms-5 border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#最短路问题">最短路问题</a></li>
-    <li><a href="#最长公共子序列">最长公共子序列</a></li>
-    <li><a href="#旅行商问题">旅行商问题</a></li>
-    <li><a href="#矩阵链乘法">矩阵链乘法</a></li>
-    <li><a href="#资源分配问题">资源分配问题</a></li>
-    <li><a href="#最优停止问题">最优停止问题</a></li>
-    <li><a href="#任务调度问题">任务调度问题</a></li>
+    <li><a href="#趣题磁带最优存储问题">趣题磁带最优存储问题</a>
+      <ul>
+        <li><a href="#题目">题目</a></li>
+        <li><a href="#solution-1">Solution 1</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -390,85 +389,37 @@
         </div>
       
       <div class="min-w-0 min-h-0 max-w-prose grow">
-        <h1 id="动态规划" class="relative group">动态规划 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%8a%a8%e6%80%81%e8%a7%84%e5%88%92" aria-label="Anchor">#</a></span></h1>
-<p><strong>动态规划</strong>(Dynamic programming, 简称DP) 是一种在数学、管理科学、计算机科学、经济学和生物信息学中使用的, 通过把原问题分解为相对简单的子问题的方式求解复杂问题的方法. 在解决多阶段决策优化问题时, 动态规划是一种常见的方法.</p>
-<p>本文主要介绍运筹学中的动态规划的一些例子.</p>
-<h2 id="最短路问题" class="relative group">最短路问题 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%9c%80%e7%9f%ad%e8%b7%af%e9%97%ae%e9%a2%98" aria-label="Anchor">#</a></span></h2>
-<p>给定起点和终点, 每天都能通过一些城市进行中转, 找出一条最短的路径.</p>
-<p>假设:</p>
-<ul>
-<li>阶段 $0$ 为起点</li>
-<li>阶段 $1\leq n\leq N$ 的城市集合为 $S_n$</li>
-<li>阶段 $N + 1$ 为终点</li>
-<li>$a_{i, j}^n$ 为阶段 $n$ 从城市 $i\in S_n$ 出发到达城市 $j\in S_{n + 1}$ 的路程; 如果不存在路径, 则记距离为 $+∞$ .</li>
-</ul>
-<p>定义 $J_n(i)$ 为第 $n$ 天从 $i$ 城市出发, 到达终点的最短路径. 有:</p>
-<ul>
-<li>$J_N(i) = a_{i, t}^N$ , $i\in S_{N}$</li>
-<li>$J_n(i) = \underset{j\in S_{n + 1}}{min}[a_{i, j}^n + J_{n + 1}(j)]$ , $i\in S_n, 0\leq n\leq N$</li>
-</ul>
-<h2 id="最长公共子序列" class="relative group">最长公共子序列 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%9c%80%e9%95%bf%e5%85%ac%e5%85%b1%e5%ad%90%e5%ba%8f%e5%88%97" aria-label="Anchor">#</a></span></h2>
-<p>有序列 $X$ 和序列 $Y$ , 计算它们的最长公共子序列.</p>
-<p>记 $LCS(X[1&hellip;m], Y[1&hellip;n])$ 为 $X$ 前 $m$ 位和 $Y$ 前 $n$ 位的最长公共子序列. 有:
+        <h2 id="趣题磁带最优存储问题" class="relative group">趣题磁带最优存储问题 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e8%b6%a3%e9%a2%98%e7%a3%81%e5%b8%a6%e6%9c%80%e4%bc%98%e5%ad%98%e5%82%a8%e9%97%ae%e9%a2%98" aria-label="Anchor">#</a></span></h2>
+<h3 id="题目" class="relative group">题目 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e9%a2%98%e7%9b%ae" aria-label="Anchor">#</a></span></h3>
+<p>磁带需要存储 $n$ 个 程序 $P_1, P_2, &hellip;, P_n$ , 程序 $P_i$ 占据 $s_i$ 的空间, 并且依据经验, 每次使用磁带有 $\pi_i$ 的概率是使用这个程序. 假设磁带有足够的空间, 存储信息的密度为常数, 读取速度也为常数, 此外, 读取完一个程序后需要将磁带倒带到初始状态. 如果程序以 $i_1, i_2, &hellip;, i_n$ 的顺序存储, 那么平均读取用时为
 $$
-LCS(X[1&hellip;m], Y[1&hellip;n])=\begin{cases}
-1 + LCS(X[1&hellip;m - 1], Y[1&hellip;n - 1])\
-max(LCS(X[1&hellip;m - 1], Y[1&hellip;n]), LCS(X[1&hellip;m], Y[1&hellip;n - 1]))
-\end{cases}
+\overline{T} = c\sum_{j = 1}^{n}(\pi_{i_j}\sum_{k = 1}^{j}s_{i_k})
+$$
+其中 $c$ 为与磁带本身有关的常数. 要使平均读取用时最短, 求程序排列的顺序.</p>
+<h3 id="solution-1" class="relative group">Solution 1 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#solution-1" aria-label="Anchor">#</a></span></h3>
+<p>每次读取程序都必须将前面所有的程序都读取一遍, 因此我们希望:</p>
+<ul>
+<li>$s_i$ 越大的程序越靠后</li>
+<li>$w_i$ 越小的程序越靠前</li>
+</ul>
+<p>综合这两个指标, 我们考虑将程序以 $\frac{\pi_i}{s_i}$ 不增的顺序排列. 下面来证明这种做法的正确性.</p>
+<p>对于排列 $i_1, i_2, &hellip;, i_n$ , 假设存在 $(l, r)$ , 有 $\frac{\pi_{i_l}}{s_{i_l}} &lt; \frac{\pi_{i_{r}}}{s_{i_{r}}}$ . 我们寻找这些数对 $(l, r)$ 里 $r - l$ 最小的那一对, 不妨记为 $(l_0, r_0)$ . 假设 $r_0\not = l_0 + 1$ , 因为 $(l_0, r_0)$ 是符合条件的数对中距离最小的, 所以对于 $(l_0 + 1, r_0)$ 有 $\frac{\pi_{i_{l_0+1}}}{s_{i_{l_0+1}}} \geq \frac{\pi_{i_{r_0}}}{s_{i_{r_0}}}$ , 对于$(l_0, l_0+1)$ 又有 $\frac{\pi_{i_{l_0}}}{s_{i_{l_0}}} \geq \frac{\pi_{i_{l_0+1}}}{s_{i_{l_0+1}}}$ , 故 $\frac{\pi_{i_{l_0}}}{s_{i_{l_0}}} \geq \frac{\pi_{i_{r_0}}}{s_{i_{r_0}}}$ , 与 $\frac{\pi_{i_{l_0}}}{s_{i_{l_0}}} &lt; \frac{\pi_{i_{r_0}}}{s_{i_{r_0}}}$ 矛盾. 因此如果存在 $(l, r)$ 使得 $\frac{\pi_{i_l}}{s_{i_l}} &lt; \frac{\pi_{i_{r}}}{s_{i_{r}}}$ , 那么我们一定能找到 $i_j, i_{j + 1}$ , 满足 $\frac{\pi_{i_j}}{s_{i_j}} &lt; \frac{\pi_{i_{j+1}}}{s_{i_{j+1}}}$ .
+记原平均读取用时为 $\overline{T}<em>0$ , 交换 $i_j, i</em>{j + 1}$ 后的平均读取用时为 $\overline{T}<em>1$ , 则变化量
+$$\Delta = \overline{T}<em>1 - \overline{T}<em>0 \= c[\pi</em>{i</em>{j + 1}}(\sum</em>{k = 1}^{j - 1}s_{i_k} + s_{i_{j + 1}})) + \pi_{i_{j}}(\sum_{k = 1}^{j}s_{i_k} + s_{i_{j + 1}}) - \pi_{i_{j}}\sum_{k = 1}^{j}s_{i_k} - \pi_{i_{j + 1}}\sum_{k = 1}^{j + 1}s_{i_k}] \= c(\pi_{i_j}s_{i_{j + 1}} - \pi_{j+1}s_{i_j})
 $$</p>
-<h2 id="旅行商问题" class="relative group">旅行商问题 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%97%85%e8%a1%8c%e5%95%86%e9%97%ae%e9%a2%98" aria-label="Anchor">#</a></span></h2>
-<p>给定完全图 $G=(V, E)$ , 寻找从源点 $S$ 出发经过每个城市一次且最终回到 $S$ 的最短路径.</p>
-<p>设:</p>
-<ul>
-<li>阶段 $0$ 为起点 $S$</li>
-<li>阶段 $1\leq n&lt;\vert V\vert$ 为已访问的节点序列</li>
-<li>阶段 $\vert V\vert$ 为 $S'$</li>
-<li>$c_{i, j}$ 为城市 $i$ 与城市 $j$ 之间的距离</li>
-</ul>
-<p>记 $J_n(X)$ 为阶段 $n$ 从节点序列 $X$ 的末尾城市 $i$ 出发到达 $S&rsquo;$ 的最短路径. 有:</p>
-<ul>
-<li>$J_{\vert V\vert}(S&rsquo;) = 0$</li>
-<li>$J_{n}(X) =\underset{Y=(X, j), j\not\in X}{min}[c_{i, j} + J_{n + 1}(Y)]$</li>
-</ul>
-<h2 id="矩阵链乘法" class="relative group">矩阵链乘法 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e7%9f%a9%e9%98%b5%e9%93%be%e4%b9%98%e6%b3%95" aria-label="Anchor">#</a></span></h2>
-<p>有 $n$ 个矩阵连乘, 计算最少的乘法次数. (假设矩阵相乘使用最朴素的做法, $a\times b$ 的矩阵与 $b\times c$ 的矩阵相乘需要 $a\times b\times c$ 次乘法. )</p>
-<p>记 $f(A_i&hellip;A_j)$ 为矩阵序列 $A_i&hellip;A_j$ 相乘需要的最少乘法次数, $c(X, Y)$ 为矩阵序列 $X$ 的计算结果与 $Y$ 的计算结果相乘需要的乘法次数. 有:</p>
-<ul>
-<li>$f(A_i) = 0, \forall 1\leq i\leq n$</li>
-<li>$f(A_i&hellip;A_j)=\underset{i\leq k&lt; j}{min}[f(A_i&hellip;A_k) + f(A_{k + 1}&hellip;A_j) + c(A_i&hellip;A_k, A_{k + 1}&hellip;A_j)]$</li>
-</ul>
-<h2 id="资源分配问题" class="relative group">资源分配问题 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e8%b5%84%e6%ba%90%e5%88%86%e9%85%8d%e9%97%ae%e9%a2%98" aria-label="Anchor">#</a></span></h2>
-<p>现有 $w$ 的初始资金, 同时有 $m$ 种投资项目, 向项目 $t$ 投入 $x_t$ 资金后会得到 $r_t(x_t)$ 的收入. 求能够得到的最大收入.</p>
-<p>记 $f_t(d_t)$ 为初始资金为 $d_t$ , 投资项目 $t, &hellip;, m$ 的最大收入. 有:</p>
-<ul>
-<li>$f_{m + 1}(d_t) = 0, \forall d_t\geq 0$</li>
-<li>$f_t(d_t) = \underset{0\leq x_t\leq d_t}{max}[r_t(x_t) + f_{t + 1}(d_t - x_t))], 1\leq t\leq m$</li>
-</ul>
-<h2 id="最优停止问题" class="relative group">最优停止问题 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%9c%80%e4%bc%98%e5%81%9c%e6%ad%a2%e9%97%ae%e9%a2%98" aria-label="Anchor">#</a></span></h2>
-<p>一个人想要在 $N$ 个阶段内出售一件物品, 在阶段 $1, 2, &hellip;, N$ , 他分别会收到 $w_1, w_2, &hellip;, w_N$ 的报价, $w_i\ i.i.d$ 且服从 $U[0, 1]$ . 在出售物品之后, 他可以把钱存进银行, 利率为 $r &gt; 0$ . 求 $N$ 阶段可以获得的最大利润.</p>
-<p>记 $x_k$ 为阶段 $k$ 的状态, 这里的状态在报价之外还有已接受报价的状态 (记为 $T$) . 其表达式如下:</p>
-<ul>
-<li>$x_k=\begin{cases}T,\ if\ x_{k - 1} = T\ w_k,\ o.w.\end{cases}$</li>
-</ul>
-<p>记 $J_k(x_k)$ 为阶段 $k$ 在状态 $x_k$ 时能够得到的最大收入. 有:</p>
-<ul>
-<li>$J_N(x_N) = \begin{cases}0,\ if\ x_N = T\ x_N,\ o.w.\end{cases}$</li>
-<li>$J_k(x_k) = \begin{cases}0,\ if\ x_N = T\ max[(1 + r)^{N-k}x_k, E[J_{k + 1}(w)]],\ o.w.\end{cases}, 1\leq k&lt;N$</li>
-</ul>
-<p>记 $a_k=E[\frac{J_{k + 1}(w_{k+ 1})}{(1+r)^{N-k}}]$ , 那么在 $x_k\geq a_k$ 时应当接受报价, 在 $x_k&lt;a_k$ 时应当拒绝报价.</p>
-<p>考虑 $J_k(x_k)$ 的现值 $V_k(x_k)$ , 有 $V_k(x_k) = \frac{J_k(x_k)}{(1 + r)^{N-k}}$ , 有递推公式:</p>
-<ul>
-<li>$V_k(x_k) = max[x_k, (1 + r)^{-1}E[V_{k + 1}(w)]]$</li>
-</ul>
-<p>可以证明 $V_k(x)\geq V_{k + 1}(x), a_k \geq a_{k + 1}$ , 以及 $a_k =\frac{1}{1+r}\int_{0}^{a_{k + 1}}a_{k+1}dU(w)+\int_{a_{k+1}^{1}}wdU(w)$ .</p>
-<h2 id="任务调度问题" class="relative group">任务调度问题 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e4%bb%bb%e5%8a%a1%e8%b0%83%e5%ba%a6%e9%97%ae%e9%a2%98" aria-label="Anchor">#</a></span></h2>
-<p>有 $N$ 个任务, 每个任务需要先经过 $A$ 处理, 再经过 $B$ 处理, 耗时分别为 $a_i$ 和 $b_i$ . $A, B$ 一次最多处理一个任务. 求完成所有的任务所需的最少时间.</p>
-<p>定义状态: $k$ 阶段剩余的需要 $A$ 处理的任务集合为 $X_k$ , $B$ 处理完当前任务需要的时间为 $\tau_k$ .
-记 $J_k(X_k, \tau_k)$ 为当前状态完成所有任务所需的最少时间. 有:</p>
-<ul>
-<li>$J_k(\emptyset, \tau_k) = \tau_k$</li>
-<li>$J_k(X_k, \tau_k) = \underset{i\in X_k}{min[a_i + J_{k + 1}(X_k-{i}, max[0, \tau_k - a_i] + b_i)]}$</li>
-</ul>
+<p>由于
+$$
+\frac{\pi_{i_j}}{s_{i_j}} &lt; \frac{\pi_{i_{j+1}}}{s_{i_{j+1}}}
+$$</p>
+<p>故
+$$
+\pi_{i_j}s_{i_{j + 1}} &lt; \pi_{j+1}s_{i_j}
+$$</p>
+<p>所以
+$$
+\Delta&lt;0
+$$</p>
+<p>每次这样的交换都会让 $\overline{T}$ 更小, 直到不能够交换为止. 因此, 将程序以 $\frac{\pi_i}{s_i}$ 不增的顺序排列能使平均读取时间最短.</p>
 
       </div>
     </section>
@@ -538,7 +489,7 @@ $$</p>
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84%E5%88%86%E6%9E%90/">
+            <a class="group flex" href="/posts/%E6%95%B0%E5%AD%A6/%E8%BF%90%E7%AD%B9%E5%AD%A6/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/">
               <span
                 class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
                 ><span class="ltr:inline rtl:hidden">&larr;</span
@@ -547,11 +498,11 @@ $$</p>
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >关键路径分析</span
+                  >动态规划</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2022-12-09 09:01:00 &#43;0000 UTC">9 December 2022</time>
+                    <time datetime="2022-12-13 09:42:00 &#43;0000 UTC">13 December 2022</time>
                   
                 </span>
               </span>
@@ -560,15 +511,15 @@ $$</p>
         </span>
         <span>
           
-            <a class="group flex text-right" href="/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9814_%E7%A3%81%E5%B8%A6%E6%9C%80%E4%BC%98%E5%AD%98%E5%82%A8%E9%97%AE%E9%A2%98/">
+            <a class="group flex text-right" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2488-%E7%BB%9F%E8%AE%A1%E4%B8%AD%E4%BD%8D%E6%95%B0%E4%B8%BA-k-%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/">
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >磁带最优存储问题</span
+                  >LeetCode-2488 统计中位数为 K 的子数组</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2022-12-14 22:04:00 &#43;0000 UTC">14 December 2022</time>
+                    <time datetime="2022-12-15 10:40:00 &#43;0000 UTC">15 December 2022</time>
                   
                 </span>
               </span>
