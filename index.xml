@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Thu, 21 Sep 2023 11:13:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Sep 2023 10:07:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-1993 树上的操作</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1993-%E6%A0%91%E4%B8%8A%E7%9A%84%E6%93%8D%E4%BD%9C/</link>
+      <pubDate>Sun, 24 Sep 2023 10:07:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1993-%E6%A0%91%E4%B8%8A%E7%9A%84%E6%93%8D%E4%BD%9C/</guid>
+      <description>LeetCode-1993 树上的操作 # Solution 1 # 对每个节点, 维护:</description>
+    </item>
+    
+    <item>
+      <title>趣题: 剩下的数的最大值</title>
+      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9815_%E5%89%A9%E4%B8%8B%E7%9A%84%E6%95%B0%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</link>
+      <pubDate>Sun, 24 Sep 2023 09:36:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9815_%E5%89%A9%E4%B8%8B%E7%9A%84%E6%95%B0%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</guid>
+      <description>趣题: 剩下的数的最大值 # 题目 # 在黑板上写有 $2023$ 个 $1$ , 下面进行 $2022$ 次如下操作: 擦掉黑板上的两个数 $a$ 和 $b$, 并写下 (a + b) 或者 $\min{a^2, b^2}$ , 最后剩下一个数.</description>
+    </item>
+    
     <item>
       <title>趣题: 唱票过程出现至少一次平局的概率</title>
       <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9813_%E5%94%B1%E7%A5%A8%E8%BF%87%E7%A8%8B%E5%87%BA%E7%8E%B0%E8%87%B3%E5%B0%91%E4%B8%80%E6%AC%A1%E5%B9%B3%E5%B1%80%E7%9A%84%E6%A6%82%E7%8E%87/</link>
@@ -729,12 +747,12 @@
     </item>
     
     <item>
-      <title>磁带最优存储问题</title>
+      <title>趣题: 磁带最优存储问题</title>
       <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9814_%E7%A3%81%E5%B8%A6%E6%9C%80%E4%BC%98%E5%AD%98%E5%82%A8%E9%97%AE%E9%A2%98/</link>
       <pubDate>Wed, 14 Dec 2022 22:04:00 +0000</pubDate>
       
       <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9814_%E7%A3%81%E5%B8%A6%E6%9C%80%E4%BC%98%E5%AD%98%E5%82%A8%E9%97%AE%E9%A2%98/</guid>
-      <description>趣题磁带最优存储问题 # 题目 # 磁带需要存储 $n$ 个 程序 $P_1, P_2, &amp;hellip;, P_n$ , 程序 $P_i$ 占据 $s_i$ 的空间, 并且依据经验, 每次使用磁带有 $\pi_i$ 的概率是使用这个程序.</description>
+      <description>趣题: 磁带最优存储问题 # 题目 # 磁带需要存储 $n$ 个 程序 $P_1, P_2, &amp;hellip;, P_n$ , 程序 $P_i$ 占据 $s_i$ 的空间, 并且依据经验, 每次使用磁带有 $\pi_i$ 的概率是使用这个程序.</description>
     </item>
     
     <item>

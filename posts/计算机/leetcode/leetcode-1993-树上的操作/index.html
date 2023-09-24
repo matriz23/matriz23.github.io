@@ -19,14 +19,14 @@
   <meta name="theme-color" content="rgb(255,255,255)" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>趣题: 唱票过程出现至少一次平局的概率 &middot; Matriz23</title>
-    <meta name="title" content="趣题: 唱票过程出现至少一次平局的概率 &middot; Matriz23" />
+  <title>LeetCode-1993 树上的操作 &middot; Matriz23</title>
+    <meta name="title" content="LeetCode-1993 树上的操作 &middot; Matriz23" />
   
-  <meta name="description" content="一道概率趣题." />
+  <meta name="description" content="LeetCode-1993「树上的操作」的思考与解答" />
   
   
   
-  <link rel="canonical" href="http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9813_%E5%94%B1%E7%A5%A8%E8%BF%87%E7%A8%8B%E5%87%BA%E7%8E%B0%E8%87%B3%E5%B0%91%E4%B8%80%E6%AC%A1%E5%B9%B3%E5%B1%80%E7%9A%84%E6%A6%82%E7%8E%87/" />
+  <link rel="canonical" href="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1993-%E6%A0%91%E4%B8%8A%E7%9A%84%E6%93%8D%E4%BD%9C/" />
   
   
   
@@ -74,16 +74,16 @@
   
   
   
-  <meta property="og:title" content="趣题: 唱票过程出现至少一次平局的概率" />
-<meta property="og:description" content="一道概率趣题." />
+  <meta property="og:title" content="LeetCode-1993 树上的操作" />
+<meta property="og:description" content="LeetCode-1993「树上的操作」的思考与解答" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9813_%E5%94%B1%E7%A5%A8%E8%BF%87%E7%A8%8B%E5%87%BA%E7%8E%B0%E8%87%B3%E5%B0%91%E4%B8%80%E6%AC%A1%E5%B9%B3%E5%B1%80%E7%9A%84%E6%A6%82%E7%8E%87/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-09-21T11:13:00+00:00" />
-<meta property="article:modified_time" content="2023-09-21T11:13:00+00:00" />
+<meta property="og:url" content="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1993-%E6%A0%91%E4%B8%8A%E7%9A%84%E6%93%8D%E4%BD%9C/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-09-24T10:07:00+00:00" />
+<meta property="article:modified_time" content="2023-09-24T10:07:00+00:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="趣题: 唱票过程出现至少一次平局的概率"/>
-<meta name="twitter:description" content="一道概率趣题."/>
+<meta name="twitter:title" content="LeetCode-1993 树上的操作"/>
+<meta name="twitter:description" content="LeetCode-1993「树上的操作」的思考与解答"/>
 
   
   <script type="application/ld+json">
@@ -91,26 +91,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "趣题: 唱票过程出现至少一次平局的概率",
-    "headline": "趣题: 唱票过程出现至少一次平局的概率",
-    "description": "一道概率趣题.",
-    "abstract": "趣题: 唱票过程出现至少一次平局的概率 # 题目 # 选举箱中有两个候选人 $A, B$ 的选票, 数量分别为 $a$ 和 $b$ .",
+    "name": "LeetCode-1993 树上的操作",
+    "headline": "LeetCode-1993 树上的操作",
+    "description": "LeetCode-1993「树上的操作」的思考与解答",
+    "abstract": "LeetCode-1993 树上的操作 # Solution 1 # 对每个节点, 维护:",
     "inLanguage": "en-au",
-    "url" : "http:\/\/example.org\/posts\/%E6%95%B0%E5%AD%A6\/%E8%B6%A3%E9%A2%98\/%E8%B6%A3%E9%A2%9813_%E5%94%B1%E7%A5%A8%E8%BF%87%E7%A8%8B%E5%87%BA%E7%8E%B0%E8%87%B3%E5%B0%91%E4%B8%80%E6%AC%A1%E5%B9%B3%E5%B1%80%E7%9A%84%E6%A6%82%E7%8E%87\/",
+    "url" : "http:\/\/example.org\/posts\/%E8%AE%A1%E7%AE%97%E6%9C%BA\/leetcode\/leetcode-1993-%E6%A0%91%E4%B8%8A%E7%9A%84%E6%93%8D%E4%BD%9C\/",
     "author" : {
       "@type": "Person",
       "name": "Matriz23"
     },
     "copyrightYear": "2023",
-    "dateCreated": "2023-09-21T11:13:00\u002b00:00",
-    "datePublished": "2023-09-21T11:13:00\u002b00:00",
+    "dateCreated": "2023-09-24T10:07:00\u002b00:00",
+    "datePublished": "2023-09-24T10:07:00\u002b00:00",
     
-    "dateModified": "2023-09-21T11:13:00\u002b00:00",
+    "dateModified": "2023-09-24T10:07:00\u002b00:00",
     
-    "keywords": ["数学","概率"],
+    "keywords": ["计算机","算法","LeetCode","Python"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "52"
+    "wordCount": "212"
   }]
   </script>
 
@@ -284,8 +284,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9813_%E5%94%B1%E7%A5%A8%E8%BF%87%E7%A8%8B%E5%87%BA%E7%8E%B0%E8%87%B3%E5%B0%91%E4%B8%80%E6%AC%A1%E5%B9%B3%E5%B1%80%E7%9A%84%E6%A6%82%E7%8E%87/"
-      >趣题: 唱票过程出现至少一次平局的概率</a
+      href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1993-%E6%A0%91%E4%B8%8A%E7%9A%84%E6%93%8D%E4%BD%9C/"
+      >LeetCode-1993 树上的操作</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -294,7 +294,7 @@
 
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        趣题: 唱票过程出现至少一次平局的概率
+        LeetCode-1993 树上的操作
       </h1>
       <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -331,7 +331,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2023-09-21 11:13:00 &#43;0000 UTC">21 September 2023</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
+      <time datetime="2023-09-24 10:07:00 &#43;0000 UTC">24 September 2023</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -339,7 +339,7 @@
 
 <span class="mb-[2px]">
   <a
-    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e6%95%b0%e5%ad%a6/%e8%b6%a3%e9%a2%98/%e8%b6%a3%e9%a2%9813_%e5%94%b1%e7%a5%a8%e8%bf%87%e7%a8%8b%e5%87%ba%e7%8e%b0%e8%87%b3%e5%b0%91%e4%b8%80%e6%ac%a1%e5%b9%b3%e5%b1%80%e7%9a%84%e6%a6%82%e7%8e%87.md"
+    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e8%ae%a1%e7%ae%97%e6%9c%ba/LeetCode/LeetCode-1993%20%e6%a0%91%e4%b8%8a%e7%9a%84%e6%93%8d%e4%bd%9c.md"
     class="text-lg hover:text-primary-500"
     rel="noopener noreferrer"
     target="_blank"
@@ -374,9 +374,9 @@
   <div class="-ms-5 border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#趣题-唱票过程出现至少一次平局的概率">趣题: 唱票过程出现至少一次平局的概率</a>
+    <li>
       <ul>
-        <li><a href="#题目">题目</a></li>
+        <li><a href="#leetcode-1993-树上的操作httpsleetcodecnproblemsoperations-on-treedescriptionenvtypedaily-questionenvid2023-09-23"><a href="https://leetcode.cn/problems/operations-on-tree/description/?envType=daily-question&amp;envId=2023-09-23">LeetCode-1993 树上的操作</a></a></li>
         <li><a href="#solution-1">Solution 1</a></li>
       </ul>
     </li>
@@ -389,16 +389,79 @@
         </div>
       
       <div class="min-w-0 min-h-0 max-w-prose grow">
-        <h2 id="趣题-唱票过程出现至少一次平局的概率" class="relative group">趣题: 唱票过程出现至少一次平局的概率 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e8%b6%a3%e9%a2%98-%e5%94%b1%e7%a5%a8%e8%bf%87%e7%a8%8b%e5%87%ba%e7%8e%b0%e8%87%b3%e5%b0%91%e4%b8%80%e6%ac%a1%e5%b9%b3%e5%b1%80%e7%9a%84%e6%a6%82%e7%8e%87" aria-label="Anchor">#</a></span></h2>
-<h3 id="题目" class="relative group">题目 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e9%a2%98%e7%9b%ae" aria-label="Anchor">#</a></span></h3>
-<p>选举箱中有两个候选人 $A, B$ 的选票, 数量分别为 $a$ 和 $b$ . 现在从箱中随机地、一张张地唱票, 这个过程中至少一次出现两人票数平局的概率是多少?</p>
+        <h3 id="leetcode-1993-树上的操作httpsleetcodecnproblemsoperations-on-treedescriptionenvtypedaily-questionenvid2023-09-23" class="relative group"><a
+  href="https://leetcode.cn/problems/operations-on-tree/description/?envType=daily-question&amp;envId=2023-09-23"
+  
+  target="_blank" rel="noreferrer noopener"
+>LeetCode-1993 树上的操作</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#leetcode-1993-%e6%a0%91%e4%b8%8a%e7%9a%84%e6%93%8d%e4%bd%9chttpsleetcodecnproblemsoperations-on-treedescriptionenvtypedaily-questionenvid2023-09-23" aria-label="Anchor">#</a></span></h3>
 <h3 id="solution-1" class="relative group">Solution 1 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#solution-1" aria-label="Anchor">#</a></span></h3>
-<p>不妨假设 $a &gt; b$ . 如果第一张抽到 $B$ , 那么显然会出现平局 ($B$ 一路领先直到被追平). 如果第一张抽到 $A$ , 那么有两种情况:</p>
+<p>对每个节点, 维护:</p>
 <ul>
-<li>$A$ 一路领先直到被追平</li>
-<li>$A$ 一路领先到最后</li>
+<li>是否被上锁 <code>is_locked</code></li>
+<li>被谁上锁 <code>locked_by</code></li>
+<li>上锁子节点信息 <code>locked_childs</code></li>
 </ul>
-<p>第一种情况的数量和先抽到 $B$ 的情况是相同的 (把序列前面的 $A, B$ 交换即可) , 所以唱票过程出现至少一次平局的概率为 $\frac{2b}{a+b} = \frac{2min(a,b)}{a +b}$ .</p>
+<p>在处理 <code>lock</code> <code>unlock</code> 时及时更新信息即可.</p>
+<p>代码如下:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">LockingTree</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">parent</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">parent</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">parent</span> <span class="o">=</span> <span class="n">parent</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">is_locked</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">n</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">locked_by</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">n</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">locked_childs</span> <span class="o">=</span> <span class="p">[[]</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">n</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">lock</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">num</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">user</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">is_locked</span><span class="p">[</span><span class="n">num</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="bp">self</span><span class="o">.</span><span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="kc">False</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">is_locked</span><span class="p">[</span><span class="n">num</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">locked_by</span><span class="p">[</span><span class="n">num</span><span class="p">]</span> <span class="o">=</span> <span class="n">user</span>   
+</span></span><span class="line"><span class="cl">        <span class="n">x</span> <span class="o">=</span> <span class="n">num</span> 
+</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="bp">self</span><span class="o">.</span><span class="n">parent</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">x</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">parent</span><span class="p">[</span><span class="n">x</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">            <span class="bp">self</span><span class="o">.</span><span class="n">locked_childs</span><span class="p">[</span><span class="n">x</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="kc">True</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">unlock</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">num</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">user</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">user</span> <span class="o">!=</span> <span class="bp">self</span><span class="o">.</span><span class="n">locked_by</span><span class="p">[</span><span class="n">num</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">            <span class="bp">self</span><span class="o">.</span><span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="kc">False</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">is_locked</span><span class="p">[</span><span class="n">num</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="bp">self</span><span class="o">.</span><span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="kc">False</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">is_locked</span><span class="p">[</span><span class="n">num</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">        <span class="n">x</span> <span class="o">=</span> <span class="n">num</span>
+</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="bp">self</span><span class="o">.</span><span class="n">parent</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">x</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">parent</span><span class="p">[</span><span class="n">x</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">            <span class="bp">self</span><span class="o">.</span><span class="n">locked_childs</span><span class="p">[</span><span class="n">x</span><span class="p">]</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="kc">True</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">upgrade</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">num</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">user</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">is_locked</span><span class="p">[</span><span class="n">num</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span> <span class="ow">or</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">locked_childs</span><span class="p">[</span><span class="n">num</span><span class="p">])</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="bp">self</span><span class="o">.</span><span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="kc">False</span>
+</span></span><span class="line"><span class="cl">        <span class="n">is_valid</span> <span class="o">=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">        <span class="n">x</span> <span class="o">=</span> <span class="n">num</span>
+</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="bp">self</span><span class="o">.</span><span class="n">parent</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">x</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">parent</span><span class="p">[</span><span class="n">x</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">is_locked</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="n">is_valid</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">                <span class="bp">self</span><span class="o">.</span><span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="kc">False</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">lock</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="n">user</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">child_list</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">locked_childs</span><span class="p">[</span><span class="n">num</span><span class="p">][:]</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">child</span> <span class="ow">in</span> <span class="n">child_list</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="bp">self</span><span class="o">.</span><span class="n">unlock</span><span class="p">(</span><span class="n">child</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">locked_by</span><span class="p">[</span><span class="n">child</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="kc">True</span>
+</span></span></code></pre></div><p>在这里记录一个排查了很久的 bug , 我和我室友做这道题时都遇到了.
+在 Python 中一边迭代访问列表, 一边删除列表元素, 可能会索引错误或者漏掉一些元素. 建议使用深拷贝分离迭代和删除操作, 或者倒序访问列表进行操作.</p>
 
       </div>
     </section>
@@ -468,29 +531,12 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1425-%E5%B8%A6%E9%99%90%E5%88%B6%E7%9A%84%E5%AD%90%E5%BA%8F%E5%88%97%E5%92%8C/">
+            <a class="group flex" href="/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9815_%E5%89%A9%E4%B8%8B%E7%9A%84%E6%95%B0%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/">
               <span
                 class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
                 ><span class="ltr:inline rtl:hidden">&larr;</span
                 ><span class="ltr:hidden rtl:inline">&rarr;</span></span
               >
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >LeetCode-1425 带限制的子序列和</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2023-09-16 10:57:00 &#43;0000 UTC">16 September 2023</time>
-                  
-                </span>
-              </span>
-            </a>
-          
-        </span>
-        <span>
-          
-            <a class="group flex text-right" href="/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9815_%E5%89%A9%E4%B8%8B%E7%9A%84%E6%95%B0%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/">
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
@@ -502,12 +548,10 @@
                   
                 </span>
               </span>
-              <span
-                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
-                ><span class="ltr:inline rtl:hidden">&rarr;</span
-                ><span class="ltr:hidden rtl:inline">&larr;</span></span
-              >
             </a>
+          
+        </span>
+        <span>
           
         </span>
       </div>
@@ -519,6 +563,17 @@
     </footer>
   </article>
 
+        
+          <div class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12">
+            <a
+              href="#the-top"
+              class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+              aria-label="Scroll to top"
+              title="Scroll to top"
+            >
+              &uarr;
+            </a>
+          </div>
         
       </main><footer class="py-10 print:hidden">
   
