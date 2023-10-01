@@ -11,7 +11,6 @@
   data-default-appearance="light"
   data-auto-appearance="true"
 ><head>
-	<meta name="generator" content="Hugo 0.115.3">
   <meta charset="utf-8" />
   
     <meta http-equiv="content-language" content="en-au" />
@@ -20,16 +19,14 @@
   <meta name="theme-color" content="rgb(255,255,255)" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Matriz23</title>
-    <meta name="title" content="Matriz23" />
+  <title>经典牛顿法 &middot; Matriz23</title>
+    <meta name="title" content="经典牛顿法 &middot; Matriz23" />
   
-  <meta name="description" content="Blog Index" />
+  <meta name="description" content="牛顿法是一种优化方法." />
   
   
   
-  <link rel="canonical" href="http://example.org/" />
-  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Matriz23" />
-  <link rel="alternate" type="application/json" href="/index.json" title="Matriz23" />
+  <link rel="canonical" href="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%BB%8F%E5%85%B8%E7%89%9B%E9%A1%BF%E6%B3%95/" />
   
   
   
@@ -77,31 +74,44 @@
   
   
   
-  <meta property="og:title" content="一边吐血一边奔跑着的马拉松" />
-<meta property="og:description" content="Blog Index" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://example.org/" />
+  <meta property="og:title" content="经典牛顿法" />
+<meta property="og:description" content="牛顿法是一种优化方法." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%BB%8F%E5%85%B8%E7%89%9B%E9%A1%BF%E6%B3%95/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-09-30T18:25:00+00:00" />
+<meta property="article:modified_time" content="2023-09-30T18:25:00+00:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="一边吐血一边奔跑着的马拉松"/>
-<meta name="twitter:description" content="Blog Index"/>
+<meta name="twitter:title" content="经典牛顿法"/>
+<meta name="twitter:description" content="牛顿法是一种优化方法."/>
 
   
   <script type="application/ld+json">
-  {
+  [{
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "@id": "http:\/\/example.org\/",
-    "name": "Matriz23",
-    "description": "A powerful, lightweight theme for Hugo built with Tailwind CSS.",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "经典牛顿法",
+    "headline": "经典牛顿法",
+    "description": "牛顿法是一种优化方法.",
+    "abstract": "经典牛顿法 # 考虑优化方向: $x_{k \u002b 1} = x_k \u002b \\alpha_k p_k$ , 取步长 $\\alpha_k = 1$ , 那么有 $x_{k \u002b 1} = x_k \u002b p_k$ , 需要求解 $$ p_k = \\argmin_{p}f(x_{k \u002b 1}) = \\argmin_{p} f(x_k \u002b p)\\ = \\argmin_{p} f(x_k) \u002b \\nabla f(x_k)^Tp \u002b \\frac{1}{2}p^T \\nabla^2 f(x_k) p \u002b o(||p||^2)\\ \\approx \\argmin_{p} f(x_k) \u002b \\nabla f(x_k)^Tp \u002b \\frac{1}{2}p^T \\nabla^2 f(x_k) p \\ = \\argmin_{p} g(p) $$ 这是关于 $p$ 的, 开口向上的二次函数, 能够找到 $p^*$ 让我们的 $g(p)$ 接近最小.",
     "inLanguage": "en-au",
-    "url": "http:\/\/example.org\/",
-    
-    "publisher" : {
+    "url" : "http:\/\/example.org\/posts\/%E8%AE%A1%E7%AE%97%E6%9C%BA\/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0\/%E7%BB%8F%E5%85%B8%E7%89%9B%E9%A1%BF%E6%B3%95\/",
+    "author" : {
       "@type": "Person",
       "name": "Matriz23"
-    }
-  }
+    },
+    "copyrightYear": "2023",
+    "dateCreated": "2023-09-30T18:25:00\u002b00:00",
+    "datePublished": "2023-09-30T18:25:00\u002b00:00",
+    
+    "dateModified": "2023-09-30T18:25:00\u002b00:00",
+    
+    "keywords": ["计算机","算法","机器学习，最优化"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "145"
+  }]
   </script>
 
 
@@ -243,326 +253,264 @@
     <div class="relative flex flex-col grow">
       <main id="main-content" class="grow">
         
+  <article>
+    <header class="max-w-prose">
+      
+        <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
   
   
-    <article class="max-w-full prose dark:prose-invert">
+    
   
-    <header>
-      <h1>一边吐血一边奔跑着的马拉松</h1>
+    
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/"
+      >一边吐血一边奔跑着的马拉松</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline ">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/posts/"
+      >Posts</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%BB%8F%E5%85%B8%E7%89%9B%E9%A1%BF%E6%B3%95/"
+      >经典牛顿法</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        经典牛顿法
+      </h1>
+      <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2023-09-30 18:25:00 &#43;0000 UTC">30 September 2023</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
+
+
+  
+  
+
+<span class="mb-[2px]">
+  <a
+    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e8%ae%a1%e7%ae%97%e6%9c%ba/%e6%9c%ba%e5%99%a8%e5%ad%a6%e4%b9%a0/%e7%bb%8f%e5%85%b8%e7%89%9b%e9%a1%bf%e6%b3%95.md"
+    class="text-lg hover:text-primary-500"
+    rel="noopener noreferrer"
+    target="_blank"
+    title="Edit content"
+    ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M490.3 40.4C512.2 62.27 512.2 97.73 490.3 119.6L460.3 149.7L362.3 51.72L392.4 21.66C414.3-.2135 449.7-.2135 471.6 21.66L490.3 40.4zM172.4 241.7L339.7 74.34L437.7 172.3L270.3 339.6C264.2 345.8 256.7 350.4 248.4 353.2L159.6 382.8C150.1 385.6 141.5 383.4 135 376.1C128.6 370.5 126.4 361 129.2 352.4L158.8 263.6C161.6 255.3 166.2 247.8 172.4 241.7V241.7zM192 63.1C209.7 63.1 224 78.33 224 95.1C224 113.7 209.7 127.1 192 127.1H96C78.33 127.1 64 142.3 64 159.1V416C64 433.7 78.33 448 96 448H352C369.7 448 384 433.7 384 416V319.1C384 302.3 398.3 287.1 416 287.1C433.7 287.1 448 302.3 448 319.1V416C448 469 405 512 352 512H96C42.98 512 0 469 0 416V159.1C0 106.1 42.98 63.1 96 63.1H192z"/></svg>
+</span></a
+  >
+</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+      </div>
+      
     </header>
-  
-  <section><p>本博客记录数学、计算机等方面的笔记, 以及一些随笔.</p>
-</section>
-</article>
-<section>
-  
-  <h2 class="mt-8 text-2xl font-extrabold">Recent</h2>
-  
-    <article class="mt-6 flex max-w-prose flex-row">
-  <div>
-    <h3 class="flex items-center text-xl font-semibold">
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+        <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
+          <div class="toc pe-5 print:hidden lg:sticky lg:top-10">
+            <details open class="-ms-5 mt-0 overflow-hidden rounded-lg ps-5">
+  <summary
+    class="-ms-5 block cursor-pointer bg-neutral-100 py-1 ps-5 text-lg font-semibold text-neutral-800 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden"
+  >
+    Table of Contents
+  </summary>
+  <div class="-ms-5 border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#经典牛顿法">经典牛顿法</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+          </div>
+        </div>
+      
+      <div class="min-w-0 min-h-0 max-w-prose grow">
+        <h2 id="经典牛顿法" class="relative group">经典牛顿法 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e7%bb%8f%e5%85%b8%e7%89%9b%e9%a1%bf%e6%b3%95" aria-label="Anchor">#</a></span></h2>
+<p>考虑优化方向: $x_{k + 1} = x_k + \alpha_k p_k$ , 取步长 $\alpha_k = 1$ , 那么有 $x_{k + 1} = x_k + p_k$ , 需要求解
+$$
+p_k = \argmin_{p}f(x_{k + 1}) = \argmin_{p} f(x_k + p)\
+= \argmin_{p} f(x_k) + \nabla f(x_k)^Tp + \frac{1}{2}p^T \nabla^2 f(x_k) p + o(||p||^2)\
+\approx \argmin_{p} f(x_k) + \nabla f(x_k)^Tp + \frac{1}{2}p^T \nabla^2 f(x_k) p \
+= \argmin_{p} g(p)
+$$
+这是关于 $p$ 的, 开口向上的二次函数, 能够找到 $p^*$ 让我们的 $g(p)$ 接近最小.
+计算 $g(p)$ 的梯度:
+$$
+\nabla_p g(p) =\nabla_x f(x_k) + \nabla_x^2 f(x_k)p = 0
+$$
+变形后的式子也被称作牛顿方程:
+$$
+\nabla^2 f(x_k)p = -\nabla f(x_k)
+$$
+如果 $f(x)$ 在 $x_k$ 处的 Hessian Matrix $\nabla^2 f(x_k)$ 是正定的, 我们有
+$$
+p = (\nabla^2 f(x_k))^{-1}\cdot \nabla f(x_k)
+$$
+计算内积查看 $p$ 与梯度之间的方向:
+$$
+&lt;\nabla f(x_k), p&gt; = -\nabla f(x_k)^T\cdot (\nabla^2 f(x_k))^{-1} \cdot \nabla f(x_k) &lt; 0
+$$
+所以 $p$ 此时是下降方向.
+对于 Hessian Matrix 非正定的情况, 无法确定 $p$ 的方向.</p>
+
+      </div>
+    </section>
+    <footer class="pt-8 max-w-prose print:hidden">
+      
+  <div class="flex">
+    
+      
+      
+    
+    <div class="place-self-center">
+      
+        <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+          Author
+        </div>
+        <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+          Matriz23
+        </div>
+      
+      
+        <div class="text-sm text-neutral-700 dark:text-neutral-400">跑下去.</div>
+      
+      <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
       
         <a
-          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1324e-sleeping-schedule/"
-          >CodeForces-1324E Sleeping Schedule</a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://leetcode.cn/u/vantasy/"
+          target="_blank"
+          aria-label="Leetcode"
+          rel="me noopener noreferrer"
+          ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="leetcode"><path fill="#B3B1B0" d="M22 14.355c0-.742-.564-1.346-1.26-1.346H10.676c-.696 0-1.26.604-1.26 1.346s.563 1.346 1.26 1.346H20.74c.696.001 1.26-.603 1.26-1.346z"></path><path fill="#E7A41F" d="m3.482 18.187 4.313 4.361c.973.979 2.318 1.452 3.803 1.452 1.485 0 2.83-.512 3.805-1.494l2.588-2.637c.51-.514.492-1.365-.039-1.9-.531-.535-1.375-.553-1.884-.039l-2.676 2.607c-.462.467-1.102.662-1.809.662s-1.346-.195-1.81-.662l-4.298-4.363c-.463-.467-.696-1.15-.696-1.863 0-.713.233-1.357.696-1.824l4.285-4.38c.463-.467 1.116-.645 1.822-.645s1.346.195 1.809.662l2.676 2.606c.51.515 1.354.497 1.885-.038.531-.536.549-1.387.039-1.901l-2.588-2.636a4.994 4.994 0 0 0-2.392-1.33l-.034-.007 2.447-2.503c.512-.514.494-1.366-.037-1.901-.531-.535-1.376-.552-1.887-.038l-10.018 10.1C2.509 11.458 2 12.813 2 14.311c0 1.498.509 2.896 1.482 3.876z"></path><path fill="#070706" d="M8.115 22.814a2.109 2.109 0 0 1-.474-.361c-1.327-1.333-2.66-2.66-3.984-3.997-1.989-2.008-2.302-4.937-.786-7.32a6 6 0 0 1 .839-1.004L13.333.489c.625-.626 1.498-.652 2.079-.067.56.563.527 1.455-.078 2.066-.769.776-1.539 1.55-2.309 2.325-.041.122-.14.2-.225.287-.863.876-1.75 1.729-2.601 2.618-.111.116-.262.186-.372.305-1.423 1.423-2.863 2.83-4.266 4.272-1.135 1.167-1.097 2.938.068 4.127 1.308 1.336 2.639 2.65 3.961 3.974.067.067.136.132.204.198.468.303.474 1.25.183 1.671-.321.465-.74.75-1.333.728-.199-.006-.363-.086-.529-.179z"></path></svg></span></a
         >
       
-      
-      
-    </h3>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
     
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2023-02-13 21:58:00 &#43;0000 UTC">13 February 2023</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
-    
-
-    
-    
-  </div>
-
-  
-  
-
-
-    </div>
-    
-  </div>
-</article>
-
-  
-    <article class="mt-6 flex max-w-prose flex-row">
-  <div>
-    <h3 class="flex items-center text-xl font-semibold">
       
         <a
-          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/projects/leptjson/leptjson-note3/"
-          >leptjson note3</a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://www.linkedin.com/in/siyuan-wu-1a1463201/"
+          target="_blank"
+          aria-label="Linkedin"
+          rel="me noopener noreferrer"
+          ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+</span></a
         >
       
-      
-      
-    </h3>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
-    
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2023-02-13 15:59:00 &#43;0000 UTC">13 February 2023</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
-    
-
-    
     
   </div>
 
-  
-  
-
-
+</div>
     </div>
-    
-  </div>
-</article>
-
-  
-    <article class="mt-6 flex max-w-prose flex-row">
-  <div>
-    <h3 class="flex items-center text-xl font-semibold">
-      
-        <a
-          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1286a-garland/"
-          >CodeForces-1286A Garland</a
-        >
-      
-      
-      
-    </h3>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
-    
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2023-02-12 20:53:00 &#43;0000 UTC">12 February 2023</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
-    
-
-    
-    
   </div>
 
-  
-  
 
+      
 
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2136-%E5%85%A8%E9%83%A8%E5%BC%80%E8%8A%B1%E7%9A%84%E6%9C%80%E6%97%A9%E4%B8%80%E5%A4%A9/">
+              <span
+                class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&larr;</span
+                ><span class="ltr:hidden rtl:inline">&rarr;</span></span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >LeetCode-2136 全部开花的最早一天</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2023-09-30 16:48:00 &#43;0000 UTC">30 September 2023</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+        </span>
+      </div>
     </div>
-    
-  </div>
-</article>
-
   
-    <article class="mt-6 flex max-w-prose flex-row">
-  <div>
-    <h3 class="flex items-center text-xl font-semibold">
+
+
       
-        <a
-          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1359d-yet-another-yet-another-task/"
-          >CodeForces-1359D Yet Another Yet Another Task</a
-        >
-      
-      
-      
-    </h3>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
-    
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2023-02-12 19:58:00 &#43;0000 UTC">12 February 2023</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
-    
-
-    
-    
-  </div>
-
-  
-  
-
-
-    </div>
-    
-  </div>
-</article>
-
-  
-    <article class="mt-6 flex max-w-prose flex-row">
-  <div>
-    <h3 class="flex items-center text-xl font-semibold">
-      
-        <a
-          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder/atcoder-arc119c-arc-wrecker-2/"
-          >Atcoder-ARC119C ARC Wrecker 2</a
-        >
-      
-      
-      
-    </h3>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
-    
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2023-02-10 20:55:00 &#43;0000 UTC">10 February 2023</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
-    
-
-    
-    
-  </div>
-
-  
-  
-
-
-    </div>
-    
-  </div>
-</article>
-
-  
-
-
-</section>
-
-  
+    </footer>
+  </article>
 
         
       </main><footer class="py-10 print:hidden">
