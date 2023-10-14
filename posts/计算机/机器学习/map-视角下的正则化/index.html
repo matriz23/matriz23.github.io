@@ -94,7 +94,7 @@
     "name": "MAP 视角下的正则化",
     "headline": "MAP 视角下的正则化",
     "description": "MAP 视角下的正则化.",
-    "abstract": "MAP 视角下的正则化 # MAP # 我们使用极大似然估计 (MLE) 来估计参数模型 ${p(z;\\theta)|\\theta \\in \\Theta}$ 的参数 $\\theta$ : $$ \\hat{\\theta} = \\underset{\\theta}{\\arg \\max} \\log p(\\theta |D) $$ MLE 默认参数 $\\theta$ 的分布是均匀的, 而事实上很多时候我们会认为参数也有一个先验的分布 $p(\\theta )$ , 此时想要最大化后验概率 $p(\\theta | D)\\cdot p(\\theta)$ , 最优参数估计变为: $$ \\hat{\\theta} = \\underset{\\theta}{\\arg \\max} {\\log p(D | \\theta)\\cdot p(\\theta)} $$ 这就是 最大后验概率估计(Maximum A Posteriori Estimation, 简称 MAP).",
+    "abstract": "MAP 视角下的正则化 # MAP # 我们使用极大似然估计 (MLE) 来估计参数模型 ${p(z;\\theta)|\\theta \\in \\Theta}$ 的参数 $\\theta$ : $$ \\hat{\\theta} = \\underset{\\theta}{\\arg \\max} \\log p(D |\\theta) $$ MLE 默认参数 $\\theta$ 的分布是均匀的, 而参数实际上可能服从先验分布 $p(\\theta )$ , 此时想要最大化后验概率 $p(\\theta | D)\\cdot p(\\theta)$ , 最优参数估计变为: $$ \\hat{\\theta} = \\underset{\\theta}{\\arg \\max} {\\log p(D | \\theta)\\cdot p(\\theta)} $$ 这就是 最大后验概率估计(Maximum A Posteriori Estimation, 简称 MAP).",
     "inLanguage": "en-au",
     "url" : "http:\/\/example.org\/posts\/%E8%AE%A1%E7%AE%97%E6%9C%BA\/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0\/map-%E8%A7%86%E8%A7%92%E4%B8%8B%E7%9A%84%E6%AD%A3%E5%88%99%E5%8C%96\/",
     "author" : {
@@ -110,7 +110,7 @@
     "keywords": ["计算机","算法","数学","统计","概率","机器学习，最优化"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "162"
+    "wordCount": "165"
   }]
   </script>
 
@@ -394,9 +394,9 @@
 <h3 id="map" class="relative group">MAP <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#map" aria-label="Anchor">#</a></span></h3>
 <p>我们使用极大似然估计 (MLE) 来估计参数模型 ${p(z;\theta)|\theta \in \Theta}$ 的参数 $\theta$ :
 $$
-\hat{\theta} = \underset{\theta}{\arg \max} \log p(\theta |D)
+\hat{\theta} = \underset{\theta}{\arg \max} \log p(D |\theta)
 $$
-MLE 默认参数 $\theta$ 的分布是均匀的, 而事实上很多时候我们会认为参数也有一个先验的分布 $p(\theta )$ , 此时想要最大化后验概率 $p(\theta | D)\cdot p(\theta)$ , 最优参数估计变为:
+MLE 默认参数 $\theta$ 的分布是均匀的, 而参数实际上可能服从先验分布 $p(\theta )$ , 此时想要最大化后验概率 $p(\theta | D)\cdot p(\theta)$ , 最优参数估计变为:
 $$
 \hat{\theta} = \underset{\theta}{\arg \max} {\log p(D | \theta)\cdot p(\theta)}
 $$
@@ -413,20 +413,16 @@ $$
 = \underset{w}{\arg \min}{\log p(y|w, X) - \log p(w)}\
 = \underset{w}{\arg \min}{-\sum_{i=1}^{n}\log p(y_i|w, x_i) - \frac{d}{2}\log \frac{\alpha}{2\pi} +\frac{\alpha}{2}\sum_{j = 1}^{d}w_j^2}\
 = \underset{w}{\arg \min}{-\frac{n}{2}\log \frac{1}{2\pi\sigma^2} + \frac{1}{2\sigma^2}\sum_{i = 1}^{n}(y_i - w^Tx_i)^2  - \frac{d}{2}\log \frac{\alpha}{2\pi} +\frac{\alpha}{2}\sum_{j = 1}^{d}w_j^2}\
-= \underset{w}{\arg \min}{\frac{1}{2\sigma^2}\sum_{i = 1}^{n}(y_i - w^Tx_i)^2 + \frac{\alpha}{2}\sum_{j = 1}^{d}w_j^2}}
+= \underset{w}{\arg \min}{\frac{1}{2\sigma^2}\sum_{i = 1}^{n}(y_i - w^Tx_i)^2 + \frac{\alpha}{2}\sum_{j = 1}^{d}w_j^2}
 $$
 这相当于在均方误差损失函数里添加了 L2 正则化.</p>
 <h3 id="参数先验与正则化" class="relative group">参数先验与正则化 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%8f%82%e6%95%b0%e5%85%88%e9%aa%8c%e4%b8%8e%e6%ad%a3%e5%88%99%e5%8c%96" aria-label="Anchor">#</a></span></h3>
+<p>损失函数正则化等价于对参数引入先验分布, 因此能够缩小解空间以达到降低模型复杂度的目的.</p>
+<p>下面介绍一些参数先验与正则化的对应关系:</p>
 <ul>
-<li>
-<p>Gaussian 先验 - L2正则化</p>
-</li>
-<li>
-<p>Laplacian 先验 - L1正则化</p>
-</li>
-<li>
-<p>当范数的次数小于 1 时, 统称为 Sparsity-promoting 先验.</p>
-</li>
+<li>Gaussian 先验 - L2正则化</li>
+<li>Laplacian 先验 - L1正则化</li>
+<li>当范数的次数小于 1 时, 统称为 Sparsity-promoting 先验.</li>
 </ul>
 
       </div>
@@ -518,6 +514,25 @@ $$
           
         </span>
         <span>
+          
+            <a class="group flex text-right" href="/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9819_%E8%AF%81%E6%98%8E%E7%AD%89%E5%BC%8F/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >趣题: 证明等式</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2023-10-14 11:42:00 &#43;0000 UTC">14 October 2023</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&rarr;</span
+                ><span class="ltr:hidden rtl:inline">&larr;</span></span
+              >
+            </a>
           
         </span>
       </div>
