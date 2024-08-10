@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Mon, 19 Dec 2022 16:14:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Jul 2024 11:31:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-128 最长连续序列</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-128-%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97/</link>
+      <pubDate>Sat, 06 Jul 2024 11:31:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-128-%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97/</guid>
+      <description>LeetCode-128 最长连续序列 # Solution 1 # 要求找出数字连续的最大集合, 等价于将相差 1 的节点连上边, 寻找最大的连通子图, 这可以通过并查集来实现.</description>
+    </item>
+    
     <item>
       <title>LeetCode-2503 矩阵查询可获得的最大分数</title>
       <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2503-%E7%9F%A9%E9%98%B5%E6%9F%A5%E8%AF%A2%E5%8F%AF%E8%8E%B7%E5%BE%97%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%86%E6%95%B0/</link>

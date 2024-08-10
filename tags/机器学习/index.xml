@@ -18,6 +18,15 @@
     </item>
     
     <item>
+      <title>梯度下降法</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95/</link>
+      <pubDate>Sun, 27 Aug 2023 09:27:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95/</guid>
+      <description>梯度下降法 # 梯度下降法 (Gradient Descent) 用于求解无约束优化问题.</description>
+    </item>
+    
+    <item>
       <title>Notes on Information Retrieval</title>
       <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/notes-on-information-retrieval/</link>
       <pubDate>Thu, 10 Aug 2023 10:03:00 +0000</pubDate>

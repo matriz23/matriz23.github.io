@@ -7,7 +7,169 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Sat, 30 Sep 2023 16:48:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Jul 2024 14:04:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-189 轮转数组</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-189-%E8%BD%AE%E8%BD%AC%E6%95%B0%E7%BB%84/</link>
+      <pubDate>Mon, 29 Jul 2024 14:04:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-189-%E8%BD%AE%E8%BD%AC%E6%95%B0%E7%BB%84/</guid>
+      <description>LeetCode-189 轮转数组 # Solution 1 # 最简单的做法当然是直接模拟.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-327 区间和的个数</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-327-%E5%8C%BA%E9%97%B4%E5%92%8C%E7%9A%84%E4%B8%AA%E6%95%B0/</link>
+      <pubDate>Sat, 27 Jul 2024 10:18:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-327-%E5%8C%BA%E9%97%B4%E5%92%8C%E7%9A%84%E4%B8%AA%E6%95%B0/</guid>
+      <description>LeetCode-327 区间和的个数 # Solution 1 # 对于区间和, 转化成前缀和之差 (需要注意在前缀和数组最前面保留一个 $0$, 不遗漏从头开始的完整区间) .</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-493 翻转对</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-493-%E7%BF%BB%E8%BD%AC%E5%AF%B9/</link>
+      <pubDate>Sat, 27 Jul 2024 09:14:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-493-%E7%BF%BB%E8%BD%AC%E5%AF%B9/</guid>
+      <description>LeetCode-493 翻转对 # Solution 1 # 与经典的统计逆序对数量问题类似, 只不过计数条件略有变化.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-LCR170 交易逆序对的总数</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-lcr170-%E4%BA%A4%E6%98%93%E9%80%86%E5%BA%8F%E5%AF%B9%E7%9A%84%E6%80%BB%E6%95%B0/</link>
+      <pubDate>Sat, 27 Jul 2024 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-lcr170-%E4%BA%A4%E6%98%93%E9%80%86%E5%BA%8F%E5%AF%B9%E7%9A%84%E6%80%BB%E6%95%B0/</guid>
+      <description>LeetCode-LCR170 交易逆序对的总数 # Solution 1 # 非常经典的问题: 逆序对计数.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-33 搜索旋转排序数组</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-33-%E6%90%9C%E7%B4%A2%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84/</link>
+      <pubDate>Fri, 26 Jul 2024 17:52:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-33-%E6%90%9C%E7%B4%A2%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84/</guid>
+      <description>LeetCode-33 搜索旋转排序数组 # Solution 1 # 数组分段有序, 但依然可以使用二分缩小范围.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-3011 判断一个数组是否可以变为有序</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3011-%E5%88%A4%E6%96%AD%E4%B8%80%E4%B8%AA%E6%95%B0%E7%BB%84%E6%98%AF%E5%90%A6%E5%8F%AF%E4%BB%A5%E5%8F%98%E4%B8%BA%E6%9C%89%E5%BA%8F/</link>
+      <pubDate>Sat, 13 Jul 2024 22:35:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3011-%E5%88%A4%E6%96%AD%E4%B8%80%E4%B8%AA%E6%95%B0%E7%BB%84%E6%98%AF%E5%90%A6%E5%8F%AF%E4%BB%A5%E5%8F%98%E4%B8%BA%E6%9C%89%E5%BA%8F/</guid>
+      <description>LeetCode-3011 判断一个数组是否可以变为有序 # Solution1 # 一次操作只有对相邻且二进制下 $1$ 的数量相同的元素才能进行, 实际上可以操作的数组是一段段连续的子数组.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-2972 统计移除递增子数组的数目 II</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2972-%E7%BB%9F%E8%AE%A1%E7%A7%BB%E9%99%A4%E9%80%92%E5%A2%9E%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%95%B0%E7%9B%AE-ii/</link>
+      <pubDate>Thu, 11 Jul 2024 09:55:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2972-%E7%BB%9F%E8%AE%A1%E7%A7%BB%E9%99%A4%E9%80%92%E5%A2%9E%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%95%B0%E7%9B%AE-ii/</guid>
+      <description>LeetCode-2972 统计移除递增子数组的数目 II # Solution 1 # 移除一段递增子数组后, 剩余数组应当由一段严格递增前缀与一段严格递增后缀组成.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-3102 最小化曼哈顿距离</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3102-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%9B%BC%E5%93%88%E9%A1%BF%E8%B7%9D%E7%A6%BB/</link>
+      <pubDate>Tue, 09 Jul 2024 09:01:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3102-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%9B%BC%E5%93%88%E9%A1%BF%E8%B7%9D%E7%A6%BB/</guid>
+      <description>LeetCode-3102 最小化曼哈顿距离 # Solution 1 # 核心在于了解二维情况下曼哈顿距离与切比雪夫距离之间的转化.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-1049 最后一块石头的重量 II</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1049-%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5%A4%B4%E7%9A%84%E9%87%8D%E9%87%8F-ii/</link>
+      <pubDate>Sun, 07 Jul 2024 22:23:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1049-%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5%A4%B4%E7%9A%84%E9%87%8D%E9%87%8F-ii/</guid>
+      <description>LeetCode-1049 最后一块石头的重量 II # Solution 1 # 粉碎石头的过程可以等价为在 $stones[i]$ 前面添加 $+$ 或者 $-$, 找出一个最小的非负和.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-2542 最大子序列的分数</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2542-%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E7%9A%84%E5%88%86%E6%95%B0/</link>
+      <pubDate>Sun, 07 Jul 2024 16:06:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2542-%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E7%9A%84%E5%88%86%E6%95%B0/</guid>
+      <description>LeetCode-2542 最大子序列的分数 # Solution 1 # 考虑从大到小枚举子序列中最小的 $nums2$ 元素, 此时, 只有最大的 $k$ 个可选的 $nums1$ 元素的和变大才有可能使得分数变大, 用一个堆来维护 topK 的可选 $nums1$ 元素.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-128 最长连续序列</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-128-%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97/</link>
+      <pubDate>Sat, 06 Jul 2024 11:31:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-128-%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97/</guid>
+      <description>LeetCode-128 最长连续序列 # Solution 1 # 要求找出数字连续的最大集合, 等价于将相差 1 的节点连上边, 寻找最大的连通子图, 这可以通过并查集来实现.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-11 盛最多水的容器</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-11-%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8/</link>
+      <pubDate>Fri, 05 Jul 2024 15:37:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-11-%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8/</guid>
+      <description>LeetCode-10 盛最多水的容器 # Solution 1 # 我们从最长的 &amp;ldquo;底板&amp;rdquo; 开始考虑.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-3086 拾起 K 个 1 需要的最少行动次数</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3086-%E6%8B%BE%E8%B5%B7-k-%E4%B8%AA-1-%E9%9C%80%E8%A6%81%E7%9A%84%E6%9C%80%E5%B0%91%E8%A1%8C%E5%8A%A8%E6%AC%A1%E6%95%B0/</link>
+      <pubDate>Fri, 05 Jul 2024 15:20:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3086-%E6%8B%BE%E8%B5%B7-k-%E4%B8%AA-1-%E9%9C%80%E8%A6%81%E7%9A%84%E6%9C%80%E5%B0%91%E8%A1%8C%E5%8A%A8%E6%AC%A1%E6%95%B0/</guid>
+      <description>LeetCode-3086 拾起 K 个 1 需要的最少行动次数 # Solution 1 # 首先, 获取 &amp;ldquo;1&amp;rdquo; 最容易的方式是直接选一个有 &amp;ldquo;1&amp;rdquo; 的坐标, 并且将左右侧的 &amp;ldquo;1&amp;rdquo; 移动过来.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-28 找出字符串中第一个匹配项的下标</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-28-%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87/</link>
+      <pubDate>Tue, 21 May 2024 21:34:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-28-%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87/</guid>
+      <description>LeetCode-28 找出字符串中第一个匹配项的下标 # Solution 1 # KMP 算法模板题.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-6 Z 字型变换</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-6-z%E5%AD%97%E5%BD%A2%E5%8F%98%E6%8D%A2/</link>
+      <pubDate>Tue, 21 May 2024 20:49:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-6-z%E5%AD%97%E5%BD%A2%E5%8F%98%E6%8D%A2/</guid>
+      <description>LeetCode-6 Z 字型变换 # Solution 1 # 对于 &amp;ldquo;Z&amp;rdquo; 字变换的 &amp;ldquo;|&amp;rdquo; 和 &amp;ldquo;/&amp;rdquo; 部分, 如果有 numRows 行, 则每个 &amp;ldquo;|&amp;rdquo; 和 &amp;ldquo;/&amp;rdquo; 有 2 * (numRows - 1) 个.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-2487 从链表中移除节点</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2487-%E4%BB%8E%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%A7%BB%E9%99%A4%E8%8A%82%E7%82%B9/</link>
+      <pubDate>Tue, 21 May 2024 13:55:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2487-%E4%BB%8E%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%A7%BB%E9%99%A4%E8%8A%82%E7%82%B9/</guid>
+      <description>LeetCode-2487 从链表中移除节点 # Solution 1 # 递归.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-2735 收集巧克力</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2735-%E6%94%B6%E9%9B%86%E5%B7%A7%E5%85%8B%E5%8A%9B/</link>
+      <pubDate>Tue, 21 May 2024 10:38:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2735-%E6%94%B6%E9%9B%86%E5%B7%A7%E5%85%8B%E5%8A%9B/</guid>
+      <description>LeetCode-2735 收集巧克力 # Solution 1 # 对于某个类型 $i$, 在第 $j$ 次操作后可以使用 $nums[i + j]$ 来获取.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-1726 同积元组</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1726-%E5%90%8C%E7%A7%AF%E5%85%83%E7%BB%84/</link>
+      <pubDate>Thu, 19 Oct 2023 09:06:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1726-%E5%90%8C%E7%A7%AF%E5%85%83%E7%BB%84/</guid>
+      <description>LeetCode-1726 同积元组 # Solution 1 # 用哈希统计.</description>
+    </item>
+    
     <item>
       <title>LeetCode-2136 全部开花的最早一天</title>
       <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2136-%E5%85%A8%E9%83%A8%E5%BC%80%E8%8A%B1%E7%9A%84%E6%9C%80%E6%97%A9%E4%B8%80%E5%A4%A9/</link>
