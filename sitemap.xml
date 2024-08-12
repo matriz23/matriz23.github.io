@@ -6,15 +6,15 @@
   
     
       <url>
-            <loc>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-772-%E5%9F%BA%E6%9C%AC%E8%AE%A1%E7%AE%97%E5%99%A8-iii/</loc>
-            <lastmod>2024-08-12T22:04:00+00:00</lastmod>
+            <loc>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2342-%E6%95%B0%E4%BD%8D%E5%92%8C%E7%9B%B8%E7%AD%89%E6%95%B0%E5%AF%B9%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C/</loc>
+            <lastmod>2024-08-12T22:32:00+00:00</lastmod>
           </url>
     
   
     
       <url>
             <loc>http://example.org/posts/</loc>
-            <lastmod>2024-08-12T22:04:00+00:00</lastmod>
+            <lastmod>2024-08-12T22:32:00+00:00</lastmod>
           </url>
     
   
@@ -23,6 +23,13 @@
     
       <url>
             <loc>http://example.org/</loc>
+            <lastmod>2024-08-12T22:32:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-772-%E5%9F%BA%E6%9C%AC%E8%AE%A1%E7%AE%97%E5%99%A8-iii/</loc>
             <lastmod>2024-08-12T22:04:00+00:00</lastmod>
           </url>
     
