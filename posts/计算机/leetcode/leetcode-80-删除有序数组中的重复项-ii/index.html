@@ -395,8 +395,8 @@
   target="_blank" rel="noreferrer noopener"
 >LeetCode-80 删除有序数组中的重复项 II</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#leetcode-80-%e5%88%a0%e9%99%a4%e6%9c%89%e5%ba%8f%e6%95%b0%e7%bb%84%e4%b8%ad%e7%9a%84%e9%87%8d%e5%a4%8d%e9%a1%b9-iihttpsleetcodecnproblemsremove-duplicates-from-sorted-array-iidescription" aria-label="Anchor">#</a></span></h3>
 <h3 id="solution-1" class="relative group">Solution 1 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#solution-1" aria-label="Anchor">#</a></span></h3>
-<p>使用双指针来进行原地修改. $l$ 是待修改位置, $r$ 是目前遍历到的元素的位置. 如果 $nums[r] == nums[l - 2]$ , 那么当前的元素不应该被填入; 否则应该填入.
-代码如下:</p>
+<p>使用双指针来进行原地修改. $l$ 是待修改位置, $r$ 是目前遍历到的元素的位置. 如果 $nums[r] == nums[l - 2]$ , 那么当前的元素不应该被填入; 否则应该填入.</p>
+<p>代码如下:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">removeDuplicates</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nums</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">        <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">nums</span><span class="p">)</span>

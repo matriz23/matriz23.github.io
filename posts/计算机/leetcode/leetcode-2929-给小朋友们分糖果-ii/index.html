@@ -407,8 +407,8 @@
 </span></span><span class="line"><span class="cl">            <span class="n">ans</span> <span class="o">+=</span> <span class="nb">min</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="n">i</span><span class="p">,</span> <span class="n">limit</span><span class="p">)</span> <span class="o">-</span> <span class="nb">max</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">n</span> <span class="o">-</span> <span class="n">i</span> <span class="o">-</span> <span class="n">limit</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span>
 </span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">ans</span>
 </span></span></code></pre></div><h3 id="solution-2" class="relative group">Solution 2 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#solution-2" aria-label="Anchor">#</a></span></h3>
-<p>使用容斥原理.
-代码如下:</p>
+<p>使用容斥原理.</p>
+<p>代码如下:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">distributeCandies</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">limit</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">        <span class="k">def</span> <span class="nf">cal</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>

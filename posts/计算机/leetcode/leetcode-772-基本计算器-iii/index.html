@@ -403,8 +403,8 @@
 <li>遇到运算符, 如果当前栈顶运算符优先级相同或更高, 就计算栈顶的运算, 直到遇到优先级更低的运算符或者左括号为止. 再将这个运算符入栈.</li>
 <li>遇到数字, 完整读取这个数字并入栈.</li>
 </ul>
-<p>遍历字符串之后, 将剩余的运算符一并运算完.
-代码如下:</p>
+<p>遍历字符串之后, 将剩余的运算符一并运算完.</p>
+<p>代码如下:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">calculate</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">s</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">        <span class="k">def</span> <span class="nf">calc</span><span class="p">(</span><span class="n">nums</span><span class="p">,</span> <span class="n">ops</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span> 

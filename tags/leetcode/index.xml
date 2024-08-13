@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Mon, 12 Aug 2024 22:32:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Aug 2024 20:44:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-18 四数之和</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-18-%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C/</link>
+      <pubDate>Tue, 13 Aug 2024 20:44:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-18-%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C/</guid>
+      <description>LeetCode-18 四数之和 # Solution 1 # 枚举两个端点, 再使用双指针来确定中间的端点.</description>
+    </item>
+    
     <item>
       <title>LeetCode-2342 数位和相等数对的最大和</title>
       <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2342-%E6%95%B0%E4%BD%8D%E5%92%8C%E7%9B%B8%E7%AD%89%E6%95%B0%E5%AF%B9%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C/</link>
