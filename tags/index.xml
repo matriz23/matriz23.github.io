@@ -216,11 +216,20 @@
     </item>
     
     <item>
-      <title>机器学习，最优化</title>
-      <link>http://example.org/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%9C%80%E4%BC%98%E5%8C%96/</link>
+      <title>最优化</title>
+      <link>http://example.org/tags/%E6%9C%80%E4%BC%98%E5%8C%96/</link>
       <pubDate>Wed, 11 Oct 2023 20:27:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%9C%80%E4%BC%98%E5%8C%96/</guid>
+      <guid>http://example.org/tags/%E6%9C%80%E4%BC%98%E5%8C%96/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>机器学习</title>
+      <link>http://example.org/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Wed, 11 Oct 2023 20:27:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</guid>
       <description></description>
     </item>
     
@@ -261,29 +270,11 @@
     </item>
     
     <item>
-      <title>机器学习</title>
-      <link>http://example.org/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
-      <pubDate>Sat, 02 Sep 2023 11:21:00 +0000</pubDate>
-      
-      <guid>http://example.org/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>组合</title>
       <link>http://example.org/tags/%E7%BB%84%E5%90%88/</link>
       <pubDate>Mon, 28 Aug 2023 20:31:00 +0000</pubDate>
       
       <guid>http://example.org/tags/%E7%BB%84%E5%90%88/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>最优化</title>
-      <link>http://example.org/tags/%E6%9C%80%E4%BC%98%E5%8C%96/</link>
-      <pubDate>Sun, 27 Aug 2023 09:27:00 +0000</pubDate>
-      
-      <guid>http://example.org/tags/%E6%9C%80%E4%BC%98%E5%8C%96/</guid>
       <description></description>
     </item>
     
