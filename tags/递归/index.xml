@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Sun, 11 Aug 2024 14:59:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E9%80%92%E5%BD%92/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Aug 2024 15:32:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E9%80%92%E5%BD%92/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-310 最小高度树</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-310-%E6%9C%80%E5%B0%8F%E9%AB%98%E5%BA%A6%E6%A0%91/</link>
+      <pubDate>Wed, 14 Aug 2024 15:32:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-310-%E6%9C%80%E5%B0%8F%E9%AB%98%E5%BA%A6%E6%A0%91/</guid>
+      <description>LeetCode-310 最小高度树 # Solution 1 # 寻找最小高度树, 等价于寻找距离最大的两个节点.</description>
+    </item>
+    
     <item>
       <title>LeetCode-1545 找出第 N 个二进制字符串中的第 K 位</title>
       <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1545-%E6%89%BE%E5%87%BA%E7%AC%AC-n-%E4%B8%AA%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E7%AC%AC-k-%E4%BD%8D/</link>
