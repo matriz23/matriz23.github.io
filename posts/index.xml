@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Wed, 14 Aug 2024 17:07:00 +0000</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Aug 2024 20:05:00 +0000</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-2551 将珠子放入背包中</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2551-%E5%B0%86%E7%8F%A0%E5%AD%90%E6%94%BE%E5%85%A5%E8%83%8C%E5%8C%85%E4%B8%AD/</link>
+      <pubDate>Wed, 14 Aug 2024 20:05:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2551-%E5%B0%86%E7%8F%A0%E5%AD%90%E6%94%BE%E5%85%A5%E8%83%8C%E5%8C%85%E4%B8%AD/</guid>
+      <description>LeetCode-2551 将珠子放入背包中 # Solution 1 # 注意到分组等价于放隔板, 每个隔板可以获得两侧的分数.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-1129 颜色交替的最短路径</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1129-%E9%A2%9C%E8%89%B2%E4%BA%A4%E6%9B%BF%E7%9A%84%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84/</link>
+      <pubDate>Wed, 14 Aug 2024 18:04:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1129-%E9%A2%9C%E8%89%B2%E4%BA%A4%E6%9B%BF%E7%9A%84%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84/</guid>
+      <description>LeetCode-1129 颜色交替的最短路径 # Solution 1 # BFS 时记录访问某个点时通过的边的颜色即可.</description>
+    </item>
+    
     <item>
       <title>LeetCode-1970 你能穿过矩阵的最后一天</title>
       <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1970-%E4%BD%A0%E8%83%BD%E7%A9%BF%E8%BF%87%E7%9F%A9%E9%98%B5%E7%9A%84%E6%9C%80%E5%90%8E%E4%B8%80%E5%A4%A9/</link>
