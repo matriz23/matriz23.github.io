@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Tue, 13 Aug 2024 20:44:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Aug 2024 09:21:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-3152 特殊数组 II</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3152-%E7%89%B9%E6%AE%8A%E6%95%B0%E7%BB%84-ii/</link>
+      <pubDate>Wed, 14 Aug 2024 09:21:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3152-%E7%89%B9%E6%AE%8A%E6%95%B0%E7%BB%84-ii/</guid>
+      <description>LeetCode-3152 特殊数组 II # Solution 1 # 把奇数下标的元素都减去 $1$, 那么原数组中相邻元素奇偶性不同的子数组就变成了现在奇偶性全部相同的子数组.</description>
+    </item>
+    
     <item>
       <title>LeetCode-18 四数之和</title>
       <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-18-%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C/</link>

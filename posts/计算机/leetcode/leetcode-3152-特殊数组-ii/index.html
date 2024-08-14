@@ -19,14 +19,14 @@
   <meta name="theme-color" content="rgb(255,255,255)" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>LeetCode-18 四数之和 &middot; Matriz23</title>
-    <meta name="title" content="LeetCode-18 四数之和 &middot; Matriz23" />
+  <title>LeetCode-3152 特殊数组 II &middot; Matriz23</title>
+    <meta name="title" content="LeetCode-3152 特殊数组 II &middot; Matriz23" />
   
-  <meta name="description" content="LeetCode-18「四数之和」的思考与解答" />
+  <meta name="description" content="LeetCode-3152「特殊数组 II」的思考与解答" />
   
   
   
-  <link rel="canonical" href="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-18-%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C/" />
+  <link rel="canonical" href="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3152-%E7%89%B9%E6%AE%8A%E6%95%B0%E7%BB%84-ii/" />
   
   
   
@@ -74,16 +74,16 @@
   
   
   
-  <meta property="og:title" content="LeetCode-18 四数之和" />
-<meta property="og:description" content="LeetCode-18「四数之和」的思考与解答" />
+  <meta property="og:title" content="LeetCode-3152 特殊数组 II" />
+<meta property="og:description" content="LeetCode-3152「特殊数组 II」的思考与解答" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-18-%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-08-13T20:44:00+00:00" />
-<meta property="article:modified_time" content="2024-08-13T20:44:00+00:00" />
+<meta property="og:url" content="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3152-%E7%89%B9%E6%AE%8A%E6%95%B0%E7%BB%84-ii/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-08-14T09:21:00+00:00" />
+<meta property="article:modified_time" content="2024-08-14T09:21:00+00:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="LeetCode-18 四数之和"/>
-<meta name="twitter:description" content="LeetCode-18「四数之和」的思考与解答"/>
+<meta name="twitter:title" content="LeetCode-3152 特殊数组 II"/>
+<meta name="twitter:description" content="LeetCode-3152「特殊数组 II」的思考与解答"/>
 
   
   <script type="application/ld+json">
@@ -91,26 +91,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "LeetCode-18 四数之和",
-    "headline": "LeetCode-18 四数之和",
-    "description": "LeetCode-18「四数之和」的思考与解答",
-    "abstract": "LeetCode-18 四数之和 # Solution 1 # 枚举两个端点, 再使用双指针来确定中间的端点.",
+    "name": "LeetCode-3152 特殊数组 II",
+    "headline": "LeetCode-3152 特殊数组 II",
+    "description": "LeetCode-3152「特殊数组 II」的思考与解答",
+    "abstract": "LeetCode-3152 特殊数组 II # Solution 1 # 把奇数下标的元素都减去 $1$, 那么原数组中相邻元素奇偶性不同的子数组就变成了现在奇偶性全部相同的子数组.",
     "inLanguage": "en-au",
-    "url" : "http:\/\/example.org\/posts\/%E8%AE%A1%E7%AE%97%E6%9C%BA\/leetcode\/leetcode-18-%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C\/",
+    "url" : "http:\/\/example.org\/posts\/%E8%AE%A1%E7%AE%97%E6%9C%BA\/leetcode\/leetcode-3152-%E7%89%B9%E6%AE%8A%E6%95%B0%E7%BB%84-ii\/",
     "author" : {
       "@type": "Person",
       "name": "Matriz23"
     },
     "copyrightYear": "2024",
-    "dateCreated": "2024-08-13T20:44:00\u002b00:00",
-    "datePublished": "2024-08-13T20:44:00\u002b00:00",
+    "dateCreated": "2024-08-14T09:21:00\u002b00:00",
+    "datePublished": "2024-08-14T09:21:00\u002b00:00",
     
-    "dateModified": "2024-08-13T20:44:00\u002b00:00",
+    "dateModified": "2024-08-14T09:21:00\u002b00:00",
     
-    "keywords": ["LeetCode","双指针"],
+    "keywords": ["LeetCode","前缀和"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "89"
+    "wordCount": "139"
   }]
   </script>
 
@@ -284,8 +284,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-18-%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C/"
-      >LeetCode-18 四数之和</a
+      href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3152-%E7%89%B9%E6%AE%8A%E6%95%B0%E7%BB%84-ii/"
+      >LeetCode-3152 特殊数组 II</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -294,7 +294,7 @@
 
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        LeetCode-18 四数之和
+        LeetCode-3152 特殊数组 II
       </h1>
       <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -331,7 +331,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-08-13 20:44:00 &#43;0000 UTC">13 August 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
+      <time datetime="2024-08-14 09:21:00 &#43;0000 UTC">14 August 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -339,7 +339,7 @@
 
 <span class="mb-[2px]">
   <a
-    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e8%ae%a1%e7%ae%97%e6%9c%ba/LeetCode/LeetCode-18%20%e5%9b%9b%e6%95%b0%e4%b9%8b%e5%92%8c.md"
+    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e8%ae%a1%e7%ae%97%e6%9c%ba/LeetCode/LeetCode-3152%20%e7%89%b9%e6%ae%8a%e6%95%b0%e7%bb%84%20II.md"
     class="text-lg hover:text-primary-500"
     rel="noopener noreferrer"
     target="_blank"
@@ -376,8 +376,9 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#leetcode-18-四数之和httpsleetcodecnproblems4sumdescription"><a href="https://leetcode.cn/problems/4sum/description/">LeetCode-18 四数之和</a></a></li>
+        <li><a href="#leetcode-3152-特殊数组-iihttpsleetcodecnproblemsspecial-array-iidescription"><a href="https://leetcode.cn/problems/special-array-ii/description/">LeetCode-3152 特殊数组 II</a></a></li>
         <li><a href="#solution-1">Solution 1</a></li>
+        <li><a href="#solution-2">Solution 2</a></li>
       </ul>
     </li>
   </ul>
@@ -389,33 +390,38 @@
         </div>
       
       <div class="min-w-0 min-h-0 max-w-prose grow">
-        <h3 id="leetcode-18-四数之和httpsleetcodecnproblems4sumdescription" class="relative group"><a
-  href="https://leetcode.cn/problems/4sum/description/"
+        <h3 id="leetcode-3152-特殊数组-iihttpsleetcodecnproblemsspecial-array-iidescription" class="relative group"><a
+  href="https://leetcode.cn/problems/special-array-ii/description/"
   
   target="_blank" rel="noreferrer noopener"
->LeetCode-18 四数之和</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#leetcode-18-%e5%9b%9b%e6%95%b0%e4%b9%8b%e5%92%8chttpsleetcodecnproblems4sumdescription" aria-label="Anchor">#</a></span></h3>
+>LeetCode-3152 特殊数组 II</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#leetcode-3152-%e7%89%b9%e6%ae%8a%e6%95%b0%e7%bb%84-iihttpsleetcodecnproblemsspecial-array-iidescription" aria-label="Anchor">#</a></span></h3>
 <h3 id="solution-1" class="relative group">Solution 1 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#solution-1" aria-label="Anchor">#</a></span></h3>
-<p>枚举两个端点, 再使用双指针来确定中间的端点.</p>
+<p>把奇数下标的元素都减去 $1$, 那么原数组中相邻元素奇偶性不同的子数组就变成了现在奇偶性全部相同的子数组. 用前缀和来判断.</p>
 <p>代码如下:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">fourSum</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nums</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">],</span> <span class="n">target</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]]:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">nums</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">isArraySpecial</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nums</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">],</span> <span class="n">queries</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]])</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">bool</span><span class="p">]:</span>
 </span></span><span class="line"><span class="cl">        <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">nums</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="n">ans</span> <span class="o">=</span> <span class="p">[]</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">3</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="n">l</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">3</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">                <span class="n">j</span><span class="p">,</span> <span class="n">k</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">l</span> <span class="o">-</span> <span class="mi">1</span>
-</span></span><span class="line"><span class="cl">                <span class="k">while</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">k</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">                    <span class="n">s</span> <span class="o">=</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">+</span> <span class="n">nums</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">+</span> <span class="n">nums</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">+</span> <span class="n">nums</span><span class="p">[</span><span class="n">l</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">                    <span class="k">if</span> <span class="n">s</span> <span class="o">==</span> <span class="n">target</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">                        <span class="n">ans</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">nums</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">nums</span><span class="p">[</span><span class="n">k</span><span class="p">],</span> <span class="n">nums</span><span class="p">[</span><span class="n">l</span><span class="p">]])</span>
-</span></span><span class="line"><span class="cl">                        <span class="n">j</span> <span class="o">+=</span> <span class="mi">1</span>
-</span></span><span class="line"><span class="cl">                    <span class="k">elif</span> <span class="n">s</span> <span class="o">&gt;</span> <span class="n">target</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">                        <span class="n">k</span> <span class="o">-=</span> <span class="mi">1</span>
-</span></span><span class="line"><span class="cl">                    <span class="k">else</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">                        <span class="n">j</span> <span class="o">+=</span> <span class="mi">1</span>
-</span></span><span class="line"><span class="cl">        <span class="n">ans</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">tuple</span><span class="p">,</span> <span class="n">ans</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="n">i</span> <span class="o">&amp;</span> <span class="mi">1</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">            <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span> <span class="k">if</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&amp;</span> <span class="mi">1</span> <span class="k">else</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">        <span class="n">presum</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="nb">list</span><span class="p">(</span><span class="n">accumulate</span><span class="p">(</span><span class="n">nums</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="n">ans</span> <span class="o">=</span> <span class="p">[</span><span class="n">presum</span><span class="p">[</span><span class="n">r</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">presum</span><span class="p">[</span><span class="n">l</span><span class="p">]</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="n">r</span> <span class="o">-</span> <span class="n">l</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="k">for</span> <span class="n">l</span><span class="p">,</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">queries</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">ans</span>
+</span></span></code></pre></div><h3 id="solution-2" class="relative group">Solution 2 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#solution-2" aria-label="Anchor">#</a></span></h3>
+<p>定义
+$$
+a[i] = \begin{cases}
+0, nums[i]%2\equiv nums[i + 1]\mod2 \
+1, nums[i]%2 \not\equiv nums[i + 1]\mod2
+\end{cases}
+$$
+那么对于一个查询 $[l,r]$ , 查看 $a[l], \dots,a[r - 1]$ 中是否全部为 $0$ 即可.</p>
+<p>代码如下:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">isArraySpecial</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nums</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">],</span> <span class="n">queries</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]])</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">bool</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">s</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">accumulate</span><span class="p">((</span><span class="n">x</span> <span class="o">&amp;</span> <span class="mi">1</span> <span class="o">==</span> <span class="n">y</span> <span class="o">&amp;</span> <span class="mi">1</span> <span class="k">for</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">pairwise</span><span class="p">(</span><span class="n">nums</span><span class="p">)),</span> <span class="n">initial</span><span class="o">=</span><span class="mi">0</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="p">[</span><span class="n">s</span><span class="p">[</span><span class="n">l</span><span class="p">]</span> <span class="o">==</span> <span class="n">s</span><span class="p">[</span><span class="n">r</span><span class="p">]</span> <span class="k">for</span> <span class="n">l</span><span class="p">,</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">queries</span><span class="p">]</span>
 </span></span></code></pre></div>
       </div>
     </section>
@@ -485,7 +491,7 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2342-%E6%95%B0%E4%BD%8D%E5%92%8C%E7%9B%B8%E7%AD%89%E6%95%B0%E5%AF%B9%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C/">
+            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-18-%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C/">
               <span
                 class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
                 ><span class="ltr:inline rtl:hidden">&larr;</span
@@ -494,11 +500,11 @@
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >LeetCode-2342 数位和相等数对的最大和</span
+                  >LeetCode-18 四数之和</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2024-08-12 22:32:00 &#43;0000 UTC">12 August 2024</time>
+                    <time datetime="2024-08-13 20:44:00 &#43;0000 UTC">13 August 2024</time>
                   
                 </span>
               </span>
@@ -506,25 +512,6 @@
           
         </span>
         <span>
-          
-            <a class="group flex text-right" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3152-%E7%89%B9%E6%AE%8A%E6%95%B0%E7%BB%84-ii/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >LeetCode-3152 特殊数组 II</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2024-08-14 09:21:00 &#43;0000 UTC">14 August 2024</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
-                ><span class="ltr:inline rtl:hidden">&rarr;</span
-                ><span class="ltr:hidden rtl:inline">&larr;</span></span
-              >
-            </a>
           
         </span>
       </div>
