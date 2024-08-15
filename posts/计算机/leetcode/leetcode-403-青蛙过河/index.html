@@ -396,8 +396,8 @@
 >LeetCode-403 青蛙过河</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#leetcode-403-%e9%9d%92%e8%9b%99%e8%bf%87%e6%b2%b3httpsleetcodecnproblemsfrog-jump" aria-label="Anchor">#</a></span></h3>
 <h3 id="solution-1" class="relative group">Solution 1 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#solution-1" aria-label="Anchor">#</a></span></h3>
 <p>青蛙的状态有两个, 在第 $i$ 个石头上, 最后一步跳了 $j$ 步. 我们用 $dp[i][j]$ 来记录是否能够到达这一状态. 假设 $dp[i][j]$ 可以从第 $k$ 块石头转移而来, 那么必须是 $dp[k][stones[i] - stones[j] - 1], dp[k][stones[i] - stones[j]], dp[k][stones[i] - stones[j] + 1]$ 之一. 线性递推即可.
-个别可以优化的点见代码.
-代码如下:</p>
+个别可以优化的点见代码.</p>
+<p>代码如下:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl"><span class="k">public</span><span class="o">:</span>
 </span></span><span class="line"><span class="cl">    <span class="kt">bool</span> <span class="n">canCross</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&amp;</span> <span class="n">stones</span><span class="p">)</span> <span class="p">{</span>

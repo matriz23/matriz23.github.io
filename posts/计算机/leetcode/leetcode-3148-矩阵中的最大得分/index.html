@@ -19,14 +19,14 @@
   <meta name="theme-color" content="rgb(255,255,255)" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>LeetCode-2551 将珠子放入背包中 &middot; Matriz23</title>
-    <meta name="title" content="LeetCode-2551 将珠子放入背包中 &middot; Matriz23" />
+  <title>LeetCode-3148 矩阵中的最大得分 &middot; Matriz23</title>
+    <meta name="title" content="LeetCode-3148 矩阵中的最大得分 &middot; Matriz23" />
   
-  <meta name="description" content="LeetCode-2551「将珠子放入背包中」的思考与解答" />
+  <meta name="description" content="LeetCode-3148「矩阵中的最大得分」的思考与解答" />
   
   
   
-  <link rel="canonical" href="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2551-%E5%B0%86%E7%8F%A0%E5%AD%90%E6%94%BE%E5%85%A5%E8%83%8C%E5%8C%85%E4%B8%AD/" />
+  <link rel="canonical" href="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3148-%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86/" />
   
   
   
@@ -74,16 +74,16 @@
   
   
   
-  <meta property="og:title" content="LeetCode-2551 将珠子放入背包中" />
-<meta property="og:description" content="LeetCode-2551「将珠子放入背包中」的思考与解答" />
+  <meta property="og:title" content="LeetCode-3148 矩阵中的最大得分" />
+<meta property="og:description" content="LeetCode-3148「矩阵中的最大得分」的思考与解答" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2551-%E5%B0%86%E7%8F%A0%E5%AD%90%E6%94%BE%E5%85%A5%E8%83%8C%E5%8C%85%E4%B8%AD/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-08-14T20:05:00+00:00" />
-<meta property="article:modified_time" content="2024-08-14T20:05:00+00:00" />
+<meta property="og:url" content="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3148-%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-08-15T09:40:00+00:00" />
+<meta property="article:modified_time" content="2024-08-15T09:40:00+00:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="LeetCode-2551 将珠子放入背包中"/>
-<meta name="twitter:description" content="LeetCode-2551「将珠子放入背包中」的思考与解答"/>
+<meta name="twitter:title" content="LeetCode-3148 矩阵中的最大得分"/>
+<meta name="twitter:description" content="LeetCode-3148「矩阵中的最大得分」的思考与解答"/>
 
   
   <script type="application/ld+json">
@@ -91,26 +91,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "LeetCode-2551 将珠子放入背包中",
-    "headline": "LeetCode-2551 将珠子放入背包中",
-    "description": "LeetCode-2551「将珠子放入背包中」的思考与解答",
-    "abstract": "LeetCode-2551 将珠子放入背包中 # Solution 1 # 注意到分组等价于放隔板, 每个隔板可以获得两侧的分数.",
+    "name": "LeetCode-3148 矩阵中的最大得分",
+    "headline": "LeetCode-3148 矩阵中的最大得分",
+    "description": "LeetCode-3148「矩阵中的最大得分」的思考与解答",
+    "abstract": "LeetCode-3148 矩阵中的最大得分 # Solution 1 # 在一条路径中, 涉及中间节点的值的计算会被抵消掉, 所以考虑起点和终点的差值即可.",
     "inLanguage": "en-au",
-    "url" : "http:\/\/example.org\/posts\/%E8%AE%A1%E7%AE%97%E6%9C%BA\/leetcode\/leetcode-2551-%E5%B0%86%E7%8F%A0%E5%AD%90%E6%94%BE%E5%85%A5%E8%83%8C%E5%8C%85%E4%B8%AD\/",
+    "url" : "http:\/\/example.org\/posts\/%E8%AE%A1%E7%AE%97%E6%9C%BA\/leetcode\/leetcode-3148-%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86\/",
     "author" : {
       "@type": "Person",
       "name": "Matriz23"
     },
     "copyrightYear": "2024",
-    "dateCreated": "2024-08-14T20:05:00\u002b00:00",
-    "datePublished": "2024-08-14T20:05:00\u002b00:00",
+    "dateCreated": "2024-08-15T09:40:00\u002b00:00",
+    "datePublished": "2024-08-15T09:40:00\u002b00:00",
     
-    "dateModified": "2024-08-14T20:05:00\u002b00:00",
+    "dateModified": "2024-08-15T09:40:00\u002b00:00",
     
-    "keywords": ["LeetCode","贪心"],
+    "keywords": ["LeetCode","前缀和"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "57"
+    "wordCount": "101"
   }]
   </script>
 
@@ -284,8 +284,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2551-%E5%B0%86%E7%8F%A0%E5%AD%90%E6%94%BE%E5%85%A5%E8%83%8C%E5%8C%85%E4%B8%AD/"
-      >LeetCode-2551 将珠子放入背包中</a
+      href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3148-%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86/"
+      >LeetCode-3148 矩阵中的最大得分</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -294,7 +294,7 @@
 
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        LeetCode-2551 将珠子放入背包中
+        LeetCode-3148 矩阵中的最大得分
       </h1>
       <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -331,7 +331,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-08-14 20:05:00 &#43;0000 UTC">14 August 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
+      <time datetime="2024-08-15 09:40:00 &#43;0000 UTC">15 August 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -339,7 +339,7 @@
 
 <span class="mb-[2px]">
   <a
-    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e8%ae%a1%e7%ae%97%e6%9c%ba/LeetCode/LeetCode-2551%20%e5%b0%86%e7%8f%a0%e5%ad%90%e6%94%be%e5%85%a5%e8%83%8c%e5%8c%85%e4%b8%ad.md"
+    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e8%ae%a1%e7%ae%97%e6%9c%ba/LeetCode/LeetCode-3148%20%e7%9f%a9%e9%98%b5%e4%b8%ad%e7%9a%84%e6%9c%80%e5%a4%a7%e5%be%97%e5%88%86.md"
     class="text-lg hover:text-primary-500"
     rel="noopener noreferrer"
     target="_blank"
@@ -376,7 +376,7 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#leetcode-2551-将珠子放入背包中httpsleetcodecnproblemsput-marbles-in-bags"><a href="https://leetcode.cn/problems/put-marbles-in-bags/">LeetCode-2551 将珠子放入背包中</a></a></li>
+        <li><a href="#leetcode-3148-矩阵中的最大得分httpsleetcodecnproblemsmaximum-difference-score-in-a-griddescription"><a href="https://leetcode.cn/problems/maximum-difference-score-in-a-grid/description/">LeetCode-3148 矩阵中的最大得分</a></a></li>
         <li><a href="#solution-1">Solution 1</a></li>
       </ul>
     </li>
@@ -389,24 +389,29 @@
         </div>
       
       <div class="min-w-0 min-h-0 max-w-prose grow">
-        <h3 id="leetcode-2551-将珠子放入背包中httpsleetcodecnproblemsput-marbles-in-bags" class="relative group"><a
-  href="https://leetcode.cn/problems/put-marbles-in-bags/"
+        <h3 id="leetcode-3148-矩阵中的最大得分httpsleetcodecnproblemsmaximum-difference-score-in-a-griddescription" class="relative group"><a
+  href="https://leetcode.cn/problems/maximum-difference-score-in-a-grid/description/"
   
   target="_blank" rel="noreferrer noopener"
->LeetCode-2551 将珠子放入背包中</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#leetcode-2551-%e5%b0%86%e7%8f%a0%e5%ad%90%e6%94%be%e5%85%a5%e8%83%8c%e5%8c%85%e4%b8%adhttpsleetcodecnproblemsput-marbles-in-bags" aria-label="Anchor">#</a></span></h3>
+>LeetCode-3148 矩阵中的最大得分</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#leetcode-3148-%e7%9f%a9%e9%98%b5%e4%b8%ad%e7%9a%84%e6%9c%80%e5%a4%a7%e5%be%97%e5%88%86httpsleetcodecnproblemsmaximum-difference-score-in-a-griddescription" aria-label="Anchor">#</a></span></h3>
 <h3 id="solution-1" class="relative group">Solution 1 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#solution-1" aria-label="Anchor">#</a></span></h3>
-<p>注意到分组等价于放隔板, 每个隔板可以获得两侧的分数. 贪心地选出分数最高和最低的 $k - 1$ 个隔板即可.</p>
+<p>在一条路径中, 涉及中间节点的值的计算会被抵消掉, 所以考虑起点和终点的差值即可. 维护 $dp[i][j]= \min({grid[x][y], 0\leq x\leq i, 0\leq y\leq j})$ , 那么以 $grid[i][j]$ 为终点的路径最大得分就是 $grid[i][j] - \min(dp[i - 1][j], dp[i][j - 1])$ . 遍历并维护答案.</p>
 <p>代码如下:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">putMarbles</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">weights</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">],</span> <span class="n">k</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">pq1</span><span class="p">,</span> <span class="n">pq2</span> <span class="o">=</span> <span class="p">[],</span> <span class="p">[]</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">weights</span><span class="p">)):</span>
-</span></span><span class="line"><span class="cl">            <span class="n">heappush</span><span class="p">(</span><span class="n">pq1</span><span class="p">,</span> <span class="o">-</span> <span class="n">weights</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="n">weights</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">])</span>
-</span></span><span class="line"><span class="cl">            <span class="n">heappush</span><span class="p">(</span><span class="n">pq2</span><span class="p">,</span> <span class="n">weights</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">+</span> <span class="n">weights</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">])</span>
-</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">pq1</span><span class="p">)</span> <span class="o">==</span> <span class="n">k</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">                <span class="n">heappop</span><span class="p">(</span><span class="n">pq1</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">                <span class="n">heappop</span><span class="p">(</span><span class="n">pq2</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="n">pq1</span> <span class="o">+</span> <span class="n">pq2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">maxScore</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">grid</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]])</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">m</span><span class="p">,</span> <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">grid</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">        <span class="n">ans</span> <span class="o">=</span> <span class="o">-</span><span class="n">inf</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">m</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">                <span class="n">res</span> <span class="o">=</span> <span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">ans</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">ans</span><span class="p">,</span> <span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">-</span> <span class="n">grid</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">res</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">res</span><span class="p">,</span> <span class="n">grid</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="n">j</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">ans</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">ans</span><span class="p">,</span> <span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">-</span> <span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span> <span class="o">-</span> <span class="mi">1</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">res</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">res</span><span class="p">,</span> <span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span> <span class="o">-</span> <span class="mi">1</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">                <span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">res</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">ans</span>
 </span></span></code></pre></div>
       </div>
     </section>
@@ -476,7 +481,7 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1129-%E9%A2%9C%E8%89%B2%E4%BA%A4%E6%9B%BF%E7%9A%84%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84/">
+            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2551-%E5%B0%86%E7%8F%A0%E5%AD%90%E6%94%BE%E5%85%A5%E8%83%8C%E5%8C%85%E4%B8%AD/">
               <span
                 class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
                 ><span class="ltr:inline rtl:hidden">&larr;</span
@@ -485,11 +490,11 @@
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >LeetCode-1129 颜色交替的最短路径</span
+                  >LeetCode-2551 将珠子放入背包中</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2024-08-14 18:04:00 &#43;0000 UTC">14 August 2024</time>
+                    <time datetime="2024-08-14 20:05:00 &#43;0000 UTC">14 August 2024</time>
                   
                 </span>
               </span>
@@ -497,25 +502,6 @@
           
         </span>
         <span>
-          
-            <a class="group flex text-right" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3148-%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >LeetCode-3148 矩阵中的最大得分</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2024-08-15 09:40:00 &#43;0000 UTC">15 August 2024</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
-                ><span class="ltr:inline rtl:hidden">&rarr;</span
-                ><span class="ltr:hidden rtl:inline">&larr;</span></span
-              >
-            </a>
           
         </span>
       </div>

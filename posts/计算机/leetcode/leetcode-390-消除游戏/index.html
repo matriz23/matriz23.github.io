@@ -409,8 +409,8 @@ $$
 $$
 F(i) = 2 × (1 + \lfloor i/2 \rfloor - F(\lfloor i/2 \rfloor))
 $$
-边界情况为 $F(1) = 1$ .
-代码如下:</p>
+边界情况为 $F(1) = 1$ .</p>
+<p>代码如下:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="kt">int</span> <span class="nf">lastRemaining</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">1</span> <span class="o">?</span> <span class="mi">1</span> <span class="o">:</span> <span class="mi">2</span> <span class="o">*</span> <span class="p">(</span><span class="n">n</span> <span class="o">/</span> <span class="mi">2</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">lastRemaining</span><span class="p">(</span><span class="n">n</span> <span class="o">/</span> <span class="mi">2</span><span class="p">));</span>
