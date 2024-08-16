@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Sat, 29 Jul 2023 21:58:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E6%9E%84%E9%80%A0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Aug 2024 11:04:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E6%9E%84%E9%80%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-1092 最短公共超序列</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1092-%E6%9C%80%E7%9F%AD%E5%85%AC%E5%85%B1%E8%B6%85%E5%BA%8F%E5%88%97/</link>
+      <pubDate>Thu, 15 Aug 2024 11:04:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1092-%E6%9C%80%E7%9F%AD%E5%85%AC%E5%85%B1%E8%B6%85%E5%BA%8F%E5%88%97/</guid>
+      <description>LeetCode-1092 最短公共超序列 # Solution 1 # 如果 $s[-1] = t[-1]$ , 那么所求超序列的最后一位一定是 $s[-1]$ ; 否则有两种构造方式, 选择更短的那一种, 这个过程可以递归地进行.</description>
+    </item>
+    
     <item>
       <title>LeetCode-2790 长度递增组的最大数目</title>
       <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2790-%E9%95%BF%E5%BA%A6%E9%80%92%E5%A2%9E%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E7%9B%AE/</link>
