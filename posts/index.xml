@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Sun, 18 Aug 2024 09:02:00 +0000</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Aug 2024 08:01:00 +0000</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-552 学生出勤记录 II</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-552-%E5%AD%A6%E7%94%9F%E5%87%BA%E5%8B%A4%E8%AE%B0%E5%BD%95-ii/</link>
+      <pubDate>Mon, 19 Aug 2024 08:01:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-552-%E5%AD%A6%E7%94%9F%E5%87%BA%E5%8B%A4%E8%AE%B0%E5%BD%95-ii/</guid>
+      <description>LeetCode-552 学生出勤记录 II # Solution 1 # 字符串的关键状态在于 &#39;A&#39; 字符的个数以及结尾连续 &#39;L&#39; 的个数.</description>
+    </item>
+    
     <item>
       <title>LeetCode-2612 最少翻转操作数</title>
       <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2612-%E6%9C%80%E5%B0%91%E7%BF%BB%E8%BD%AC%E6%93%8D%E4%BD%9C%E6%95%B0/</link>
