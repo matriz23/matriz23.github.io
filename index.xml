@@ -3041,5 +3041,14 @@
       <description>你好!</description>
     </item>
     
+    <item>
+      <title>LeetCode-3154 到达第 K 级台阶的方案数</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3154-%E5%88%B0%E8%BE%BE%E7%AC%AC-k-%E7%BA%A7%E5%8F%B0%E9%98%B6%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3154-%E5%88%B0%E8%BE%BE%E7%AC%AC-k-%E7%BA%A7%E5%8F%B0%E9%98%B6%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0/</guid>
+      <description>LeetCode-3154 到达第 K 级台阶的方案数 # Solution 1 # 本题的状态非常明确: 当前在第 $k$ 级, 当前 $jump$, 下一步是否允许 $down$ .</description>
+    </item>
+    
   </channel>
 </rss>
