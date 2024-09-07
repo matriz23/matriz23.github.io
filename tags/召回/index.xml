@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>召回 on Matriz23</title>
+    <link>http://example.org/tags/%E5%8F%AC%E5%9B%9E/</link>
+    <description>Recent content in 召回 on Matriz23</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>&amp;copy; 2023 Matriz23</copyright>
+    <lastBuildDate>Sat, 07 Sep 2024 14:01:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E5%8F%AC%E5%9B%9E/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>向量化召回</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/hnsw-%E7%AE%97%E6%B3%95/</link>
+      <pubDate>Sat, 07 Sep 2024 14:01:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/hnsw-%E7%AE%97%E6%B3%95/</guid>
+      <description>学习向量化召回的一些笔记.</description>
+    </item>
+    
+  </channel>
+</rss>

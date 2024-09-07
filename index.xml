@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Mon, 26 Aug 2024 20:32:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Sep 2024 14:01:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>向量化召回</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/hnsw-%E7%AE%97%E6%B3%95/</link>
+      <pubDate>Sat, 07 Sep 2024 14:01:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/hnsw-%E7%AE%97%E6%B3%95/</guid>
+      <description>学习向量化召回的一些笔记.</description>
+    </item>
+    
     <item>
       <title>LeetCode-698 划分为k个相等的子集</title>
       <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-698-%E5%88%92%E5%88%86%E4%B8%BAk%E4%B8%AA%E7%9B%B8%E7%AD%89%E7%9A%84%E5%AD%90%E9%9B%86/</link>

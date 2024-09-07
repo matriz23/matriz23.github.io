@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Mon, 26 Aug 2024 20:32:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Sep 2024 14:01:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ANN</title>
+      <link>http://example.org/tags/ann/</link>
+      <pubDate>Sat, 07 Sep 2024 14:01:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/ann/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HNSW</title>
+      <link>http://example.org/tags/hnsw/</link>
+      <pubDate>Sat, 07 Sep 2024 14:01:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/hnsw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>召回</title>
+      <link>http://example.org/tags/%E5%8F%AC%E5%9B%9E/</link>
+      <pubDate>Sat, 07 Sep 2024 14:01:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E5%8F%AC%E5%9B%9E/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>LeetCode</title>
       <link>http://example.org/tags/leetcode/</link>
