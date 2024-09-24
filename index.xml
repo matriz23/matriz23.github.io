@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Tue, 24 Sep 2024 22:29:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Sep 2024 22:43:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-1014 最佳观光组合</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1014-%E6%9C%80%E4%BD%B3%E8%A7%82%E5%85%89%E7%BB%84%E5%90%88/</link>
+      <pubDate>Tue, 24 Sep 2024 22:43:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1014-%E6%9C%80%E4%BD%B3%E8%A7%82%E5%85%89%E7%BB%84%E5%90%88/</guid>
+      <description>LeetCode-1014 最佳观光组合 # Solution 1 # 维护 $val[i] + i$ 的最大堆, 遍历 + 计算 + 更新.</description>
+    </item>
+    
     <item>
       <title>LeetCode-2207 字符串中最多数目的子序列</title>
       <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2207-%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E6%9C%80%E5%A4%9A%E6%95%B0%E7%9B%AE%E7%9A%84%E5%AD%90%E5%BA%8F%E5%88%97/</link>
