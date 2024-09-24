@@ -19,14 +19,14 @@
   <meta name="theme-color" content="rgb(255,255,255)" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>向量化召回 &middot; Matriz23</title>
-    <meta name="title" content="向量化召回 &middot; Matriz23" />
+  <title>LeetCode-2207 字符串中最多数目的子序列 &middot; Matriz23</title>
+    <meta name="title" content="LeetCode-2207 字符串中最多数目的子序列 &middot; Matriz23" />
   
-  <meta name="description" content="学习向量化召回的一些笔记." />
+  <meta name="description" content="LeetCode-2207「字符串中最多数目的子序列」的思考与解答" />
   
   
   
-  <link rel="canonical" href="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/hnsw-%E7%AE%97%E6%B3%95/" />
+  <link rel="canonical" href="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2207-%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E6%9C%80%E5%A4%9A%E6%95%B0%E7%9B%AE%E7%9A%84%E5%AD%90%E5%BA%8F%E5%88%97/" />
   
   
   
@@ -74,16 +74,16 @@
   
   
   
-  <meta property="og:title" content="向量化召回" />
-<meta property="og:description" content="学习向量化召回的一些笔记." />
+  <meta property="og:title" content="LeetCode-2207 字符串中最多数目的子序列" />
+<meta property="og:description" content="LeetCode-2207「字符串中最多数目的子序列」的思考与解答" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/hnsw-%E7%AE%97%E6%B3%95/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-09-07T14:01:00+00:00" />
-<meta property="article:modified_time" content="2024-09-07T14:01:00+00:00" />
+<meta property="og:url" content="http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2207-%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E6%9C%80%E5%A4%9A%E6%95%B0%E7%9B%AE%E7%9A%84%E5%AD%90%E5%BA%8F%E5%88%97/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-09-24T22:29:00+00:00" />
+<meta property="article:modified_time" content="2024-09-24T22:29:00+00:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="向量化召回"/>
-<meta name="twitter:description" content="学习向量化召回的一些笔记."/>
+<meta name="twitter:title" content="LeetCode-2207 字符串中最多数目的子序列"/>
+<meta name="twitter:description" content="LeetCode-2207「字符串中最多数目的子序列」的思考与解答"/>
 
   
   <script type="application/ld+json">
@@ -91,26 +91,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "向量化召回",
-    "headline": "向量化召回",
-    "description": "学习向量化召回的一些笔记.",
-    "abstract": "学习向量化召回的一些笔记.",
+    "name": "LeetCode-2207 字符串中最多数目的子序列",
+    "headline": "LeetCode-2207 字符串中最多数目的子序列",
+    "description": "LeetCode-2207「字符串中最多数目的子序列」的思考与解答",
+    "abstract": "LeetCode-2207 字符串中最多数目的子序列 # Solution 1 # 计算初始数量 \u002b 插入带来的增益.",
     "inLanguage": "en-au",
-    "url" : "http:\/\/example.org\/posts\/%E8%AE%A1%E7%AE%97%E6%9C%BA\/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0\/hnsw-%E7%AE%97%E6%B3%95\/",
+    "url" : "http:\/\/example.org\/posts\/%E8%AE%A1%E7%AE%97%E6%9C%BA\/leetcode\/leetcode-2207-%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E6%9C%80%E5%A4%9A%E6%95%B0%E7%9B%AE%E7%9A%84%E5%AD%90%E5%BA%8F%E5%88%97\/",
     "author" : {
       "@type": "Person",
       "name": "Matriz23"
     },
     "copyrightYear": "2024",
-    "dateCreated": "2024-09-07T14:01:00\u002b00:00",
-    "datePublished": "2024-09-07T14:01:00\u002b00:00",
+    "dateCreated": "2024-09-24T22:29:00\u002b00:00",
+    "datePublished": "2024-09-24T22:29:00\u002b00:00",
     
-    "dateModified": "2024-09-07T14:01:00\u002b00:00",
+    "dateModified": "2024-09-24T22:29:00\u002b00:00",
     
-    "keywords": ["召回","ANN","HNSW"],
+    "keywords": ["LeetCode"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "105"
+    "wordCount": "109"
   }]
   </script>
 
@@ -284,8 +284,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/hnsw-%E7%AE%97%E6%B3%95/"
-      >向量化召回</a
+      href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2207-%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E6%9C%80%E5%A4%9A%E6%95%B0%E7%9B%AE%E7%9A%84%E5%AD%90%E5%BA%8F%E5%88%97/"
+      >LeetCode-2207 字符串中最多数目的子序列</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -294,7 +294,7 @@
 
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        向量化召回
+        LeetCode-2207 字符串中最多数目的子序列
       </h1>
       <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -331,7 +331,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-09-07 14:01:00 &#43;0000 UTC">7 September 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
+      <time datetime="2024-09-24 22:29:00 &#43;0000 UTC">24 September 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -339,7 +339,7 @@
 
 <span class="mb-[2px]">
   <a
-    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e8%ae%a1%e7%ae%97%e6%9c%ba/%e6%9c%ba%e5%99%a8%e5%ad%a6%e4%b9%a0/HNSW%20%e7%ae%97%e6%b3%95.md"
+    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e8%ae%a1%e7%ae%97%e6%9c%ba/LeetCode/LeetCode-2207%20%e5%ad%97%e7%ac%a6%e4%b8%b2%e4%b8%ad%e6%9c%80%e5%a4%9a%e6%95%b0%e7%9b%ae%e7%9a%84%e5%ad%90%e5%ba%8f%e5%88%97.md"
     class="text-lg hover:text-primary-500"
     rel="noopener noreferrer"
     target="_blank"
@@ -374,12 +374,10 @@
   <div class="-ms-5 border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#模型">模型</a></li>
-    <li><a href="#样本">样本</a></li>
-    <li><a href="#索引">索引</a>
+    <li>
       <ul>
-        <li><a href="#nsw">NSW</a></li>
-        <li><a href="#hnsw">HNSW</a></li>
+        <li><a href="#leetcode-2207-字符串中最多数目的子序列httpsleetcodecnproblemsmaximize-number-of-subsequences-in-a-stringdescription"><a href="https://leetcode.cn/problems/maximize-number-of-subsequences-in-a-string/description">LeetCode-2207 字符串中最多数目的子序列</a></a></li>
+        <li><a href="#solution-1">Solution 1</a></li>
       </ul>
     </li>
   </ul>
@@ -391,39 +389,32 @@
         </div>
       
       <div class="min-w-0 min-h-0 max-w-prose grow">
-        <blockquote>
-<p>学习向量化召回的一些笔记.</p>
-</blockquote>
-<h1 id="向量化召回" class="relative group">向量化召回 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%90%91%e9%87%8f%e5%8c%96%e5%8f%ac%e5%9b%9e" aria-label="Anchor">#</a></span></h1>
-<p>向量化召回:</p>
-<ul>
-<li>训练时使用双塔模型预测点积, 将 user 和 item 的 embedding 映射到同一个空间中;</li>
-<li>线上 serving 时构建用户 embedding 后使用近似最近邻 (Approximate Nearest Neighbor, ANN) 算法召回最接近的 item.</li>
-</ul>
-<h2 id="模型" class="relative group">模型 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%a8%a1%e5%9e%8b" aria-label="Anchor">#</a></span></h2>
-<p>user-item 特征交叉在精排模型中非常常见, 并且效果通常很好. 但是召回模型必须解耦, 仅在最后一层对 embedding 做点积以预测. 这是因为召回模型上线后需要离线构建 item 索引.</p>
-<h2 id="样本" class="relative group">样本 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%a0%b7%e6%9c%ac" aria-label="Anchor">#</a></span></h2>
-<p>通常取点击样本为整体样本集. 以 batch 进行训练, 正样本是用户点击, 负样本是 batch 内其它用户的真实点击.</p>
-<p>为什么这么做, 而不是取曝光未点击作为负样本?</p>
-<ul>
-<li>精排与召回输入数据分布不一致. 召回的目的是选出用户可能感兴趣的 item，曝光未点击的已经在链路末端, 用户不点击也不一定是不感兴趣.</li>
-<li>取 batch 内其它用户的点击作为负样本, 热门物品更容易被采样到, 起到打压热门物品的作用.</li>
-</ul>
-<h2 id="索引" class="relative group">索引 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e7%b4%a2%e5%bc%95" aria-label="Anchor">#</a></span></h2>
-<p>一个常用的 ANN 算法是 HNSW. HNSW (Hierarchical Navigable Small World) 算法是一种基于图的近似最近邻搜索算法, 通过构建多层索引, 在保证搜索效率的同时, 保持搜索结果的准确性.</p>
-<h3 id="nsw" class="relative group">NSW <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#nsw" aria-label="Anchor">#</a></span></h3>
-<p>不断添加点, 每个点连接最近的若干个点, 构成索引. 这种构建方式的优点:</p>
-<ul>
-<li>联通.</li>
-<li>存在长边, 可以快速接近目标点.</li>
-<li>距离相近的点之间有边连接.</li>
-</ul>
-<p>搜索时, 随机选一个点, 不断从它的邻居中找到离目标点最近的点, 直到无法优化为止.</p>
-<h3 id="hnsw" class="relative group">HNSW <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#hnsw" aria-label="Anchor">#</a></span></h3>
-<p>HNSW 基于 NSW 的思想, 额外增加了<strong>层级</strong>的概念. 最底层有全部的点, 随着层数增加点数不断减少.</p>
-<p>构建 HNSW 索引添加点时, 会随机计算其所处的最高层级. 接下来, 自顶层向最高层级搜索, 不断找到最近的点; 到达最高层级后, 每层寻找最近邻的若干个点存储并连接.</p>
-<p>搜索类似, 从高层向低层搜索.</p>
-
+        <h3 id="leetcode-2207-字符串中最多数目的子序列httpsleetcodecnproblemsmaximize-number-of-subsequences-in-a-stringdescription" class="relative group"><a
+  href="https://leetcode.cn/problems/maximize-number-of-subsequences-in-a-string/description"
+  
+  target="_blank" rel="noreferrer noopener"
+>LeetCode-2207 字符串中最多数目的子序列</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#leetcode-2207-%e5%ad%97%e7%ac%a6%e4%b8%b2%e4%b8%ad%e6%9c%80%e5%a4%9a%e6%95%b0%e7%9b%ae%e7%9a%84%e5%ad%90%e5%ba%8f%e5%88%97httpsleetcodecnproblemsmaximize-number-of-subsequences-in-a-stringdescription" aria-label="Anchor">#</a></span></h3>
+<h3 id="solution-1" class="relative group">Solution 1 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#solution-1" aria-label="Anchor">#</a></span></h3>
+<p>计算初始数量 + 插入带来的增益.</p>
+<p>代码如下:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">maximumSubsequenceCount</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">pattern</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">pre0</span><span class="p">,</span> <span class="n">pre1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">)],</span> <span class="p">[</span><span class="mi">0</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">ans</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="n">text</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="n">pattern</span><span class="p">[</span><span class="mi">1</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">                <span class="n">ans</span> <span class="o">+=</span> <span class="n">pre0</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">            <span class="n">pre0</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">pre0</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="k">else</span> <span class="mi">0</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="n">text</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="n">pattern</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">            <span class="n">pre1</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">pre1</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="k">else</span> <span class="mi">0</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="n">text</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="n">pattern</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">            
+</span></span><span class="line"><span class="cl">        <span class="n">ans</span> <span class="o">+=</span> <span class="nb">max</span><span class="p">([</span><span class="nb">max</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">            <span class="n">pre1</span><span class="p">[</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="p">(</span><span class="n">pre1</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="k">else</span> <span class="mi">0</span><span class="p">),</span> <span class="c1"># pat0</span>
+</span></span><span class="line"><span class="cl">            <span class="n">pre0</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl">        <span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">ans</span> 
+</span></span></code></pre></div>
       </div>
     </section>
     <footer class="pt-8 max-w-prose print:hidden">
@@ -492,7 +483,7 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-698-%E5%88%92%E5%88%86%E4%B8%BAk%E4%B8%AA%E7%9B%B8%E7%AD%89%E7%9A%84%E5%AD%90%E9%9B%86/">
+            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/hnsw-%E7%AE%97%E6%B3%95/">
               <span
                 class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
                 ><span class="ltr:inline rtl:hidden">&larr;</span
@@ -501,11 +492,11 @@
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >LeetCode-698 划分为k个相等的子集</span
+                  >向量化召回</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2024-08-26 20:32:00 &#43;0000 UTC">26 August 2024</time>
+                    <time datetime="2024-09-07 14:01:00 &#43;0000 UTC">7 September 2024</time>
                   
                 </span>
               </span>
@@ -513,25 +504,6 @@
           
         </span>
         <span>
-          
-            <a class="group flex text-right" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2207-%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E6%9C%80%E5%A4%9A%E6%95%B0%E7%9B%AE%E7%9A%84%E5%AD%90%E5%BA%8F%E5%88%97/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >LeetCode-2207 字符串中最多数目的子序列</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2024-09-24 22:29:00 &#43;0000 UTC">24 September 2024</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
-                ><span class="ltr:inline rtl:hidden">&rarr;</span
-                ><span class="ltr:hidden rtl:inline">&larr;</span></span
-              >
-            </a>
           
         </span>
       </div>
