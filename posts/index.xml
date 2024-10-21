@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Mon, 21 Oct 2024 21:48:00 +0000</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Oct 2024 22:20:00 +0000</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-2527 查询数组异或美丽值</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2527-%E6%9F%A5%E8%AF%A2%E6%95%B0%E7%BB%84%E5%BC%82%E6%88%96%E7%BE%8E%E4%B8%BD%E5%80%BC/</link>
+      <pubDate>Mon, 21 Oct 2024 22:20:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2527-%E6%9F%A5%E8%AF%A2%E6%95%B0%E7%BB%84%E5%BC%82%E6%88%96%E7%BE%8E%E4%B8%BD%E5%80%BC/</guid>
+      <description>LeetCode-2527 查询数组异或美丽值 # Solution 1 # 由于不同二进制位上的位运算是独立的, 可以分开计算.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-474 一和零</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-474-%E4%B8%80%E5%92%8C%E9%9B%B6/</link>
+      <pubDate>Mon, 21 Oct 2024 22:14:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-474-%E4%B8%80%E5%92%8C%E9%9B%B6/</guid>
+      <description>LeetCode-474 一和零 # Solution 1 # 有两个容量约束的背包问题.</description>
+    </item>
+    
     <item>
       <title>LeetCode-910 最小差值 II</title>
       <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-910-%E6%9C%80%E5%B0%8F%E5%B7%AE%E5%80%BC-ii/</link>
