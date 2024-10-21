@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Tue, 24 Sep 2024 22:43:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Oct 2024 21:48:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-910 最小差值 II</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-910-%E6%9C%80%E5%B0%8F%E5%B7%AE%E5%80%BC-ii/</link>
+      <pubDate>Mon, 21 Oct 2024 21:48:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-910-%E6%9C%80%E5%B0%8F%E5%B7%AE%E5%80%BC-ii/</guid>
+      <description>LeetCode-910 最小差值 II # Solution 1 # 希望尽可能减少数组的差值, 操作是 &amp;ldquo;大的变小, 小的变大&amp;rdquo;.</description>
+    </item>
+    
     <item>
       <title>LeetCode-1014 最佳观光组合</title>
       <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1014-%E6%9C%80%E4%BD%B3%E8%A7%82%E5%85%89%E7%BB%84%E5%90%88/</link>
