@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Mon, 21 Oct 2024 22:20:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Oct 2024 22:40:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-435 无重叠区间</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-435-%E6%97%A0%E9%87%8D%E5%8F%A0%E5%8C%BA%E9%97%B4/</link>
+      <pubDate>Mon, 21 Oct 2024 22:40:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-435-%E6%97%A0%E9%87%8D%E5%8F%A0%E5%8C%BA%E9%97%B4/</guid>
+      <description>LeetCode-435 无重叠区间 # Solution 1 # 按照右端点考虑区间, 如果当前的区间的左端点大于等于上一个区间的右端点, 则可以选择该区间, 否则删除该区间.</description>
+    </item>
+    
     <item>
       <title>LeetCode-2527 查询数组异或美丽值</title>
       <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2527-%E6%9F%A5%E8%AF%A2%E6%95%B0%E7%BB%84%E5%BC%82%E6%88%96%E7%BE%8E%E4%B8%BD%E5%80%BC/</link>

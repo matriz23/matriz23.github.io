@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Wed, 14 Aug 2024 20:05:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E8%B4%AA%E5%BF%83/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Oct 2024 22:40:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E8%B4%AA%E5%BF%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-435 无重叠区间</title>
+      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-435-%E6%97%A0%E9%87%8D%E5%8F%A0%E5%8C%BA%E9%97%B4/</link>
+      <pubDate>Mon, 21 Oct 2024 22:40:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-435-%E6%97%A0%E9%87%8D%E5%8F%A0%E5%8C%BA%E9%97%B4/</guid>
+      <description>LeetCode-435 无重叠区间 # Solution 1 # 按照右端点考虑区间, 如果当前的区间的左端点大于等于上一个区间的右端点, 则可以选择该区间, 否则删除该区间.</description>
+    </item>
+    
     <item>
       <title>LeetCode-2551 将珠子放入背包中</title>
       <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2551-%E5%B0%86%E7%8F%A0%E5%AD%90%E6%94%BE%E5%85%A5%E8%83%8C%E5%8C%85%E4%B8%AD/</link>
