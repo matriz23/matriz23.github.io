@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>记忆化搜索 on Matriz23</title>
-    <link>http://example.org/tags/%E8%AE%B0%E5%BF%86%E5%8C%96%E6%90%9C%E7%B4%A2/</link>
+    <link>http://matriz23.github.io/tags/%E8%AE%B0%E5%BF%86%E5%8C%96%E6%90%9C%E7%B4%A2/</link>
     <description>Recent content in 记忆化搜索 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Sun, 03 Jul 2022 22:18:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E8%AE%B0%E5%BF%86%E5%8C%96%E6%90%9C%E7%B4%A2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Jul 2022 22:18:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E8%AE%B0%E5%BF%86%E5%8C%96%E6%90%9C%E7%B4%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-329 矩阵中的最长递增路径</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-329-%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E8%B7%AF%E5%BE%84/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-329-%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E8%B7%AF%E5%BE%84/</link>
       <pubDate>Sun, 03 Jul 2022 22:18:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-329-%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E8%B7%AF%E5%BE%84/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-329-%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E8%B7%AF%E5%BE%84/</guid>
       <description>LeetCode-329 矩阵中的最长递增路径 # Solution 1 # 这个经典问题还有一个别号叫做&amp;quot;滑雪问题&amp;quot;.</description>
     </item>
     
     <item>
       <title>LeetCode-691 贴纸拼词</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-691-%E8%B4%B4%E7%BA%B8%E6%8B%BC%E8%AF%8D/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-691-%E8%B4%B4%E7%BA%B8%E6%8B%BC%E8%AF%8D/</link>
       <pubDate>Sat, 14 May 2022 16:08:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-691-%E8%B4%B4%E7%BA%B8%E6%8B%BC%E8%AF%8D/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-691-%E8%B4%B4%E7%BA%B8%E6%8B%BC%E8%AF%8D/</guid>
       <description>LeetCode-691 贴纸拼词 # Solution 1 # 这道题要用给定的字符串中的字符来拼出目标字符串, 其中给定字符串中每一个都可以使用无数次.</description>
     </item>
     

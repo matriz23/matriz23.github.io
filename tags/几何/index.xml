@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>几何 on Matriz23</title>
-    <link>http://example.org/tags/%E5%87%A0%E4%BD%95/</link>
+    <link>http://matriz23.github.io/tags/%E5%87%A0%E4%BD%95/</link>
     <description>Recent content in 几何 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Tue, 09 Jul 2024 09:01:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E5%87%A0%E4%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jul 2024 09:01:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%87%A0%E4%BD%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-3102 最小化曼哈顿距离</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3102-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%9B%BC%E5%93%88%E9%A1%BF%E8%B7%9D%E7%A6%BB/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3102-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%9B%BC%E5%93%88%E9%A1%BF%E8%B7%9D%E7%A6%BB/</link>
       <pubDate>Tue, 09 Jul 2024 09:01:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3102-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%9B%BC%E5%93%88%E9%A1%BF%E8%B7%9D%E7%A6%BB/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3102-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%9B%BC%E5%93%88%E9%A1%BF%E8%B7%9D%E7%A6%BB/</guid>
       <description>LeetCode-3102 最小化曼哈顿距离 # Solution 1 # 核心在于了解二维情况下曼哈顿距离与切比雪夫距离之间的转化.</description>
     </item>
     

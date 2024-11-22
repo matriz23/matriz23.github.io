@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>栈 on Matriz23</title>
-    <link>http://example.org/tags/%E6%A0%88/</link>
+    <link>http://matriz23.github.io/tags/%E6%A0%88/</link>
     <description>Recent content in 栈 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Mon, 12 Aug 2024 22:04:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E6%A0%88/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Aug 2024 22:04:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E6%A0%88/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-772 基本计算器 III</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-772-%E5%9F%BA%E6%9C%AC%E8%AE%A1%E7%AE%97%E5%99%A8-iii/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-772-%E5%9F%BA%E6%9C%AC%E8%AE%A1%E7%AE%97%E5%99%A8-iii/</link>
       <pubDate>Mon, 12 Aug 2024 22:04:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-772-%E5%9F%BA%E6%9C%AC%E8%AE%A1%E7%AE%97%E5%99%A8-iii/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-772-%E5%9F%BA%E6%9C%AC%E8%AE%A1%E7%AE%97%E5%99%A8-iii/</guid>
       <description>LeetCode-772 基本计算器 III # Solution 1 # 使用两个栈分别保存读取到的数字和运算符.</description>
     </item>
     
     <item>
       <title>LeetCode-735 行星碰撞</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-735-%E8%A1%8C%E6%98%9F%E7%A2%B0%E6%92%9E/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-735-%E8%A1%8C%E6%98%9F%E7%A2%B0%E6%92%9E/</link>
       <pubDate>Wed, 13 Jul 2022 10:55:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-735-%E8%A1%8C%E6%98%9F%E7%A2%B0%E6%92%9E/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-735-%E8%A1%8C%E6%98%9F%E7%A2%B0%E6%92%9E/</guid>
       <description>LeetCode-735 行星碰撞 # Solution 1 # 一颗向右的行星总是能摧毁比它小的向左的行星(如果目标星球在这之前被摧毁了, 也可以视作被该行星摧毁), 向左的同理.</description>
     </item>
     

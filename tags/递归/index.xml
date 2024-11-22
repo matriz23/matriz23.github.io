@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>递归 on Matriz23</title>
-    <link>http://example.org/tags/%E9%80%92%E5%BD%92/</link>
+    <link>http://matriz23.github.io/tags/%E9%80%92%E5%BD%92/</link>
     <description>Recent content in 递归 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Wed, 14 Aug 2024 15:32:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E9%80%92%E5%BD%92/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Aug 2024 15:32:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E9%80%92%E5%BD%92/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-310 最小高度树</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-310-%E6%9C%80%E5%B0%8F%E9%AB%98%E5%BA%A6%E6%A0%91/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-310-%E6%9C%80%E5%B0%8F%E9%AB%98%E5%BA%A6%E6%A0%91/</link>
       <pubDate>Wed, 14 Aug 2024 15:32:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-310-%E6%9C%80%E5%B0%8F%E9%AB%98%E5%BA%A6%E6%A0%91/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-310-%E6%9C%80%E5%B0%8F%E9%AB%98%E5%BA%A6%E6%A0%91/</guid>
       <description>LeetCode-310 最小高度树 # Solution 1 # 寻找最小高度树, 等价于寻找距离最大的两个节点.</description>
     </item>
     
     <item>
       <title>LeetCode-1545 找出第 N 个二进制字符串中的第 K 位</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1545-%E6%89%BE%E5%87%BA%E7%AC%AC-n-%E4%B8%AA%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E7%AC%AC-k-%E4%BD%8D/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1545-%E6%89%BE%E5%87%BA%E7%AC%AC-n-%E4%B8%AA%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E7%AC%AC-k-%E4%BD%8D/</link>
       <pubDate>Sun, 11 Aug 2024 14:59:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1545-%E6%89%BE%E5%87%BA%E7%AC%AC-n-%E4%B8%AA%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E7%AC%AC-k-%E4%BD%8D/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1545-%E6%89%BE%E5%87%BA%E7%AC%AC-n-%E4%B8%AA%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E7%AC%AC-k-%E4%BD%8D/</guid>
       <description>LeetCode-1545 找出第 N 个二进制字符串中的第 K 位 # Solution 1 # 分类讨论, 递归即可.</description>
     </item>
     
     <item>
       <title>LeetCode-473 火柴拼正方形</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-473-%E7%81%AB%E6%9F%B4%E6%8B%BC%E6%AD%A3%E6%96%B9%E5%BD%A2/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-473-%E7%81%AB%E6%9F%B4%E6%8B%BC%E6%AD%A3%E6%96%B9%E5%BD%A2/</link>
       <pubDate>Tue, 02 Aug 2022 10:33:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-473-%E7%81%AB%E6%9F%B4%E6%8B%BC%E6%AD%A3%E6%96%B9%E5%BD%A2/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-473-%E7%81%AB%E6%9F%B4%E6%8B%BC%E6%AD%A3%E6%96%B9%E5%BD%A2/</guid>
       <description>LeetCode-473 火柴拼正方形 # Solution 1 # 回溯算法, 具体的细节见代码注释.</description>
     </item>
     
     <item>
       <title>LeetCode-1240 铺瓷砖</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1240-%E9%93%BA%E7%93%B7%E7%A0%96/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1240-%E9%93%BA%E7%93%B7%E7%A0%96/</link>
       <pubDate>Tue, 02 Aug 2022 09:09:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1240-%E9%93%BA%E7%93%B7%E7%A0%96/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1240-%E9%93%BA%E7%93%B7%E7%A0%96/</guid>
       <description>LeetCode-1240 铺瓷砖 # Solution 1 # 很标准的回溯算法, 具体的细节见代码注释.</description>
     </item>
     

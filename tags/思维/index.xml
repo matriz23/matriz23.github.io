@@ -2,117 +2,117 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>思维 on Matriz23</title>
-    <link>http://example.org/tags/%E6%80%9D%E7%BB%B4/</link>
+    <link>http://matriz23.github.io/tags/%E6%80%9D%E7%BB%B4/</link>
     <description>Recent content in 思维 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Tue, 23 Aug 2022 20:56:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E6%80%9D%E7%BB%B4/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Aug 2022 20:56:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E6%80%9D%E7%BB%B4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-2350 不可能得到的最短骰子序列</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2350-%E4%B8%8D%E5%8F%AF%E8%83%BD%E5%BE%97%E5%88%B0%E7%9A%84%E6%9C%80%E7%9F%AD%E9%AA%B0%E5%AD%90%E5%BA%8F%E5%88%97/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2350-%E4%B8%8D%E5%8F%AF%E8%83%BD%E5%BE%97%E5%88%B0%E7%9A%84%E6%9C%80%E7%9F%AD%E9%AA%B0%E5%AD%90%E5%BA%8F%E5%88%97/</link>
       <pubDate>Tue, 23 Aug 2022 20:56:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2350-%E4%B8%8D%E5%8F%AF%E8%83%BD%E5%BE%97%E5%88%B0%E7%9A%84%E6%9C%80%E7%9F%AD%E9%AA%B0%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2350-%E4%B8%8D%E5%8F%AF%E8%83%BD%E5%BE%97%E5%88%B0%E7%9A%84%E6%9C%80%E7%9F%AD%E9%AA%B0%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
       <description>LeetCode-2350 不可能得到的最短骰子序列 # Solution 1 # 假设不可能得到的最短骰子序列长度为 $len$ , 那么对于长度为 $ len - 1$ 的骰子序列, 都能从 $rolls$ 中得到.</description>
     </item>
     
     <item>
       <title>LeetCode-782 变为棋盘</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-782-%E5%8F%98%E4%B8%BA%E6%A3%8B%E7%9B%98/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-782-%E5%8F%98%E4%B8%BA%E6%A3%8B%E7%9B%98/</link>
       <pubDate>Tue, 23 Aug 2022 10:08:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-782-%E5%8F%98%E4%B8%BA%E6%A3%8B%E7%9B%98/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-782-%E5%8F%98%E4%B8%BA%E6%A3%8B%E7%9B%98/</guid>
       <description>LeetCode-782 变为棋盘 # Solution 1 # 这道题的要点在于看穿行列交换互不影响的特性.</description>
     </item>
     
     <item>
       <title>Puzzle Toad-5 Empty the bucket</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-5-empty-the-bucket/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-5-empty-the-bucket/</link>
       <pubDate>Fri, 19 Aug 2022 09:50:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-5-empty-the-bucket/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-5-empty-the-bucket/</guid>
       <description>Puzzle Toad-5 Empty the bucket # 题目翻译 # 你现在身处沙漠, 并且拥有 $3$ 个桶 (桶的容量无限) , 里面分别有 $a, b, c$ 盎司的水.</description>
     </item>
     
     <item>
       <title>Puzzle Toad-4 Vacancy Puzzle</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-4-vacancy-puzzle/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-4-vacancy-puzzle/</link>
       <pubDate>Wed, 17 Aug 2022 13:49:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-4-vacancy-puzzle/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-4-vacancy-puzzle/</guid>
       <description>Puzzle Toad-4 Vacancy Puzzle # 题目翻译 # 敬爱的领袖 Aldan 的提前退休给 Zocor 的 Malthusian 市的执政三巨头留下了一个空缺.</description>
     </item>
     
     <item>
       <title>Puzzle Toad-3 Take the last chip</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-3-take-the-last-chip/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-3-take-the-last-chip/</link>
       <pubDate>Tue, 16 Aug 2022 10:05:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-3-take-the-last-chip/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-3-take-the-last-chip/</guid>
       <description>Puzzle Toad-3 Take the last chip # 题目翻译 # Turkey Sandwich 很担心即将到来的离散数学考试, 难以入睡.</description>
     </item>
     
     <item>
       <title>Puzzle Toad-2 Lights of the Round Table</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-2-lights-of-the-round-table-and-solution/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-2-lights-of-the-round-table-and-solution/</link>
       <pubDate>Mon, 15 Aug 2022 10:58:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-2-lights-of-the-round-table-and-solution/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-2-lights-of-the-round-table-and-solution/</guid>
       <description>Puzzle Toad-2 Lights of the Round Table and Solution # 题目翻译 # King Arthur 正在准备圆桌会议, 圆桌的座位编号为 $1, 2, &amp;hellip;, n$ , 每个座位前面都有一盏台灯.</description>
     </item>
     
     <item>
       <title>Puzzle Toad-1 Managers and Engineers</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-1-managers-and-engineers/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-1-managers-and-engineers/</link>
       <pubDate>Mon, 15 Aug 2022 10:39:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-1-managers-and-engineers/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-1-managers-and-engineers/</guid>
       <description>Puzzle Toad-1 Managers and Engineers # 题目翻译 # FBI 已经包围了 Norne 公司的总部.</description>
     </item>
     
     <item>
       <title>LeetCode-899 有序队列</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-899-%E6%9C%89%E5%BA%8F%E9%98%9F%E5%88%97/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-899-%E6%9C%89%E5%BA%8F%E9%98%9F%E5%88%97/</link>
       <pubDate>Wed, 03 Aug 2022 14:47:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-899-%E6%9C%89%E5%BA%8F%E9%98%9F%E5%88%97/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-899-%E6%9C%89%E5%BA%8F%E9%98%9F%E5%88%97/</guid>
       <description>LeetCode-899 有序队列 # Solution 1 # $k = 1$ 时, 每次只能把字符串第一个元素移到最后, 本质上是在环上寻找最小字典序字符串, 可以把 $s$ 复制一份寻找长度为一半的最小字典序字符串; $k \geq 2$ 时, 经过试验后可以猜想: 任意字符串都能经过有限次操作后变成严格升序的字符串.</description>
     </item>
     
     <item>
       <title>CodeForces-1359C Mixing Water</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1359c-mixing-water/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1359c-mixing-water/</link>
       <pubDate>Tue, 26 Jul 2022 12:10:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1359c-mixing-water/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1359c-mixing-water/</guid>
       <description>CodeForces-1359C Mixing Water # 题目大意 # 你有无限多杯热水和冷水, 热水温度为 $h$ , 冷水温度为 $c$ , 同时有一个容量无限大的空桶.</description>
     </item>
     
     <item>
       <title>CodeForces-573B Bear and Blocks</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-573b-bear-and-blocks/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-573b-bear-and-blocks/</link>
       <pubDate>Mon, 18 Jul 2022 17:04:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-573b-bear-and-blocks/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-573b-bear-and-blocks/</guid>
       <description>CodeForces-573B Bear and Blocks # 题目大意 # 有连续 $n$ 列柱子, 第 $i$ 列由 $h_i$ 个小方块堆成.</description>
     </item>
     
     <item>
       <title>CodeForces-1025C Plasticine zebra</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1025c-plasticine-zebra/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1025c-plasticine-zebra/</link>
       <pubDate>Thu, 14 Jul 2022 15:19:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1025c-plasticine-zebra/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1025c-plasticine-zebra/</guid>
       <description>CodeForces-1025C Plasticine zebra # 题目大意 # 有一个由 $b$ 和 $w$ 构成的字符串 $s$ , 每次操作可以把 $s$ 分为两部分分别翻转, 求任意次操作能得到的最长的 $b$ , $w$ 交错的子字符串的长度.</description>
     </item>
     
     <item>
       <title>LeetCode-2337 移动片段得到字符串</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2337-%E7%A7%BB%E5%8A%A8%E7%89%87%E6%AE%B5%E5%BE%97%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2337-%E7%A7%BB%E5%8A%A8%E7%89%87%E6%AE%B5%E5%BE%97%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
       <pubDate>Tue, 12 Jul 2022 14:16:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2337-%E7%A7%BB%E5%8A%A8%E7%89%87%E6%AE%B5%E5%BE%97%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2337-%E7%A7%BB%E5%8A%A8%E7%89%87%E6%AE%B5%E5%BE%97%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2/</guid>
       <description>LeetCode-2337 移动片段得到字符串 # Solution 1 # 因为 $&amp;lsquo;L&amp;rsquo;$ 只能向左侧的空地走, $&amp;lsquo;R&amp;rsquo;$ 只能向右侧的空地走, 所以 $&amp;lsquo;L&amp;rsquo;$ 和 $&amp;lsquo;R&amp;rsquo;$ 的相对顺序不会变化.</description>
     </item>
     

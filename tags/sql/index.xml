@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SQL on Matriz23</title>
-    <link>http://example.org/tags/sql/</link>
+    <link>http://matriz23.github.io/tags/sql/</link>
     <description>Recent content in SQL on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Mon, 24 Jul 2023 19:27:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jul 2023 19:27:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SQL 计算次日留存率</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/sql/sql-%E8%AE%A1%E7%AE%97%E6%AC%A1%E6%97%A5%E7%95%99%E5%AD%98%E7%8E%87/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/sql/sql-%E8%AE%A1%E7%AE%97%E6%AC%A1%E6%97%A5%E7%95%99%E5%AD%98%E7%8E%87/</link>
       <pubDate>Mon, 24 Jul 2023 19:27:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/sql/sql-%E8%AE%A1%E7%AE%97%E6%AC%A1%E6%97%A5%E7%95%99%E5%AD%98%E7%8E%87/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/sql/sql-%E8%AE%A1%E7%AE%97%E6%AC%A1%E6%97%A5%E7%95%99%E5%AD%98%E7%8E%87/</guid>
       <description>SQL 计算次日留存率 # 计算留存率是 SQL 的典型题目, 这里以牛客网的题目为例.</description>
     </item>
     

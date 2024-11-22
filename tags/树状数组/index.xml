@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>树状数组 on Matriz23</title>
-    <link>http://example.org/tags/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</link>
+    <link>http://matriz23.github.io/tags/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</link>
     <description>Recent content in 树状数组 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Tue, 03 May 2022 22:20:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 May 2022 22:20:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>二维偏序问题与树状数组</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E4%BA%8C%E7%BB%B4%E5%81%8F%E5%BA%8F%E9%97%AE%E9%A2%98%E4%B8%8E%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E4%BA%8C%E7%BB%B4%E5%81%8F%E5%BA%8F%E9%97%AE%E9%A2%98%E4%B8%8E%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</link>
       <pubDate>Tue, 03 May 2022 22:20:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E4%BA%8C%E7%BB%B4%E5%81%8F%E5%BA%8F%E9%97%AE%E9%A2%98%E4%B8%8E%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E4%BA%8C%E7%BB%B4%E5%81%8F%E5%BA%8F%E9%97%AE%E9%A2%98%E4%B8%8E%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</guid>
       <description>二维偏序问题 # 设 $R$ 是集合 $A$ 上的一个二元关系, 若 $R$ 满足:</description>
     </item>
     
     <item>
       <title>树状数组</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</link>
       <pubDate>Tue, 03 May 2022 21:41:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</guid>
       <description>树状数组 # 引入 # 对于一个数组, 最常见的操作有两种: 单点修改与区间查询.</description>
     </item>
     
     <item>
       <title>LeetCode-2250 统计包含每个点的矩形数目</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2250-%E7%BB%9F%E8%AE%A1%E5%8C%85%E5%90%AB%E6%AF%8F%E4%B8%AA%E7%82%B9%E7%9A%84%E7%9F%A9%E5%BD%A2%E6%95%B0%E7%9B%AE/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2250-%E7%BB%9F%E8%AE%A1%E5%8C%85%E5%90%AB%E6%AF%8F%E4%B8%AA%E7%82%B9%E7%9A%84%E7%9F%A9%E5%BD%A2%E6%95%B0%E7%9B%AE/</link>
       <pubDate>Tue, 03 May 2022 19:54:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2250-%E7%BB%9F%E8%AE%A1%E5%8C%85%E5%90%AB%E6%AF%8F%E4%B8%AA%E7%82%B9%E7%9A%84%E7%9F%A9%E5%BD%A2%E6%95%B0%E7%9B%AE/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2250-%E7%BB%9F%E8%AE%A1%E5%8C%85%E5%90%AB%E6%AF%8F%E4%B8%AA%E7%82%B9%E7%9A%84%E7%9F%A9%E5%BD%A2%E6%95%B0%E7%9B%AE/</guid>
       <description>LeetCode-2250 统计包含每个点的矩形数目 # 正如上图所示, 本题数据量较大&amp;hellip;$O(n^2)$的暴力算法完全过不了, 必须优化.</description>
     </item>
     

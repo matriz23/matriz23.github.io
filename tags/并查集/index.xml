@@ -2,63 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>并查集 on Matriz23</title>
-    <link>http://example.org/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/</link>
+    <link>http://matriz23.github.io/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/</link>
     <description>Recent content in 并查集 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Sat, 06 Jul 2024 11:31:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Jul 2024 11:31:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-128 最长连续序列</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-128-%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-128-%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97/</link>
       <pubDate>Sat, 06 Jul 2024 11:31:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-128-%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-128-%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97/</guid>
       <description>LeetCode-128 最长连续序列 # Solution 1 # 要求找出数字连续的最大集合, 等价于将相差 1 的节点连上边, 寻找最大的连通子图, 这可以通过并查集来实现.</description>
     </item>
     
     <item>
       <title>LeetCode-2503 矩阵查询可获得的最大分数</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2503-%E7%9F%A9%E9%98%B5%E6%9F%A5%E8%AF%A2%E5%8F%AF%E8%8E%B7%E5%BE%97%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%86%E6%95%B0/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2503-%E7%9F%A9%E9%98%B5%E6%9F%A5%E8%AF%A2%E5%8F%AF%E8%8E%B7%E5%BE%97%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%86%E6%95%B0/</link>
       <pubDate>Mon, 19 Dec 2022 16:14:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2503-%E7%9F%A9%E9%98%B5%E6%9F%A5%E8%AF%A2%E5%8F%AF%E8%8E%B7%E5%BE%97%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%86%E6%95%B0/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2503-%E7%9F%A9%E9%98%B5%E6%9F%A5%E8%AF%A2%E5%8F%AF%E8%8E%B7%E5%BE%97%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%86%E6%95%B0/</guid>
       <description>LeetCode-2503 矩阵查询可获得的最大分数 # Solution 1 # 对于查询 $query[i]$ , 选出所有值 $&amp;lt; query[i]$ 的单元格, 所得分数就是左上角单元格 (如果 $grid[0][0] &amp;lt; query[i]$ )所在的最大联通块的大小.</description>
     </item>
     
     <item>
       <title>LeetCode-765 情侣牵手</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-765-%E6%83%85%E4%BE%A3%E7%89%B5%E6%89%8B/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-765-%E6%83%85%E4%BE%A3%E7%89%B5%E6%89%8B/</link>
       <pubDate>Mon, 12 Sep 2022 19:02:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-765-%E6%83%85%E4%BE%A3%E7%89%B5%E6%89%8B/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-765-%E6%83%85%E4%BE%A3%E7%89%B5%E6%89%8B/</guid>
       <description>LeetCode-765 情侣牵手 # Solution 1 # 贪心, 遇到不匹配的就交换.</description>
     </item>
     
     <item>
       <title>CodeForces-371D Vessels</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-371d-vessels/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-371d-vessels/</link>
       <pubDate>Mon, 12 Sep 2022 13:56:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-371d-vessels/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-371d-vessels/</guid>
       <description>CodeForces-371D Vessels # 题目大意 # 有 $n$ 个从上到下摆放的容器, 每个容器的容量为 $a_i$ .</description>
     </item>
     
     <item>
       <title>LeetCode-1631 最小体力消耗路径</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1631-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1631-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</link>
       <pubDate>Wed, 31 Aug 2022 10:05:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1631-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1631-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</guid>
       <description>LeetCode-1631 最小体力消耗路径 # Solution 1 # 如果最终答案是 $ans$ , 那么 $ans$ 所在路径中所有相邻格子的高度差的绝对值都不应该超过 $ans$ .</description>
     </item>
     
     <item>
       <title>LeetCode-2334 元素值大于变化阈值的子数组</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2334-%E5%85%83%E7%B4%A0%E5%80%BC%E5%A4%A7%E4%BA%8E%E5%8F%98%E5%8C%96%E9%98%88%E5%80%BC%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2334-%E5%85%83%E7%B4%A0%E5%80%BC%E5%A4%A7%E4%BA%8E%E5%8F%98%E5%8C%96%E9%98%88%E5%80%BC%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/</link>
       <pubDate>Mon, 01 Aug 2022 10:09:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2334-%E5%85%83%E7%B4%A0%E5%80%BC%E5%A4%A7%E4%BA%8E%E5%8F%98%E5%8C%96%E9%98%88%E5%80%BC%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2334-%E5%85%83%E7%B4%A0%E5%80%BC%E5%A4%A7%E4%BA%8E%E5%8F%98%E5%8C%96%E9%98%88%E5%80%BC%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/</guid>
       <description>LeetCode-2334 元素值大于变化阈值的子数组 # Solution 1 # 按照如下的逻辑思考: 以 $\frac{threshold}{k}$ 为下限, 随着 $k$ 增大, 满足条件的元素会越来越多.</description>
     </item>
     

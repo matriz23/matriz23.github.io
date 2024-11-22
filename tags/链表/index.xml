@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>链表 on Matriz23</title>
-    <link>http://example.org/tags/%E9%93%BE%E8%A1%A8/</link>
+    <link>http://matriz23.github.io/tags/%E9%93%BE%E8%A1%A8/</link>
     <description>Recent content in 链表 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Sun, 11 Aug 2024 15:03:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E9%93%BE%E8%A1%A8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Aug 2024 15:03:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E9%93%BE%E8%A1%A8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-146 LRU 缓存</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-146-lru-%E7%BC%93%E5%AD%98/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-146-lru-%E7%BC%93%E5%AD%98/</link>
       <pubDate>Sun, 11 Aug 2024 15:03:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-146-lru-%E7%BC%93%E5%AD%98/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-146-lru-%E7%BC%93%E5%AD%98/</guid>
       <description>LeetCode-146 LRU 缓存 # Solution 1 # 使用双向链表和哈希表来维护数据.</description>
     </item>
     
     <item>
       <title>LeetCode-2487 从链表中移除节点</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2487-%E4%BB%8E%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%A7%BB%E9%99%A4%E8%8A%82%E7%82%B9/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2487-%E4%BB%8E%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%A7%BB%E9%99%A4%E8%8A%82%E7%82%B9/</link>
       <pubDate>Tue, 21 May 2024 13:55:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2487-%E4%BB%8E%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%A7%BB%E9%99%A4%E8%8A%82%E7%82%B9/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2487-%E4%BB%8E%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%A7%BB%E9%99%A4%E8%8A%82%E7%82%B9/</guid>
       <description>LeetCode-2487 从链表中移除节点 # Solution 1 # 递归.</description>
     </item>
     
     <item>
       <title>LeetCode-160 相交链表</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-160-%E7%9B%B8%E4%BA%A4%E9%93%BE%E8%A1%A8/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-160-%E7%9B%B8%E4%BA%A4%E9%93%BE%E8%A1%A8/</link>
       <pubDate>Mon, 02 May 2022 21:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-160-%E7%9B%B8%E4%BA%A4%E9%93%BE%E8%A1%A8/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-160-%E7%9B%B8%E4%BA%A4%E9%93%BE%E8%A1%A8/</guid>
       <description>LeetCode-160 相交链表 # Solution 1 # 利用双指针来一次解决问题.</description>
     </item>
     

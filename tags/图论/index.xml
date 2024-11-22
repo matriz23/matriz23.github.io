@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>图论 on Matriz23</title>
-    <link>http://example.org/tags/%E5%9B%BE%E8%AE%BA/</link>
+    <link>http://matriz23.github.io/tags/%E5%9B%BE%E8%AE%BA/</link>
     <description>Recent content in 图论 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Tue, 17 Jan 2023 11:19:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E5%9B%BE%E8%AE%BA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Jan 2023 11:19:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%9B%BE%E8%AE%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-2358 最大价值和与最小价值和的差值</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2358-%E6%9C%80%E5%A4%A7%E4%BB%B7%E5%80%BC%E5%92%8C%E4%B8%8E%E6%9C%80%E5%B0%8F%E4%BB%B7%E5%80%BC%E5%92%8C%E7%9A%84%E5%B7%AE%E5%80%BC/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2358-%E6%9C%80%E5%A4%A7%E4%BB%B7%E5%80%BC%E5%92%8C%E4%B8%8E%E6%9C%80%E5%B0%8F%E4%BB%B7%E5%80%BC%E5%92%8C%E7%9A%84%E5%B7%AE%E5%80%BC/</link>
       <pubDate>Tue, 17 Jan 2023 11:19:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2358-%E6%9C%80%E5%A4%A7%E4%BB%B7%E5%80%BC%E5%92%8C%E4%B8%8E%E6%9C%80%E5%B0%8F%E4%BB%B7%E5%80%BC%E5%92%8C%E7%9A%84%E5%B7%AE%E5%80%BC/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2358-%E6%9C%80%E5%A4%A7%E4%BB%B7%E5%80%BC%E5%92%8C%E4%B8%8E%E6%9C%80%E5%B0%8F%E4%BB%B7%E5%80%BC%E5%92%8C%E7%9A%84%E5%B7%AE%E5%80%BC/</guid>
       <description>LeetCode-2358 最大价值和与最小价值和的差值 # Solution 1 # 以 $u$ 为根的子树中, 从根节点出发, 不去掉叶子节点的最长路径为 $f[u]$ ; 从根节点出发, 去掉叶子节点的最长路径为 $g[u]$ .</description>
     </item>
     
     <item>
       <title>关键路径分析</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84%E5%88%86%E6%9E%90/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84%E5%88%86%E6%9E%90/</link>
       <pubDate>Fri, 09 Dec 2022 09:01:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84%E5%88%86%E6%9E%90/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84%E5%88%86%E6%9E%90/</guid>
       <description>关键路径分析 # 一个项目可能包含多个活动 (activity), 每个活动需要一定的时间来完成, 同时活动之间可能存在依赖关系, 即某些活动是另一些活动的前提.</description>
     </item>
     
     <item>
       <title>CodeForces-510C Fox And Names</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-510c-fox-and-names/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-510c-fox-and-names/</link>
       <pubDate>Thu, 21 Jul 2022 14:36:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-510c-fox-and-names/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-510c-fox-and-names/</guid>
       <description>CodeForces-510C Fox And Names # 题目大意 # 给定 $n$ 个字符串, 如果存在一种新的字典序符合这些字符串的排列方式, 则输出一种字典序; 否则输出 $Impossible$ .</description>
     </item>
     
     <item>
       <title>拓扑排序</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</link>
       <pubDate>Thu, 21 Jul 2022 12:17:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</guid>
       <description>拓扑排序 # 定义 # 有向无环图(DAG, Directed Acyclic Graph)指的是一个无回路的有向图.</description>
     </item>
     

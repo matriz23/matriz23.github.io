@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>二进制 on Matriz23</title>
-    <link>http://example.org/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6/</link>
+    <link>http://matriz23.github.io/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6/</link>
     <description>Recent content in 二进制 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Thu, 23 Jun 2022 13:24:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Jun 2022 13:24:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CodeForces-1338A Powered Addition</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1338a-powered-addition/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1338a-powered-addition/</link>
       <pubDate>Thu, 23 Jun 2022 13:24:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1338a-powered-addition/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1338a-powered-addition/</guid>
       <description>CodeForces-1338A Powered Addition # 题目大意 # 输入正整数 $t$ , 一共有 $t$ 个测试点, 每个测试点输入 $n$ , 之后输入 $n$ 个整数代表 $a_0, a_1,&amp;hellip;,a_{n-1}$ .</description>
     </item>
     

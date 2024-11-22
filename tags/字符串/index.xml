@@ -2,207 +2,207 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>字符串 on Matriz23</title>
-    <link>http://example.org/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
+    <link>http://matriz23.github.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
     <description>Recent content in 字符串 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Tue, 21 May 2024 21:34:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 May 2024 21:34:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-28 找出字符串中第一个匹配项的下标</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-28-%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-28-%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87/</link>
       <pubDate>Tue, 21 May 2024 21:34:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-28-%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-28-%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87/</guid>
       <description>LeetCode-28 找出字符串中第一个匹配项的下标 # Solution 1 # KMP 算法模板题.</description>
     </item>
     
     <item>
       <title>LeetCode-481 神奇字符串</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-481-%E7%A5%9E%E5%A5%87%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-481-%E7%A5%9E%E5%A5%87%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
       <pubDate>Mon, 31 Oct 2022 14:25:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-481-%E7%A5%9E%E5%A5%87%E5%AD%97%E7%AC%A6%E4%B8%B2/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-481-%E7%A5%9E%E5%A5%87%E5%AD%97%E7%AC%A6%E4%B8%B2/</guid>
       <description>LeetCode-481 神奇字符串 # Solution 1 # 这个数列的构造方式有点特殊, 其本质上是一种 &amp;ldquo;自我指涉&amp;rdquo; .</description>
     </item>
     
     <item>
       <title>LeetCode-87 扰乱字符串</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-87-%E6%89%B0%E4%B9%B1%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-87-%E6%89%B0%E4%B9%B1%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
       <pubDate>Mon, 19 Sep 2022 16:15:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-87-%E6%89%B0%E4%B9%B1%E5%AD%97%E7%AC%A6%E4%B8%B2/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-87-%E6%89%B0%E4%B9%B1%E5%AD%97%E7%AC%A6%E4%B8%B2/</guid>
       <description>LeetCode-87 扰乱字符串 # Solution 1 # &amp;ldquo;扰乱字符串&amp;rdquo; 的操作逻辑是, 分割区间, 再选择交换还是不交换.</description>
     </item>
     
     <item>
       <title>LeetCode-828 统计子串中的唯一字符</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-828-%E7%BB%9F%E8%AE%A1%E5%AD%90%E4%B8%B2%E4%B8%AD%E7%9A%84%E5%94%AF%E4%B8%80%E5%AD%97%E7%AC%A6/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-828-%E7%BB%9F%E8%AE%A1%E5%AD%90%E4%B8%B2%E4%B8%AD%E7%9A%84%E5%94%AF%E4%B8%80%E5%AD%97%E7%AC%A6/</link>
       <pubDate>Tue, 06 Sep 2022 11:11:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-828-%E7%BB%9F%E8%AE%A1%E5%AD%90%E4%B8%B2%E4%B8%AD%E7%9A%84%E5%94%AF%E4%B8%80%E5%AD%97%E7%AC%A6/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-828-%E7%BB%9F%E8%AE%A1%E5%AD%90%E4%B8%B2%E4%B8%AD%E7%9A%84%E5%94%AF%E4%B8%80%E5%AD%97%E7%AC%A6/</guid>
       <description>LeetCode-828 统计子串中的唯一字符 # Solution 1 # 采用贡献法, 考虑每一个字符在多少个子字符串只出现了一次.</description>
     </item>
     
     <item>
       <title>LeetCode-1717 删除子字符串的最大得分</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1717-%E5%88%A0%E9%99%A4%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1717-%E5%88%A0%E9%99%A4%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86/</link>
       <pubDate>Sat, 03 Sep 2022 16:26:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1717-%E5%88%A0%E9%99%A4%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1717-%E5%88%A0%E9%99%A4%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86/</guid>
       <description>LeetCode-1717 删除子字符串的最大得分 # Solution 1 # 对字符串不断进行配对删除的操作可以通过栈模拟来快速实现.</description>
     </item>
     
     <item>
       <title>LeetCode-44 通配符匹配</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-44-%E9%80%9A%E9%85%8D%E7%AC%A6%E5%8C%B9%E9%85%8D/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-44-%E9%80%9A%E9%85%8D%E7%AC%A6%E5%8C%B9%E9%85%8D/</link>
       <pubDate>Tue, 30 Aug 2022 16:06:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-44-%E9%80%9A%E9%85%8D%E7%AC%A6%E5%8C%B9%E9%85%8D/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-44-%E9%80%9A%E9%85%8D%E7%AC%A6%E5%8C%B9%E9%85%8D/</guid>
       <description>LeetCode-44 通配符匹配 # Solution 1 # 本题类似 LeetCode-10 正则表达式匹配 , 不过更简单一点.</description>
     </item>
     
     <item>
       <title>CodeForces-1217C The Number Of Good Substrings</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1217c-the-number-of-good-substrings/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1217c-the-number-of-good-substrings/</link>
       <pubDate>Wed, 24 Aug 2022 15:50:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1217c-the-number-of-good-substrings/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1217c-the-number-of-good-substrings/</guid>
       <description>CodeForces-1217C The Number Of Good Substrings # 题目大意 # 给定 $01$ 字符串 $s$ , 求 $s$ 有多少个子串 $t$ 满足 $t$ 转化成十进制后的值与长度相等.</description>
     </item>
     
     <item>
       <title>LeetCode-2370 最长理想子序列</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2370-%E6%9C%80%E9%95%BF%E7%90%86%E6%83%B3%E5%AD%90%E5%BA%8F%E5%88%97/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2370-%E6%9C%80%E9%95%BF%E7%90%86%E6%83%B3%E5%AD%90%E5%BA%8F%E5%88%97/</link>
       <pubDate>Thu, 18 Aug 2022 22:45:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2370-%E6%9C%80%E9%95%BF%E7%90%86%E6%83%B3%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2370-%E6%9C%80%E9%95%BF%E7%90%86%E6%83%B3%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
       <description>LeetCode-2370 最长理想子序列 # Solution 1 # 对于子序列问题, 首先想到动态规划.</description>
     </item>
     
     <item>
       <title>CodeForces-1426F Number of Subsequences</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1426f-number-of-subsequences/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1426f-number-of-subsequences/</link>
       <pubDate>Thu, 04 Aug 2022 11:27:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1426f-number-of-subsequences/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1426f-number-of-subsequences/</guid>
       <description>CodeForces-1426F Number of Subsequences # 题目大意 # 给定一个长度为 $n$ 且由 $a,b,c,?</description>
     </item>
     
     <item>
       <title>LeetCode-899 有序队列</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-899-%E6%9C%89%E5%BA%8F%E9%98%9F%E5%88%97/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-899-%E6%9C%89%E5%BA%8F%E9%98%9F%E5%88%97/</link>
       <pubDate>Wed, 03 Aug 2022 14:47:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-899-%E6%9C%89%E5%BA%8F%E9%98%9F%E5%88%97/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-899-%E6%9C%89%E5%BA%8F%E9%98%9F%E5%88%97/</guid>
       <description>LeetCode-899 有序队列 # Solution 1 # $k = 1$ 时, 每次只能把字符串第一个元素移到最后, 本质上是在环上寻找最小字典序字符串, 可以把 $s$ 复制一份寻找长度为一半的最小字典序字符串; $k \geq 2$ 时, 经过试验后可以猜想: 任意字符串都能经过有限次操作后变成严格升序的字符串.</description>
     </item>
     
     <item>
       <title>CodeForces-1381A2 Prefix Flip (Hard Version)</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1381a2-prefix-flip-hard-version/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1381a2-prefix-flip-hard-version/</link>
       <pubDate>Mon, 01 Aug 2022 21:24:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1381a2-prefix-flip-hard-version/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1381a2-prefix-flip-hard-version/</guid>
       <description>CodeForces-1381A2 Prefix Flip (Hard Version) # 题目大意 # 给定两个长度为 $n$ 的 $01$ 字符串 $a, b$ , 每次操作可以选择 $a$ 的一个前缀, 先把 $0$ 变成 $1$ , $1$ 变成 $0$ , 再反转前缀.</description>
     </item>
     
     <item>
       <title>CodeForces-1503A Balance the Bits</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1503a-balance-the-bits/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1503a-balance-the-bits/</link>
       <pubDate>Fri, 29 Jul 2022 15:18:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1503a-balance-the-bits/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1503a-balance-the-bits/</guid>
       <description>CodeForces-1503A Balance the Bits # 题目大意 # 给定一个长度为 $n$ 的 $01$ 字符串 $s$ , 根据 $s$ 构造两个长度同样为 $n$ 的括号字符串 $a, b$ , 满足:</description>
     </item>
     
     <item>
       <title>CodeForces-474D Flowers</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-474d-flowers/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-474d-flowers/</link>
       <pubDate>Mon, 25 Jul 2022 11:53:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-474d-flowers/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-474d-flowers/</guid>
       <description>CodeForces-474D Flowers # 题目大意 # 给定正整数 $k$.</description>
     </item>
     
     <item>
       <title>CodeForces-1203D2 Remove the Substring (hard version)</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1203d2-remove-the-substring-hard-version/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1203d2-remove-the-substring-hard-version/</link>
       <pubDate>Mon, 25 Jul 2022 10:47:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1203d2-remove-the-substring-hard-version/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1203d2-remove-the-substring-hard-version/</guid>
       <description>CodeForces-1203D2 Remove the Substring (hard version) # 题目大意 # 给定两个字符串 $s$ 和 $t$ , 保证 $t$ 是 $s$ 的子序列(不要求连续) .</description>
     </item>
     
     <item>
       <title>CodeForces-1196D2 RGB Substring (hard version)</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1196d2-rgb-substring-hard-version/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1196d2-rgb-substring-hard-version/</link>
       <pubDate>Thu, 21 Jul 2022 15:13:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1196d2-rgb-substring-hard-version/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1196d2-rgb-substring-hard-version/</guid>
       <description>CodeForces-1196D2 RGB Substring (hard version) # 题目大意 # 给定 $n, k$ 和一个由 $R, G, B$ 组成的字符串 $s$ , 现在需要修改字符串 $s$ 使得存在一个长度 $\geq k$ 的子串是字符串 $RGBRGBRGB&amp;hellip;$ 的子串.</description>
     </item>
     
     <item>
       <title>CodeForces-510C Fox And Names</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-510c-fox-and-names/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-510c-fox-and-names/</link>
       <pubDate>Thu, 21 Jul 2022 14:36:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-510c-fox-and-names/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-510c-fox-and-names/</guid>
       <description>CodeForces-510C Fox And Names # 题目大意 # 给定 $n$ 个字符串, 如果存在一种新的字典序符合这些字符串的排列方式, 则输出一种字典序; 否则输出 $Impossible$ .</description>
     </item>
     
     <item>
       <title>CodeForces-1025C Plasticine zebra</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1025c-plasticine-zebra/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1025c-plasticine-zebra/</link>
       <pubDate>Thu, 14 Jul 2022 15:19:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1025c-plasticine-zebra/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1025c-plasticine-zebra/</guid>
       <description>CodeForces-1025C Plasticine zebra # 题目大意 # 有一个由 $b$ 和 $w$ 构成的字符串 $s$ , 每次操作可以把 $s$ 分为两部分分别翻转, 求任意次操作能得到的最长的 $b$ , $w$ 交错的子字符串的长度.</description>
     </item>
     
     <item>
       <title>CodeForces-1084C The Fair Nut and String</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1084c-the-fair-nut-and-string/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1084c-the-fair-nut-and-string/</link>
       <pubDate>Thu, 14 Jul 2022 10:24:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1084c-the-fair-nut-and-string/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1084c-the-fair-nut-and-string/</guid>
       <description>CodeForces-1084C The Fair Nut and String # 题目大意 # 给出一个只包含小写字母的字符串 $s$ , 求满足以下条件的子序列(不要求连续)的个数：</description>
     </item>
     
     <item>
       <title>LeetCode-2337 移动片段得到字符串</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2337-%E7%A7%BB%E5%8A%A8%E7%89%87%E6%AE%B5%E5%BE%97%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2337-%E7%A7%BB%E5%8A%A8%E7%89%87%E6%AE%B5%E5%BE%97%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
       <pubDate>Tue, 12 Jul 2022 14:16:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2337-%E7%A7%BB%E5%8A%A8%E7%89%87%E6%AE%B5%E5%BE%97%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2337-%E7%A7%BB%E5%8A%A8%E7%89%87%E6%AE%B5%E5%BE%97%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2/</guid>
       <description>LeetCode-2337 移动片段得到字符串 # Solution 1 # 因为 $&amp;lsquo;L&amp;rsquo;$ 只能向左侧的空地走, $&amp;lsquo;R&amp;rsquo;$ 只能向右侧的空地走, 所以 $&amp;lsquo;L&amp;rsquo;$ 和 $&amp;lsquo;R&amp;rsquo;$ 的相对顺序不会变化.</description>
     </item>
     
     <item>
       <title>LeetCode-139 单词拆分</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-139-%E5%8D%95%E8%AF%8D%E6%8B%86%E5%88%86/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-139-%E5%8D%95%E8%AF%8D%E6%8B%86%E5%88%86/</link>
       <pubDate>Mon, 11 Jul 2022 17:44:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-139-%E5%8D%95%E8%AF%8D%E6%8B%86%E5%88%86/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-139-%E5%8D%95%E8%AF%8D%E6%8B%86%E5%88%86/</guid>
       <description>LeetCode-139 单词拆分 # Solution 1 # 我们考虑题中拼接的特殊性质: 如果字符串 $s_1$ 和 $s_2$ 都合法, 那么 $s_1 + s_2$ 也是合法的, 也就是拼接一个字符串可以分解为相同的子问题.</description>
     </item>
     
     <item>
       <title>CodeForces-1348C Phoenix and Distribution</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1348c-phoenix-and-distribution/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1348c-phoenix-and-distribution/</link>
       <pubDate>Sat, 02 Jul 2022 16:33:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1348c-phoenix-and-distribution/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1348c-phoenix-and-distribution/</guid>
       <description>CodeForces-1348C Phoenix and Distribution # 题目大意 # 给定长度为 $n$ 的字符串 $s$ , 将其不重不漏重组成 $k$ 个字符串, 输出使得字典序最大的字符串字典序最小的分法所得到的字典序最大的字符串.</description>
     </item>
     
     <item>
       <title>LeetCode-76 最小覆盖子串</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-76-%E6%9C%80%E5%B0%8F%E8%A6%86%E7%9B%96%E5%AD%90%E4%B8%B2/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-76-%E6%9C%80%E5%B0%8F%E8%A6%86%E7%9B%96%E5%AD%90%E4%B8%B2/</link>
       <pubDate>Thu, 05 May 2022 11:40:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-76-%E6%9C%80%E5%B0%8F%E8%A6%86%E7%9B%96%E5%AD%90%E4%B8%B2/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-76-%E6%9C%80%E5%B0%8F%E8%A6%86%E7%9B%96%E5%AD%90%E4%B8%B2/</guid>
       <description>LeetCode-76 最小覆盖子串 # 参考文章: 我写了首诗，把滑动窗口算法算法变成了默写题 Solution 1 # 本题可以说是滑动窗口的代表了.</description>
     </item>
     

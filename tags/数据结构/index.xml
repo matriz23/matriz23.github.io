@@ -2,81 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>数据结构 on Matriz23</title>
-    <link>http://example.org/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
+    <link>http://matriz23.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
     <description>Recent content in 数据结构 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Sun, 11 Aug 2024 15:03:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Aug 2024 15:03:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-146 LRU 缓存</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-146-lru-%E7%BC%93%E5%AD%98/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-146-lru-%E7%BC%93%E5%AD%98/</link>
       <pubDate>Sun, 11 Aug 2024 15:03:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-146-lru-%E7%BC%93%E5%AD%98/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-146-lru-%E7%BC%93%E5%AD%98/</guid>
       <description>LeetCode-146 LRU 缓存 # Solution 1 # 使用双向链表和哈希表来维护数据.</description>
     </item>
     
     <item>
       <title>网络表示法</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%BD%91%E7%BB%9C%E8%A1%A8%E7%A4%BA%E6%B3%95/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%BD%91%E7%BB%9C%E8%A1%A8%E7%A4%BA%E6%B3%95/</link>
       <pubDate>Sat, 03 Dec 2022 16:21:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%BD%91%E7%BB%9C%E8%A1%A8%E7%A4%BA%E6%B3%95/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%BD%91%E7%BB%9C%E8%A1%A8%E7%A4%BA%E6%B3%95/</guid>
       <description>网络表示法 # 网络的概念 # 网络是一个图 $G = (N, A)$ , $N$ 是节点集, $A$ 是边集.</description>
     </item>
     
     <item>
       <title>LeetCode-735 行星碰撞</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-735-%E8%A1%8C%E6%98%9F%E7%A2%B0%E6%92%9E/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-735-%E8%A1%8C%E6%98%9F%E7%A2%B0%E6%92%9E/</link>
       <pubDate>Wed, 13 Jul 2022 10:55:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-735-%E8%A1%8C%E6%98%9F%E7%A2%B0%E6%92%9E/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-735-%E8%A1%8C%E6%98%9F%E7%A2%B0%E6%92%9E/</guid>
       <description>LeetCode-735 行星碰撞 # Solution 1 # 一颗向右的行星总是能摧毁比它小的向左的行星(如果目标星球在这之前被摧毁了, 也可以视作被该行星摧毁), 向左的同理.</description>
     </item>
     
     <item>
       <title>LeetCode-676 实现一个魔法字典</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-676-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E9%AD%94%E6%B3%95%E5%AD%97%E5%85%B8/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-676-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E9%AD%94%E6%B3%95%E5%AD%97%E5%85%B8/</link>
       <pubDate>Mon, 11 Jul 2022 16:54:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-676-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E9%AD%94%E6%B3%95%E5%AD%97%E5%85%B8/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-676-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E9%AD%94%E6%B3%95%E5%AD%97%E5%85%B8/</guid>
       <description>LeetCode-676 实现一个魔法字典 # Solution 1 # 本题可以暴力求解, 也可以通过字典树优化求解.</description>
     </item>
     
     <item>
       <title>Trie 字典树</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%AD%97%E5%85%B8%E6%A0%91/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%AD%97%E5%85%B8%E6%A0%91/</link>
       <pubDate>Mon, 11 Jul 2022 16:02:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%AD%97%E5%85%B8%E6%A0%91/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%AD%97%E5%85%B8%E6%A0%91/</guid>
       <description>Trie # Trie的示意图, 来自OI Wiki(https://oi-wiki.</description>
     </item>
     
     <item>
       <title>CodeForces-1353D Constructing the Array</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1353d-constructing-the-array/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1353d-constructing-the-array/</link>
       <pubDate>Thu, 30 Jun 2022 05:16:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1353d-constructing-the-array/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1353d-constructing-the-array/</guid>
       <description>CodeForces-1353D Constructing the Array # 题目大意 # 输入一个 $n$ , 对一个长度为 $n$ 的全 $&amp;lsquo;0&amp;rsquo;$ 串进行 $n$ 次操作，第 $i$ 次操作选中当前长度最长的全 $&amp;lsquo;0&amp;rsquo;$ 子串中最靠左的, 记其左右端点坐标分别为 $left, right$.</description>
     </item>
     
     <item>
       <title>二维偏序问题与树状数组</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E4%BA%8C%E7%BB%B4%E5%81%8F%E5%BA%8F%E9%97%AE%E9%A2%98%E4%B8%8E%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E4%BA%8C%E7%BB%B4%E5%81%8F%E5%BA%8F%E9%97%AE%E9%A2%98%E4%B8%8E%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</link>
       <pubDate>Tue, 03 May 2022 22:20:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E4%BA%8C%E7%BB%B4%E5%81%8F%E5%BA%8F%E9%97%AE%E9%A2%98%E4%B8%8E%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E4%BA%8C%E7%BB%B4%E5%81%8F%E5%BA%8F%E9%97%AE%E9%A2%98%E4%B8%8E%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</guid>
       <description>二维偏序问题 # 设 $R$ 是集合 $A$ 上的一个二元关系, 若 $R$ 满足:</description>
     </item>
     
     <item>
       <title>树状数组</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</link>
       <pubDate>Tue, 03 May 2022 21:41:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</guid>
       <description>树状数组 # 引入 # 对于一个数组, 最常见的操作有两种: 单点修改与区间查询.</description>
     </item>
     

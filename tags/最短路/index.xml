@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>最短路 on Matriz23</title>
-    <link>http://example.org/tags/%E6%9C%80%E7%9F%AD%E8%B7%AF/</link>
+    <link>http://matriz23.github.io/tags/%E6%9C%80%E7%9F%AD%E8%B7%AF/</link>
     <description>Recent content in 最短路 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Wed, 31 Aug 2022 10:05:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E6%9C%80%E7%9F%AD%E8%B7%AF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Aug 2022 10:05:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E6%9C%80%E7%9F%AD%E8%B7%AF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-1631 最小体力消耗路径</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1631-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1631-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</link>
       <pubDate>Wed, 31 Aug 2022 10:05:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1631-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1631-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</guid>
       <description>LeetCode-1631 最小体力消耗路径 # Solution 1 # 如果最终答案是 $ans$ , 那么 $ans$ 所在路径中所有相邻格子的高度差的绝对值都不应该超过 $ans$ .</description>
     </item>
     

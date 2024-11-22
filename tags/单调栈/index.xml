@@ -2,72 +2,72 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>单调栈 on Matriz23</title>
-    <link>http://example.org/tags/%E5%8D%95%E8%B0%83%E6%A0%88/</link>
+    <link>http://matriz23.github.io/tags/%E5%8D%95%E8%B0%83%E6%A0%88/</link>
     <description>Recent content in 单调栈 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Mon, 31 Oct 2022 14:44:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E5%8D%95%E8%B0%83%E6%A0%88/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Oct 2022 14:44:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%8D%95%E8%B0%83%E6%A0%88/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-907 子数组的最小值之和</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-907-%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC%E4%B9%8B%E5%92%8C/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-907-%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC%E4%B9%8B%E5%92%8C/</link>
       <pubDate>Mon, 31 Oct 2022 14:44:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-907-%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC%E4%B9%8B%E5%92%8C/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-907-%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC%E4%B9%8B%E5%92%8C/</guid>
       <description>LeetCode-907 子数组的最小值之和 # Solution 1 # 常见的考虑方法是对每个元素作为最小值的情况计数.</description>
     </item>
     
     <item>
       <title>LeetCode-975 奇偶跳</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-975-%E5%A5%87%E5%81%B6%E8%B7%B3/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-975-%E5%A5%87%E5%81%B6%E8%B7%B3/</link>
       <pubDate>Tue, 13 Sep 2022 22:56:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-975-%E5%A5%87%E5%81%B6%E8%B7%B3/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-975-%E5%A5%87%E5%81%B6%E8%B7%B3/</guid>
       <description>LeetCode-975 奇偶跳 # Solution 1 # 本题的关键在于怎么找到每个元素的后继.</description>
     </item>
     
     <item>
       <title>LeetCode-654 最大二叉树</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-654-%E6%9C%80%E5%A4%A7%E4%BA%8C%E5%8F%89%E6%A0%91/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-654-%E6%9C%80%E5%A4%A7%E4%BA%8C%E5%8F%89%E6%A0%91/</link>
       <pubDate>Tue, 30 Aug 2022 09:55:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-654-%E6%9C%80%E5%A4%A7%E4%BA%8C%E5%8F%89%E6%A0%91/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-654-%E6%9C%80%E5%A4%A7%E4%BA%8C%E5%8F%89%E6%A0%91/</guid>
       <description>LeetCode-654 最大二叉树 # Solution 1 # 对于数组中的每个元素, 都有一个树节点, 左子树存放左侧最大的树节点, 右子树存放右侧最大的树节点.</description>
     </item>
     
     <item>
       <title>CodeForces-280B Maximum Xor Secondary</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-280b-maximum-xor-secondary/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-280b-maximum-xor-secondary/</link>
       <pubDate>Fri, 05 Aug 2022 13:14:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-280b-maximum-xor-secondary/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-280b-maximum-xor-secondary/</guid>
       <description>CodeForces-280B Maximum Xor Secondary # 题目大意 # 给定一个长度为 $n$ 的数组 $a$ , 求 $a$ 的所有长度 $\geq 2$ 的子数组中最大值与次大值的异或值的最大值.</description>
     </item>
     
     <item>
       <title>LeetCode-2334 元素值大于变化阈值的子数组</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2334-%E5%85%83%E7%B4%A0%E5%80%BC%E5%A4%A7%E4%BA%8E%E5%8F%98%E5%8C%96%E9%98%88%E5%80%BC%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2334-%E5%85%83%E7%B4%A0%E5%80%BC%E5%A4%A7%E4%BA%8E%E5%8F%98%E5%8C%96%E9%98%88%E5%80%BC%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/</link>
       <pubDate>Mon, 01 Aug 2022 10:09:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2334-%E5%85%83%E7%B4%A0%E5%80%BC%E5%A4%A7%E4%BA%8E%E5%8F%98%E5%8C%96%E9%98%88%E5%80%BC%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2334-%E5%85%83%E7%B4%A0%E5%80%BC%E5%A4%A7%E4%BA%8E%E5%8F%98%E5%8C%96%E9%98%88%E5%80%BC%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/</guid>
       <description>LeetCode-2334 元素值大于变化阈值的子数组 # Solution 1 # 按照如下的逻辑思考: 以 $\frac{threshold}{k}$ 为下限, 随着 $k$ 增大, 满足条件的元素会越来越多.</description>
     </item>
     
     <item>
       <title>LeetCode-962 最大宽度坡</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-962-%E6%9C%80%E5%A4%A7%E5%AE%BD%E5%BA%A6%E5%9D%A1/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-962-%E6%9C%80%E5%A4%A7%E5%AE%BD%E5%BA%A6%E5%9D%A1/</link>
       <pubDate>Sun, 03 Jul 2022 22:31:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-962-%E6%9C%80%E5%A4%A7%E5%AE%BD%E5%BA%A6%E5%9D%A1/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-962-%E6%9C%80%E5%A4%A7%E5%AE%BD%E5%BA%A6%E5%9D%A1/</guid>
       <description>LeetCode-962 最大宽度坡 # Solution 1 # 代码如下:</description>
     </item>
     
     <item>
       <title>LeetCode-456 132 模式</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-456-132-%E6%A8%A1%E5%BC%8F/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-456-132-%E6%A8%A1%E5%BC%8F/</link>
       <pubDate>Mon, 09 May 2022 18:12:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-456-132-%E6%A8%A1%E5%BC%8F/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-456-132-%E6%A8%A1%E5%BC%8F/</guid>
       <description>LeetCode-456 132 模式 # 这道题运用单调栈的解法过于精妙, 特此记录.</description>
     </item>
     

@@ -2,54 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>图 on Matriz23</title>
-    <link>http://example.org/tags/%E5%9B%BE/</link>
+    <link>http://matriz23.github.io/tags/%E5%9B%BE/</link>
     <description>Recent content in 图 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Wed, 14 Aug 2024 18:04:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Aug 2024 18:04:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-1129 颜色交替的最短路径</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1129-%E9%A2%9C%E8%89%B2%E4%BA%A4%E6%9B%BF%E7%9A%84%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1129-%E9%A2%9C%E8%89%B2%E4%BA%A4%E6%9B%BF%E7%9A%84%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84/</link>
       <pubDate>Wed, 14 Aug 2024 18:04:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1129-%E9%A2%9C%E8%89%B2%E4%BA%A4%E6%9B%BF%E7%9A%84%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1129-%E9%A2%9C%E8%89%B2%E4%BA%A4%E6%9B%BF%E7%9A%84%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84/</guid>
       <description>LeetCode-1129 颜色交替的最短路径 # Solution 1 # BFS 时记录访问某个点时通过的边的颜色即可.</description>
     </item>
     
     <item>
       <title>LeetCode-310 最小高度树</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-310-%E6%9C%80%E5%B0%8F%E9%AB%98%E5%BA%A6%E6%A0%91/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-310-%E6%9C%80%E5%B0%8F%E9%AB%98%E5%BA%A6%E6%A0%91/</link>
       <pubDate>Wed, 14 Aug 2024 15:32:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-310-%E6%9C%80%E5%B0%8F%E9%AB%98%E5%BA%A6%E6%A0%91/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-310-%E6%9C%80%E5%B0%8F%E9%AB%98%E5%BA%A6%E6%A0%91/</guid>
       <description>LeetCode-310 最小高度树 # Solution 1 # 寻找最小高度树, 等价于寻找距离最大的两个节点.</description>
     </item>
     
     <item>
       <title>LeetCode-2846 边权重均等查询</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2846-%E8%BE%B9%E6%9D%83%E9%87%8D%E5%9D%87%E7%AD%89%E6%9F%A5%E8%AF%A2/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2846-%E8%BE%B9%E6%9D%83%E9%87%8D%E5%9D%87%E7%AD%89%E6%9F%A5%E8%AF%A2/</link>
       <pubDate>Fri, 08 Sep 2023 14:23:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2846-%E8%BE%B9%E6%9D%83%E9%87%8D%E5%9D%87%E7%AD%89%E6%9F%A5%E8%AF%A2/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2846-%E8%BE%B9%E6%9D%83%E9%87%8D%E5%9D%87%E7%AD%89%E6%9F%A5%E8%AF%A2/</guid>
       <description>LeetCode-2846 边权重均等查询 # Solution 1 # 最近公共祖先的模板题.</description>
     </item>
     
     <item>
       <title>LeetCode-2242 节点序列的最大得分</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2242-%E8%8A%82%E7%82%B9%E5%BA%8F%E5%88%97%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2242-%E8%8A%82%E7%82%B9%E5%BA%8F%E5%88%97%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86/</link>
       <pubDate>Wed, 23 Aug 2023 08:28:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2242-%E8%8A%82%E7%82%B9%E5%BA%8F%E5%88%97%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2242-%E8%8A%82%E7%82%B9%E5%BA%8F%E5%88%97%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86/</guid>
       <description>LeetCode-2242 节点序列的最大得分 # Solution 1 # 要找出长度为 $4$ 的节点序列的最大的得分, 考虑枚举中间这条边, 再查看左右两个端点的可能性.</description>
     </item>
     
     <item>
       <title>网络表示法</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%BD%91%E7%BB%9C%E8%A1%A8%E7%A4%BA%E6%B3%95/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%BD%91%E7%BB%9C%E8%A1%A8%E7%A4%BA%E6%B3%95/</link>
       <pubDate>Sat, 03 Dec 2022 16:21:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%BD%91%E7%BB%9C%E8%A1%A8%E7%A4%BA%E6%B3%95/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%BD%91%E7%BB%9C%E8%A1%A8%E7%A4%BA%E6%B3%95/</guid>
       <description>网络表示法 # 网络的概念 # 网络是一个图 $G = (N, A)$ , $N$ 是节点集, $A$ 是边集.</description>
     </item>
     

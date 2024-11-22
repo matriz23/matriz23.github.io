@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>YOLO on Matriz23</title>
-    <link>http://example.org/tags/yolo/</link>
+    <link>http://matriz23.github.io/tags/yolo/</link>
     <description>Recent content in YOLO on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Mon, 11 Jul 2022 14:23:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/yolo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Jul 2022 14:23:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/yolo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>YOLO V1学习笔记</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/yolov1/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/yolov1/</link>
       <pubDate>Mon, 11 Jul 2022 14:23:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/yolov1/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/yolov1/</guid>
       <description>YOLO: You Only Look Once # 本文是教学视频【精读AI论文】YOLO V1目标检测，看我就够了的学习笔记.</description>
     </item>
     

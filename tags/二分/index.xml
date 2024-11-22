@@ -2,117 +2,117 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>二分 on Matriz23</title>
-    <link>http://example.org/tags/%E4%BA%8C%E5%88%86/</link>
+    <link>http://matriz23.github.io/tags/%E4%BA%8C%E5%88%86/</link>
     <description>Recent content in 二分 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Wed, 14 Aug 2024 17:07:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E4%BA%8C%E5%88%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Aug 2024 17:07:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E4%BA%8C%E5%88%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-1970 你能穿过矩阵的最后一天</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1970-%E4%BD%A0%E8%83%BD%E7%A9%BF%E8%BF%87%E7%9F%A9%E9%98%B5%E7%9A%84%E6%9C%80%E5%90%8E%E4%B8%80%E5%A4%A9/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1970-%E4%BD%A0%E8%83%BD%E7%A9%BF%E8%BF%87%E7%9F%A9%E9%98%B5%E7%9A%84%E6%9C%80%E5%90%8E%E4%B8%80%E5%A4%A9/</link>
       <pubDate>Wed, 14 Aug 2024 17:07:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1970-%E4%BD%A0%E8%83%BD%E7%A9%BF%E8%BF%87%E7%9F%A9%E9%98%B5%E7%9A%84%E6%9C%80%E5%90%8E%E4%B8%80%E5%A4%A9/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1970-%E4%BD%A0%E8%83%BD%E7%A9%BF%E8%BF%87%E7%9F%A9%E9%98%B5%E7%9A%84%E6%9C%80%E5%90%8E%E4%B8%80%E5%A4%A9/</guid>
       <description>LeetCode-1970 你能穿过矩阵的最后一天 # Solution 1 # 如果第 $k$ 天可以, 那么第 $k - 1$ 天也可以.</description>
     </item>
     
     <item>
       <title>LeetCode-33 搜索旋转排序数组</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-33-%E6%90%9C%E7%B4%A2%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-33-%E6%90%9C%E7%B4%A2%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84/</link>
       <pubDate>Fri, 26 Jul 2024 17:52:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-33-%E6%90%9C%E7%B4%A2%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-33-%E6%90%9C%E7%B4%A2%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84/</guid>
       <description>LeetCode-33 搜索旋转排序数组 # Solution 1 # 数组分段有序, 但依然可以使用二分缩小范围.</description>
     </item>
     
     <item>
       <title>LeetCode-2560 打家劫舍 IV</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2560-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D-iv/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2560-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D-iv/</link>
       <pubDate>Thu, 09 Feb 2023 23:16:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2560-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D-iv/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2560-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D-iv/</guid>
       <description>LeetCode-2560 打家劫舍 IV # Solution 1 # 求每次窃取过程中最大金额的最小值, 注意到如果 $k$ 可行, 那么 $k+1$ 同样可行, 并且可以在线性时间内判断一个解是否可行, 因此用二分搜索寻找左边界.</description>
     </item>
     
     <item>
       <title>LeetCode-1760 袋子里最少数目的球</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1760-%E8%A2%8B%E5%AD%90%E9%87%8C%E6%9C%80%E5%B0%91%E6%95%B0%E7%9B%AE%E7%9A%84%E7%90%83/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1760-%E8%A2%8B%E5%AD%90%E9%87%8C%E6%9C%80%E5%B0%91%E6%95%B0%E7%9B%AE%E7%9A%84%E7%90%83/</link>
       <pubDate>Tue, 20 Dec 2022 11:23:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1760-%E8%A2%8B%E5%AD%90%E9%87%8C%E6%9C%80%E5%B0%91%E6%95%B0%E7%9B%AE%E7%9A%84%E7%90%83/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1760-%E8%A2%8B%E5%AD%90%E9%87%8C%E6%9C%80%E5%B0%91%E6%95%B0%E7%9B%AE%E7%9A%84%E7%90%83/</guid>
       <description>LeetCode-1760 袋子里最少数目的球 # Solution 1 # 如果 $k$ 开销可以, 那么 $k + 1$ 的开销也可以.</description>
     </item>
     
     <item>
       <title>CodeForces-1168A Increasing by Modulo</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1168a-increasing-by-modulo/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1168a-increasing-by-modulo/</link>
       <pubDate>Mon, 12 Sep 2022 16:24:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1168a-increasing-by-modulo/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1168a-increasing-by-modulo/</guid>
       <description>CodeForces-1168A Increasing by Modulo # 题目大意 # 给定正整数 $n, m$ 和长度为 $n$ 的数组 $a$ .</description>
     </item>
     
     <item>
       <title>LeetCode-502 IPO</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-502-ipo/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-502-ipo/</link>
       <pubDate>Mon, 05 Sep 2022 16:21:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-502-ipo/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-502-ipo/</guid>
       <description>LeetCode-502 IPO # Solution 1 # 当前拥有资本 $w$ , 下一步选择肯定是启动资本不超过 $w$ 的项目中利润最大的那一个.</description>
     </item>
     
     <item>
       <title>LeetCode-1631 最小体力消耗路径</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1631-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1631-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</link>
       <pubDate>Wed, 31 Aug 2022 10:05:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1631-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1631-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</guid>
       <description>LeetCode-1631 最小体力消耗路径 # Solution 1 # 如果最终答案是 $ans$ , 那么 $ans$ 所在路径中所有相邻格子的高度差的绝对值都不应该超过 $ans$ .</description>
     </item>
     
     <item>
       <title>LeetCode-793 阶乘函数后 K 个零</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-793-%E9%98%B6%E4%B9%98%E5%87%BD%E6%95%B0%E5%90%8E-k-%E4%B8%AA%E9%9B%B6/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-793-%E9%98%B6%E4%B9%98%E5%87%BD%E6%95%B0%E5%90%8E-k-%E4%B8%AA%E9%9B%B6/</link>
       <pubDate>Sun, 28 Aug 2022 08:40:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-793-%E9%98%B6%E4%B9%98%E5%87%BD%E6%95%B0%E5%90%8E-k-%E4%B8%AA%E9%9B%B6/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-793-%E9%98%B6%E4%B9%98%E5%87%BD%E6%95%B0%E5%90%8E-k-%E4%B8%AA%E9%9B%B6/</guid>
       <description>LeetCode-793 阶乘函数后 K 个零 # Solution 1 # 对于 $x!</description>
     </item>
     
     <item>
       <title>LeetCode-1658 将 x 减到 0 的最小操作数</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1658-%E5%B0%86-x-%E5%87%8F%E5%88%B0-0-%E7%9A%84%E6%9C%80%E5%B0%8F%E6%93%8D%E4%BD%9C%E6%95%B0/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1658-%E5%B0%86-x-%E5%87%8F%E5%88%B0-0-%E7%9A%84%E6%9C%80%E5%B0%8F%E6%93%8D%E4%BD%9C%E6%95%B0/</link>
       <pubDate>Wed, 24 Aug 2022 08:26:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1658-%E5%B0%86-x-%E5%87%8F%E5%88%B0-0-%E7%9A%84%E6%9C%80%E5%B0%8F%E6%93%8D%E4%BD%9C%E6%95%B0/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1658-%E5%B0%86-x-%E5%87%8F%E5%88%B0-0-%E7%9A%84%E6%9C%80%E5%B0%8F%E6%93%8D%E4%BD%9C%E6%95%B0/</guid>
       <description>LeetCode-1658 将 x 减到 0 的最小操作数 # Solution 1 # 根据题意, 二分寻找和为 $x$ 的前缀和与后缀和.</description>
     </item>
     
     <item>
       <title>CodeForces-808D Array Division</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-808d-array-division/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-808d-array-division/</link>
       <pubDate>Thu, 04 Aug 2022 15:18:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-808d-array-division/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-808d-array-division/</guid>
       <description>CodeForces-808D Array Division # 题目大意 # 给定一个长度为 $n$ 的正整数数组 $a$ , 至多选择 $a$ 的一个元素移动到数组的任意位置, 如果能够使得存在一种分割方式使得 $a$ 的左右两部分和相等, 输出 $YES$ ; 否则输出 $NO$ .</description>
     </item>
     
     <item>
       <title>LeetCode-2333 最小差值平方和</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2333-%E6%9C%80%E5%B0%8F%E5%B7%AE%E5%80%BC%E5%B9%B3%E6%96%B9%E5%92%8C/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2333-%E6%9C%80%E5%B0%8F%E5%B7%AE%E5%80%BC%E5%B9%B3%E6%96%B9%E5%92%8C/</link>
       <pubDate>Mon, 11 Jul 2022 18:03:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2333-%E6%9C%80%E5%B0%8F%E5%B7%AE%E5%80%BC%E5%B9%B3%E6%96%B9%E5%92%8C/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2333-%E6%9C%80%E5%B0%8F%E5%B7%AE%E5%80%BC%E5%B9%B3%E6%96%B9%E5%92%8C/</guid>
       <description>LeetCode-2333 最小差值平方和 # Solution 1 # 我们考虑 $nums1$ 与 $nums2$ 的差的绝对值数组 $d$ , 注意到对 $nums1$ 的操作与 $nums2$ 的操作没有区别, 都等价于对 $d$ 操作.</description>
     </item>
     
     <item>
       <title>LeetCode-2178 拆分成最多数目的正偶数之和</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2178-%E6%8B%86%E5%88%86%E6%88%90%E6%9C%80%E5%A4%9A%E6%95%B0%E7%9B%AE%E7%9A%84%E6%AD%A3%E5%81%B6%E6%95%B0%E4%B9%8B%E5%92%8C/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2178-%E6%8B%86%E5%88%86%E6%88%90%E6%9C%80%E5%A4%9A%E6%95%B0%E7%9B%AE%E7%9A%84%E6%AD%A3%E5%81%B6%E6%95%B0%E4%B9%8B%E5%92%8C/</link>
       <pubDate>Mon, 09 May 2022 19:18:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2178-%E6%8B%86%E5%88%86%E6%88%90%E6%9C%80%E5%A4%9A%E6%95%B0%E7%9B%AE%E7%9A%84%E6%AD%A3%E5%81%B6%E6%95%B0%E4%B9%8B%E5%92%8C/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2178-%E6%8B%86%E5%88%86%E6%88%90%E6%9C%80%E5%A4%9A%E6%95%B0%E7%9B%AE%E7%9A%84%E6%AD%A3%E5%81%B6%E6%95%B0%E4%B9%8B%E5%92%8C/</guid>
       <description>LeetCode-2178 拆分成最多数目的正偶数之和 # Solution 1 # 题目要求把一个数拆分成互不相等的偶数之和, 并且要求给出一个元素个数最多的构造.</description>
     </item>
     

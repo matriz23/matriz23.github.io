@@ -2,72 +2,72 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>机器学习 on Matriz23</title>
-    <link>http://example.org/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
+    <link>http://matriz23.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
     <description>Recent content in 机器学习 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Wed, 11 Oct 2023 20:27:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Oct 2023 20:27:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MAP 视角下的正则化</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/map-%E8%A7%86%E8%A7%92%E4%B8%8B%E7%9A%84%E6%AD%A3%E5%88%99%E5%8C%96/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/map-%E8%A7%86%E8%A7%92%E4%B8%8B%E7%9A%84%E6%AD%A3%E5%88%99%E5%8C%96/</link>
       <pubDate>Wed, 11 Oct 2023 20:27:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/map-%E8%A7%86%E8%A7%92%E4%B8%8B%E7%9A%84%E6%AD%A3%E5%88%99%E5%8C%96/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/map-%E8%A7%86%E8%A7%92%E4%B8%8B%E7%9A%84%E6%AD%A3%E5%88%99%E5%8C%96/</guid>
       <description>MAP 视角下的正则化 # MAP # 我们使用极大似然估计 (MLE) 来估计参数模型 ${p(z;\theta)|\theta \in \Theta}$ 的参数 $\theta$ : $$ \hat{\theta} = \underset{\theta}{\arg \max} \log p(D |\theta) $$ MLE 默认参数 $\theta$ 的分布是均匀的, 而参数实际上可能服从先验分布 $p(\theta )$ , 此时想要最大化后验概率 $p(\theta | D)\cdot p(\theta)$ , 最优参数估计变为: $$ \hat{\theta} = \underset{\theta}{\arg \max} {\log p(D | \theta)\cdot p(\theta)} $$ 这就是 最大后验概率估计(Maximum A Posteriori Estimation, 简称 MAP).</description>
     </item>
     
     <item>
       <title>经典牛顿法</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%BB%8F%E5%85%B8%E7%89%9B%E9%A1%BF%E6%B3%95/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%BB%8F%E5%85%B8%E7%89%9B%E9%A1%BF%E6%B3%95/</link>
       <pubDate>Sat, 30 Sep 2023 18:25:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%BB%8F%E5%85%B8%E7%89%9B%E9%A1%BF%E6%B3%95/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%BB%8F%E5%85%B8%E7%89%9B%E9%A1%BF%E6%B3%95/</guid>
       <description>经典牛顿法 # 考虑优化方向: $x_{k + 1} = x_k + \alpha_k p_k$ , 取步长 $\alpha_k = 1$ , 那么有 $x_{k + 1} = x_k + p_k$ , 需要求解 $$ p_k = \argmin_{p}f(x_{k + 1}) = \argmin_{p} f(x_k + p)\ = \argmin_{p} f(x_k) + \nabla f(x_k)^Tp + \frac{1}{2}p^T \nabla^2 f(x_k) p + o(||p||^2)\ \approx \argmin_{p} f(x_k) + \nabla f(x_k)^Tp + \frac{1}{2}p^T \nabla^2 f(x_k) p \ = \argmin_{p} g(p) $$ 这是关于 $p$ 的, 开口向上的二次函数, 能够找到 $p^*$ 让我们的 $g(p)$ 接近最小.</description>
     </item>
     
     <item>
       <title>Novikoff 定理</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/novikoff-%E5%AE%9A%E7%90%86/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/novikoff-%E5%AE%9A%E7%90%86/</link>
       <pubDate>Sat, 02 Sep 2023 11:21:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/novikoff-%E5%AE%9A%E7%90%86/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/novikoff-%E5%AE%9A%E7%90%86/</guid>
       <description>Novikoff 定理 # Novikoff 定理告诉我们, 对于线性可分的训练数据集, 感知机的学习算法时收敛的.</description>
     </item>
     
     <item>
       <title>梯度下降法</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95/</link>
       <pubDate>Sun, 27 Aug 2023 09:27:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95/</guid>
       <description>梯度下降法 # 梯度下降法 (Gradient Descent) 用于求解无约束优化问题.</description>
     </item>
     
     <item>
       <title>Notes on Information Retrieval</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/notes-on-information-retrieval/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/notes-on-information-retrieval/</link>
       <pubDate>Thu, 10 Aug 2023 10:03:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/notes-on-information-retrieval/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/notes-on-information-retrieval/</guid>
       <description>Information Retrieval # Some notes on Information Resource Management @THU, mainly about IR models.</description>
     </item>
     
     <item>
       <title>NFL定理</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/nfl%E5%AE%9A%E7%90%86/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/nfl%E5%AE%9A%E7%90%86/</link>
       <pubDate>Thu, 10 Aug 2023 09:18:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/nfl%E5%AE%9A%E7%90%86/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/nfl%E5%AE%9A%E7%90%86/</guid>
       <description>NFL定理 # &amp;ldquo;No Free Lunch Theorem&amp;rdquo;, 简称 NFL 定理, 是由 David Wolpert 和 William Macready 于 1997 年提出的, 它对机器学习的局限性提供了深刻的洞见.</description>
     </item>
     
     <item>
       <title>YOLO V1学习笔记</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/yolov1/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/yolov1/</link>
       <pubDate>Mon, 11 Jul 2022 14:23:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/yolov1/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/yolov1/</guid>
       <description>YOLO: You Only Look Once # 本文是教学视频【精读AI论文】YOLO V1目标检测，看我就够了的学习笔记.</description>
     </item>
     

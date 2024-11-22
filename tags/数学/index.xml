@@ -2,675 +2,675 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>数学 on Matriz23</title>
-    <link>http://example.org/tags/%E6%95%B0%E5%AD%A6/</link>
+    <link>http://matriz23.github.io/tags/%E6%95%B0%E5%AD%A6/</link>
     <description>Recent content in 数学 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Sat, 14 Oct 2023 11:42:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Oct 2023 11:42:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>趣题: 证明等式</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9819_%E8%AF%81%E6%98%8E%E7%AD%89%E5%BC%8F/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9819_%E8%AF%81%E6%98%8E%E7%AD%89%E5%BC%8F/</link>
       <pubDate>Sat, 14 Oct 2023 11:42:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9819_%E8%AF%81%E6%98%8E%E7%AD%89%E5%BC%8F/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9819_%E8%AF%81%E6%98%8E%E7%AD%89%E5%BC%8F/</guid>
       <description>趣题: 证明等式 # 题目 # 给定整数 $a, b$ , 有 $a \leq b$ .</description>
     </item>
     
     <item>
       <title>MAP 视角下的正则化</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/map-%E8%A7%86%E8%A7%92%E4%B8%8B%E7%9A%84%E6%AD%A3%E5%88%99%E5%8C%96/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/map-%E8%A7%86%E8%A7%92%E4%B8%8B%E7%9A%84%E6%AD%A3%E5%88%99%E5%8C%96/</link>
       <pubDate>Wed, 11 Oct 2023 20:27:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/map-%E8%A7%86%E8%A7%92%E4%B8%8B%E7%9A%84%E6%AD%A3%E5%88%99%E5%8C%96/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/map-%E8%A7%86%E8%A7%92%E4%B8%8B%E7%9A%84%E6%AD%A3%E5%88%99%E5%8C%96/</guid>
       <description>MAP 视角下的正则化 # MAP # 我们使用极大似然估计 (MLE) 来估计参数模型 ${p(z;\theta)|\theta \in \Theta}$ 的参数 $\theta$ : $$ \hat{\theta} = \underset{\theta}{\arg \max} \log p(D |\theta) $$ MLE 默认参数 $\theta$ 的分布是均匀的, 而参数实际上可能服从先验分布 $p(\theta )$ , 此时想要最大化后验概率 $p(\theta | D)\cdot p(\theta)$ , 最优参数估计变为: $$ \hat{\theta} = \underset{\theta}{\arg \max} {\log p(D | \theta)\cdot p(\theta)} $$ 这就是 最大后验概率估计(Maximum A Posteriori Estimation, 简称 MAP).</description>
     </item>
     
     <item>
       <title>趣题: 连赢两次的概率</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9817_%E8%BF%9E%E8%B5%A2%E4%B8%A4%E6%AC%A1%E7%9A%84%E6%A6%82%E7%8E%87/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9817_%E8%BF%9E%E8%B5%A2%E4%B8%A4%E6%AC%A1%E7%9A%84%E6%A6%82%E7%8E%87/</link>
       <pubDate>Sun, 24 Sep 2023 22:38:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9817_%E8%BF%9E%E8%B5%A2%E4%B8%A4%E6%AC%A1%E7%9A%84%E6%A6%82%E7%8E%87/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9817_%E8%BF%9E%E8%B5%A2%E4%B8%A4%E6%AC%A1%E7%9A%84%E6%A6%82%E7%8E%87/</guid>
       <description>趣题: 连赢两次的概率 # 题目 # $A,B,C$ 三人下棋, 规则为: 两人下, 赢的人与第三人下, 直到其中某一人连赢两局, 此人立即胜出.</description>
     </item>
     
     <item>
       <title>趣题: 满足条件的所有 n</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9816_%E6%BB%A1%E8%B6%B3%E6%9D%A1%E4%BB%B6%E7%9A%84%E6%89%80%E6%9C%89-n/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9816_%E6%BB%A1%E8%B6%B3%E6%9D%A1%E4%BB%B6%E7%9A%84%E6%89%80%E6%9C%89-n/</link>
       <pubDate>Sun, 24 Sep 2023 19:48:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9816_%E6%BB%A1%E8%B6%B3%E6%9D%A1%E4%BB%B6%E7%9A%84%E6%89%80%E6%9C%89-n/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9816_%E6%BB%A1%E8%B6%B3%E6%9D%A1%E4%BB%B6%E7%9A%84%E6%89%80%E6%9C%89-n/</guid>
       <description>趣题: 满足条件的所有 n # 题目 # 设自然数 $n &amp;gt; 1$ , 现有 $n - 1$ 个分数 $\frac{1}{n}, \frac{2}{n}, \dots , \frac{n - 1}{n}$ , 将这些分数化为最简分数, 把这些最简分数的分子相加, 得到的和记为 $f(n)$ .</description>
     </item>
     
     <item>
       <title>趣题: 剩下的数的最大值</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9815_%E5%89%A9%E4%B8%8B%E7%9A%84%E6%95%B0%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9815_%E5%89%A9%E4%B8%8B%E7%9A%84%E6%95%B0%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</link>
       <pubDate>Sun, 24 Sep 2023 09:36:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9815_%E5%89%A9%E4%B8%8B%E7%9A%84%E6%95%B0%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9815_%E5%89%A9%E4%B8%8B%E7%9A%84%E6%95%B0%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</guid>
       <description>趣题: 剩下的数的最大值 # 题目 # 在黑板上写有 $2023$ 个 $1$ , 下面进行 $2022$ 次如下操作: 擦掉黑板上的两个数 $a$ 和 $b$, 并写下 (a + b) 或者 $\min{a^2, b^2}$ , 最后剩下一个数.</description>
     </item>
     
     <item>
       <title>趣题: 唱票结束前没有出现平局的概率</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9818_%E5%94%B1%E7%A5%A8%E7%BB%93%E6%9D%9F%E5%89%8D%E6%B2%A1%E6%9C%89%E5%87%BA%E7%8E%B0%E5%B9%B3%E5%B1%80%E7%9A%84%E6%A6%82%E7%8E%87/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9818_%E5%94%B1%E7%A5%A8%E7%BB%93%E6%9D%9F%E5%89%8D%E6%B2%A1%E6%9C%89%E5%87%BA%E7%8E%B0%E5%B9%B3%E5%B1%80%E7%9A%84%E6%A6%82%E7%8E%87/</link>
       <pubDate>Thu, 21 Sep 2023 22:39:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9818_%E5%94%B1%E7%A5%A8%E7%BB%93%E6%9D%9F%E5%89%8D%E6%B2%A1%E6%9C%89%E5%87%BA%E7%8E%B0%E5%B9%B3%E5%B1%80%E7%9A%84%E6%A6%82%E7%8E%87/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9818_%E5%94%B1%E7%A5%A8%E7%BB%93%E6%9D%9F%E5%89%8D%E6%B2%A1%E6%9C%89%E5%87%BA%E7%8E%B0%E5%B9%B3%E5%B1%80%E7%9A%84%E6%A6%82%E7%8E%87/</guid>
       <description>趣题: 唱票结束前没有出现平局的概率 # 题目 # 选举箱中有两个候选人 $A, B$ 的选票, 数量均为 $n$ .</description>
     </item>
     
     <item>
       <title>趣题: 唱票过程出现至少一次平局的概率</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9813_%E5%94%B1%E7%A5%A8%E8%BF%87%E7%A8%8B%E5%87%BA%E7%8E%B0%E8%87%B3%E5%B0%91%E4%B8%80%E6%AC%A1%E5%B9%B3%E5%B1%80%E7%9A%84%E6%A6%82%E7%8E%87/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9813_%E5%94%B1%E7%A5%A8%E8%BF%87%E7%A8%8B%E5%87%BA%E7%8E%B0%E8%87%B3%E5%B0%91%E4%B8%80%E6%AC%A1%E5%B9%B3%E5%B1%80%E7%9A%84%E6%A6%82%E7%8E%87/</link>
       <pubDate>Thu, 21 Sep 2023 11:13:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9813_%E5%94%B1%E7%A5%A8%E8%BF%87%E7%A8%8B%E5%87%BA%E7%8E%B0%E8%87%B3%E5%B0%91%E4%B8%80%E6%AC%A1%E5%B9%B3%E5%B1%80%E7%9A%84%E6%A6%82%E7%8E%87/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9813_%E5%94%B1%E7%A5%A8%E8%BF%87%E7%A8%8B%E5%87%BA%E7%8E%B0%E8%87%B3%E5%B0%91%E4%B8%80%E6%AC%A1%E5%B9%B3%E5%B1%80%E7%9A%84%E6%A6%82%E7%8E%87/</guid>
       <description>趣题: 唱票过程出现至少一次平局的概率 # 题目 # 选举箱中有两个候选人 $A, B$ 的选票, 数量分别为 $a$ 和 $b$ .</description>
     </item>
     
     <item>
       <title>Ants on a Square</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/ants-on-a-square/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/ants-on-a-square/</link>
       <pubDate>Mon, 28 Aug 2023 20:31:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/ants-on-a-square/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/ants-on-a-square/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>Have We Met Before?</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/have-we-met-before/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/have-we-met-before/</link>
       <pubDate>Mon, 28 Aug 2023 20:31:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/have-we-met-before/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/have-we-met-before/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>Clock Pieces</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/clock-pieces/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/clock-pieces/</link>
       <pubDate>Tue, 15 Aug 2023 19:18:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/clock-pieces/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/clock-pieces/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>Glass Balls</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/glass-balls/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/glass-balls/</link>
       <pubDate>Tue, 15 Aug 2023 19:18:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/glass-balls/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/glass-balls/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>Counterfeit Coins 1</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/counterfeit-coins-1/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/counterfeit-coins-1/</link>
       <pubDate>Fri, 11 Aug 2023 14:32:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/counterfeit-coins-1/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/counterfeit-coins-1/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>Wise Man</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/wise-man/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/wise-man/</link>
       <pubDate>Fri, 11 Aug 2023 13:56:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/wise-man/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/wise-man/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>趣题: 符合要求的最小的 n</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9811_%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84%E6%9C%80%E5%B0%8F%E7%9A%84n/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9811_%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84%E6%9C%80%E5%B0%8F%E7%9A%84n/</link>
       <pubDate>Thu, 10 Aug 2023 20:59:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9811_%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84%E6%9C%80%E5%B0%8F%E7%9A%84n/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9811_%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84%E6%9C%80%E5%B0%8F%E7%9A%84n/</guid>
       <description>趣题: 符合要求的最小的 n # 题目 # 从 $1, 2, &amp;hellip;, n$ 中任意删去 $2023$ 个不同的数, 从剩下的数中仍然能找到 $2023$ 个数, 满足它们的和为 $n$ .</description>
     </item>
     
     <item>
       <title>趣题: 骰子和符合要求的投掷次数</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9812_%E9%AA%B0%E5%AD%90%E5%92%8C%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84%E6%8A%95%E6%8E%B7%E6%AC%A1%E6%95%B0/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9812_%E9%AA%B0%E5%AD%90%E5%92%8C%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84%E6%8A%95%E6%8E%B7%E6%AC%A1%E6%95%B0/</link>
       <pubDate>Thu, 10 Aug 2023 20:59:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9812_%E9%AA%B0%E5%AD%90%E5%92%8C%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84%E6%8A%95%E6%8E%B7%E6%AC%A1%E6%95%B0/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9812_%E9%AA%B0%E5%AD%90%E5%92%8C%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84%E6%8A%95%E6%8E%B7%E6%AC%A1%E6%95%B0/</guid>
       <description>趣题: 骰子和符合要求的投掷次数 # 题目 # 不停投掷一个六面骰子并且把点数累加起来, 直到和为 $n$ 的倍数为止.</description>
     </item>
     
     <item>
       <title>趣题: 点在同一个半圆的概率</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9810_%E7%82%B9%E5%9C%A8%E5%90%8C%E4%B8%80%E4%B8%AA%E5%8D%8A%E5%9C%86%E7%9A%84%E6%A6%82%E7%8E%87/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9810_%E7%82%B9%E5%9C%A8%E5%90%8C%E4%B8%80%E4%B8%AA%E5%8D%8A%E5%9C%86%E7%9A%84%E6%A6%82%E7%8E%87/</link>
       <pubDate>Thu, 10 Aug 2023 19:20:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9810_%E7%82%B9%E5%9C%A8%E5%90%8C%E4%B8%80%E4%B8%AA%E5%8D%8A%E5%9C%86%E7%9A%84%E6%A6%82%E7%8E%87/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9810_%E7%82%B9%E5%9C%A8%E5%90%8C%E4%B8%80%E4%B8%AA%E5%8D%8A%E5%9C%86%E7%9A%84%E6%A6%82%E7%8E%87/</guid>
       <description>趣题: 点在同一个半圆的概率 # 题目 # 随机在圆上生成 $n$ 个点, 这 $n$ 个点在同一个半圆的概率是多少?</description>
     </item>
     
     <item>
       <title>趣题: 找出所有符合要求的 n</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%989_%E6%89%BE%E5%87%BA%E6%89%80%E6%9C%89%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84-n/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%989_%E6%89%BE%E5%87%BA%E6%89%80%E6%9C%89%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84-n/</link>
       <pubDate>Wed, 02 Aug 2023 00:31:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%989_%E6%89%BE%E5%87%BA%E6%89%80%E6%9C%89%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84-n/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%989_%E6%89%BE%E5%87%BA%E6%89%80%E6%9C%89%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84-n/</guid>
       <description>趣题: 找出所有符合要求的 n # 题目 # 设 $1 = d_1 &amp;lt; d_2 &amp;lt; &amp;hellip; &amp;lt; d_k = n$ 是合数 $n$ 的全部正因数, 若对任意 $1\leq i\leq k-2$ , 均有 $d_i\mid d_{i + 1} + d_{i + 2}$ , 求 $n$ .</description>
     </item>
     
     <item>
       <title>趣题: 包含(1, 0)的圆弧长度的期望和方差</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%988_%E5%8C%85%E5%90%AB1-0%E7%9A%84%E5%9C%86%E5%BC%A7/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%988_%E5%8C%85%E5%90%AB1-0%E7%9A%84%E5%9C%86%E5%BC%A7/</link>
       <pubDate>Tue, 01 Aug 2023 19:20:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%988_%E5%8C%85%E5%90%AB1-0%E7%9A%84%E5%9C%86%E5%BC%A7/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%988_%E5%8C%85%E5%90%AB1-0%E7%9A%84%E5%9C%86%E5%BC%A7/</guid>
       <description>趣题: 包含(1, 0)的圆弧 # 题目 # 在单位圆 $x^2 +y^2 =1$ 上按均匀分布随机取 $n$ 个点($n \geq 2$), 这 $n$ 个点可以把单位圆分成 $n$ 段圆弧, 求包含点 $(1.</description>
     </item>
     
     <item>
       <title>趣题: 好点个数的期望值</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%987_%E5%A5%BD%E7%82%B9%E4%B8%AA%E6%95%B0%E7%9A%84%E6%9C%9F%E6%9C%9B%E5%80%BC/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%987_%E5%A5%BD%E7%82%B9%E4%B8%AA%E6%95%B0%E7%9A%84%E6%9C%9F%E6%9C%9B%E5%80%BC/</link>
       <pubDate>Tue, 01 Aug 2023 16:56:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%987_%E5%A5%BD%E7%82%B9%E4%B8%AA%E6%95%B0%E7%9A%84%E6%9C%9F%E6%9C%9B%E5%80%BC/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%987_%E5%A5%BD%E7%82%B9%E4%B8%AA%E6%95%B0%E7%9A%84%E6%9C%9F%E6%9C%9B%E5%80%BC/</guid>
       <description>趣题: 好点个数的期望值 # 题目 # 在区间 $[0,1]$ 上按均匀分布独立地画 $n$ 个点 ($n\geq 3$).</description>
     </item>
     
     <item>
       <title>趣题: 取整函数项的和</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%986_%E5%8F%96%E6%95%B4%E5%87%BD%E6%95%B0%E9%A1%B9%E7%9A%84%E5%92%8C/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%986_%E5%8F%96%E6%95%B4%E5%87%BD%E6%95%B0%E9%A1%B9%E7%9A%84%E5%92%8C/</link>
       <pubDate>Tue, 01 Aug 2023 15:08:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%986_%E5%8F%96%E6%95%B4%E5%87%BD%E6%95%B0%E9%A1%B9%E7%9A%84%E5%92%8C/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%986_%E5%8F%96%E6%95%B4%E5%87%BD%E6%95%B0%E9%A1%B9%E7%9A%84%E5%92%8C/</guid>
       <description>趣题: 取整函数项的和 # 题目 # 计算 $$f(n) =\sum_{k = 1}^{\infin}\lfloor\frac{n+2^k}{2^{k+1}}\rfloor$$</description>
     </item>
     
     <item>
       <title>趣题: 证明存在系数使得不等式成立</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%985_%E8%AF%81%E6%98%8E%E5%AD%98%E5%9C%A8%E7%B3%BB%E6%95%B0%E4%BD%BF%E5%BE%97%E4%B8%8D%E7%AD%89%E5%BC%8F%E6%88%90%E7%AB%8B-copy/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%985_%E8%AF%81%E6%98%8E%E5%AD%98%E5%9C%A8%E7%B3%BB%E6%95%B0%E4%BD%BF%E5%BE%97%E4%B8%8D%E7%AD%89%E5%BC%8F%E6%88%90%E7%AB%8B-copy/</link>
       <pubDate>Tue, 01 Aug 2023 13:12:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%985_%E8%AF%81%E6%98%8E%E5%AD%98%E5%9C%A8%E7%B3%BB%E6%95%B0%E4%BD%BF%E5%BE%97%E4%B8%8D%E7%AD%89%E5%BC%8F%E6%88%90%E7%AB%8B-copy/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%985_%E8%AF%81%E6%98%8E%E5%AD%98%E5%9C%A8%E7%B3%BB%E6%95%B0%E4%BD%BF%E5%BE%97%E4%B8%8D%E7%AD%89%E5%BC%8F%E6%88%90%E7%AB%8B-copy/</guid>
       <description>趣题: 证明存在系数使得不等式成立 # 题目 # 设 $a_1, a_2, &amp;hellip; , a_n(n\geq 2)$ 为实数, 证明: 可以选取 $\epsilon_1, \epsilon_2, &amp;hellip;, \epsilon_n\in{-1, 1}$ , 使得 $$ (\sum_{i = 1}^{n}a_i)^2+(\sum_{i = 1}^{n}\epsilon_i a_i)^2\leq (n+1)\sum_{i=1}^{n}a_i^2 $$</description>
     </item>
     
     <item>
       <title>趣题: 证明一个式子不为整数</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%984_%E8%AF%81%E6%98%8E%E4%B8%80%E4%B8%AA%E5%BC%8F%E5%AD%90%E4%B8%8D%E4%B8%BA%E6%95%B4%E6%95%B0/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%984_%E8%AF%81%E6%98%8E%E4%B8%80%E4%B8%AA%E5%BC%8F%E5%AD%90%E4%B8%8D%E4%B8%BA%E6%95%B4%E6%95%B0/</link>
       <pubDate>Mon, 31 Jul 2023 19:24:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%984_%E8%AF%81%E6%98%8E%E4%B8%80%E4%B8%AA%E5%BC%8F%E5%AD%90%E4%B8%8D%E4%B8%BA%E6%95%B4%E6%95%B0/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%984_%E8%AF%81%E6%98%8E%E4%B8%80%E4%B8%AA%E5%BC%8F%E5%AD%90%E4%B8%8D%E4%B8%BA%E6%95%B4%E6%95%B0/</guid>
       <description>趣题: 证明一个式子不为整数 # 题目 # 设 $a,b\in \Z$ , 证明 $\frac{2a^2 - 1}{b^2 + 2}\notin\Z$ .</description>
     </item>
     
     <item>
       <title>趣题: 囚犯与黑白手套</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%983_%E5%9B%9A%E7%8A%AF%E4%B8%8E%E9%BB%91%E7%99%BD%E6%89%8B%E5%A5%97/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%983_%E5%9B%9A%E7%8A%AF%E4%B8%8E%E9%BB%91%E7%99%BD%E6%89%8B%E5%A5%97/</link>
       <pubDate>Sun, 26 Feb 2023 00:53:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%983_%E5%9B%9A%E7%8A%AF%E4%B8%8E%E9%BB%91%E7%99%BD%E6%89%8B%E5%A5%97/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%983_%E5%9B%9A%E7%8A%AF%E4%B8%8E%E9%BB%91%E7%99%BD%E6%89%8B%E5%A5%97/</guid>
       <description>囚犯与黑白手套 # 题目 # A hundred prisoners are gathered together by their warden.</description>
     </item>
     
     <item>
       <title>Coin Piles</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/coin-piles/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/coin-piles/</link>
       <pubDate>Thu, 26 Jan 2023 17:07:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/coin-piles/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/coin-piles/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>Quant Salary</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/quant-salary/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/quant-salary/</link>
       <pubDate>Tue, 17 Jan 2023 14:07:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/quant-salary/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/quant-salary/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>Light Switches</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/light-switches/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/light-switches/</link>
       <pubDate>Tue, 17 Jan 2023 14:02:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/light-switches/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/light-switches/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>Last Ball</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/last-ball/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/last-ball/</link>
       <pubDate>Tue, 17 Jan 2023 13:52:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/last-ball/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/last-ball/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>Message Delivery</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/message-delivery/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/message-delivery/</link>
       <pubDate>Tue, 17 Jan 2023 13:32:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/message-delivery/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/message-delivery/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>Door to Offer</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/door-to-offer/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/door-to-offer/</link>
       <pubDate>Tue, 17 Jan 2023 13:24:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/door-to-offer/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/door-to-offer/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>Calendar Cubes</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/calendar-cubes/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/calendar-cubes/</link>
       <pubDate>Tue, 17 Jan 2023 13:14:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/calendar-cubes/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/calendar-cubes/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>Box Packing</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/box-packing/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/box-packing/</link>
       <pubDate>Wed, 04 Jan 2023 19:10:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/box-packing/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/box-packing/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>Infinite Sequence</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/infinite-sequence/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/infinite-sequence/</link>
       <pubDate>Fri, 30 Dec 2022 20:38:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/infinite-sequence/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/infinite-sequence/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>Horse Race</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/horse-race/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/horse-race/</link>
       <pubDate>Fri, 30 Dec 2022 20:37:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/horse-race/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/horse-race/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>Trailing Zeros</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/trailing-zeros/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/trailing-zeros/</link>
       <pubDate>Fri, 30 Dec 2022 20:15:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/trailing-zeros/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/trailing-zeros/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>Defective Ball</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/defective-ball/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/defective-ball/</link>
       <pubDate>Fri, 30 Dec 2022 11:45:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/defective-ball/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/defective-ball/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>Burning Ropes</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/burning-ropes/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/burning-ropes/</link>
       <pubDate>Fri, 30 Dec 2022 10:24:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/burning-ropes/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/burning-ropes/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>Card Game</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/card-game/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/card-game/</link>
       <pubDate>Fri, 30 Dec 2022 10:16:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/card-game/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/card-game/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>Birthday Problem</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/birthday-problem/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/birthday-problem/</link>
       <pubDate>Thu, 29 Dec 2022 19:45:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/birthday-problem/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/birthday-problem/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>River Crossing</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/river-crossing/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/river-crossing/</link>
       <pubDate>Thu, 29 Dec 2022 19:38:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/river-crossing/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/river-crossing/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>Tiger and Sheep</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/tiger-and-sheep/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/tiger-and-sheep/</link>
       <pubDate>Thu, 29 Dec 2022 19:09:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/tiger-and-sheep/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/tiger-and-sheep/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>Screwy Pirates</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/screwy-pirates/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/screwy-pirates/</link>
       <pubDate>Thu, 29 Dec 2022 18:47:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/screwy-pirates/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/screwy-pirates/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>趣题: 病毒感染问题</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%982_%E7%97%85%E6%AF%92%E6%84%9F%E6%9F%93%E9%97%AE%E9%A2%98/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%982_%E7%97%85%E6%AF%92%E6%84%9F%E6%9F%93%E9%97%AE%E9%A2%98/</link>
       <pubDate>Mon, 19 Dec 2022 21:14:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%982_%E7%97%85%E6%AF%92%E6%84%9F%E6%9F%93%E9%97%AE%E9%A2%98/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%982_%E7%97%85%E6%AF%92%E6%84%9F%E6%9F%93%E9%97%AE%E9%A2%98/</guid>
       <description>病毒感染问题 # 题目 # 一种新型流感开始传播.</description>
     </item>
     
     <item>
       <title>趣题: 磁带最优存储问题</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9814_%E7%A3%81%E5%B8%A6%E6%9C%80%E4%BC%98%E5%AD%98%E5%82%A8%E9%97%AE%E9%A2%98/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9814_%E7%A3%81%E5%B8%A6%E6%9C%80%E4%BC%98%E5%AD%98%E5%82%A8%E9%97%AE%E9%A2%98/</link>
       <pubDate>Wed, 14 Dec 2022 22:04:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9814_%E7%A3%81%E5%B8%A6%E6%9C%80%E4%BC%98%E5%AD%98%E5%82%A8%E9%97%AE%E9%A2%98/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9814_%E7%A3%81%E5%B8%A6%E6%9C%80%E4%BC%98%E5%AD%98%E5%82%A8%E9%97%AE%E9%A2%98/</guid>
       <description>趣题: 磁带最优存储问题 # 题目 # 磁带需要存储 $n$ 个 程序 $P_1, P_2, &amp;hellip;, P_n$ , 程序 $P_i$ 占据 $s_i$ 的空间, 并且依据经验, 每次使用磁带有 $\pi_i$ 的概率是使用这个程序.</description>
     </item>
     
     <item>
       <title>动态规划</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%BF%90%E7%AD%B9%E5%AD%A6/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%BF%90%E7%AD%B9%E5%AD%A6/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/</link>
       <pubDate>Tue, 13 Dec 2022 09:42:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%BF%90%E7%AD%B9%E5%AD%A6/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%BF%90%E7%AD%B9%E5%AD%A6/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/</guid>
       <description>动态规划 # 动态规划(Dynamic programming, 简称DP) 是一种在数学、管理科学、计算机科学、经济学和生物信息学中使用的, 通过把原问题分解为相对简单的子问题的方式求解复杂问题的方法.</description>
     </item>
     
     <item>
       <title>关键路径分析</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84%E5%88%86%E6%9E%90/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84%E5%88%86%E6%9E%90/</link>
       <pubDate>Fri, 09 Dec 2022 09:01:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84%E5%88%86%E6%9E%90/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84%E5%88%86%E6%9E%90/</guid>
       <description>关键路径分析 # 一个项目可能包含多个活动 (activity), 每个活动需要一定的时间来完成, 同时活动之间可能存在依赖关系, 即某些活动是另一些活动的前提.</description>
     </item>
     
     <item>
       <title>排序</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F/</link>
       <pubDate>Mon, 05 Dec 2022 06:33:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F/</guid>
       <description>排序 # 前置知识 # 在计算机科学与数学中, 一个排序算法 (Sorting Algorithm) 是一种能将一串资料依照特定排序方式进行排列的一种算法.</description>
     </item>
     
     <item>
       <title>LeetCode-775 全局倒置与局部倒置</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-775-%E5%85%A8%E5%B1%80%E5%80%92%E7%BD%AE%E4%B8%8E%E5%B1%80%E9%83%A8%E5%80%92%E7%BD%AE/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-775-%E5%85%A8%E5%B1%80%E5%80%92%E7%BD%AE%E4%B8%8E%E5%B1%80%E9%83%A8%E5%80%92%E7%BD%AE/</link>
       <pubDate>Wed, 16 Nov 2022 13:29:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-775-%E5%85%A8%E5%B1%80%E5%80%92%E7%BD%AE%E4%B8%8E%E5%B1%80%E9%83%A8%E5%80%92%E7%BD%AE/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-775-%E5%85%A8%E5%B1%80%E5%80%92%E7%BD%AE%E4%B8%8E%E5%B1%80%E9%83%A8%E5%80%92%E7%BD%AE/</guid>
       <description>LeetCode-775 全局倒置与局部倒置 # Solution 1 # 全局倒置一定包含局部倒置, 所以要求排列只包含局部倒置.</description>
     </item>
     
     <item>
       <title>EE120 Signals and Systems Lecture 1</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E4%BF%A1%E5%8F%B7%E4%B8%8E%E7%B3%BB%E7%BB%9F/ee120-signals-and-systems-lecture-1/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E4%BF%A1%E5%8F%B7%E4%B8%8E%E7%B3%BB%E7%BB%9F/ee120-signals-and-systems-lecture-1/</link>
       <pubDate>Mon, 14 Nov 2022 00:21:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E4%BF%A1%E5%8F%B7%E4%B8%8E%E7%B3%BB%E7%BB%9F/ee120-signals-and-systems-lecture-1/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E4%BF%A1%E5%8F%B7%E4%B8%8E%E7%B3%BB%E7%BB%9F/ee120-signals-and-systems-lecture-1/</guid>
       <description>These notes DON&amp;rsquo;T contain the part about circuit as I know nothing about it.</description>
     </item>
     
     <item>
       <title>容斥原理与组合计数</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E6%9D%82%E8%B0%88/%E5%AE%B9%E6%96%A5%E5%8E%9F%E7%90%86%E4%B8%8E%E7%BB%84%E5%90%88%E8%AE%A1%E6%95%B0/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E6%9D%82%E8%B0%88/%E5%AE%B9%E6%96%A5%E5%8E%9F%E7%90%86%E4%B8%8E%E7%BB%84%E5%90%88%E8%AE%A1%E6%95%B0/</link>
       <pubDate>Mon, 14 Nov 2022 00:21:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E6%9D%82%E8%B0%88/%E5%AE%B9%E6%96%A5%E5%8E%9F%E7%90%86%E4%B8%8E%E7%BB%84%E5%90%88%E8%AE%A1%E6%95%B0/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E6%9D%82%E8%B0%88/%E5%AE%B9%E6%96%A5%E5%8E%9F%E7%90%86%E4%B8%8E%E7%BB%84%E5%90%88%E8%AE%A1%E6%95%B0/</guid>
       <description>本文是[算法竞赛入门] 容斥原理与组合计数 (蒋炎岩)的学习笔记.</description>
     </item>
     
     <item>
       <title>LeetCode-330 按要求补齐数组</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-330-%E6%8C%89%E8%A6%81%E6%B1%82%E8%A1%A5%E9%BD%90%E6%95%B0%E7%BB%84/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-330-%E6%8C%89%E8%A6%81%E6%B1%82%E8%A1%A5%E9%BD%90%E6%95%B0%E7%BB%84/</link>
       <pubDate>Tue, 06 Sep 2022 11:40:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-330-%E6%8C%89%E8%A6%81%E6%B1%82%E8%A1%A5%E9%BD%90%E6%95%B0%E7%BB%84/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-330-%E6%8C%89%E8%A6%81%E6%B1%82%E8%A1%A5%E9%BD%90%E6%95%B0%E7%BB%84/</guid>
       <description>LeetCode-330 按要求补齐数组 # Solution 1 # 如果能覆盖 $[1, x - 1]$ 中的数, 而不能覆盖 $x$ , 那么加上 $x$ 之后一定能够覆盖 $[1, 2x - 1]$ 中的数, 并且这是最优的.</description>
     </item>
     
     <item>
       <title>LeetCode-793 阶乘函数后 K 个零</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-793-%E9%98%B6%E4%B9%98%E5%87%BD%E6%95%B0%E5%90%8E-k-%E4%B8%AA%E9%9B%B6/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-793-%E9%98%B6%E4%B9%98%E5%87%BD%E6%95%B0%E5%90%8E-k-%E4%B8%AA%E9%9B%B6/</link>
       <pubDate>Sun, 28 Aug 2022 08:40:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-793-%E9%98%B6%E4%B9%98%E5%87%BD%E6%95%B0%E5%90%8E-k-%E4%B8%AA%E9%9B%B6/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-793-%E9%98%B6%E4%B9%98%E5%87%BD%E6%95%B0%E5%90%8E-k-%E4%B8%AA%E9%9B%B6/</guid>
       <description>LeetCode-793 阶乘函数后 K 个零 # Solution 1 # 对于 $x!</description>
     </item>
     
     <item>
       <title>Puzzle Toad-5 Empty the bucket</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-5-empty-the-bucket/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-5-empty-the-bucket/</link>
       <pubDate>Fri, 19 Aug 2022 09:50:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-5-empty-the-bucket/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-5-empty-the-bucket/</guid>
       <description>Puzzle Toad-5 Empty the bucket # 题目翻译 # 你现在身处沙漠, 并且拥有 $3$ 个桶 (桶的容量无限) , 里面分别有 $a, b, c$ 盎司的水.</description>
     </item>
     
     <item>
       <title>Puzzle Toad-4 Vacancy Puzzle</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-4-vacancy-puzzle/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-4-vacancy-puzzle/</link>
       <pubDate>Wed, 17 Aug 2022 13:49:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-4-vacancy-puzzle/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-4-vacancy-puzzle/</guid>
       <description>Puzzle Toad-4 Vacancy Puzzle # 题目翻译 # 敬爱的领袖 Aldan 的提前退休给 Zocor 的 Malthusian 市的执政三巨头留下了一个空缺.</description>
     </item>
     
     <item>
       <title>Puzzle Toad-3 Take the last chip</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-3-take-the-last-chip/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-3-take-the-last-chip/</link>
       <pubDate>Tue, 16 Aug 2022 10:05:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-3-take-the-last-chip/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-3-take-the-last-chip/</guid>
       <description>Puzzle Toad-3 Take the last chip # 题目翻译 # Turkey Sandwich 很担心即将到来的离散数学考试, 难以入睡.</description>
     </item>
     
     <item>
       <title>CodeForces-66D Petya and His Friends</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-66d-petya-and-his-friends/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-66d-petya-and-his-friends/</link>
       <pubDate>Mon, 15 Aug 2022 17:57:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-66d-petya-and-his-friends/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-66d-petya-and-his-friends/</guid>
       <description>CodeForces-66D Petya and His Friends # 题目大意 # 给定 $n$ $(2\leq n\leq 50)$, 构造 $a_1, a_2,&amp;hellip;, a_n$ 使得:</description>
     </item>
     
     <item>
       <title>Puzzle Toad-2 Lights of the Round Table</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-2-lights-of-the-round-table-and-solution/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-2-lights-of-the-round-table-and-solution/</link>
       <pubDate>Mon, 15 Aug 2022 10:58:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-2-lights-of-the-round-table-and-solution/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-2-lights-of-the-round-table-and-solution/</guid>
       <description>Puzzle Toad-2 Lights of the Round Table and Solution # 题目翻译 # King Arthur 正在准备圆桌会议, 圆桌的座位编号为 $1, 2, &amp;hellip;, n$ , 每个座位前面都有一盏台灯.</description>
     </item>
     
     <item>
       <title>Puzzle Toad-1 Managers and Engineers</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-1-managers-and-engineers/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-1-managers-and-engineers/</link>
       <pubDate>Mon, 15 Aug 2022 10:39:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-1-managers-and-engineers/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-1-managers-and-engineers/</guid>
       <description>Puzzle Toad-1 Managers and Engineers # 题目翻译 # FBI 已经包围了 Norne 公司的总部.</description>
     </item>
     
     <item>
       <title>Puzzle Toad-0 Introduction</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-0-introduction/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-0-introduction/</link>
       <pubDate>Sun, 14 Aug 2022 21:05:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-0-introduction/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/puzzle-toad/puzzle-toad-0-introduction/</guid>
       <description>Puzzle Toad # 介绍 # Puzzle Prime 对于 Puzzle Toad 的描述如下:</description>
     </item>
     
     <item>
       <title>逆元 学习笔记</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E9%80%86%E5%85%83/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E9%80%86%E5%85%83/</link>
       <pubDate>Thu, 04 Aug 2022 14:16:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E9%80%86%E5%85%83/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E9%80%86%E5%85%83/</guid>
       <description>逆元 学习笔记 # 问题背景 # 我们经常遇到一些需要对运算结果取模的问题.</description>
     </item>
     
     <item>
       <title>CodeForces-1305C Kuroni and Impossible Calculation</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1305c-kuroni-and-impossible-calculation/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1305c-kuroni-and-impossible-calculation/</link>
       <pubDate>Tue, 26 Jul 2022 15:55:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1305c-kuroni-and-impossible-calculation/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1305c-kuroni-and-impossible-calculation/</guid>
       <description>CodeForces-1305C Kuroni and Impossible Calculation # 题目大意 # 给定正整数 $m$ 和一个长度为 $n$ 的数组 $a_1, a_2, &amp;hellip;, a_n$ , 求 $\prod_{1\leq i &amp;lt; j\leq n}\vert a_i - a_j\vert\ mod\ m$ .</description>
     </item>
     
     <item>
       <title>CodeForces-1349A Orac and LCM</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1349a-orac-and-lcm/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1349a-orac-and-lcm/</link>
       <pubDate>Mon, 25 Jul 2022 18:01:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1349a-orac-and-lcm/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1349a-orac-and-lcm/</guid>
       <description>CodeForces-1349A Orac and LCM # 题目大意 # 给定 $n$ 个正整数 $a_1, &amp;hellip;, a_n$ , 求 $gcd({lcm(a_i, a_j)|1\leq i&amp;lt; j\leq n})$ .</description>
     </item>
     
     <item>
       <title>CodeForces-1358C Celex Update</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1358c-celex-update/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1358c-celex-update/</link>
       <pubDate>Mon, 25 Jul 2022 14:08:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1358c-celex-update/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1358c-celex-update/</guid>
       <description>CodeForces-1358C Celex Update # 题目大意 # 有一个如下图所示的矩阵.</description>
     </item>
     
     <item>
       <title>拓扑排序</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</link>
       <pubDate>Thu, 21 Jul 2022 12:17:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</guid>
       <description>拓扑排序 # 定义 # 有向无环图(DAG, Directed Acyclic Graph)指的是一个无回路的有向图.</description>
     </item>
     
     <item>
       <title>CodeForces-1342C Yet Another Counting Problem</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1342c-yet-another-counting-problem/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1342c-yet-another-counting-problem/</link>
       <pubDate>Wed, 20 Jul 2022 14:20:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1342c-yet-another-counting-problem/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1342c-yet-another-counting-problem/</guid>
       <description>CodeForces-1342C Yet Another Counting Problem # 题目大意 # 给定正整数 $a, b, l, r$ , 查询满足 $x\in [l, r]$ 且 $(x\ mod\ a)\ mod\ b\not = (x\ mod\ b)\ mod\ a$ 的 $x$ 的个数.</description>
     </item>
     
     <item>
       <title>趣题: 数列和的最小值</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%981_%E6%95%B0%E5%88%97%E5%92%8C%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%981_%E6%95%B0%E5%88%97%E5%92%8C%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC/</link>
       <pubDate>Mon, 18 Jul 2022 16:45:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%981_%E6%95%B0%E5%88%97%E5%92%8C%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%981_%E6%95%B0%E5%88%97%E5%92%8C%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC/</guid>
       <description>题目大意 # $2006$ 个不等于 $119$ 的数构成的数列, 满足任意连续子区间之和都不等于 $119$ , 求数列和的最小值.</description>
     </item>
     
     <item>
       <title>LeetCode-2338 统计理想数组的数目</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2338-%E7%BB%9F%E8%AE%A1%E7%90%86%E6%83%B3%E6%95%B0%E7%BB%84%E7%9A%84%E6%95%B0%E7%9B%AE/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2338-%E7%BB%9F%E8%AE%A1%E7%90%86%E6%83%B3%E6%95%B0%E7%BB%84%E7%9A%84%E6%95%B0%E7%9B%AE/</link>
       <pubDate>Tue, 12 Jul 2022 13:30:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2338-%E7%BB%9F%E8%AE%A1%E7%90%86%E6%83%B3%E6%95%B0%E7%BB%84%E7%9A%84%E6%95%B0%E7%9B%AE/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2338-%E7%BB%9F%E8%AE%A1%E7%90%86%E6%83%B3%E6%95%B0%E7%BB%84%E7%9A%84%E6%95%B0%E7%9B%AE/</guid>
       <description>LeetCode-2338 统计理想数组的数目 # Solution 1 # 该解法来自0x3F大神的题解.</description>
     </item>
     
     <item>
       <title>CodeForces-1396A Multiples of Length</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1396a-multiples-of-length/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1396a-multiples-of-length/</link>
       <pubDate>Sat, 09 Jul 2022 14:43:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1396a-multiples-of-length/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1396a-multiples-of-length/</guid>
       <description>CodeForces-1396A Multiples of Length # 题目大意 # 给你一个长度为 $n$ 的序列, 进行恰好三次操作，使得操作结束后序列所有数为 $0$ .</description>
     </item>
     
     <item>
       <title>CodeForces-1344A Hilbert&#39;s Hotel</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1344a-hilberts-hotel/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1344a-hilberts-hotel/</link>
       <pubDate>Thu, 30 Jun 2022 22:48:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1344a-hilberts-hotel/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1344a-hilberts-hotel/</guid>
       <description>CodeForces-1344A Hilbert&amp;rsquo;s Hotel # 题目大意 # 给你一个无限长的数轴还有一个大小为 $n$ 的整数数组 $a_0,a_1&amp;hellip;a_{n-1}$.</description>
     </item>
     
     <item>
       <title>CodeForces-1542B Plus and Multiply</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1542b-plus-and-multiply/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1542b-plus-and-multiply/</link>
       <pubDate>Mon, 27 Jun 2022 04:43:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1542b-plus-and-multiply/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1542b-plus-and-multiply/</guid>
       <description>CodeForces-1542B Plus and Multiply # 题目大意 # 给定正整数 $a, b$ , 考虑无限集 $S$ , $S$ 由如下规则构造:</description>
     </item>
     
     <item>
       <title>LeetCode-2183 统计可以被 K 整除的下标对数目</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2183-%E7%BB%9F%E8%AE%A1%E5%8F%AF%E4%BB%A5%E8%A2%AB-k-%E6%95%B4%E9%99%A4%E7%9A%84%E4%B8%8B%E6%A0%87%E5%AF%B9%E6%95%B0%E7%9B%AE/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2183-%E7%BB%9F%E8%AE%A1%E5%8F%AF%E4%BB%A5%E8%A2%AB-k-%E6%95%B4%E9%99%A4%E7%9A%84%E4%B8%8B%E6%A0%87%E5%AF%B9%E6%95%B0%E7%9B%AE/</link>
       <pubDate>Mon, 09 May 2022 15:29:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2183-%E7%BB%9F%E8%AE%A1%E5%8F%AF%E4%BB%A5%E8%A2%AB-k-%E6%95%B4%E9%99%A4%E7%9A%84%E4%B8%8B%E6%A0%87%E5%AF%B9%E6%95%B0%E7%9B%AE/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2183-%E7%BB%9F%E8%AE%A1%E5%8F%AF%E4%BB%A5%E8%A2%AB-k-%E6%95%B4%E9%99%A4%E7%9A%84%E4%B8%8B%E6%A0%87%E5%AF%B9%E6%95%B0%E7%9B%AE/</guid>
       <description>LeetCode-2183 统计可以被 K 整除的下标对数目 # Solution 1 # 计数问题, 思路要清晰.</description>
     </item>
     
     <item>
       <title>LeetCode-390 消除游戏</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-390-%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-390-%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F/</link>
       <pubDate>Wed, 04 May 2022 17:13:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-390-%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-390-%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F/</guid>
       <description>LeetCode-390 消除游戏 # Solution 1 # 这一题的形式很容易让人想到约瑟夫环问题, 事实上, 这道题也有巧妙的数学解法.</description>
     </item>
     
     <item>
       <title>LeetCode-1823 找出游戏的获胜者</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1823-%E6%89%BE%E5%87%BA%E6%B8%B8%E6%88%8F%E7%9A%84%E8%8E%B7%E8%83%9C%E8%80%85/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1823-%E6%89%BE%E5%87%BA%E6%B8%B8%E6%88%8F%E7%9A%84%E8%8E%B7%E8%83%9C%E8%80%85/</link>
       <pubDate>Wed, 04 May 2022 12:47:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1823-%E6%89%BE%E5%87%BA%E6%B8%B8%E6%88%8F%E7%9A%84%E8%8E%B7%E8%83%9C%E8%80%85/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1823-%E6%89%BE%E5%87%BA%E6%B8%B8%E6%88%8F%E7%9A%84%E8%8E%B7%E8%83%9C%E8%80%85/</guid>
       <description>LeetCode-1823 找出游戏的获胜者 # 本题是一道非常经典的问题: &amp;ldquo;约瑟夫环问题&amp;rdquo;.</description>
     </item>
     
     <item>
       <title>整数规划</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%BF%90%E7%AD%B9%E5%AD%A6/%E6%95%B4%E6%95%B0%E8%A7%84%E5%88%92/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%BF%90%E7%AD%B9%E5%AD%A6/%E6%95%B4%E6%95%B0%E8%A7%84%E5%88%92/</link>
       <pubDate>Tue, 03 May 2022 15:38:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%BF%90%E7%AD%B9%E5%AD%A6/%E6%95%B4%E6%95%B0%E8%A7%84%E5%88%92/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%BF%90%E7%AD%B9%E5%AD%A6/%E6%95%B4%E6%95%B0%E8%A7%84%E5%88%92/</guid>
       <description>#线性规划</description>
     </item>
     
     <item>
       <title>线性规划</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%BF%90%E7%AD%B9%E5%AD%A6/%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%BF%90%E7%AD%B9%E5%AD%A6/%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/</link>
       <pubDate>Mon, 02 May 2022 21:35:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%BF%90%E7%AD%B9%E5%AD%A6/%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%BF%90%E7%AD%B9%E5%AD%A6/%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/</guid>
       <description>#线性规划</description>
     </item>
     

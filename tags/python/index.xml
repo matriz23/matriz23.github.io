@@ -2,108 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Matriz23</title>
-    <link>http://example.org/tags/python/</link>
+    <link>http://matriz23.github.io/tags/python/</link>
     <description>Recent content in Python on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Thu, 19 Oct 2023 09:06:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Oct 2023 09:06:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-1726 同积元组</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1726-%E5%90%8C%E7%A7%AF%E5%85%83%E7%BB%84/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1726-%E5%90%8C%E7%A7%AF%E5%85%83%E7%BB%84/</link>
       <pubDate>Thu, 19 Oct 2023 09:06:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1726-%E5%90%8C%E7%A7%AF%E5%85%83%E7%BB%84/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1726-%E5%90%8C%E7%A7%AF%E5%85%83%E7%BB%84/</guid>
       <description>LeetCode-1726 同积元组 # Solution 1 # 用哈希统计.</description>
     </item>
     
     <item>
       <title>LeetCode-2136 全部开花的最早一天</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2136-%E5%85%A8%E9%83%A8%E5%BC%80%E8%8A%B1%E7%9A%84%E6%9C%80%E6%97%A9%E4%B8%80%E5%A4%A9/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2136-%E5%85%A8%E9%83%A8%E5%BC%80%E8%8A%B1%E7%9A%84%E6%9C%80%E6%97%A9%E4%B8%80%E5%A4%A9/</link>
       <pubDate>Sat, 30 Sep 2023 16:48:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2136-%E5%85%A8%E9%83%A8%E5%BC%80%E8%8A%B1%E7%9A%84%E6%9C%80%E6%97%A9%E4%B8%80%E5%A4%A9/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2136-%E5%85%A8%E9%83%A8%E5%BC%80%E8%8A%B1%E7%9A%84%E6%9C%80%E6%97%A9%E4%B8%80%E5%A4%A9/</guid>
       <description>LeetCode-2136 全部开花的最早一天 # Solution 1 # 首先, 种完一枚种子再去种别的是最优的.</description>
     </item>
     
     <item>
       <title>LeetCode-1993 树上的操作</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1993-%E6%A0%91%E4%B8%8A%E7%9A%84%E6%93%8D%E4%BD%9C/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1993-%E6%A0%91%E4%B8%8A%E7%9A%84%E6%93%8D%E4%BD%9C/</link>
       <pubDate>Sun, 24 Sep 2023 10:07:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1993-%E6%A0%91%E4%B8%8A%E7%9A%84%E6%93%8D%E4%BD%9C/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1993-%E6%A0%91%E4%B8%8A%E7%9A%84%E6%93%8D%E4%BD%9C/</guid>
       <description>LeetCode-1993 树上的操作 # Solution 1 # 对每个节点, 维护:</description>
     </item>
     
     <item>
       <title>LeetCode-2463 最小移动总距离</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2463-%E6%9C%80%E5%B0%8F%E7%A7%BB%E5%8A%A8%E6%80%BB%E8%B7%9D%E7%A6%BB/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2463-%E6%9C%80%E5%B0%8F%E7%A7%BB%E5%8A%A8%E6%80%BB%E8%B7%9D%E7%A6%BB/</link>
       <pubDate>Fri, 15 Sep 2023 13:45:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2463-%E6%9C%80%E5%B0%8F%E7%A7%BB%E5%8A%A8%E6%80%BB%E8%B7%9D%E7%A6%BB/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2463-%E6%9C%80%E5%B0%8F%E7%A7%BB%E5%8A%A8%E6%80%BB%E8%B7%9D%E7%A6%BB/</guid>
       <description>LeetCode-2463 最小移动总距离 # Solution 1 # 注意到如果出现两个机器人 &amp;ldquo;相遇&amp;rdquo; 的情况, 那么它们两两 &amp;ldquo;掉头&amp;rdquo; 显然是更优的.</description>
     </item>
     
     <item>
       <title>LeetCode-2846 边权重均等查询</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2846-%E8%BE%B9%E6%9D%83%E9%87%8D%E5%9D%87%E7%AD%89%E6%9F%A5%E8%AF%A2/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2846-%E8%BE%B9%E6%9D%83%E9%87%8D%E5%9D%87%E7%AD%89%E6%9F%A5%E8%AF%A2/</link>
       <pubDate>Fri, 08 Sep 2023 14:23:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2846-%E8%BE%B9%E6%9D%83%E9%87%8D%E5%9D%87%E7%AD%89%E6%9F%A5%E8%AF%A2/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2846-%E8%BE%B9%E6%9D%83%E9%87%8D%E5%9D%87%E7%AD%89%E6%9F%A5%E8%AF%A2/</guid>
       <description>LeetCode-2846 边权重均等查询 # Solution 1 # 最近公共祖先的模板题.</description>
     </item>
     
     <item>
       <title>LeetCode-2242 节点序列的最大得分</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2242-%E8%8A%82%E7%82%B9%E5%BA%8F%E5%88%97%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2242-%E8%8A%82%E7%82%B9%E5%BA%8F%E5%88%97%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86/</link>
       <pubDate>Wed, 23 Aug 2023 08:28:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2242-%E8%8A%82%E7%82%B9%E5%BA%8F%E5%88%97%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2242-%E8%8A%82%E7%82%B9%E5%BA%8F%E5%88%97%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86/</guid>
       <description>LeetCode-2242 节点序列的最大得分 # Solution 1 # 要找出长度为 $4$ 的节点序列的最大的得分, 考虑枚举中间这条边, 再查看左右两个端点的可能性.</description>
     </item>
     
     <item>
       <title>LeetCode-2209 用地毯覆盖后的最少白色砖块</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2209-%E7%94%A8%E5%9C%B0%E6%AF%AF%E8%A6%86%E7%9B%96%E5%90%8E%E7%9A%84%E6%9C%80%E5%B0%91%E7%99%BD%E8%89%B2%E7%A0%96%E5%9D%97/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2209-%E7%94%A8%E5%9C%B0%E6%AF%AF%E8%A6%86%E7%9B%96%E5%90%8E%E7%9A%84%E6%9C%80%E5%B0%91%E7%99%BD%E8%89%B2%E7%A0%96%E5%9D%97/</link>
       <pubDate>Wed, 09 Aug 2023 22:50:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2209-%E7%94%A8%E5%9C%B0%E6%AF%AF%E8%A6%86%E7%9B%96%E5%90%8E%E7%9A%84%E6%9C%80%E5%B0%91%E7%99%BD%E8%89%B2%E7%A0%96%E5%9D%97/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2209-%E7%94%A8%E5%9C%B0%E6%AF%AF%E8%A6%86%E7%9B%96%E5%90%8E%E7%9A%84%E6%9C%80%E5%B0%91%E7%99%BD%E8%89%B2%E7%A0%96%E5%9D%97/</guid>
       <description>LeetCode-2209 用地毯覆盖后的最少白色砖块 # Solution 1 # 记 $dp[i][j]$ 代表在 $floor[0:i]$ 这一段使用 $j$ 条地毯覆盖后的最少白色砖块数.</description>
     </item>
     
     <item>
       <title>LeetCode-2188 完成比赛的最少时间</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2188-%E5%AE%8C%E6%88%90%E6%AF%94%E8%B5%9B%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2188-%E5%AE%8C%E6%88%90%E6%AF%94%E8%B5%9B%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</link>
       <pubDate>Wed, 09 Aug 2023 16:51:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2188-%E5%AE%8C%E6%88%90%E6%AF%94%E8%B5%9B%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2188-%E5%AE%8C%E6%88%90%E6%AF%94%E8%B5%9B%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</guid>
       <description>LeetCode-2188 完成比赛的最少时间 # Solution 1 # 完成比赛相当于把圈数划分成连续的若干段, 其总时间等于各子段所需要的时间加上 &amp;ldquo;划分&amp;rdquo; (也就是题中的换胎操作) 所需要的时间.</description>
     </item>
     
     <item>
       <title>LeetCode-1760 袋子里最少数目的球</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1760-%E8%A2%8B%E5%AD%90%E9%87%8C%E6%9C%80%E5%B0%91%E6%95%B0%E7%9B%AE%E7%9A%84%E7%90%83/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1760-%E8%A2%8B%E5%AD%90%E9%87%8C%E6%9C%80%E5%B0%91%E6%95%B0%E7%9B%AE%E7%9A%84%E7%90%83/</link>
       <pubDate>Tue, 20 Dec 2022 11:23:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1760-%E8%A2%8B%E5%AD%90%E9%87%8C%E6%9C%80%E5%B0%91%E6%95%B0%E7%9B%AE%E7%9A%84%E7%90%83/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1760-%E8%A2%8B%E5%AD%90%E9%87%8C%E6%9C%80%E5%B0%91%E6%95%B0%E7%9B%AE%E7%9A%84%E7%90%83/</guid>
       <description>LeetCode-1760 袋子里最少数目的球 # Solution 1 # 如果 $k$ 开销可以, 那么 $k + 1$ 的开销也可以.</description>
     </item>
     
     <item>
       <title>LeetCode-1444 切披萨的方案数</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1444-%E5%88%87%E6%8A%AB%E8%90%A8%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1444-%E5%88%87%E6%8A%AB%E8%90%A8%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0/</link>
       <pubDate>Mon, 14 Nov 2022 16:04:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1444-%E5%88%87%E6%8A%AB%E8%90%A8%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1444-%E5%88%87%E6%8A%AB%E8%90%A8%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0/</guid>
       <description>LeetCode-1444 切披萨的方案数 # Solution 1 # 注意切割性质: 水平切一刀留下下半部分, 竖直切一刀留下右半部分, 因此任何时候我们处理的披萨都是左上端点为 $(i, j)$ , 右下端点为 $(m - 1, n - 1)$ 的部分.</description>
     </item>
     
     <item>
       <title>LeetCode 九坤投资专场竞赛</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-%E4%B9%9D%E5%9D%A4%E6%8A%95%E8%B5%84%E4%B8%93%E5%9C%BA%E7%AB%9E%E8%B5%9B/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-%E4%B9%9D%E5%9D%A4%E6%8A%95%E8%B5%84%E4%B8%93%E5%9C%BA%E7%AB%9E%E8%B5%9B/</link>
       <pubDate>Tue, 23 Aug 2022 10:45:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-%E4%B9%9D%E5%9D%A4%E6%8A%95%E8%B5%84%E4%B8%93%E5%9C%BA%E7%AB%9E%E8%B5%9B/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-%E4%B9%9D%E5%9D%A4%E6%8A%95%E8%B5%84%E4%B8%93%E5%9C%BA%E7%AB%9E%E8%B5%9B/</guid>
       <description>LeetCode 九坤投资专场竞赛 # Problem 1 可以读通讯稿的组数 # 题目链接 # 九坤-01.</description>
     </item>
     

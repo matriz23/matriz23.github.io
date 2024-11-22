@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>搜索 on Matriz23</title>
-    <link>http://example.org/tags/%E6%90%9C%E7%B4%A2/</link>
+    <link>http://matriz23.github.io/tags/%E6%90%9C%E7%B4%A2/</link>
     <description>Recent content in 搜索 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Mon, 05 Sep 2022 10:51:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E6%90%9C%E7%B4%A2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Sep 2022 10:51:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E6%90%9C%E7%B4%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-301 删除无效的括号</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-301-%E5%88%A0%E9%99%A4%E6%97%A0%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-301-%E5%88%A0%E9%99%A4%E6%97%A0%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7/</link>
       <pubDate>Mon, 05 Sep 2022 10:51:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-301-%E5%88%A0%E9%99%A4%E6%97%A0%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-301-%E5%88%A0%E9%99%A4%E6%97%A0%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7/</guid>
       <description>LeetCode-301 删除无效的括号 # Solution 1 # 要求返回所有的可能结果, 同时要求删除步数最小, 所以使用深度优先搜索.</description>
     </item>
     
     <item>
       <title>LeetCode-1631 最小体力消耗路径</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1631-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1631-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</link>
       <pubDate>Wed, 31 Aug 2022 10:05:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1631-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1631-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</guid>
       <description>LeetCode-1631 最小体力消耗路径 # Solution 1 # 如果最终答案是 $ans$ , 那么 $ans$ 所在路径中所有相邻格子的高度差的绝对值都不应该超过 $ans$ .</description>
     </item>
     
     <item>
       <title>LeetCode 九坤投资专场竞赛</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-%E4%B9%9D%E5%9D%A4%E6%8A%95%E8%B5%84%E4%B8%93%E5%9C%BA%E7%AB%9E%E8%B5%9B/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-%E4%B9%9D%E5%9D%A4%E6%8A%95%E8%B5%84%E4%B8%93%E5%9C%BA%E7%AB%9E%E8%B5%9B/</link>
       <pubDate>Tue, 23 Aug 2022 10:45:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-%E4%B9%9D%E5%9D%A4%E6%8A%95%E8%B5%84%E4%B8%93%E5%9C%BA%E7%AB%9E%E8%B5%9B/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-%E4%B9%9D%E5%9D%A4%E6%8A%95%E8%B5%84%E4%B8%93%E5%9C%BA%E7%AB%9E%E8%B5%9B/</guid>
       <description>LeetCode 九坤投资专场竞赛 # Problem 1 可以读通讯稿的组数 # 题目链接 # 九坤-01.</description>
     </item>
     

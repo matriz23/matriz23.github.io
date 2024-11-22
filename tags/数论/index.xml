@@ -2,126 +2,126 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>数论 on Matriz23</title>
-    <link>http://example.org/tags/%E6%95%B0%E8%AE%BA/</link>
+    <link>http://matriz23.github.io/tags/%E6%95%B0%E8%AE%BA/</link>
     <description>Recent content in 数论 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Wed, 02 Aug 2023 00:31:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E6%95%B0%E8%AE%BA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Aug 2023 00:31:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E6%95%B0%E8%AE%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>趣题: 找出所有符合要求的 n</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%989_%E6%89%BE%E5%87%BA%E6%89%80%E6%9C%89%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84-n/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%989_%E6%89%BE%E5%87%BA%E6%89%80%E6%9C%89%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84-n/</link>
       <pubDate>Wed, 02 Aug 2023 00:31:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%989_%E6%89%BE%E5%87%BA%E6%89%80%E6%9C%89%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84-n/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%989_%E6%89%BE%E5%87%BA%E6%89%80%E6%9C%89%E7%AC%A6%E5%90%88%E8%A6%81%E6%B1%82%E7%9A%84-n/</guid>
       <description>趣题: 找出所有符合要求的 n # 题目 # 设 $1 = d_1 &amp;lt; d_2 &amp;lt; &amp;hellip; &amp;lt; d_k = n$ 是合数 $n$ 的全部正因数, 若对任意 $1\leq i\leq k-2$ , 均有 $d_i\mid d_{i + 1} + d_{i + 2}$ , 求 $n$ .</description>
     </item>
     
     <item>
       <title>趣题: 证明一个式子不为整数</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%984_%E8%AF%81%E6%98%8E%E4%B8%80%E4%B8%AA%E5%BC%8F%E5%AD%90%E4%B8%8D%E4%B8%BA%E6%95%B4%E6%95%B0/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%984_%E8%AF%81%E6%98%8E%E4%B8%80%E4%B8%AA%E5%BC%8F%E5%AD%90%E4%B8%8D%E4%B8%BA%E6%95%B4%E6%95%B0/</link>
       <pubDate>Mon, 31 Jul 2023 19:24:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%984_%E8%AF%81%E6%98%8E%E4%B8%80%E4%B8%AA%E5%BC%8F%E5%AD%90%E4%B8%8D%E4%B8%BA%E6%95%B4%E6%95%B0/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%984_%E8%AF%81%E6%98%8E%E4%B8%80%E4%B8%AA%E5%BC%8F%E5%AD%90%E4%B8%8D%E4%B8%BA%E6%95%B4%E6%95%B0/</guid>
       <description>趣题: 证明一个式子不为整数 # 题目 # 设 $a,b\in \Z$ , 证明 $\frac{2a^2 - 1}{b^2 + 2}\notin\Z$ .</description>
     </item>
     
     <item>
       <title>LeetCode-2543 判断一个点是否可以到达</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2543-%E5%88%A4%E6%96%AD%E4%B8%80%E4%B8%AA%E7%82%B9%E6%98%AF%E5%90%A6%E5%8F%AF%E4%BB%A5%E5%88%B0%E8%BE%BE/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2543-%E5%88%A4%E6%96%AD%E4%B8%80%E4%B8%AA%E7%82%B9%E6%98%AF%E5%90%A6%E5%8F%AF%E4%BB%A5%E5%88%B0%E8%BE%BE/</link>
       <pubDate>Sun, 29 Jan 2023 09:49:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2543-%E5%88%A4%E6%96%AD%E4%B8%80%E4%B8%AA%E7%82%B9%E6%98%AF%E5%90%A6%E5%8F%AF%E4%BB%A5%E5%88%B0%E8%BE%BE/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2543-%E5%88%A4%E6%96%AD%E4%B8%80%E4%B8%AA%E7%82%B9%E6%98%AF%E5%90%A6%E5%8F%AF%E4%BB%A5%E5%88%B0%E8%BE%BE/</guid>
       <description>LeetCode-2543 判断一个点是否可以到达 # Solution 1 # 逆向考虑, 从 $(targetX, targetY)$ 到达 $(1, 1)$ , 每次操作可以从 $(x, y)$ 变成:</description>
     </item>
     
     <item>
       <title>LeetCode-1819 序列中不同最大公约数的数目</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1819-%E5%BA%8F%E5%88%97%E4%B8%AD%E4%B8%8D%E5%90%8C%E6%9C%80%E5%A4%A7%E5%85%AC%E7%BA%A6%E6%95%B0%E7%9A%84%E6%95%B0%E7%9B%AE/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1819-%E5%BA%8F%E5%88%97%E4%B8%AD%E4%B8%8D%E5%90%8C%E6%9C%80%E5%A4%A7%E5%85%AC%E7%BA%A6%E6%95%B0%E7%9A%84%E6%95%B0%E7%9B%AE/</link>
       <pubDate>Sat, 14 Jan 2023 14:24:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1819-%E5%BA%8F%E5%88%97%E4%B8%AD%E4%B8%8D%E5%90%8C%E6%9C%80%E5%A4%A7%E5%85%AC%E7%BA%A6%E6%95%B0%E7%9A%84%E6%95%B0%E7%9B%AE/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1819-%E5%BA%8F%E5%88%97%E4%B8%AD%E4%B8%8D%E5%90%8C%E6%9C%80%E5%A4%A7%E5%85%AC%E7%BA%A6%E6%95%B0%E7%9A%84%E6%95%B0%E7%9B%AE/</guid>
       <description>LeetCode-1819 序列中不同最大公约数的数目 # Solution 1 # 对于 $x$ , 如果它是某个子序列 $(a_0, a_1, &amp;hellip;, a_k)$ 的最大公约数, 那么它也一定是 $(a_0, a_1, &amp;hellip;, a_k, a_{k + 1} = x * y)$ 的最大公约数.</description>
     </item>
     
     <item>
       <title>Trailing Zeros</title>
-      <link>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/trailing-zeros/</link>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/trailing-zeros/</link>
       <pubDate>Fri, 30 Dec 2022 20:15:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E6%95%B0%E5%AD%A6/quant/trailing-zeros/</guid>
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/quant/trailing-zeros/</guid>
       <description>A Practical Guide To Quantitative Finance Interviews 收录了一些量化面试中的经典题目.</description>
     </item>
     
     <item>
       <title>CodeForces-735D Taxes</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-735d-taxes/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-735d-taxes/</link>
       <pubDate>Fri, 05 Aug 2022 15:59:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-735d-taxes/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-735d-taxes/</guid>
       <description>CodeForces-735D Taxes # 题目大意 # 给定正整数 $n\geq 2$ , 把 $n$ 拆分成 $k$ 个 $\geq 2$ 的正整数 $n_1, n_2, &amp;hellip;, n_k$ , $k$ 任意, 使得 $n_i$ 不为自身的最大因子之和最小.</description>
     </item>
     
     <item>
       <title>CodeForces-1542C Strange Function</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1542c-strange-function/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1542c-strange-function/</link>
       <pubDate>Fri, 05 Aug 2022 11:13:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1542c-strange-function/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1542c-strange-function/</guid>
       <description>CodeForces-1542C Strange Function # 题目大意 # 记 $f(i)$ 为最小的正整数 $x$ , 满足 $x$ 不是 $i$ 的因子.</description>
     </item>
     
     <item>
       <title>逆元 学习笔记</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E9%80%86%E5%85%83/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E9%80%86%E5%85%83/</link>
       <pubDate>Thu, 04 Aug 2022 14:16:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E9%80%86%E5%85%83/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E9%80%86%E5%85%83/</guid>
       <description>逆元 学习笔记 # 问题背景 # 我们经常遇到一些需要对运算结果取模的问题.</description>
     </item>
     
     <item>
       <title>CodeForces-1497C2 k-LCM (hard version)</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1497c2-k-lcm-hard-version/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1497c2-k-lcm-hard-version/</link>
       <pubDate>Tue, 26 Jul 2022 13:19:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1497c2-k-lcm-hard-version/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1497c2-k-lcm-hard-version/</guid>
       <description>CodeForces-1497C2 k-LCM (hard version) # 题目大意 # 给定正整数 $n, k$ , $3\leq k\leq n$ , 构造数组 $a_1, a_2, &amp;hellip;, a_k$ , 使得 $\sum_{1\leq i\leq k}a_i = n$ 且 $lcm({a_i|1\leq i\leq n}) \leq \lfloor \frac{n}{2}\rfloor$ .</description>
     </item>
     
     <item>
       <title>CodeForces-1349A Orac and LCM</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1349a-orac-and-lcm/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1349a-orac-and-lcm/</link>
       <pubDate>Mon, 25 Jul 2022 18:01:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1349a-orac-and-lcm/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1349a-orac-and-lcm/</guid>
       <description>CodeForces-1349A Orac and LCM # 题目大意 # 给定 $n$ 个正整数 $a_1, &amp;hellip;, a_n$ , 求 $gcd({lcm(a_i, a_j)|1\leq i&amp;lt; j\leq n})$ .</description>
     </item>
     
     <item>
       <title>CodeForces-1458A Row GCD</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1458a-row-gcd/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1458a-row-gcd/</link>
       <pubDate>Wed, 20 Jul 2022 17:23:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1458a-row-gcd/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1458a-row-gcd/</guid>
       <description>CodeForces-1458A Row GCD # 题目大意 # 给定长度为 $n$ 的数列 $a$ 和长度为 $m$ 的数列 $b$ , 对每个 $1\leq j\leq m$ , 计算 $gcd(a_1 + b_j, a_2 + b_j, &amp;hellip;, a_n + b_j)$ .</description>
     </item>
     
     <item>
       <title>CodeForces-1342C Yet Another Counting Problem</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1342c-yet-another-counting-problem/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1342c-yet-another-counting-problem/</link>
       <pubDate>Wed, 20 Jul 2022 14:20:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1342c-yet-another-counting-problem/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1342c-yet-another-counting-problem/</guid>
       <description>CodeForces-1342C Yet Another Counting Problem # 题目大意 # 给定正整数 $a, b, l, r$ , 查询满足 $x\in [l, r]$ 且 $(x\ mod\ a)\ mod\ b\not = (x\ mod\ b)\ mod\ a$ 的 $x$ 的个数.</description>
     </item>
     
     <item>
       <title>CodeForces-235A LCM Challenge</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-235a-lcm-challenge/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-235a-lcm-challenge/</link>
       <pubDate>Thu, 30 Jun 2022 23:13:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-235a-lcm-challenge/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-235a-lcm-challenge/</guid>
       <description>CodeForces-235A LCM Challenge # 题目大意 # 输入 $n$ , 找到 $3$ 个不超过 $n$ 的正整数（可以相同），使得它们的 $LCM$ (最小公倍数)最大。输出最大的 $LCM$ .</description>
     </item>
     

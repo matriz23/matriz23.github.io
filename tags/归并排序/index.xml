@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>归并排序 on Matriz23</title>
-    <link>http://example.org/tags/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/</link>
+    <link>http://matriz23.github.io/tags/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/</link>
     <description>Recent content in 归并排序 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Sat, 27 Jul 2024 10:18:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Jul 2024 10:18:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-327 区间和的个数</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-327-%E5%8C%BA%E9%97%B4%E5%92%8C%E7%9A%84%E4%B8%AA%E6%95%B0/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-327-%E5%8C%BA%E9%97%B4%E5%92%8C%E7%9A%84%E4%B8%AA%E6%95%B0/</link>
       <pubDate>Sat, 27 Jul 2024 10:18:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-327-%E5%8C%BA%E9%97%B4%E5%92%8C%E7%9A%84%E4%B8%AA%E6%95%B0/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-327-%E5%8C%BA%E9%97%B4%E5%92%8C%E7%9A%84%E4%B8%AA%E6%95%B0/</guid>
       <description>LeetCode-327 区间和的个数 # Solution 1 # 对于区间和, 转化成前缀和之差 (需要注意在前缀和数组最前面保留一个 $0$, 不遗漏从头开始的完整区间) .</description>
     </item>
     
     <item>
       <title>LeetCode-493 翻转对</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-493-%E7%BF%BB%E8%BD%AC%E5%AF%B9/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-493-%E7%BF%BB%E8%BD%AC%E5%AF%B9/</link>
       <pubDate>Sat, 27 Jul 2024 09:14:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-493-%E7%BF%BB%E8%BD%AC%E5%AF%B9/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-493-%E7%BF%BB%E8%BD%AC%E5%AF%B9/</guid>
       <description>LeetCode-493 翻转对 # Solution 1 # 与经典的统计逆序对数量问题类似, 只不过计数条件略有变化.</description>
     </item>
     
     <item>
       <title>LeetCode-LCR170 交易逆序对的总数</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-lcr170-%E4%BA%A4%E6%98%93%E9%80%86%E5%BA%8F%E5%AF%B9%E7%9A%84%E6%80%BB%E6%95%B0/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-lcr170-%E4%BA%A4%E6%98%93%E9%80%86%E5%BA%8F%E5%AF%B9%E7%9A%84%E6%80%BB%E6%95%B0/</link>
       <pubDate>Sat, 27 Jul 2024 09:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-lcr170-%E4%BA%A4%E6%98%93%E9%80%86%E5%BA%8F%E5%AF%B9%E7%9A%84%E6%80%BB%E6%95%B0/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-lcr170-%E4%BA%A4%E6%98%93%E9%80%86%E5%BA%8F%E5%AF%B9%E7%9A%84%E6%80%BB%E6%95%B0/</guid>
       <description>LeetCode-LCR170 交易逆序对的总数 # Solution 1 # 非常经典的问题: 逆序对计数.</description>
     </item>
     

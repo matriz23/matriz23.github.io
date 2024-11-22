@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>区间查询 on Matriz23</title>
-    <link>http://example.org/tags/%E5%8C%BA%E9%97%B4%E6%9F%A5%E8%AF%A2/</link>
+    <link>http://matriz23.github.io/tags/%E5%8C%BA%E9%97%B4%E6%9F%A5%E8%AF%A2/</link>
     <description>Recent content in 区间查询 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Tue, 03 May 2022 21:41:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E5%8C%BA%E9%97%B4%E6%9F%A5%E8%AF%A2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 May 2022 21:41:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%8C%BA%E9%97%B4%E6%9F%A5%E8%AF%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>树状数组</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</link>
       <pubDate>Tue, 03 May 2022 21:41:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</guid>
       <description>树状数组 # 引入 # 对于一个数组, 最常见的操作有两种: 单点修改与区间查询.</description>
     </item>
     

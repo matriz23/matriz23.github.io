@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>设计 on Matriz23</title>
-    <link>http://example.org/tags/%E8%AE%BE%E8%AE%A1/</link>
+    <link>http://matriz23.github.io/tags/%E8%AE%BE%E8%AE%A1/</link>
     <description>Recent content in 设计 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Wed, 18 Jan 2023 11:23:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E8%AE%BE%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Jan 2023 11:23:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E8%AE%BE%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-1825 求出 MK 平均值</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1825-%E6%B1%82%E5%87%BA-mk-%E5%B9%B3%E5%9D%87%E5%80%BC/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1825-%E6%B1%82%E5%87%BA-mk-%E5%B9%B3%E5%9D%87%E5%80%BC/</link>
       <pubDate>Wed, 18 Jan 2023 11:23:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1825-%E6%B1%82%E5%87%BA-mk-%E5%B9%B3%E5%9D%87%E5%80%BC/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1825-%E6%B1%82%E5%87%BA-mk-%E5%B9%B3%E5%9D%87%E5%80%BC/</guid>
       <description>LeetCode-1825 求出 MK 平均值 # Solution 1 # 用三个 multiset 分别维护容器中最小的 k 个数, 中间 m - 2 * k 个数以及最大的 k 个数.</description>
     </item>
     

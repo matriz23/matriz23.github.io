@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>拓扑排序 on Matriz23</title>
-    <link>http://example.org/tags/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</link>
+    <link>http://matriz23.github.io/tags/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</link>
     <description>Recent content in 拓扑排序 on Matriz23</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Thu, 21 Jul 2022 14:36:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Jul 2022 14:36:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CodeForces-510C Fox And Names</title>
-      <link>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-510c-fox-and-names/</link>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-510c-fox-and-names/</link>
       <pubDate>Thu, 21 Jul 2022 14:36:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-510c-fox-and-names/</guid>
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-510c-fox-and-names/</guid>
       <description>CodeForces-510C Fox And Names # 题目大意 # 给定 $n$ 个字符串, 如果存在一种新的字典序符合这些字符串的排列方式, 则输出一种字典序; 否则输出 $Impossible$ .</description>
     </item>
     
