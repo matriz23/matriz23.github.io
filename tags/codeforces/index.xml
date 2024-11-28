@@ -809,5 +809,14 @@
       <description>CodeForces-455A Boredom # 题目大意 # 输入正整数 $n$ 与长度为 $n$ 的数组 $a[n]$ , 可以执行如下操作: 从数组中删去 $a[i]$ , 同时删去所有等于 $a[i] + 1$ 或 $a[i] - 1$ 的数, 得到 $a[i]$ 分.</description>
     </item>
     
+    <item>
+      <title>CodeForces-2025D Attribute Checks</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-2025d-attribute-checks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-2025d-attribute-checks/</guid>
+      <description>CodeForces-2025D Attribute Checks # Solution 1 # dp + 前缀和优化.</description>
+    </item>
+    
   </channel>
 </rss>
