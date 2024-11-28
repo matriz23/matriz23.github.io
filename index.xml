@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Wed, 27 Nov 2024 10:58:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Nov 2024 10:01:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-3251 单调数组对的数目 II</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3251-%E5%8D%95%E8%B0%83%E6%95%B0%E7%BB%84%E5%AF%B9%E7%9A%84%E6%95%B0%E7%9B%AE-ii/</link>
+      <pubDate>Thu, 28 Nov 2024 10:01:00 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3251-%E5%8D%95%E8%B0%83%E6%95%B0%E7%BB%84%E5%AF%B9%E7%9A%84%E6%95%B0%E7%9B%AE-ii/</guid>
+      <description>LeetCode-3251 单调数组对的数目 II # Solution 1 # 记 $dp[i][j]$ 为根据 $nums[:i+1]$ 构造, $arr1[i]$ 为 $j$ 的单调数组对的数目.</description>
+    </item>
+    
     <item>
       <title>LeetCode-3208 交替组 II</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3208-%E4%BA%A4%E6%9B%BF%E7%BB%84-ii/</link>
