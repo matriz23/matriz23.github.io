@@ -110,7 +110,7 @@
     "keywords": ["LeetCode","动态规划"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "117"
+    "wordCount": "127"
   }]
   </script>
 
@@ -378,6 +378,7 @@
       <ul>
         <li><a href="#leetcode-3251-单调数组对的数目-iihttpsleetcodecnproblemsfind-the-count-of-monotonic-pairs-iidescription"><a href="https://leetcode.cn/problems/find-the-count-of-monotonic-pairs-ii/description/">LeetCode-3251 单调数组对的数目 II</a></a></li>
         <li><a href="#solution-1">Solution 1</a></li>
+        <li><a href="#solution-2">Solution 2</a></li>
       </ul>
     </li>
   </ul>
@@ -419,7 +420,13 @@ $$</p>
 </span></span><span class="line"><span class="cl">                    <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">+</span> <span class="n">s</span><span class="p">[</span><span class="n">k</span><span class="p">])</span> <span class="o">%</span> <span class="n">MOD</span>
 </span></span><span class="line"><span class="cl">            
 </span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="n">dp</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span> <span class="o">%</span> <span class="n">MOD</span>
-</span></span></code></pre></div>
+</span></span></code></pre></div><h3 id="solution-2" class="relative group">Solution 2 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#solution-2" aria-label="Anchor">#</a></span></h3>
+<p>$O(n)$ 组合做法. 参考 <a
+  href="https://leetcode.cn/problems/find-the-count-of-monotonic-pairs-ii/solutions/2876190/qian-zhui-he-you-hua-dppythonjavacgo-by-3biek/"
+  
+  target="_blank" rel="noreferrer noopener"
+>两种方法：前缀和优化 DP / 组合数学（Python/Java/C++/Go）</a>.</p>
+
       </div>
     </section>
     <footer class="pt-8 max-w-prose print:hidden">
