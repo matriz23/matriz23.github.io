@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Matriz23</copyright>
-    <lastBuildDate>Thu, 28 Nov 2024 10:01:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Nov 2024 10:40:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CodeForces-2025D Attribute Checks</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-2025d-attribute-checks/</link>
+      <pubDate>Fri, 29 Nov 2024 10:40:00 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-2025d-attribute-checks/</guid>
+      <description>CodeForces-2025D Attribute Checks # Solution 1 # 遇到一个 $0$ 时, 考虑从上一个 $0$ 到现在的拿到的所有分, 因此维护 $dp[i][j]$ , 表示到在这个 $0$ 之前遇到了 $i$ 个 $0$, 并分配了 $j$ 分到 $x$ 上的最大得分.</description>
+    </item>
+    
     <item>
       <title>LeetCode-3251 单调数组对的数目 II</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3251-%E5%8D%95%E8%B0%83%E6%95%B0%E7%BB%84%E5%AF%B9%E7%9A%84%E6%95%B0%E7%9B%AE-ii/</link>
@@ -3138,15 +3147,6 @@
       
       <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-160-%E7%9B%B8%E4%BA%A4%E9%93%BE%E8%A1%A8/</guid>
       <description>LeetCode-160 相交链表 # Solution 1 # 利用双指针来一次解决问题.</description>
-    </item>
-    
-    <item>
-      <title>CodeForces-2025D Attribute Checks</title>
-      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-2025d-attribute-checks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-2025d-attribute-checks/</guid>
-      <description>CodeForces-2025D Attribute Checks # Solution 1 # dp + 前缀和优化.</description>
     </item>
     
     <item>

@@ -78,8 +78,8 @@
 <meta property="og:description" content="CodeForces-2025D「Attribute Checks」的思考与解答" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-2025d-attribute-checks/" /><meta property="article:section" content="posts" />
-
-
+<meta property="article:published_time" content="2024-11-29T10:40:00+00:00" />
+<meta property="article:modified_time" content="2024-11-29T10:40:00+00:00" />
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="CodeForces-2025D Attribute Checks"/>
@@ -94,23 +94,23 @@
     "name": "CodeForces-2025D Attribute Checks",
     "headline": "CodeForces-2025D Attribute Checks",
     "description": "CodeForces-2025D「Attribute Checks」的思考与解答",
-    "abstract": "CodeForces-2025D Attribute Checks # Solution 1 # dp \u002b 前缀和优化.",
+    "abstract": "CodeForces-2025D Attribute Checks # Solution 1 # 遇到一个 $0$ 时, 考虑从上一个 $0$ 到现在的拿到的所有分, 因此维护 $dp[i][j]$ , 表示到在这个 $0$ 之前遇到了 $i$ 个 $0$, 并分配了 $j$ 分到 $x$ 上的最大得分.",
     "inLanguage": "en-au",
     "url" : "http:\/\/matriz23.github.io\/posts\/%E8%AE%A1%E7%AE%97%E6%9C%BA\/codeforces\/codeforces-2025d-attribute-checks\/",
     "author" : {
       "@type": "Person",
       "name": "Matriz23"
     },
+    "copyrightYear": "2024",
+    "dateCreated": "2024-11-29T10:40:00\u002b00:00",
+    "datePublished": "2024-11-29T10:40:00\u002b00:00",
     
+    "dateModified": "2024-11-29T10:40:00\u002b00:00",
     
-    
-    
-    
-    
-    "keywords": ["CodeForces"],
+    "keywords": ["CodeForces","动态规划"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "165"
+    "wordCount": "218"
   }]
   </script>
 
@@ -331,7 +331,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="0001-01-01 00:00:00 &#43;0000 UTC">1 January 0001</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
+      <time datetime="2024-11-29 10:40:00 &#43;0000 UTC">29 November 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -395,7 +395,12 @@
   target="_blank" rel="noreferrer noopener"
 >CodeForces-2025D Attribute Checks</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#codeforces-2025d-attribute-checkshttpscodeforcescomproblemsetproblem2025d" aria-label="Anchor">#</a></span></h3>
 <h3 id="solution-1" class="relative group">Solution 1 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#solution-1" aria-label="Anchor">#</a></span></h3>
-<p>dp + 前缀和优化.</p>
+<p>遇到一个 $0$ 时, 考虑从上一个 $0$ 到现在的拿到的所有分, 因此维护 $dp[i][j]$ , 表示到在这个 $0$ 之前遇到了 $i$ 个 $0$, 并分配了 $j$ 分到 $x$ 上的最大得分. 状态转移方程为:
+$$
+dp[i][j] = \max (dp[i - 1][j], dp[i - 1][j - 1]) + cnt[j][0] + cnt[t - j][1]
+$$
+其中 $cnt[k][0]$ 表示两个 $0$ 之间的不超过 $k$ 的正数个数, $cnt[k][1]$ 表示两个 $0$ 之间的不小于 $-k$ 的负数个数.</p>
+<p>实现时可以把 $dp$ 压缩成一维.</p>
 <p>代码如下:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp">
 </span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
@@ -505,7 +510,7 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3154-%E5%88%B0%E8%BE%BE%E7%AC%AC-k-%E7%BA%A7%E5%8F%B0%E9%98%B6%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0/">
+            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3251-%E5%8D%95%E8%B0%83%E6%95%B0%E7%BB%84%E5%AF%B9%E7%9A%84%E6%95%B0%E7%9B%AE-ii/">
               <span
                 class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
                 ><span class="ltr:inline rtl:hidden">&larr;</span
@@ -514,11 +519,11 @@
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >LeetCode-3154 到达第 K 级台阶的方案数</span
+                  >LeetCode-3251 单调数组对的数目 II</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC">1 January 0001</time>
+                    <time datetime="2024-11-28 10:01:00 &#43;0000 UTC">28 November 2024</time>
                   
                 </span>
               </span>
@@ -526,25 +531,6 @@
           
         </span>
         <span>
-          
-            <a class="group flex text-right" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-160-%E7%9B%B8%E4%BA%A4%E9%93%BE%E8%A1%A8/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >LeetCode-160 相交链表</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2022-05-02 21:00:00 &#43;0000 UTC">2 May 2022</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
-                ><span class="ltr:inline rtl:hidden">&rarr;</span
-                ><span class="ltr:hidden rtl:inline">&larr;</span></span
-              >
-            </a>
           
         </span>
       </div>
@@ -556,6 +542,17 @@
     </footer>
   </article>
 
+        
+          <div class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12">
+            <a
+              href="#the-top"
+              class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+              aria-label="Scroll to top"
+              title="Scroll to top"
+            >
+              &uarr;
+            </a>
+          </div>
         
       </main><footer class="py-10 print:hidden">
   
