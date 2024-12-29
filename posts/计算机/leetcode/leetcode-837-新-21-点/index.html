@@ -19,14 +19,14 @@
   <meta name="theme-color" content="rgb(255,255,255)" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>LeetCode-688 骑士在棋盘上的概率 &middot; Matriz23</title>
-    <meta name="title" content="LeetCode-688 骑士在棋盘上的概率 &middot; Matriz23" />
+  <title>LeetCode-837 新 21 点 &middot; Matriz23</title>
+    <meta name="title" content="LeetCode-837 新 21 点 &middot; Matriz23" />
   
-  <meta name="description" content="LeetCode-688「骑士在棋盘上的概率」的思考与解答" />
+  <meta name="description" content="LeetCode-837「新 21 点」的思考与解答" />
   
   
   
-  <link rel="canonical" href="http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-688-%E9%AA%91%E5%A3%AB%E5%9C%A8%E6%A3%8B%E7%9B%98%E4%B8%8A%E7%9A%84%E6%A6%82%E7%8E%87/" />
+  <link rel="canonical" href="http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-837-%E6%96%B0-21-%E7%82%B9/" />
   
   
   
@@ -74,16 +74,16 @@
   
   
   
-  <meta property="og:title" content="LeetCode-688 骑士在棋盘上的概率" />
-<meta property="og:description" content="LeetCode-688「骑士在棋盘上的概率」的思考与解答" />
+  <meta property="og:title" content="LeetCode-837 新 21 点" />
+<meta property="og:description" content="LeetCode-837「新 21 点」的思考与解答" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-688-%E9%AA%91%E5%A3%AB%E5%9C%A8%E6%A3%8B%E7%9B%98%E4%B8%8A%E7%9A%84%E6%A6%82%E7%8E%87/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-12-07T10:41:00+00:00" />
-<meta property="article:modified_time" content="2024-12-07T10:41:00+00:00" />
+<meta property="og:url" content="http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-837-%E6%96%B0-21-%E7%82%B9/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-12-07T11:35:00+00:00" />
+<meta property="article:modified_time" content="2024-12-07T11:35:00+00:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="LeetCode-688 骑士在棋盘上的概率"/>
-<meta name="twitter:description" content="LeetCode-688「骑士在棋盘上的概率」的思考与解答"/>
+<meta name="twitter:title" content="LeetCode-837 新 21 点"/>
+<meta name="twitter:description" content="LeetCode-837「新 21 点」的思考与解答"/>
 
   
   <script type="application/ld+json">
@@ -91,26 +91,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "LeetCode-688 骑士在棋盘上的概率",
-    "headline": "LeetCode-688 骑士在棋盘上的概率",
-    "description": "LeetCode-688「骑士在棋盘上的概率」的思考与解答",
-    "abstract": "LeetCode-688 骑士在棋盘上的概率 # Solution 1 # 概率递推, $dp[i][j][k]$ 代表起始位置为 $(i, j)$ , 移动 $k$ 次后仍在棋盘上的概率.",
+    "name": "LeetCode-837 新 21 点",
+    "headline": "LeetCode-837 新 21 点",
+    "description": "LeetCode-837「新 21 点」的思考与解答",
+    "abstract": "LeetCode-837 新 21 点 # Solution 1 # 记 $dp[i]$ 为初始分数为 $i$, 最终得分在 $[k, n]$ 的概率.",
     "inLanguage": "en-au",
-    "url" : "http:\/\/matriz23.github.io\/posts\/%E8%AE%A1%E7%AE%97%E6%9C%BA\/leetcode\/leetcode-688-%E9%AA%91%E5%A3%AB%E5%9C%A8%E6%A3%8B%E7%9B%98%E4%B8%8A%E7%9A%84%E6%A6%82%E7%8E%87\/",
+    "url" : "http:\/\/matriz23.github.io\/posts\/%E8%AE%A1%E7%AE%97%E6%9C%BA\/leetcode\/leetcode-837-%E6%96%B0-21-%E7%82%B9\/",
     "author" : {
       "@type": "Person",
       "name": "Matriz23"
     },
     "copyrightYear": "2024",
-    "dateCreated": "2024-12-07T10:41:00\u002b00:00",
-    "datePublished": "2024-12-07T10:41:00\u002b00:00",
+    "dateCreated": "2024-12-07T11:35:00\u002b00:00",
+    "datePublished": "2024-12-07T11:35:00\u002b00:00",
     
-    "dateModified": "2024-12-07T10:41:00\u002b00:00",
+    "dateModified": "2024-12-07T11:35:00\u002b00:00",
     
     "keywords": ["LeetCode","动态规划"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "146"
+    "wordCount": "91"
   }]
   </script>
 
@@ -284,8 +284,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-688-%E9%AA%91%E5%A3%AB%E5%9C%A8%E6%A3%8B%E7%9B%98%E4%B8%8A%E7%9A%84%E6%A6%82%E7%8E%87/"
-      >LeetCode-688 骑士在棋盘上的概率</a
+      href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-837-%E6%96%B0-21-%E7%82%B9/"
+      >LeetCode-837 新 21 点</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -294,7 +294,7 @@
 
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        LeetCode-688 骑士在棋盘上的概率
+        LeetCode-837 新 21 点
       </h1>
       <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -331,7 +331,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-12-07 10:41:00 &#43;0000 UTC">7 December 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
+      <time datetime="2024-12-07 11:35:00 &#43;0000 UTC">7 December 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -339,7 +339,7 @@
 
 <span class="mb-[2px]">
   <a
-    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e8%ae%a1%e7%ae%97%e6%9c%ba/LeetCode/LeetCode-688%20%e9%aa%91%e5%a3%ab%e5%9c%a8%e6%a3%8b%e7%9b%98%e4%b8%8a%e7%9a%84%e6%a6%82%e7%8e%87.md"
+    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e8%ae%a1%e7%ae%97%e6%9c%ba/LeetCode/LeetCode-837%20%e6%96%b0%2021%20%e7%82%b9.md"
     class="text-lg hover:text-primary-500"
     rel="noopener noreferrer"
     target="_blank"
@@ -376,7 +376,7 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#leetcode-688-骑士在棋盘上的概率httpsleetcodecnproblemsknight-probability-in-chessboarddescription"><a href="https://leetcode.cn/problems/knight-probability-in-chessboard/description/">LeetCode-688 骑士在棋盘上的概率</a></a></li>
+        <li><a href="#leetcode-837-新-21-点httpsleetcodecnproblemsnew-21-gamedescription"><a href="https://leetcode.cn/problems/new-21-game/description/">LeetCode-837 新 21 点</a></a></li>
         <li><a href="#solution-1">Solution 1</a></li>
       </ul>
     </li>
@@ -389,32 +389,28 @@
         </div>
       
       <div class="min-w-0 min-h-0 max-w-prose grow">
-        <h3 id="leetcode-688-骑士在棋盘上的概率httpsleetcodecnproblemsknight-probability-in-chessboarddescription" class="relative group"><a
-  href="https://leetcode.cn/problems/knight-probability-in-chessboard/description/"
+        <h3 id="leetcode-837-新-21-点httpsleetcodecnproblemsnew-21-gamedescription" class="relative group"><a
+  href="https://leetcode.cn/problems/new-21-game/description/"
   
   target="_blank" rel="noreferrer noopener"
->LeetCode-688 骑士在棋盘上的概率</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#leetcode-688-%e9%aa%91%e5%a3%ab%e5%9c%a8%e6%a3%8b%e7%9b%98%e4%b8%8a%e7%9a%84%e6%a6%82%e7%8e%87httpsleetcodecnproblemsknight-probability-in-chessboarddescription" aria-label="Anchor">#</a></span></h3>
+>LeetCode-837 新 21 点</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#leetcode-837-%e6%96%b0-21-%e7%82%b9httpsleetcodecnproblemsnew-21-gamedescription" aria-label="Anchor">#</a></span></h3>
 <h3 id="solution-1" class="relative group">Solution 1 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#solution-1" aria-label="Anchor">#</a></span></h3>
-<p>概率递推, $dp[i][j][k]$ 代表起始位置为 $(i, j)$ , 移动 $k$ 次后仍在棋盘上的概率. 状态转移方程为:
+<p>记 $dp[i]$ 为初始分数为 $i$, 最终得分在 $[k, n]$ 的概率.
+状态转移方程为:
 $$
-dp[i][j][k] = \sum_{(x, y) \in \text{next}(i, j)} dp[x][y][k - 1] / 8
+dp[i] = \frac{1}{\text{maxPts}}\sum_{j=i + 1}^{i + \text{maxPts}}dp[j]
 $$</p>
 <p>代码如下:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">knightProbability</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">k</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">row</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">column</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">float</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">dirs</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">]]</span>
-</span></span><span class="line"><span class="cl">        <span class="n">dp</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span> <span class="o">*</span> <span class="n">n</span><span class="p">)]</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">k</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">            <span class="n">dp0</span> <span class="o">=</span> <span class="n">dp</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">            <span class="n">dp</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span> <span class="o">*</span> <span class="n">n</span><span class="p">)]</span>
-</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">                <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">                    <span class="k">for</span> <span class="n">dx</span><span class="p">,</span> <span class="n">dy</span> <span class="ow">in</span> <span class="n">dirs</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">                        <span class="n">nx</span><span class="p">,</span> <span class="n">ny</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">dx</span><span class="p">,</span> <span class="n">y</span> <span class="o">+</span> <span class="n">dy</span>
-</span></span><span class="line"><span class="cl">                        <span class="k">if</span> <span class="mi">0</span> <span class="o">&lt;=</span> <span class="n">nx</span> <span class="o">&lt;</span> <span class="n">n</span> <span class="ow">and</span> <span class="mi">0</span> <span class="o">&lt;=</span> <span class="n">ny</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">                            <span class="n">dp</span><span class="p">[</span><span class="n">x</span> <span class="o">*</span> <span class="n">n</span> <span class="o">+</span> <span class="n">y</span><span class="p">]</span> <span class="o">+=</span> <span class="n">dp0</span><span class="p">[</span><span class="n">nx</span> <span class="o">*</span> <span class="n">n</span> <span class="o">+</span> <span class="n">ny</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">                    <span class="n">dp</span><span class="p">[</span><span class="n">x</span> <span class="o">*</span> <span class="n">n</span> <span class="o">+</span> <span class="n">y</span><span class="p">]</span> <span class="o">/=</span> <span class="mi">8</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">dp</span><span class="p">[</span><span class="n">row</span> <span class="o">*</span> <span class="n">n</span> <span class="o">+</span> <span class="n">column</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">new21Game</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">k</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">maxPts</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">float</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">dp</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">k</span> <span class="o">+</span> <span class="n">maxPts</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">k</span> <span class="o">+</span> <span class="n">maxPts</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span> <span class="k">if</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">n</span> <span class="k">else</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">        <span class="n">s</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">dp</span><span class="p">[</span><span class="n">k</span><span class="p">:])</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">k</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">s</span> <span class="o">/</span> <span class="n">maxPts</span>
+</span></span><span class="line"><span class="cl">            <span class="n">s</span> <span class="o">=</span> <span class="n">s</span> <span class="o">-</span> <span class="n">dp</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="n">maxPts</span><span class="p">]</span> <span class="o">+</span> <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">dp</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 </span></span></code></pre></div>
       </div>
     </section>
@@ -484,7 +480,7 @@ $$</p>
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-2025d-attribute-checks/">
+            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-688-%E9%AA%91%E5%A3%AB%E5%9C%A8%E6%A3%8B%E7%9B%98%E4%B8%8A%E7%9A%84%E6%A6%82%E7%8E%87/">
               <span
                 class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
                 ><span class="ltr:inline rtl:hidden">&larr;</span
@@ -493,11 +489,11 @@ $$</p>
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >CodeForces-2025D Attribute Checks</span
+                  >LeetCode-688 骑士在棋盘上的概率</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2024-11-29 10:40:00 &#43;0000 UTC">29 November 2024</time>
+                    <time datetime="2024-12-07 10:41:00 &#43;0000 UTC">7 December 2024</time>
                   
                 </span>
               </span>
@@ -506,15 +502,15 @@ $$</p>
         </span>
         <span>
           
-            <a class="group flex text-right" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-837-%E6%96%B0-21-%E7%82%B9/">
+            <a class="group flex text-right" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-lcp12-%E5%B0%8F%E5%BC%A0%E5%88%B7%E9%A2%98%E8%AE%A1%E5%88%92/">
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >LeetCode-837 新 21 点</span
+                  >LeetCode-LCP12 小张刷题计划</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2024-12-07 11:35:00 &#43;0000 UTC">7 December 2024</time>
+                    <time datetime="2024-12-29 10:34:00 &#43;0000 UTC">29 December 2024</time>
                   
                 </span>
               </span>
