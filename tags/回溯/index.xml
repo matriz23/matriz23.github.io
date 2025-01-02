@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Fri, 16 Sep 2022 10:35:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%9B%9E%E6%BA%AF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Jan 2025 16:11:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%9B%9E%E6%BA%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-22 括号生成</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-22-%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90/</link>
+      <pubDate>Thu, 02 Jan 2025 16:11:00 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-22-%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90/</guid>
+      <description>LeetCode-22 括号生成 # Solution 1 # 经典回溯问题.</description>
+    </item>
+    
     <item>
       <title>LeetCode-1723 完成所有工作的最短时间</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1723-%E5%AE%8C%E6%88%90%E6%89%80%E6%9C%89%E5%B7%A5%E4%BD%9C%E7%9A%84%E6%9C%80%E7%9F%AD%E6%97%B6%E9%97%B4/</link>
