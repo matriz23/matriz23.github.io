@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Fri, 03 Jan 2025 14:29:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Jan 2025 16:36:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-LCP19 秋叶收藏集</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-lcp19-%E7%A7%8B%E5%8F%B6%E6%94%B6%E8%97%8F%E9%9B%86/</link>
+      <pubDate>Fri, 03 Jan 2025 16:36:00 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-lcp19-%E7%A7%8B%E5%8F%B6%E6%94%B6%E8%97%8F%E9%9B%86/</guid>
+      <description>LeetCode-LCP19 秋叶收藏集 # Solution 1 # 假设分割为 $leaves[:i], leaves[i:j], leaves[j:]$ , 记 $s[k]$ 为 $leaves[:k+1]$ 中 $&amp;lsquo;r&amp;rsquo;$ 的数量.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-LCP 23 魔术排列</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-lcp23-%E9%AD%94%E6%9C%AF%E6%8E%92%E5%88%97/</link>
+      <pubDate>Fri, 03 Jan 2025 15:47:00 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-lcp23-%E9%AD%94%E6%9C%AF%E6%8E%92%E5%88%97/</guid>
+      <description>LeetCode-LCP 23 魔术排列 # Solution 1 # 偶数位排在前面的排列为 $nums2$, 只有 $target$ 和 $nums2$ 相同前缀的长度为可能的 $k$, 模拟验证.</description>
+    </item>
+    
     <item>
       <title>LeetCode-142 环形链表 II</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-142-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8-ii/</link>
