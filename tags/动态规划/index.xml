@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Thu, 02 Jan 2025 16:47:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Jan 2025 17:14:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-1594 矩阵的最大非负积</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1594-%E7%9F%A9%E9%98%B5%E7%9A%84%E6%9C%80%E5%A4%A7%E9%9D%9E%E8%B4%9F%E7%A7%AF/</link>
+      <pubDate>Fri, 03 Jan 2025 17:14:00 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1594-%E7%9F%A9%E9%98%B5%E7%9A%84%E6%9C%80%E5%A4%A7%E9%9D%9E%E8%B4%9F%E7%A7%AF/</guid>
+      <description>LeetCode-1594 矩阵的最大非负积 # Solution 1 # 动态规划, 同时维护非负积和非正积.</description>
+    </item>
+    
     <item>
       <title>LeetCode-300 最长递增子序列</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-300-%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97/</link>
