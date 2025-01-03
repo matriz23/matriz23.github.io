@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Sun, 11 Aug 2024 15:03:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E9%93%BE%E8%A1%A8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Jan 2025 14:29:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E9%93%BE%E8%A1%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-142 环形链表 II</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-142-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8-ii/</link>
+      <pubDate>Fri, 03 Jan 2025 14:29:00 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-142-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8-ii/</guid>
+      <description>LeetCode-142 环形链表 II # Solution 1 # 设链表头到入口节点的距离为 $a$, 环长为 $b$, 快慢指针相遇时，快指针走过了 $n$ 圈, 慢指针走过了 $c$ 步.</description>
+    </item>
+    
     <item>
       <title>LeetCode-146 LRU 缓存</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-146-lru-%E7%BC%93%E5%AD%98/</link>
