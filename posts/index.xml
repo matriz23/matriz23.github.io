@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Sat, 04 Jan 2025 11:09:49 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Jan 2025 14:14:01 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-3393 统计异或值为给定值的路径数目</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3393-%E7%BB%9F%E8%AE%A1%E5%BC%82%E6%88%96%E5%80%BC%E4%B8%BA%E7%BB%99%E5%AE%9A%E5%80%BC%E7%9A%84%E8%B7%AF%E5%BE%84%E6%95%B0%E7%9B%AE/</link>
+      <pubDate>Sat, 04 Jan 2025 14:14:01 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3393-%E7%BB%9F%E8%AE%A1%E5%BC%82%E6%88%96%E5%80%BC%E4%B8%BA%E7%BB%99%E5%AE%9A%E5%80%BC%E7%9A%84%E8%B7%AF%E5%BE%84%E6%95%B0%E7%9B%AE/</guid>
+      <description>LeetCode-3393 统计异或值为给定值的路径数目 # Solution 1 # 动态规划, 设 $f(i, j, s)$ 表示从 $(0, 0)$ 到 $(i, j)$ 的异或和为 $s$ 的路径数目.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-732 我的日程安排表 III</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-732-%E6%88%91%E7%9A%84%E6%97%A5%E7%A8%8B%E5%AE%89%E6%8E%92%E8%A1%A8-iii/</link>
+      <pubDate>Sat, 04 Jan 2025 11:11:35 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-732-%E6%88%91%E7%9A%84%E6%97%A5%E7%A8%8B%E5%AE%89%E6%8E%92%E8%A1%A8-iii/</guid>
+      <description>LeetCode-732 我的日程安排表 III # Solution 1 # 差分数组维护区间.</description>
+    </item>
+    
     <item>
       <title>LeetCode-23 合并 K 个升序链表</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-23-%E5%90%88%E5%B9%B6-k-%E4%B8%AA%E5%8D%87%E5%BA%8F%E9%93%BE%E8%A1%A8/</link>
