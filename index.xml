@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Fri, 03 Jan 2025 23:36:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Jan 2025 10:02:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-3175 找到连续赢 K 场比赛的第一位玩家</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3175-%E6%89%BE%E5%88%B0%E8%BF%9E%E7%BB%AD%E8%B5%A2-k-%E5%9C%BA%E6%AF%94%E8%B5%9B%E7%9A%84%E7%AC%AC%E4%B8%80%E4%BD%8D%E7%8E%A9%E5%AE%B6/</link>
+      <pubDate>Sat, 04 Jan 2025 10:02:00 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3175-%E6%89%BE%E5%88%B0%E8%BF%9E%E7%BB%AD%E8%B5%A2-k-%E5%9C%BA%E6%AF%94%E8%B5%9B%E7%9A%84%E7%AC%AC%E4%B8%80%E4%BD%8D%E7%8E%A9%E5%AE%B6/</guid>
+      <description>LeetCode-3175 找到连续赢 K 场比赛的第一位玩家 # Solution 1 # &amp;ldquo;打擂台&amp;rdquo; 的过程实际上是在排序, 模拟第一轮中是否有玩家连续赢 K 场比赛, 如果有则返回该玩家; 之后是最大的玩家一直赢下去, 返回最大的玩家.</description>
+    </item>
+    
     <item>
       <title>LeetCode-739 每日温度</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-739-%E6%AF%8F%E6%97%A5%E6%B8%A9%E5%BA%A6/</link>
