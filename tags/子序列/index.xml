@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>子序列 on Matriz23</title>
+    <link>http://matriz23.github.io/tags/%E5%AD%90%E5%BA%8F%E5%88%97/</link>
+    <description>Recent content in 子序列 on Matriz23</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>&amp;copy; 2025 Matriz23</copyright>
+    <lastBuildDate>Mon, 06 Jan 2025 22:06:55 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%AD%90%E5%BA%8F%E5%88%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-522 最长特殊序列 II</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-522-%E6%9C%80%E9%95%BF%E7%89%B9%E6%AE%8A%E5%BA%8F%E5%88%97-ii/</link>
+      <pubDate>Mon, 06 Jan 2025 22:06:55 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-522-%E6%9C%80%E9%95%BF%E7%89%B9%E6%AE%8A%E5%BA%8F%E5%88%97-ii/</guid>
+      <description>LeetCode-522 最长特殊序列 II # Solution 1 # 如果有一个特殊序列, 那么它所属的序列必然是一个长度不小于它的特殊序列, 因此判断初始序列的是否是其它序列的子序列即可.</description>
+    </item>
+    
+  </channel>
+</rss>
