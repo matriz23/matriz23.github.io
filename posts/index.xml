@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Mon, 06 Jan 2025 14:55:03 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jan 2025 15:35:11 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-3075 幸福值最大化的选择方案</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3075-%E5%B9%B8%E7%A6%8F%E5%80%BC%E6%9C%80%E5%A4%A7%E5%8C%96%E7%9A%84%E9%80%89%E6%8B%A9%E6%96%B9%E6%A1%88/</link>
+      <pubDate>Mon, 06 Jan 2025 15:35:11 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3075-%E5%B9%B8%E7%A6%8F%E5%80%BC%E6%9C%80%E5%A4%A7%E5%8C%96%E7%9A%84%E9%80%89%E6%8B%A9%E6%96%B9%E6%A1%88/</guid>
+      <description>LeetCode-3075 幸福值最大化的选择方案 # Solution 1 # 由于值下降到零就不再下降, 因此优先选值大的.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-781 森林中的兔子</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-781-%E6%A3%AE%E6%9E%97%E4%B8%AD%E7%9A%84%E5%85%94%E5%AD%90/</link>
+      <pubDate>Mon, 06 Jan 2025 15:11:29 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-781-%E6%A3%AE%E6%9E%97%E4%B8%AD%E7%9A%84%E5%85%94%E5%AD%90/</guid>
+      <description>LeetCode-781 森林中的兔子 # Solution 1 # 说和自己颜色一样的兔子有 $k$ 只的兔子有 $v$ 只, 每一组颜色至多有 $k + 1$ 个兔子, 因此这些兔子所在的组至少有 $\lfloor \frac{v + k}{k+1}\rfloor \times v$ 只兔子.</description>
+    </item>
+    
     <item>
       <title>LeetCode-1765 地图中的最高点</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1765-%E5%9C%B0%E5%9B%BE%E4%B8%AD%E7%9A%84%E6%9C%80%E9%AB%98%E7%82%B9/</link>
