@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Thu, 15 Aug 2024 09:40:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%89%8D%E7%BC%80%E5%92%8C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jan 2025 11:01:29 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%89%8D%E7%BC%80%E5%92%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-525 连续数组</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-525-%E8%BF%9E%E7%BB%AD%E6%95%B0%E7%BB%84/</link>
+      <pubDate>Mon, 06 Jan 2025 11:01:29 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-525-%E8%BF%9E%E7%BB%AD%E6%95%B0%E7%BB%84/</guid>
+      <description>LeetCode-525 连续数组 # Solution 1 # 把 $0$ 修改成 $-1$, 寻找和为 $0$ 的最长子数组, 用前缀和 + 哈希来处理.</description>
+    </item>
+    
     <item>
       <title>LeetCode-3148 矩阵中的最大得分</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3148-%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86/</link>

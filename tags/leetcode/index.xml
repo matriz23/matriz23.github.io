@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Sun, 05 Jan 2025 23:27:43 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jan 2025 11:01:29 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-525 连续数组</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-525-%E8%BF%9E%E7%BB%AD%E6%95%B0%E7%BB%84/</link>
+      <pubDate>Mon, 06 Jan 2025 11:01:29 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-525-%E8%BF%9E%E7%BB%AD%E6%95%B0%E7%BB%84/</guid>
+      <description>LeetCode-525 连续数组 # Solution 1 # 把 $0$ 修改成 $-1$, 寻找和为 $0$ 的最长子数组, 用前缀和 + 哈希来处理.</description>
+    </item>
+    
     <item>
       <title>LeetCode-3413 收集连续 K 个袋子可以获得的最多硬币数量</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3413-%E6%94%B6%E9%9B%86%E8%BF%9E%E7%BB%AD-k-%E4%B8%AA%E8%A2%8B%E5%AD%90%E5%8F%AF%E4%BB%A5%E8%8E%B7%E5%BE%97%E7%9A%84%E6%9C%80%E5%A4%9A%E7%A1%AC%E5%B8%81%E6%95%B0%E9%87%8F/</link>

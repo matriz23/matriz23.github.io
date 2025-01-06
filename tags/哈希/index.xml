@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Thu, 19 Oct 2023 09:06:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%93%88%E5%B8%8C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jan 2025 11:01:29 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%93%88%E5%B8%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-525 连续数组</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-525-%E8%BF%9E%E7%BB%AD%E6%95%B0%E7%BB%84/</link>
+      <pubDate>Mon, 06 Jan 2025 11:01:29 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-525-%E8%BF%9E%E7%BB%AD%E6%95%B0%E7%BB%84/</guid>
+      <description>LeetCode-525 连续数组 # Solution 1 # 把 $0$ 修改成 $-1$, 寻找和为 $0$ 的最长子数组, 用前缀和 + 哈希来处理.</description>
+    </item>
+    
     <item>
       <title>LeetCode-1726 同积元组</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1726-%E5%90%8C%E7%A7%AF%E5%85%83%E7%BB%84/</link>

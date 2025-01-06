@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Sun, 05 Jan 2025 23:41:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jan 2025 11:01:29 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-525 连续数组</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-525-%E8%BF%9E%E7%BB%AD%E6%95%B0%E7%BB%84/</link>
+      <pubDate>Mon, 06 Jan 2025 11:01:29 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-525-%E8%BF%9E%E7%BB%AD%E6%95%B0%E7%BB%84/</guid>
+      <description>LeetCode-525 连续数组 # Solution 1 # 把 $0$ 修改成 $-1$, 寻找和为 $0$ 的最长子数组, 用前缀和 + 哈希来处理.</description>
+    </item>
+    
     <item>
       <title>博客标题的来源</title>
       <link>http://matriz23.github.io/posts/%E9%9A%8F%E7%AC%94/%E5%8D%9A%E5%AE%A2%E6%A0%87%E9%A2%98%E7%9A%84%E6%9D%A5%E6%BA%90/</link>
