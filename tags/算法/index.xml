@@ -1976,7 +1976,7 @@
       <pubDate>Mon, 09 May 2022 18:12:00 +0000</pubDate>
       
       <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-456-132-%E6%A8%A1%E5%BC%8F/</guid>
-      <description>LeetCode-456 132 模式 # 这道题运用单调栈的解法过于精妙, 特此记录.</description>
+      <description>LeetCode-456 132 模式 # Solution 1 # 对于三元组 $(i,j,k)$ , 我们考虑枚举 $i$ , 怎么维护 $(j, k)$ 使得 $nums[j] &amp;gt; nums[k]$ 呢?</description>
     </item>
     
     <item>

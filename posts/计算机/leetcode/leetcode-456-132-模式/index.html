@@ -94,7 +94,7 @@
     "name": "LeetCode-456 132 模式",
     "headline": "LeetCode-456 132 模式",
     "description": "LeetCode-456「132 模式」的思考与解答",
-    "abstract": "LeetCode-456 132 模式 # 这道题运用单调栈的解法过于精妙, 特此记录.",
+    "abstract": "LeetCode-456 132 模式 # Solution 1 # 对于三元组 $(i,j,k)$ , 我们考虑枚举 $i$ , 怎么维护 $(j, k)$ 使得 $nums[j] \u0026gt; nums[k]$ 呢?",
     "inLanguage": "en-au",
     "url" : "http:\/\/matriz23.github.io\/posts\/%E8%AE%A1%E7%AE%97%E6%9C%BA\/leetcode\/leetcode-456-132-%E6%A8%A1%E5%BC%8F\/",
     "author" : {
@@ -110,7 +110,7 @@
     "keywords": ["计算机","算法","LeetCode","C++","单调栈"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "102"
+    "wordCount": "140"
   }]
   </script>
 
@@ -394,15 +394,21 @@
   
   target="_blank" rel="noreferrer noopener"
 >LeetCode-456 132 模式</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#leetcode-456-132-%e6%a8%a1%e5%bc%8fhttpsleetcodecnproblems132-pattern" aria-label="Anchor">#</a></span></h3>
-<p>这道题运用<strong>单调栈</strong>的解法过于精妙, 特此记录.</p>
 <h3 id="solution-1" class="relative group">Solution 1 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#solution-1" aria-label="Anchor">#</a></span></h3>
 <p>对于三元组 $(i,j,k)$ , 我们考虑枚举 $i$ , 怎么维护 $(j, k)$ 使得 $nums[j] &gt; nums[k]$ 呢? 答案是单调栈. 将 $i$ 右侧第一个数据入栈, 之后遇到比栈顶小的数据就入栈, 否则出栈, 用 $maxk$ 表示出栈元素的最大值, 假如有 $maxk &gt; nums[i]$ , 则必有合法的三元组 $(i,j,k)$ , 这是因为 $maxk$ 出栈是因为有一个更大元素要入栈使得单调减序列不再成立, 这个序列的下标就是我们要找的 $j$ , 而 $maxN$ 的下标就是我们要找的 $k$ .
-代码如下 (来自LeetCode用户<strong>宫水三叶</strong>的<a
-  href="https://leetcode.cn/problems/132-pattern/solution/xiang-xin-ke-xue-xi-lie-xiang-jie-wei-he-95gt/"
-  
-  target="_blank" rel="noreferrer noopener"
->题解</a>):</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span> <span class="p">{</span>
+代码如下:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">find132pattern</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nums</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">s</span> <span class="o">=</span> <span class="p">[</span><span class="n">nums</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">max_k</span> <span class="o">=</span> <span class="o">-</span><span class="n">inf</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">nums</span><span class="p">)</span> <span class="o">-</span> <span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">max_k</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="kc">True</span>
+</span></span><span class="line"><span class="cl">            <span class="k">while</span> <span class="n">s</span> <span class="ow">and</span> <span class="n">s</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">                <span class="n">max_k</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">max_k</span><span class="p">,</span> <span class="n">s</span><span class="o">.</span><span class="n">pop</span><span class="p">())</span>
+</span></span><span class="line"><span class="cl">            <span class="n">s</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="kc">False</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl"><span class="k">public</span><span class="o">:</span>
 </span></span><span class="line"><span class="cl">    <span class="kt">bool</span> <span class="n">find132pattern</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&amp;</span> <span class="n">nums</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="n">stack</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">st</span><span class="p">;</span>
