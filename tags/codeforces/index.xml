@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Fri, 29 Nov 2024 10:40:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/codeforces/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jan 2025 20:28:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/codeforces/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CodeForces-2048C Kevin and Binary Strings</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-2048c-kevin-and-binary-strings/</link>
+      <pubDate>Mon, 06 Jan 2025 20:28:00 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-2048c-kevin-and-binary-strings/</guid>
+      <description>CodeForces-2048C Kevin and Binary Strings # Solution 1 # 其中一个字符串必须取 $s$ , 否则怎么异或最高位都不如 $s$ 异或一个短一些的字符串来的大.</description>
+    </item>
+    
     <item>
       <title>CodeForces-2025D Attribute Checks</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-2025d-attribute-checks/</link>
