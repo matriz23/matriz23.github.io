@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Wed, 08 Jan 2025 06:55:01 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Jan 2025 07:13:56 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-1690 石子游戏 VII</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1690-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-vii/</link>
+      <pubDate>Wed, 08 Jan 2025 07:13:56 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1690-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-vii/</guid>
+      <description>LeetCode-1690 石子游戏 VII # Solution 1 # 区间 dp.</description>
+    </item>
+    
     <item>
       <title>LeetCode-1686 石子游戏 VI</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1686-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-vi/</link>
