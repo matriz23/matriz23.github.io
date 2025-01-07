@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Wed, 08 Jan 2025 06:11:57 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Jan 2025 06:39:14 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-1563 石子游戏 V</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1563-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-v/</link>
+      <pubDate>Wed, 08 Jan 2025 06:39:14 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1563-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-v/</guid>
+      <description>LeetCode-1563 石子游戏 V # Solution 1 # 区间 dp + 剪枝.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-1510 石子游戏 IV</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1510-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-iv/</link>
+      <pubDate>Wed, 08 Jan 2025 06:17:26 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1510-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-iv/</guid>
+      <description>LeetCode-1510 石子游戏 IV # Solution 1 # $dp[i]$ 代表从 $i$ 开始取先手是否必胜, 递归.</description>
+    </item>
+    
     <item>
       <title>LeetCode-1406 石子游戏 III</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1406-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-iii/</link>

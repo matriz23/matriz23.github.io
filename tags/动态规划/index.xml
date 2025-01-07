@@ -7,7 +7,52 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Mon, 06 Jan 2025 17:49:24 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Jan 2025 06:39:14 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-1563 石子游戏 V</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1563-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-v/</link>
+      <pubDate>Wed, 08 Jan 2025 06:39:14 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1563-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-v/</guid>
+      <description>LeetCode-1563 石子游戏 V # Solution 1 # 区间 dp + 剪枝.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-1510 石子游戏 IV</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1510-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-iv/</link>
+      <pubDate>Wed, 08 Jan 2025 06:17:26 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1510-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-iv/</guid>
+      <description>LeetCode-1510 石子游戏 IV # Solution 1 # $dp[i]$ 代表从 $i$ 开始取先手是否必胜, 递归.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-1406 石子游戏 III</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1406-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-iii/</link>
+      <pubDate>Wed, 08 Jan 2025 06:11:57 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1406-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-iii/</guid>
+      <description>LeetCode-1406 石子游戏 III # Solution 1 # $dp[i]$ 代表从 $i$ 开始取的先手最大分差, 递归.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-1140 石子游戏 II</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1140-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-ii/</link>
+      <pubDate>Wed, 08 Jan 2025 06:06:50 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1140-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-ii/</guid>
+      <description>LeetCode-1140 石子游戏 II # Solution 1 # $dp[i, m]$ 代表从 $i$ 开始取, $M=m$ 的先手最大得分, 递归.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-877 石子游戏</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-877-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F/</link>
+      <pubDate>Wed, 08 Jan 2025 05:51:59 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-877-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F/</guid>
+      <description>LeetCode-877 石子游戏 # Solution 1 # $dp[l, r]$ 代表从 $nums[l:r+1]$ 开始选, 先手与后手的最大分差.</description>
+    </item>
+    
     <item>
       <title>LeetCode-2572 无平方子集计数</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2572-%E6%97%A0%E5%B9%B3%E6%96%B9%E5%AD%90%E9%9B%86%E8%AE%A1%E6%95%B0/</link>
