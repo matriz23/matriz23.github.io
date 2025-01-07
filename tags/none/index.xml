@@ -7,16 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Wed, 08 Jan 2025 04:52:50 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/none/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>LeetCode-1997 访问完所有房间的第一天</title>
-      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1997-%E8%AE%BF%E9%97%AE%E5%AE%8C%E6%89%80%E6%9C%89%E6%88%BF%E9%97%B4%E7%9A%84%E7%AC%AC%E4%B8%80%E5%A4%A9/</link>
-      <pubDate>Wed, 08 Jan 2025 04:52:50 +0000</pubDate>
-      
-      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1997-%E8%AE%BF%E9%97%AE%E5%AE%8C%E6%89%80%E6%9C%89%E6%88%BF%E9%97%B4%E7%9A%84%E7%AC%AC%E4%B8%80%E5%A4%A9/</guid>
-      <description>LeetCode-1997 访问完所有房间的第一天 # Solution 1 # 记 $dp[i]$ 代表到 $0$ 号房间需要的天数.</description>
-    </item>
-    
+    <lastBuildDate>Tue, 07 Jan 2025 13:56:08 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/none/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode-2411 按位或最大的最小子数组长度</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2411-%E6%8C%89%E4%BD%8D%E6%88%96%E6%9C%80%E5%A4%A7%E7%9A%84%E6%9C%80%E5%B0%8F%E5%AD%90%E6%95%B0%E7%BB%84%E9%95%BF%E5%BA%A6/</link>
