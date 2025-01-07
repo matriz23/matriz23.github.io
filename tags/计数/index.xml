@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Thu, 14 Jul 2022 10:24:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E8%AE%A1%E6%95%B0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jan 2025 11:45:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E8%AE%A1%E6%95%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CodeForces-1789C Serval and Toxel&#39;s Arrays</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1789c-serval-and-toxels-arrays/</link>
+      <pubDate>Tue, 07 Jan 2025 11:45:00 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1789c-serval-and-toxels-arrays/</guid>
+      <description>CodeForces-1789C Serval and Toxel&amp;rsquo;s Arrays # Solution 1 # 正难则反, 此时考虑每个元素的贡献只需要统计其出现次数.</description>
+    </item>
+    
     <item>
       <title>CodeForces-1084C The Fair Nut and String</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1084c-the-fair-nut-and-string/</link>
