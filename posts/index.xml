@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Wed, 08 Jan 2025 07:58:26 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Jan 2025 15:38:32 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-2029 石子游戏 IX</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2029-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-ix/</link>
+      <pubDate>Wed, 08 Jan 2025 15:38:32 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2029-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-ix/</guid>
+      <description>LeetCode-2029 石子游戏 IX # Solution 1 # 分类讨论.</description>
+    </item>
+    
     <item>
       <title>LeetCode-1872 石子游戏 VIII</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1872-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-viii/</link>
