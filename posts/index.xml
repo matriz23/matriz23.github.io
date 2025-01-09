@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Thu, 09 Jan 2025 09:44:58 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Jan 2025 11:04:18 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-2939 最大异或乘积</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2939-%E6%9C%80%E5%A4%A7%E5%BC%82%E6%88%96%E4%B9%98%E7%A7%AF/</link>
+      <pubDate>Thu, 09 Jan 2025 11:04:18 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2939-%E6%9C%80%E5%A4%A7%E5%BC%82%E6%88%96%E4%B9%98%E7%A7%AF/</guid>
+      <description>LeetCode-2939 最大异或乘积 # Solution 1 # 通过改变 $x$ , 可以对 $a, b$ 的前 $n$ 位进行操作.</description>
+    </item>
+    
     <item>
       <title>LeetCode-199 二叉树的右视图</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-199-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%8F%B3%E8%A7%86%E5%9B%BE/</link>
