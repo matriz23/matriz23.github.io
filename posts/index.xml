@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Fri, 10 Jan 2025 11:02:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jan 2025 12:44:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AtCoder-ARC189B Minimize Sum</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder/atcoder-arc189b-minimize-sum/</link>
+      <pubDate>Fri, 10 Jan 2025 12:44:00 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder/atcoder-arc189b-minimize-sum/</guid>
+      <description>AtCoder-ARC189D Takahashi is Slime # Solution 1 # 对 $x_i &amp;lt; x_{i+1} &amp;lt; x_{i+2} &amp;lt; x_{i+3}$ 进行操作, 结果变为 $x_i &amp;lt; x_{i} + x_{i+3} - x_{i + 2} &amp;lt; x_{i} + x_{i+3} - x_{i + 1} &amp;lt; x_{i+3}$ (这里重新排过序了).</description>
+    </item>
+    
     <item>
       <title>AtCoder-ARC189D Takahashi is Slime</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder/atcoder-arc189d-takahashi-is-slime/</link>

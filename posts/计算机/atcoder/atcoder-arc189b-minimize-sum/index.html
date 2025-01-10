@@ -19,14 +19,14 @@
   <meta name="theme-color" content="rgb(255,255,255)" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>AtCoder-ARC189D Takahashi is Slime &middot; Matriz23</title>
-    <meta name="title" content="AtCoder-ARC189D Takahashi is Slime &middot; Matriz23" />
+  <title>AtCoder-ARC189B Minimize Sum &middot; Matriz23</title>
+    <meta name="title" content="AtCoder-ARC189B Minimize Sum &middot; Matriz23" />
   
-  <meta name="description" content="AtCoder-ARC189D「Takahashi is Slime」的思考与解答" />
+  <meta name="description" content="AtCoder-ARC189B「Minimize Sum」的思考与解答" />
   
   
   
-  <link rel="canonical" href="http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder/atcoder-arc189d-takahashi-is-slime/" />
+  <link rel="canonical" href="http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder/atcoder-arc189b-minimize-sum/" />
   
   
   
@@ -74,16 +74,16 @@
   
   
   
-  <meta property="og:title" content="AtCoder-ARC189D Takahashi is Slime" />
-<meta property="og:description" content="AtCoder-ARC189D「Takahashi is Slime」的思考与解答" />
+  <meta property="og:title" content="AtCoder-ARC189B Minimize Sum" />
+<meta property="og:description" content="AtCoder-ARC189B「Minimize Sum」的思考与解答" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder/atcoder-arc189d-takahashi-is-slime/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2025-01-10T11:02:00+00:00" />
-<meta property="article:modified_time" content="2025-01-10T11:02:00+00:00" />
+<meta property="og:url" content="http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder/atcoder-arc189b-minimize-sum/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-01-10T12:44:00+00:00" />
+<meta property="article:modified_time" content="2025-01-10T12:44:00+00:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="AtCoder-ARC189D Takahashi is Slime"/>
-<meta name="twitter:description" content="AtCoder-ARC189D「Takahashi is Slime」的思考与解答"/>
+<meta name="twitter:title" content="AtCoder-ARC189B Minimize Sum"/>
+<meta name="twitter:description" content="AtCoder-ARC189B「Minimize Sum」的思考与解答"/>
 
   
   <script type="application/ld+json">
@@ -91,26 +91,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "AtCoder-ARC189D Takahashi is Slime",
-    "headline": "AtCoder-ARC189D Takahashi is Slime",
-    "description": "AtCoder-ARC189D「Takahashi is Slime」的思考与解答",
-    "abstract": "AtCoder-ARC189D Takahashi is Slime # Solution 1 # 问题的关键点: 如果小体积的史莱姆体积增大到超过某个相邻的体积更大的史莱姆, 那么它们最终的体积是一样的.",
+    "name": "AtCoder-ARC189B Minimize Sum",
+    "headline": "AtCoder-ARC189B Minimize Sum",
+    "description": "AtCoder-ARC189B「Minimize Sum」的思考与解答",
+    "abstract": "AtCoder-ARC189D Takahashi is Slime # Solution 1 # 对 $x_i \u0026lt; x_{i\u002b1} \u0026lt; x_{i\u002b2} \u0026lt; x_{i\u002b3}$ 进行操作, 结果变为 $x_i \u0026lt; x_{i} \u002b x_{i\u002b3} - x_{i \u002b 2} \u0026lt; x_{i} \u002b x_{i\u002b3} - x_{i \u002b 1} \u0026lt; x_{i\u002b3}$ (这里重新排过序了).",
     "inLanguage": "en-au",
-    "url" : "http:\/\/matriz23.github.io\/posts\/%E8%AE%A1%E7%AE%97%E6%9C%BA\/atcoder\/atcoder-arc189d-takahashi-is-slime\/",
+    "url" : "http:\/\/matriz23.github.io\/posts\/%E8%AE%A1%E7%AE%97%E6%9C%BA\/atcoder\/atcoder-arc189b-minimize-sum\/",
     "author" : {
       "@type": "Person",
       "name": "Matriz23"
     },
     "copyrightYear": "2025",
-    "dateCreated": "2025-01-10T11:02:00\u002b00:00",
-    "datePublished": "2025-01-10T11:02:00\u002b00:00",
+    "dateCreated": "2025-01-10T12:44:00\u002b00:00",
+    "datePublished": "2025-01-10T12:44:00\u002b00:00",
     
-    "dateModified": "2025-01-10T11:02:00\u002b00:00",
+    "dateModified": "2025-01-10T12:44:00\u002b00:00",
     
-    "keywords": ["AtCoder","单调栈"],
+    "keywords": ["AtCoder"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "260"
+    "wordCount": "137"
   }]
   </script>
 
@@ -284,8 +284,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder/atcoder-arc189d-takahashi-is-slime/"
-      >AtCoder-ARC189D Takahashi is Slime</a
+      href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder/atcoder-arc189b-minimize-sum/"
+      >AtCoder-ARC189B Minimize Sum</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -294,7 +294,7 @@
 
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        AtCoder-ARC189D Takahashi is Slime
+        AtCoder-ARC189B Minimize Sum
       </h1>
       <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -331,7 +331,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-01-10 11:02:00 &#43;0000 UTC">10 January 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
+      <time datetime="2025-01-10 12:44:00 &#43;0000 UTC">10 January 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -339,7 +339,7 @@
 
 <span class="mb-[2px]">
   <a
-    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e8%ae%a1%e7%ae%97%e6%9c%ba/AtCoder/AtCoder-ARC189D%20Takahashi%20is%20Slime.md"
+    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/%e8%ae%a1%e7%ae%97%e6%9c%ba/AtCoder/AtCoder-ARC189B%20Minimize%20Sum.md"
     class="text-lg hover:text-primary-500"
     rel="noopener noreferrer"
     target="_blank"
@@ -376,7 +376,7 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#atcoder-arc189d-takahashi-is-slimehttpsatcoderjpcontestsarc189tasksarc189_d"><a href="https://AtCoder.jp/contests/arc189/tasks/arc189_d">AtCoder-ARC189D Takahashi is Slime</a></a></li>
+        <li><a href="#atcoder-arc189d-takahashi-is-slimehttpsatcoderjpcontestsarc189tasksarc189_b"><a href="https://atcoder.jp/contests/arc189/tasks/arc189_b">AtCoder-ARC189D Takahashi is Slime</a></a></li>
         <li><a href="#solution-1">Solution 1</a></li>
       </ul>
     </li>
@@ -389,61 +389,34 @@
         </div>
       
       <div class="min-w-0 min-h-0 max-w-prose grow">
-        <h3 id="atcoder-arc189d-takahashi-is-slimehttpsatcoderjpcontestsarc189tasksarc189_d" class="relative group"><a
-  href="https://AtCoder.jp/contests/arc189/tasks/arc189_d"
+        <h3 id="atcoder-arc189d-takahashi-is-slimehttpsatcoderjpcontestsarc189tasksarc189_b" class="relative group"><a
+  href="https://atcoder.jp/contests/arc189/tasks/arc189_b"
   
   target="_blank" rel="noreferrer noopener"
->AtCoder-ARC189D Takahashi is Slime</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#atcoder-arc189d-takahashi-is-slimehttpsatcoderjpcontestsarc189tasksarc189_d" aria-label="Anchor">#</a></span></h3>
+>AtCoder-ARC189D Takahashi is Slime</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#atcoder-arc189d-takahashi-is-slimehttpsatcoderjpcontestsarc189tasksarc189_b" aria-label="Anchor">#</a></span></h3>
 <h3 id="solution-1" class="relative group">Solution 1 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#solution-1" aria-label="Anchor">#</a></span></h3>
-<p>问题的关键点: 如果小体积的史莱姆体积增大到超过某个相邻的体积更大的史莱姆, 那么它们最终的体积是一样的. 因此, 从大到小考虑. 对于 $a_i$ , 需要计算它第一次能覆盖的范围. 这里需要思考清楚何时使用 $leftGE, rightGE$ , 何时使用 $left, right$ .</p>
-<p>能否发生第一波吞并, 取决于 $leftGE$ 和 $rightGE$ (需要 $rightGE_i - leftGE_i \geq 2$) ; 如果有第一波吞并, 那么相同大小的必定能被吞并, 后续吞并应该考虑比自己初始体积大的, 即 $left_i$ 和 $right_i$ .</p>
-<p>用单调栈与前缀和可以快速计算.</p>
+<p>对 $x_i &lt; x_{i+1} &lt; x_{i+2} &lt; x_{i+3}$ 进行操作, 结果变为 $x_i &lt; x_{i} + x_{i+3} - x_{i + 2} &lt; x_{i} + x_{i+3} - x_{i + 1} &lt; x_{i+3}$ (这里重新排过序了). 观察差分从 $$x_{i + 1}- x_i, x_{i+2}-x_{i+1}, x_{i+3} - x_{i+2}$$ 变成 $$x_{i+3} - x_{i+2}, x_{i+2} - x_{i+1}, x_{i + 1} - x_{i}$$
+相当于交换了 $d_i$ 和 $d_{i+2}$ , 奇数下标的差分和偶数下标的差分可以在各自内部交换. 由于目标是和最小, 因此小的差分尽可能靠前.</p>
 <p>代码如下:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span>
-</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">accumulate</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">    <span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
-</span></span><span class="line"><span class="cl">    <span class="n">a</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">left</span><span class="p">,</span> <span class="n">leftGE</span><span class="p">,</span> <span class="n">right</span><span class="p">,</span> <span class="n">rightGE</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">n</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">n</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">n</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">n</span>
-</span></span><span class="line"><span class="cl">    <span class="n">st</span><span class="p">,</span> <span class="n">stGE</span> <span class="o">=</span> <span class="p">[],</span> <span class="p">[]</span>
-</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">a</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="n">st</span> <span class="ow">and</span> <span class="n">a</span><span class="p">[</span><span class="n">st</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span> <span class="o">&lt;=</span> <span class="n">x</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">            <span class="n">st</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">        <span class="n">left</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span> <span class="k">if</span> <span class="n">st</span> <span class="o">==</span> <span class="p">[]</span> <span class="k">else</span> <span class="n">st</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">        <span class="n">st</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="n">stGE</span> <span class="ow">and</span> <span class="n">a</span><span class="p">[</span><span class="n">stGE</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span> <span class="o">&lt;</span> <span class="n">x</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">            <span class="n">stGE</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">        <span class="n">leftGE</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span> <span class="k">if</span> <span class="n">stGE</span> <span class="o">==</span> <span class="p">[]</span> <span class="k">else</span> <span class="n">stGE</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">        <span class="n">stGE</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="n">st</span><span class="p">,</span> <span class="n">stGE</span> <span class="o">=</span> <span class="p">[],</span> <span class="p">[]</span>
-</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">a</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]):</span>
-</span></span><span class="line"><span class="cl">        <span class="n">i</span> <span class="o">=</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">i</span>
-</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="n">st</span> <span class="ow">and</span> <span class="n">a</span><span class="p">[</span><span class="n">st</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span> <span class="o">&lt;=</span> <span class="n">x</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">            <span class="n">st</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">        <span class="n">right</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">n</span> <span class="k">if</span> <span class="n">st</span> <span class="o">==</span> <span class="p">[]</span> <span class="k">else</span> <span class="n">st</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">        <span class="n">st</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="n">stGE</span> <span class="ow">and</span> <span class="n">a</span><span class="p">[</span><span class="n">stGE</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span> <span class="o">&lt;</span> <span class="n">x</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">            <span class="n">stGE</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">        <span class="n">rightGE</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">n</span> <span class="k">if</span> <span class="n">stGE</span> <span class="o">==</span> <span class="p">[]</span> <span class="k">else</span> <span class="n">stGE</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">        <span class="n">stGE</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">presum</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">accumulate</span><span class="p">(</span><span class="n">a</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">    <span class="n">b</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">([(</span><span class="n">x</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">a</span><span class="p">)],</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="o">-</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-</span></span><span class="line"><span class="cl">    <span class="n">ans</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">n</span>
-</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">x</span><span class="p">,</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">b</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">rightGE</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="n">leftGE</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">            <span class="n">ans</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">x</span>
-</span></span><span class="line"><span class="cl">            <span class="k">continue</span>
-</span></span><span class="line"><span class="cl">        <span class="n">nx</span> <span class="o">=</span> <span class="n">presum</span><span class="p">[</span><span class="n">right</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="p">(</span><span class="n">presum</span><span class="p">[</span><span class="n">left</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span> <span class="k">if</span> <span class="n">left</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&gt;</span> <span class="o">-</span><span class="mi">1</span> <span class="k">else</span> <span class="mi">0</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="n">ans</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">nx</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">left</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&gt;</span> <span class="o">-</span><span class="mi">1</span> <span class="ow">and</span> <span class="n">nx</span> <span class="o">&gt;</span> <span class="n">a</span><span class="p">[</span><span class="n">left</span><span class="p">[</span><span class="n">i</span><span class="p">]]:</span>
-</span></span><span class="line"><span class="cl">            <span class="n">ans</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">ans</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">ans</span><span class="p">[</span><span class="n">left</span><span class="p">[</span><span class="n">i</span><span class="p">]])</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">right</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">n</span> <span class="ow">and</span> <span class="n">nx</span> <span class="o">&gt;</span> <span class="n">a</span><span class="p">[</span><span class="n">right</span><span class="p">[</span><span class="n">i</span><span class="p">]]:</span>
-</span></span><span class="line"><span class="cl">            <span class="n">ans</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">ans</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">ans</span><span class="p">[</span><span class="n">right</span><span class="p">[</span><span class="n">i</span><span class="p">]])</span>
-</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">ans</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39; &#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">a</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">())))</span>
+</span></span><span class="line"><span class="cl">    <span class="n">d0</span><span class="p">,</span> <span class="n">d1</span> <span class="o">=</span> <span class="p">[],</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">i</span> <span class="o">&amp;</span> <span class="mi">1</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">d1</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="n">a</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">        <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">d0</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="n">a</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">    <span class="n">d0</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">d1</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">ans</span> <span class="o">=</span> <span class="n">x</span> <span class="o">=</span> <span class="n">a</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">i</span> <span class="o">&amp;</span> <span class="mi">1</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">x</span> <span class="o">+=</span> <span class="n">d1</span><span class="p">[</span><span class="n">i</span> <span class="o">//</span> <span class="mi">2</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">x</span> <span class="o">+=</span> <span class="n">d0</span><span class="p">[</span><span class="n">i</span> <span class="o">//</span> <span class="mi">2</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">ans</span> <span class="o">+=</span> <span class="n">x</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="n">ans</span><span class="p">)</span>
 </span></span></code></pre></div>
       </div>
     </section>
@@ -513,7 +486,7 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2939-%E6%9C%80%E5%A4%A7%E5%BC%82%E6%88%96%E4%B9%98%E7%A7%AF/">
+            <a class="group flex" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder/atcoder-arc189d-takahashi-is-slime/">
               <span
                 class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
                 ><span class="ltr:inline rtl:hidden">&larr;</span
@@ -522,11 +495,11 @@
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >LeetCode-2939 最大异或乘积</span
+                  >AtCoder-ARC189D Takahashi is Slime</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2025-01-09 11:04:18 &#43;0000 UTC">9 January 2025</time>
+                    <time datetime="2025-01-10 11:02:00 &#43;0000 UTC">10 January 2025</time>
                   
                 </span>
               </span>
@@ -534,25 +507,6 @@
           
         </span>
         <span>
-          
-            <a class="group flex text-right" href="/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder/atcoder-arc189b-minimize-sum/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >AtCoder-ARC189B Minimize Sum</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2025-01-10 12:44:00 &#43;0000 UTC">10 January 2025</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
-                ><span class="ltr:inline rtl:hidden">&rarr;</span
-                ><span class="ltr:hidden rtl:inline">&larr;</span></span
-              >
-            </a>
           
         </span>
       </div>
@@ -564,17 +518,6 @@
     </footer>
   </article>
 
-        
-          <div class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12">
-            <a
-              href="#the-top"
-              class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
-              aria-label="Scroll to top"
-              title="Scroll to top"
-            >
-              &uarr;
-            </a>
-          </div>
         
       </main><footer class="py-10 print:hidden">
   
