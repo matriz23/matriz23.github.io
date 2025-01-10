@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Fri, 03 Jan 2025 23:36:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%8D%95%E8%B0%83%E6%A0%88/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jan 2025 11:02:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%8D%95%E8%B0%83%E6%A0%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AtCoder-ARC189D Takahashi is Slime</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder/atcoder-arc189d-takahashi-is-slime/</link>
+      <pubDate>Fri, 10 Jan 2025 11:02:00 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder/atcoder-arc189d-takahashi-is-slime/</guid>
+      <description>AtCoder-ARC189D Takahashi is Slime # Solution 1 # 问题的关键点: 如果小体积的史莱姆体积增大到超过某个相邻的体积更大的史莱姆, 那么它们最终的体积是一样的.</description>
+    </item>
+    
     <item>
       <title>LeetCode-739 每日温度</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-739-%E6%AF%8F%E6%97%A5%E6%B8%A9%E5%BA%A6/</link>
