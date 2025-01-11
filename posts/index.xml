@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Fri, 10 Jan 2025 12:44:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jan 2025 10:25:43 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-179 最大数</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-179-%E6%9C%80%E5%A4%A7%E6%95%B0/</link>
+      <pubDate>Sat, 11 Jan 2025 10:25:43 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-179-%E6%9C%80%E5%A4%A7%E6%95%B0/</guid>
+      <description>LeetCode-179 最大数 # Solution 1 # 贪心.</description>
+    </item>
+    
     <item>
       <title>AtCoder-ARC189B Minimize Sum</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder/atcoder-arc189b-minimize-sum/</link>
