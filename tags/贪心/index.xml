@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Mon, 06 Jan 2025 15:35:11 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E8%B4%AA%E5%BF%83/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jan 2025 15:16:33 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E8%B4%AA%E5%BF%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-1705 吃苹果的最大数目</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1705-%E5%90%83%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E7%9B%AE/</link>
+      <pubDate>Sat, 11 Jan 2025 15:16:33 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1705-%E5%90%83%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E7%9B%AE/</guid>
+      <description>LeetCode-1705 吃苹果的最大数目 # Solution 1 # 贪心, 优先吃保质期短的, 用最小堆来维护.</description>
+    </item>
+    
     <item>
       <title>LeetCode-3075 幸福值最大化的选择方案</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-3075-%E5%B9%B8%E7%A6%8F%E5%80%BC%E6%9C%80%E5%A4%A7%E5%8C%96%E7%9A%84%E9%80%89%E6%8B%A9%E6%96%B9%E6%A1%88/</link>
