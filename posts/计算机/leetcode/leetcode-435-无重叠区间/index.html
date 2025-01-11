@@ -110,7 +110,7 @@
     "keywords": ["LeetCode","贪心"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "50"
+    "wordCount": "148"
   }]
   </script>
 
@@ -378,6 +378,7 @@
       <ul>
         <li><a href="#leetcode-435-无重叠区间httpsleetcodecnproblemsnon-overlapping-intervalsdescription"><a href="https://leetcode.cn/problems/non-overlapping-intervals/description/">LeetCode-435 无重叠区间</a></a></li>
         <li><a href="#solution-1">Solution 1</a></li>
+        <li><a href="#solution-2">Solution 2</a></li>
       </ul>
     </li>
   </ul>
@@ -403,10 +404,31 @@
 </span></span><span class="line"><span class="cl">        <span class="n">ans</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">intervals</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">        <span class="n">cur_r</span> <span class="o">=</span> <span class="o">-</span><span class="n">inf</span>
 </span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">l</span><span class="p">,</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">intervals</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="n">l</span> <span class="o">&gt;=</span> <span class="n">cur_r</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="n">l</span> <span class="o">&gt;=</span> <span class="n">cur_r</span><span class="p">:</span> <span class="c1"># 保留该区间</span>
 </span></span><span class="line"><span class="cl">                <span class="n">ans</span> <span class="o">-=</span> <span class="mi">1</span>
 </span></span><span class="line"><span class="cl">                <span class="n">cur_r</span> <span class="o">=</span> <span class="n">r</span>
 </span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">ans</span>
+</span></span></code></pre></div><h3 id="solution-2" class="relative group">Solution 2 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#solution-2" aria-label="Anchor">#</a></span></h3>
+<p>dp.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">eraseOverlapIntervals</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">intervals</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]])</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">intervals</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">        <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">intervals</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">dp</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">n</span>
+</span></span><span class="line"><span class="cl">        <span class="n">rs</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">intervals</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="n">l_i</span> <span class="o">=</span> <span class="n">intervals</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">            <span class="n">j</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span>
+</span></span><span class="line"><span class="cl">            <span class="n">low</span><span class="p">,</span> <span class="n">high</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">i</span> <span class="o">-</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">            <span class="k">while</span> <span class="n">low</span> <span class="o">&lt;=</span> <span class="n">high</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="n">mid</span> <span class="o">=</span> <span class="p">(</span><span class="n">low</span> <span class="o">+</span> <span class="n">high</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="n">intervals</span><span class="p">[</span><span class="n">mid</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">l_i</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">j</span> <span class="o">=</span> <span class="n">mid</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">low</span> <span class="o">=</span> <span class="n">mid</span> <span class="o">+</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">                <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">high</span> <span class="o">=</span> <span class="n">mid</span> <span class="o">-</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">            <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="nb">max</span><span class="p">((</span><span class="mi">0</span> <span class="k">if</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="k">else</span> <span class="n">dp</span><span class="p">[</span><span class="n">j</span><span class="p">])</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">dp</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">n</span> <span class="o">-</span> <span class="n">dp</span><span class="p">[</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
 </span></span></code></pre></div>
       </div>
     </section>
