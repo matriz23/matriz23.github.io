@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Sat, 11 Jan 2025 15:16:33 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jan 2025 16:45:07 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-397 整数替换</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-397-%E6%95%B4%E6%95%B0%E6%9B%BF%E6%8D%A2/</link>
+      <pubDate>Sat, 11 Jan 2025 16:45:07 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-397-%E6%95%B4%E6%95%B0%E6%9B%BF%E6%8D%A2/</guid>
+      <description>LeetCode-397 整数替换 # Solution 1 # 递归.</description>
+    </item>
+    
     <item>
       <title>LeetCode-1705 吃苹果的最大数目</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1705-%E5%90%83%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E7%9B%AE/</link>
