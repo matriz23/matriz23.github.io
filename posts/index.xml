@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Sun, 12 Jan 2025 10:00:18 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jan 2025 11:15:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CodeForces-2019B All Pairs Segments</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-2019b-all-pairs-segments/</link>
+      <pubDate>Mon, 13 Jan 2025 11:15:00 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-2019b-all-pairs-segments/</guid>
+      <description>CodeForces-2019B All Pairs Segments # Solution 1 # 落在 $a_i$ 的点被覆盖了 $(i+1)(n-i)-1$ 次 (减去了 $i=j$ 的特殊情况) 这样的点有 $1$ 个; 落在 $(a_i, a_{i+1})$ 的点被覆盖了 $(i+1)(n-i-1)$ 次, 这样的点有 $a_{i+1} - a_{i} - 1$ 个.</description>
+    </item>
+    
     <item>
       <title>LeetCode-2275 按位与结果大于零的最长组合</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2275-%E6%8C%89%E4%BD%8D%E4%B8%8E%E7%BB%93%E6%9E%9C%E5%A4%A7%E4%BA%8E%E9%9B%B6%E7%9A%84%E6%9C%80%E9%95%BF%E7%BB%84%E5%90%88/</link>
