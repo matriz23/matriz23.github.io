@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Mon, 13 Jan 2025 11:15:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jan 2025 16:35:22 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-162 寻找峰值</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-162-%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC/</link>
+      <pubDate>Mon, 13 Jan 2025 16:35:22 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-162-%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC/</guid>
+      <description>LeetCode-162 寻找峰值 # Solution 1 # 二分.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-201 数字范围按位与</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-201-%E6%95%B0%E5%AD%97%E8%8C%83%E5%9B%B4%E6%8C%89%E4%BD%8D%E4%B8%8E/</link>
+      <pubDate>Mon, 13 Jan 2025 13:27:47 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-201-%E6%95%B0%E5%AD%97%E8%8C%83%E5%9B%B4%E6%8C%89%E4%BD%8D%E4%B8%8E/</guid>
+      <description>LeetCode-201 数字范围按位与 # Solution 1 # $left$ 和 $right$ 从高位起连续一致的位不变, 其他位都至少有一个 $0$ 和 $1$ .</description>
+    </item>
+    
     <item>
       <title>CodeForces-2019B All Pairs Segments</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-2019b-all-pairs-segments/</link>
