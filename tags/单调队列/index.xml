@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>单调队列 on Matriz23</title>
+    <link>http://matriz23.github.io/tags/%E5%8D%95%E8%B0%83%E9%98%9F%E5%88%97/</link>
+    <description>Recent content in 单调队列 on Matriz23</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>&amp;copy; 2025 Matriz23</copyright>
+    <lastBuildDate>Wed, 29 Jan 2025 21:08:44 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%8D%95%E8%B0%83%E9%98%9F%E5%88%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-1438 绝对差不超过限制的最长连续子数组</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1438-%E7%BB%9D%E5%AF%B9%E5%B7%AE%E4%B8%8D%E8%B6%85%E8%BF%87%E9%99%90%E5%88%B6%E7%9A%84%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%AD%90%E6%95%B0%E7%BB%84/</link>
+      <pubDate>Wed, 29 Jan 2025 21:08:44 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1438-%E7%BB%9D%E5%AF%B9%E5%B7%AE%E4%B8%8D%E8%B6%85%E8%BF%87%E9%99%90%E5%88%B6%E7%9A%84%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%AD%90%E6%95%B0%E7%BB%84/</guid>
+      <description>LeetCode-1438 绝对差不超过限制的最长连续子数组 # Solution 1 # 用两个单调队列分别维护滑动窗口中的最大值和最小值.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-239 滑动窗口最大值</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-239-%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E6%9C%80%E5%A4%A7%E5%80%BC/</link>
+      <pubDate>Wed, 29 Jan 2025 21:07:07 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-239-%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E6%9C%80%E5%A4%A7%E5%80%BC/</guid>
+      <description>LeetCode-239 滑动窗口最大值 # Solution 1 # 遇到一个数, 那么它之前的比它小的数都不可能成为当前窗口的最大数.</description>
+    </item>
+    
+  </channel>
+</rss>
