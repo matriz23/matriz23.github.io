@@ -1841,7 +1841,7 @@
       <pubDate>Sun, 03 Jul 2022 22:31:00 +0000</pubDate>
       
       <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-962-%E6%9C%80%E5%A4%A7%E5%AE%BD%E5%BA%A6%E5%9D%A1/</guid>
-      <description>LeetCode-962 最大宽度坡 # Solution 1 # 代码如下:</description>
+      <description>LeetCode-962 最大宽度坡 # Solution 1 # 对于 $j$ 左侧的 $i &amp;lt; k &amp;lt; j$ , 如果 $nums[i] &amp;lt;= nums[k]$ , 那么不用考虑 $k$ .</description>
     </item>
     
     <item>

@@ -1728,15 +1728,6 @@
     </item>
     
     <item>
-      <title>LeetCode-962 最大宽度坡</title>
-      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-962-%E6%9C%80%E5%A4%A7%E5%AE%BD%E5%BA%A6%E5%9D%A1/</link>
-      <pubDate>Sun, 03 Jul 2022 22:31:00 +0000</pubDate>
-      
-      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-962-%E6%9C%80%E5%A4%A7%E5%AE%BD%E5%BA%A6%E5%9D%A1/</guid>
-      <description>LeetCode-962 最大宽度坡 # Solution 1 # 代码如下:</description>
-    </item>
-    
-    <item>
       <title>LeetCode-329 矩阵中的最长递增路径</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-329-%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E8%B7%AF%E5%BE%84/</link>
       <pubDate>Sun, 03 Jul 2022 22:18:00 +0000</pubDate>
