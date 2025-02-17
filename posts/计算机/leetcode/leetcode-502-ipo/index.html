@@ -110,7 +110,7 @@
     "keywords": ["计算机","算法","LeetCode","C++","二分","贪心"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "164"
+    "wordCount": "222"
   }]
   </script>
 
@@ -331,7 +331,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2022-09-05 16:21:00 &#43;0000 UTC">5 September 2022</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
+      <time datetime="2022-09-05 16:21:00 &#43;0000 UTC">5 September 2022</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -378,6 +378,7 @@
       <ul>
         <li><a href="#leetcode-502-ipohttpsleetcodecnproblemsipo"><a href="https://leetcode.cn/problems/ipo/">LeetCode-502 IPO</a></a></li>
         <li><a href="#solution-1">Solution 1</a></li>
+        <li><a href="#solution-2">Solution 2</a></li>
       </ul>
     </li>
   </ul>
@@ -439,6 +440,20 @@
 </span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">w</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span></code></pre></div><h3 id="solution-2" class="relative group">Solution 2 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#solution-2" aria-label="Anchor">#</a></span></h3>
+<p>堆 + 贪心.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">findMaximizedCapital</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">k</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">w</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">profits</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">],</span> <span class="n">capital</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">h</span> <span class="o">=</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">c</span><span class="p">,</span> <span class="n">p</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">capital</span><span class="p">,</span> <span class="n">profits</span><span class="p">))</span> <span class="o">+</span> <span class="p">[[</span><span class="n">inf</span><span class="p">,</span> <span class="mi">0</span><span class="p">]]:</span>
+</span></span><span class="line"><span class="cl">            <span class="k">while</span> <span class="n">k</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">c</span> <span class="o">&gt;</span> <span class="n">w</span> <span class="ow">and</span> <span class="n">h</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="n">w</span> <span class="o">-=</span> <span class="n">heappop</span><span class="p">(</span><span class="n">h</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                <span class="n">k</span> <span class="o">-=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="n">c</span> <span class="o">&lt;=</span> <span class="n">w</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="n">heappush</span><span class="p">(</span><span class="n">h</span><span class="p">,</span> <span class="o">-</span><span class="n">p</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">break</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">w</span>
 </span></span></code></pre></div>
       </div>
     </section>
@@ -559,6 +574,17 @@
     </footer>
   </article>
 
+        
+          <div class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12">
+            <a
+              href="#the-top"
+              class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+              aria-label="Scroll to top"
+              title="Scroll to top"
+            >
+              &uarr;
+            </a>
+          </div>
         
       </main><footer class="py-10 print:hidden">
   
