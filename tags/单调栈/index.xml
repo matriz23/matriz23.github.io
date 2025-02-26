@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Fri, 10 Jan 2025 11:02:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%8D%95%E8%B0%83%E6%A0%88/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Feb 2025 16:47:16 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%8D%95%E8%B0%83%E6%A0%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-85 最大矩形</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-85-%E6%9C%80%E5%A4%A7%E7%9F%A9%E5%BD%A2/</link>
+      <pubDate>Wed, 26 Feb 2025 16:47:16 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-85-%E6%9C%80%E5%A4%A7%E7%9F%A9%E5%BD%A2/</guid>
+      <description>LeetCode-85 最大矩形 # Solution 1 # 枚举行, 每一行的问题是求柱状图中的最大矩形面积, 使用单调栈计算.</description>
+    </item>
+    
     <item>
       <title>AtCoder-ARC189D Takahashi is Slime</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/atcoder/atcoder-arc189d-takahashi-is-slime/</link>
