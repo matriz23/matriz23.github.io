@@ -7,7 +7,52 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Wed, 26 Feb 2025 16:47:16 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Mar 2025 08:50:53 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-1745 分割回文串 IV</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1745-%E5%88%86%E5%89%B2%E5%9B%9E%E6%96%87%E4%B8%B2-iv/</link>
+      <pubDate>Wed, 05 Mar 2025 08:50:53 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1745-%E5%88%86%E5%89%B2%E5%9B%9E%E6%96%87%E4%B8%B2-iv/</guid>
+      <description>LeetCode-1745 分割回文串 IV # Solution 1 # 预处理区间是否是回文串, 回溯.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-1278 分割回文串 III</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1278-%E5%88%86%E5%89%B2%E5%9B%9E%E6%96%87%E4%B8%B2-iii/</link>
+      <pubDate>Wed, 05 Mar 2025 08:49:58 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1278-%E5%88%86%E5%89%B2%E5%9B%9E%E6%96%87%E4%B8%B2-iii/</guid>
+      <description>LeetCode-1278 分割回文串 III # Solution 1 # 用 dp[i][j] 代表修改子串 s[i:j+1] 为回文串所需要的最少操作次数.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-132 分割回文串 II</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-132-%E5%88%86%E5%89%B2%E5%9B%9E%E6%96%87%E4%B8%B2-ii/</link>
+      <pubDate>Wed, 05 Mar 2025 08:46:24 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-132-%E5%88%86%E5%89%B2%E5%9B%9E%E6%96%87%E4%B8%B2-ii/</guid>
+      <description>LeetCode-132 分割回文串 II # Solution 1 # 预处理区间是否是回文串, 回溯.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-131 分割回文串</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-131-%E5%88%86%E5%89%B2%E5%9B%9E%E6%96%87%E4%B8%B2/</link>
+      <pubDate>Wed, 05 Mar 2025 08:44:16 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-131-%E5%88%86%E5%89%B2%E5%9B%9E%E6%96%87%E4%B8%B2/</guid>
+      <description>LeetCode-131 分割回文串 # Solution 1 # 预处理区间是否是回文串, 回溯.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-1457 二叉树中的伪回文路径</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1457-%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E7%9A%84%E4%BC%AA%E5%9B%9E%E6%96%87%E8%B7%AF%E5%BE%84/</link>
+      <pubDate>Tue, 04 Mar 2025 17:03:51 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-1457-%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E7%9A%84%E4%BC%AA%E5%9B%9E%E6%96%87%E8%B7%AF%E5%BE%84/</guid>
+      <description>LeetCode-1457 二叉树中的伪回文路径 # Solution 1 # 伪回文路径要求路径中出现次数为奇数次的数字至多为 1 个, 回溯计数即可.</description>
+    </item>
+    
     <item>
       <title>LeetCode-85 最大矩形</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-85-%E6%9C%80%E5%A4%A7%E7%9F%A9%E5%BD%A2/</link>
