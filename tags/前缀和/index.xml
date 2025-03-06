@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Mon, 06 Jan 2025 11:01:29 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%89%8D%E7%BC%80%E5%92%8C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Mar 2025 13:38:17 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E5%89%8D%E7%BC%80%E5%92%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-2588 统计美丽子数组数目</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2588-%E7%BB%9F%E8%AE%A1%E7%BE%8E%E4%B8%BD%E5%AD%90%E6%95%B0%E7%BB%84%E6%95%B0%E7%9B%AE/</link>
+      <pubDate>Thu, 06 Mar 2025 13:38:17 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2588-%E7%BB%9F%E8%AE%A1%E7%BE%8E%E4%B8%BD%E5%AD%90%E6%95%B0%E7%BB%84%E6%95%B0%E7%9B%AE/</guid>
+      <description>LeetCode-2588 统计美丽子数组数目 # Solution 1 # 美丽子数组等价于数组内每一位的 1 的数量都是偶数, 等价于异或和为 0, 用前缀和 + 哈希解决.</description>
+    </item>
+    
     <item>
       <title>LeetCode-525 连续数组</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-525-%E8%BF%9E%E7%BB%AD%E6%95%B0%E7%BB%84/</link>
