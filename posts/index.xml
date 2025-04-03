@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Thu, 06 Mar 2025 13:38:17 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Apr 2025 11:19:33 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-2874 有序三元组中的最大值 II</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2874-%E6%9C%89%E5%BA%8F%E4%B8%89%E5%85%83%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC-ii/</link>
+      <pubDate>Thu, 03 Apr 2025 11:19:33 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2874-%E6%9C%89%E5%BA%8F%E4%B8%89%E5%85%83%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC-ii/</guid>
+      <description>LeetCode-2874 有序三元组中的最大值 II # Solution 1 # 遍历到 $nums[k]$ 时, 需要知道前面的最大差, 并且需要更新这之后的最大差, 因此需要维护最大差值和最大值两个变量.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode-2360 图中的最长环</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2360-%E5%9B%BE%E4%B8%AD%E7%9A%84%E6%9C%80%E9%95%BF%E7%8E%AF/</link>
+      <pubDate>Sat, 29 Mar 2025 17:00:55 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2360-%E5%9B%BE%E4%B8%AD%E7%9A%84%E6%9C%80%E9%95%BF%E7%8E%AF/</guid>
+      <description>LeetCode-2360 图中的最长环 # Solution 1 # 使用时间戳来记录访问到某些的点的时间.</description>
+    </item>
+    
+    <item>
+      <title>COLD</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%90%9C%E7%B4%A2%E5%B9%BF%E5%91%8A%E6%8E%A8%E8%8D%90/cold/</link>
+      <pubDate>Fri, 21 Mar 2025 19:27:00 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E6%90%9C%E7%B4%A2%E5%B9%BF%E5%91%8A%E6%8E%A8%E8%8D%90/cold/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>LeetCode-2588 统计美丽子数组数目</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2588-%E7%BB%9F%E8%AE%A1%E7%BE%8E%E4%B8%BD%E5%AD%90%E6%95%B0%E7%BB%84%E6%95%B0%E7%9B%AE/</link>
