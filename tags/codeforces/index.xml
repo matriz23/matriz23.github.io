@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Mon, 13 Jan 2025 11:15:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/codeforces/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Jun 2025 23:15:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/codeforces/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CodeForces-1292B Aroma&#39;s Search</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1292b-aromas-search/</link>
+      <pubDate>Mon, 30 Jun 2025 23:15:00 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1292b-aromas-search/</guid>
+      <description>CodeForces-1292B Aroma&amp;rsquo;s Search # Solution 1 # 根据条件, 所有的点都在第一象限, 从左下向右上分布, 越向右上越稀疏.</description>
+    </item>
+    
     <item>
       <title>CodeForces-2019B All Pairs Segments</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-2019b-all-pairs-segments/</link>

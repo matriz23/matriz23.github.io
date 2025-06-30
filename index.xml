@@ -7,14 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Thu, 03 Apr 2025 11:19:33 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Jun 2025 23:15:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CodeForces-1292B Aroma&#39;s Search</title>
+      <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1292b-aromas-search/</link>
+      <pubDate>Mon, 30 Jun 2025 23:15:00 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/codeforces/codeforces-1292b-aromas-search/</guid>
+      <description>CodeForces-1292B Aroma&amp;rsquo;s Search # Solution 1 # 根据条件, 所有的点都在第一象限, 从左下向右上分布, 越向右上越稀疏.</description>
+    </item>
+    
     <item>
       <title>LeetCode-2874 有序三元组中的最大值 II</title>
       <link>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2874-%E6%9C%89%E5%BA%8F%E4%B8%89%E5%85%83%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC-ii/</link>
       <pubDate>Thu, 03 Apr 2025 11:19:33 +0000</pubDate>
       
       <guid>http://matriz23.github.io/posts/%E8%AE%A1%E7%AE%97%E6%9C%BA/leetcode/leetcode-2874-%E6%9C%89%E5%BA%8F%E4%B8%89%E5%85%83%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC-ii/</guid>
-      <description>LeetCode-2874 有序三元组中的最大值 II # Solution 1 # 遍历到 $nums[k]$ 时, 需要知道前面的最大差, 并且需要更新这之后的最大差, 因此需要维护最大差值和最大值两个变量.</description>
+      <description>LeetCode-2874 有序三元组中的最大值 II # Solution 1 # 遍历到 $nums[k]$ 时, 需要知道前面的最大差值, 并且更新这之后的最大差值, 因此需要维护最大差值和最大值两个变量.</description>
     </item>
     
     <item>
