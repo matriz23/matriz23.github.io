@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2025 Matriz23</copyright>
-    <lastBuildDate>Sat, 14 Oct 2023 11:42:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Sep 2025 19:37:00 +0000</lastBuildDate><atom:link href="http://matriz23.github.io/tags/%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>趣题: 单词出现的期望时间</title>
+      <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9820_%E5%8D%95%E8%AF%8D%E5%87%BA%E7%8E%B0%E7%9A%84%E6%9C%9F%E6%9C%9B%E6%97%B6%E9%97%B4/</link>
+      <pubDate>Tue, 23 Sep 2025 19:37:00 +0000</pubDate>
+      
+      <guid>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9820_%E5%8D%95%E8%AF%8D%E5%87%BA%E7%8E%B0%E7%9A%84%E6%9C%9F%E6%9C%9B%E6%97%B6%E9%97%B4/</guid>
+      <description>趣题: 单词出现的期望时间 # 题目 # 有一个损坏的打字机, 每次独立等概率地打出 &amp;lsquo;a&amp;rsquo; - &amp;lsquo;z&amp;rsquo; 这 26 个字母之一.</description>
+    </item>
+    
     <item>
       <title>趣题: 证明等式</title>
       <link>http://matriz23.github.io/posts/%E6%95%B0%E5%AD%A6/%E8%B6%A3%E9%A2%98/%E8%B6%A3%E9%A2%9819_%E8%AF%81%E6%98%8E%E7%AD%89%E5%BC%8F/</link>
